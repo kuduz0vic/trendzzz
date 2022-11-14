@@ -4,9 +4,9 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
+        "tag": "",
         "title": "Featured Collection",
-        "featured_collection": "",
-        "number_of_products_to_show": 4
+        "description": ""
       }
     },
     "2eb1cdd1-7ddf-4841-859d-a7986fb0066c": {
@@ -61,18 +61,141 @@
     },
     "4c3e271f-260b-4c36-adf5-408aa1c00dfc": {
       "type": "tiktok-finds",
+      "blocks": {
+        "500ca761-8b4f-4c76-abc9-11f4532c6264": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/red-slippers.png"
+          }
+        },
+        "e4fc5592-4640-4069-8ec8-17258dfd3dec": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+          }
+        },
+        "cf4796c2-69d5-43e0-a2ae-62eb03af6d91": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/slippers.png"
+          }
+        },
+        "c59a653b-3387-4c55-9032-068d59653b25": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+          }
+        },
+        "d3c9c903-85ae-47c1-be8d-af8000665c90": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/slippers.png"
+          }
+        },
+        "7413a673-e815-4013-bd37-7787234b3086": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+          }
+        },
+        "c506b544-e59f-445c-a3a9-4f4ed593235c": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/red-slippers.png"
+          }
+        }
+      },
+      "block_order": [
+        "500ca761-8b4f-4c76-abc9-11f4532c6264",
+        "e4fc5592-4640-4069-8ec8-17258dfd3dec",
+        "cf4796c2-69d5-43e0-a2ae-62eb03af6d91",
+        "c59a653b-3387-4c55-9032-068d59653b25",
+        "d3c9c903-85ae-47c1-be8d-af8000665c90",
+        "7413a673-e815-4013-bd37-7787234b3086",
+        "c506b544-e59f-445c-a3a9-4f4ed593235c"
+      ],
       "settings": {
-        "title": "Featured Collection",
-        "featured_collection": "",
-        "number_of_products_to_show": 4
+        "finds-title": "THESE TIKTOK FINDS ARE GOING WILD 🔥"
       }
     },
     "2f6290bc-cf91-43ee-8c55-0d7f80ae20b4": {
       "type": "featured-collection",
+      "blocks": {
+        "1634813f-1b52-4c35-8577-074b0fd56145": {
+          "type": "product",
+          "settings": {
+            "product": "the-airstyler-™",
+            "review": "128 Reviews",
+            "label": "💖 MOST POPULAR"
+          }
+        },
+        "8d6cb524-d415-4880-b8af-cc39c72e9b7b": {
+          "type": "product",
+          "settings": {
+            "product": "the-blue-airstyler-™",
+            "review": "128 Reviews",
+            "label": "💖 MOST POPULAR"
+          }
+        },
+        "3d888d59-b24c-4c48-9492-c3f1938769dc": {
+          "type": "product",
+          "settings": {
+            "product": "the-green-airstyler-™",
+            "review": "128 Reviews",
+            "label": "💖 MOST POPULAR"
+          }
+        },
+        "14dbb381-9179-4640-8499-ef446e1cea4a": {
+          "type": "product",
+          "settings": {
+            "product": "the-red-airstyler-™",
+            "review": "128 Reviews",
+            "label": "💖 MOST POPULAR"
+          }
+        },
+        "e78a6d51-d06f-4c20-b39d-4fc6aa8c2b70": {
+          "type": "product",
+          "settings": {
+            "product": "the-airstyler-™",
+            "review": "128 Reviews",
+            "label": "💖 MOST POPULAR"
+          }
+        },
+        "3f0f9dc9-6d53-4828-8602-6493d6f0394a": {
+          "type": "product",
+          "settings": {
+            "product": "the-blue-airstyler-™",
+            "review": "128 Reviews",
+            "label": "💖 MOST POPULAR"
+          }
+        }
+      },
+      "block_order": [
+        "1634813f-1b52-4c35-8577-074b0fd56145",
+        "8d6cb524-d415-4880-b8af-cc39c72e9b7b",
+        "3d888d59-b24c-4c48-9492-c3f1938769dc",
+        "14dbb381-9179-4640-8499-ef446e1cea4a",
+        "e78a6d51-d06f-4c20-b39d-4fc6aa8c2b70",
+        "3f0f9dc9-6d53-4828-8602-6493d6f0394a"
+      ],
       "settings": {
-        "title": "Featured Collection",
-        "featured_collection": "",
-        "number_of_products_to_show": 4
+        "tag": "TIKTOK FINDS 🔥",
+        "title": "Our Products",
+        "description": "Find the newest TikTok items at The Trentzz"
       }
     },
     "e09a54f3-314d-4d45-ba1e-d107fa4826a4": {
