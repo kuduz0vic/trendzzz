@@ -16154,6 +16154,10 @@ figcaption {
           margin-right: auto;
           margin-bottom: 23px;
         }
+        .desktop-left {
+          flex-direction: column-reverse;
+          padding-bottom: 20px;
+        }
       }
       #ProductImgSwiper .swiper-slide {
         background-size: cover;
@@ -16247,3 +16251,25 @@ figcaption {
 .nav-link-2.w--current {
   color: #f92766;
 }
+
+@media only screen and (min-width: 992px) {
+.desktop-right {
+  flex-direction: row-reverse !important;
+}
+.inverted {
+  flex-direction: row-reverse !important;
+}
+}
+
+@media only screen and (max-width: 991px) {
+  .desktop-left {
+    flex-direction: column-reverse !important;
+  }
+  .inverted {
+    flex-direction: column-reverse !important;
+  }
+  .iwt-padding {
+    padding-bottom: 20px;
+  }
+}
+

@@ -157,45 +157,15 @@
     },
     "e09a54f3-314d-4d45-ba1e-d107fa4826a4": {
       "type": "about-us",
-      "blocks": {
-        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-0",
-        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-1",
-        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-2"
-      ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop-left": false,
+        "desktop-right": false,
+        "inverted": false,
+        "image": "shopify:\/\/shop_images\/tiktoks.png",
+        "title": "Over ons",
+        "description": "Zie jij ook al die vette producten voorbij komen op TikTok? Wil jij die producten ook maar heb je geen idee waar ze te krijgen zijn? Wij zijn Trentz, bij Trentz vind je de producten die jij op jouw For You Page tegenkomt! Ons assortiment wordt continu geupdate door het Trentz team, een team van TikTok experts die de beste trends kunnen spotten en die dan voor de beste prijs op Trentz kunnen aanbieden.",
+        "button-label": "Discover our TikTok Finds",
+        "button-url": "shopify:\/\/collections\/all"
       }
     },
     "b35675e4-076f-4565-8e42-46b85a4b1c91": {
