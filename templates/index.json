@@ -61,8 +61,21 @@
     },
     "4c3e271f-260b-4c36-adf5-408aa1c00dfc": {
       "type": "tiktok-finds",
+      "blocks": {
+        "3a550a14-ad2d-496e-b9d6-354eb424ec0f": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Yeahh boyyy",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+          }
+        }
+      },
+      "block_order": [
+        "3a550a14-ad2d-496e-b9d6-354eb424ec0f"
+      ],
       "settings": {
-        "finds-title": ""
+        "finds-title": "DEZE ITEMS GAAN OP DIT MOMENT HARD"
       }
     },
     "2f6290bc-cf91-43ee-8c55-0d7f80ae20b4": {
