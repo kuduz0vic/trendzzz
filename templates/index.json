@@ -155,19 +155,6 @@
         "label-text_color": "#f92766"
       }
     },
-    "e09a54f3-314d-4d45-ba1e-d107fa4826a4": {
-      "type": "about-us",
-      "settings": {
-        "desktop-left": false,
-        "desktop-right": false,
-        "inverted": false,
-        "image": "shopify:\/\/shop_images\/slippers.png",
-        "title": "Over ons",
-        "description": "Zie jij ook al die vette producten voorbij komen op TikTok? Wil jij die producten ook maar heb je geen idee waar ze te krijgen zijn? Wij zijn Trentz, bij Trentz vind je de producten die jij op jouw For You Page tegenkomt! Ons assortiment wordt continu geupdate door het Trentz team, een team van TikTok experts die de beste trends kunnen spotten en die dan voor de beste prijs op Trentz kunnen aanbieden.",
-        "button-label": "Discover our TikTok Finds",
-        "button-url": "shopify:\/\/collections\/all"
-      }
-    },
     "b35675e4-076f-4565-8e42-46b85a4b1c91": {
       "type": "video",
       "settings": {
@@ -273,7 +260,6 @@
     "2eb1cdd1-7ddf-4841-859d-a7986fb0066c",
     "4c3e271f-260b-4c36-adf5-408aa1c00dfc",
     "2f6290bc-cf91-43ee-8c55-0d7f80ae20b4",
-    "e09a54f3-314d-4d45-ba1e-d107fa4826a4",
     "b35675e4-076f-4565-8e42-46b85a4b1c91",
     "f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7",
     "8b7f9e14-07ea-4db4-8143-c8e4e439b59c"
