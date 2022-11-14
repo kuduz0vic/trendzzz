@@ -115,6 +115,14 @@
             "review": "128 Reviews",
             "label": "💖 MOST POPULAR"
           }
+        },
+        "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad": {
+          "type": "product",
+          "settings": {
+            "product": "the-airstyler-™",
+            "review": "h",
+            "label": ""
+          }
         }
       },
       "block_order": [
@@ -123,12 +131,13 @@
         "8d35d717-3c53-4f14-be9d-09e29c4ec146",
         "7cec0e89-657b-41ba-977a-3d9993bf0062",
         "f05454f3-8229-4f24-a3e7-2e845526bc33",
-        "f09c53ec-ed1a-4b3d-9b1e-9428fd5cec8c"
+        "f09c53ec-ed1a-4b3d-9b1e-9428fd5cec8c",
+        "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad"
       ],
       "settings": {
-        "tag": "",
+        "tag": "DE NIEUWESTE TIKTIK FINDS",
         "title": "Featured Collection",
-        "description": ""
+        "description": "Ontdek onze ruime collectie TikTok finds!"
       }
     },
     "e09a54f3-314d-4d45-ba1e-d107fa4826a4": {
