@@ -3040,6 +3040,7 @@ figcaption {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  z-index: 1;
 }
 
 .single-usp {
@@ -3136,7 +3137,6 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-image: url('../images/Ellipse-20.svg');
   background-position: 0px 0px;
   background-size: auto;
   -webkit-transition: all 300ms ease;
@@ -3147,7 +3147,6 @@ figcaption {
 }
 
 .categorie-symbol-2:hover {
-  background-image: url('../images/Ellipse-20.svg');
   opacity: 1;
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
