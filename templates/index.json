@@ -21,9 +21,9 @@
         "template--16945319182643__2eb1cdd1-7ddf-4841-859d-a7986fb0066c-1668400151377db5c1-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "About Us",
+            "button_label_1": "About us",
             "button_link_1": "shopify:\/\/pages\/contact",
-            "button_label_2": "Discover the newset finds",
+            "button_label_2": "Discover the newest finds",
             "button_link_2": "shopify:\/\/collections\/all"
           }
         },

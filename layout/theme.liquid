@@ -2,7 +2,6 @@
 <html lang="{{ request.locale.iso_code }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
 
@@ -42,7 +41,57 @@
     {{ 'theme.css' | asset_url | stylesheet_tag }}
 
 
-
+    <style>
+      @font-face {
+        font-family: 'Pally';
+        src: url('{{'Pally-Bold.woff2' | asset_url}}') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Gilroy';
+        src: url('{{'Gilroy-Bold.woff2' | asset_url}}') format('woff2'), url('../fonts/Gilroy-ExtraBold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Gilroy';
+        src: url('{{'Gilroy-SemiBold.woff2' | asset_url}}') format('woff2');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Gilroy';
+        src: url('{{'Gilroy-Medium.woff2' | asset_url}}') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Gilroy';
+        src: url('{{'Gilroy-Regular.woff2' | asset_url}}') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Gilroy';
+        src: url('{{'Gilroy-ExtraBold.woff2' | asset_url}}') format('woff2');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Pally';
+        src: url('{{'Pally-Medium.woff2' | asset_url}}') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
   </head>
   <body>
     {% section 'header' %}
