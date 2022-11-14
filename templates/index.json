@@ -6,7 +6,8 @@
       "settings": {
         "tag": "",
         "title": "Featured Collection",
-        "description": ""
+        "description": "",
+        "label-text_color": "#000000"
       }
     },
     "2eb1cdd1-7ddf-4841-859d-a7986fb0066c": {
@@ -150,7 +151,8 @@
       "settings": {
         "tag": "DE NIEUWESTE TIKTIK FINDS",
         "title": "Featured Collection",
-        "description": "Ontdek onze ruime collectie TikTok finds!"
+        "description": "Ontdek onze ruime collectie TikTok finds!",
+        "label-text_color": "#f92766"
       }
     },
     "e09a54f3-314d-4d45-ba1e-d107fa4826a4": {

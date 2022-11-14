@@ -23,7 +23,7 @@
           <div data-w-id="78da47b8-c59a-58a5-ef56-f92f107f4f12" class="item-card-dp">
             <a href="#" class="product-card-image-collection-3 w-inline-block"><img src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" data-w-id="78da47b8-c59a-58a5-ef56-f92f107f4f14" alt="" class="product-image-in-card-dp">
               <div class="product-card-label-dp">
-                <p class="card-label-p-dp">{{block.settings.label}}</p>
+                <p class="card-label-p-dp" style="color:{{section.settings.label-text_color}}">{{block.settings.label}}</p>
               </div>
             </a>
             <a href="{{product.url}}" class="card-information-dp w-inline-block">
@@ -104,7 +104,13 @@
       "type": "text",
       "id": "description",
       "label": "Description"
-    }
+    },
+    {
+           "type": "color",
+          "id": "label-text_color",
+          "label": "Label Text Color",
+          "default": "#000000"
+          }
   ],
   "max_blocks": 50,
     "blocks": [

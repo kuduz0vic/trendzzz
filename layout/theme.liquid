@@ -96,7 +96,9 @@
   <body>
     {% section 'header' %}
     <main id="main" class="main" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      <div class="page-wrapper">
+        {{ content_for_layout }}
+      </div>
     </main>
     {% section 'footer' %}
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
