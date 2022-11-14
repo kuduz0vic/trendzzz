@@ -25944,3 +25944,26 @@ document.addEventListener('DOMContentLoaded', () => {
    });
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.menu-icon3').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
+     });
+  });
+  document.querySelectorAll('.close-menu').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
+     });
+  });
+  });
+
+
+
+
+
+   swiper.slides[i].classList.add('remove-item');                                    
+   swiper.slides[i].addEventListener('animationend', function () {
+       swiper.removeSlide(i);
+   });
+
+
