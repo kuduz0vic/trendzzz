@@ -8,9 +8,224 @@
         "featured_collection": "",
         "number_of_products_to_show": 4
       }
+    },
+    "2eb1cdd1-7ddf-4841-859d-a7986fb0066c": {
+      "type": "hero",
+      "blocks": {
+        "template--16945319182643__2eb1cdd1-7ddf-4841-859d-a7986fb0066c-1668400151377db5c1-1": {
+          "type": "text",
+          "settings": {
+            "parahraph": "<p>Find the products that show up on your <strong>For You Page<\/strong><\/p>"
+          }
+        },
+        "template--16945319182643__2eb1cdd1-7ddf-4841-859d-a7986fb0066c-1668400151377db5c1-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "About Us",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_label_2": "Discover the newset finds",
+            "button_link_2": "shopify:\/\/collections\/all"
+          }
+        },
+        "c5315334-bf13-4b68-9cd3-6501c034799a": {
+          "type": "usp",
+          "settings": {
+            "column-text": "De nieuwste TikTok trends",
+            "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/hashtag.svg?v=1668436703"
+          }
+        },
+        "476e33c5-535a-4e64-b341-7874b3586c5d": {
+          "type": "usp",
+          "settings": {
+            "column-text": "Beste prijs-kwaliteit verhouding",
+            "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/heart.svg?v=1668436704"
+          }
+        },
+        "cadaaddf-d898-4d7e-8342-9a916451570c": {
+          "type": "usp",
+          "settings": {
+            "column-text": "Niet goed, geld terug garantie",
+            "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/pink-shield.svg?v=1668436703"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945319182643__2eb1cdd1-7ddf-4841-859d-a7986fb0066c-1668400151377db5c1-1",
+        "template--16945319182643__2eb1cdd1-7ddf-4841-859d-a7986fb0066c-1668400151377db5c1-2",
+        "c5315334-bf13-4b68-9cd3-6501c034799a",
+        "476e33c5-535a-4e64-b341-7874b3586c5d",
+        "cadaaddf-d898-4d7e-8342-9a916451570c"
+      ],
+      "settings": {
+      }
+    },
+    "4c3e271f-260b-4c36-adf5-408aa1c00dfc": {
+      "type": "tiktok-finds",
+      "settings": {
+        "title": "Featured Collection",
+        "featured_collection": "",
+        "number_of_products_to_show": 4
+      }
+    },
+    "2f6290bc-cf91-43ee-8c55-0d7f80ae20b4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Collection",
+        "featured_collection": "",
+        "number_of_products_to_show": 4
+      }
+    },
+    "e09a54f3-314d-4d45-ba1e-d107fa4826a4": {
+      "type": "about-us",
+      "blocks": {
+        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-0",
+        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-1",
+        "template--16945319182643__e09a54f3-314d-4d45-ba1e-d107fa4826a4-1668401264fafb02ad-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b35675e4-076f-4565-8e42-46b85a4b1c91": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7": {
+      "type": "social-proof",
+      "blocks": {
+        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-0",
+        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-1",
+        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8b7f9e14-07ea-4db4-8143-c8e4e439b59c": {
+      "type": "trust-badges",
+      "blocks": {
+        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-0",
+        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-1",
+        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "featured-collection"
+    "featured-collection",
+    "2eb1cdd1-7ddf-4841-859d-a7986fb0066c",
+    "4c3e271f-260b-4c36-adf5-408aa1c00dfc",
+    "2f6290bc-cf91-43ee-8c55-0d7f80ae20b4",
+    "e09a54f3-314d-4d45-ba1e-d107fa4826a4",
+    "b35675e4-076f-4565-8e42-46b85a4b1c91",
+    "f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7",
+    "8b7f9e14-07ea-4db4-8143-c8e4e439b59c"
   ]
 }
