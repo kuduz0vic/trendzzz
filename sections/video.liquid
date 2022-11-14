@@ -3,24 +3,24 @@
       <div class="container-v4">
         <div class="trendy-video">
           <div class="trendy-vid-title">
-            <div class="emoji-circle-3">😎</div>
-            <h1 class="heading-10">What others are doing ...</h1>
+            <div class="emoji-circle-3">{{section.settings.emoji}}</div>
+            <h1 class="heading-10">{{section.settings.heading}}</h1>
           </div>
-          <div class="video_wrapper"><img src="images/Group-2125.png" loading="lazy" alt="" class="stars-bottom"><img src="images/Star-5.png" loading="lazy" alt="" class="stars-top">
-            <div class="div-block-6"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678ba9691087a2_product-iwt.png" loading="lazy" alt="" class="covered-fitted-image">
-              <div class="text-block-13">💖 WHAT THEY SAY ABOUT IT</div>
+          <div class="video_wrapper"><img src="{{'Group-2125.png' | asset_url}}" loading="lazy" alt="" class="stars-bottom"><img src="{{'Star-5.png' | asset_url}}" loading="lazy" alt="" class="stars-top">
+            <div class="div-block-6"><video class="covered-fitted-image" autoplay><source src="{{section.settings.video-url}}" type="video/mp4"></video>
+              <div class="text-block-13">{{section.settings.white-label_text}}</div>
             </div>
           </div>
           <div class="trending-vid-content">
-            <p class="video-paragraph">The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.</p>
+            <p class="video-paragraph">{{section.settings.description}}</p>
             <div class="cta-button-container">
-              <a href="#" class="cta-1 w-inline-block">
-                <div>Take me to the Snuggie</div>
+              <a href="{{section.settings.button_url}}" class="cta-1 w-inline-block">
+                <div>{{section.settings.button-label}}</div>
                 <div class="icon-embed-xsmall-4 w-embed"><svg width="20" height="18" viewbox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.3375 10.5681L19.9789 3.36103C20.0974 2.84066 19.7011 2.34514 19.1663 2.34514H5.52806L5.20979 0.792489C5.13049 0.405488 4.78924 0.127563 4.39337 0.127563H0.833334C0.37309 0.127563 0 0.499873 0 0.959154V1.51355C0 1.97283 0.37309 2.34514 0.833334 2.34514H3.25983L5.69899 14.245C5.11545 14.5799 4.72222 15.2078 4.72222 15.9278C4.72222 16.9994 5.59278 17.8682 6.66667 17.8682C7.74056 17.8682 8.61111 16.9994 8.61111 15.9278C8.61111 15.3847 8.38726 14.894 8.02695 14.5418H15.3064C14.9461 14.894 14.7222 15.3847 14.7222 15.9278C14.7222 16.9994 15.5928 17.8682 16.6667 17.8682C17.7406 17.8682 18.6111 16.9994 18.6111 15.9278C18.6111 15.1595 18.1636 14.4956 17.5146 14.1813L17.7062 13.3401C17.8247 12.8197 17.4283 12.3242 16.8936 12.3242H7.57351L7.34625 11.2154H17.5249C17.914 11.2154 18.2513 10.9468 18.3375 10.5681Z" fill="white"></path>
                   </svg></div>
               </a>
-              <div class="payment-methods-4"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b6133108788_Group%20319.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b2e23108793_Group%20300.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b3b9210878b_Group%20318.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b59a7108792_mastercard.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b24c2108795_Group%20315.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b9742108794_Group%20314.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b694a10878f_Group%20313.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678bcfbc108790_Group%20312.svg" loading="lazy" alt="" class="payment-icon-2"><img src="https://uploads-ssl.webflow.com/636d1a4c32678b9614108705/636d1a4c32678b427a10878c_Group%20310.svg" loading="lazy" alt="" class="payment-icon-2"></div>
+              <div class="payment-methods-4"><img src="{{'Group-319.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'Group-300.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'Group-318.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'mastercard.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'Group-315.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'Group-314.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'Group-313.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'Group-312.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"><img src="{{'Group-310.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"></div>
             </div>
           </div>
         </div>
@@ -30,116 +30,49 @@
 
   {% schema %}
 {
-  "name": "t:sections.video.name",
+  "name": "Video",
   "tag": "section",
   "class": "section",
   "settings": [
     {
       "type": "text",
-      "id": "heading",
-      "default": "Video",
-      "label": "t:sections.video.settings.heading.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "cover_image",
-      "label": "t:sections.video.settings.cover_image.label"
-    },
-    {
-      "type": "video_url",
-      "id": "video_url",
-      "accept": [
-        "youtube",
-        "vimeo"
-      ],
-      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-      "label": "t:sections.video.settings.video_url.label",
-      "placeholder": "t:sections.video.settings.video_url.placeholder",
-      "info": "t:sections.video.settings.video_url.info"
+      "id": "emoji",
+      "label": "Emoji"
     },
     {
       "type": "text",
+      "id": "heading",
+      "label": "Video Title"
+    },
+    {
+      "type": "url",
+      "id": "video-url",
+      "label": "Video Url"
+    },
+    {
+      "type": "textarea",
       "id": "description",
-      "label": "t:sections.video.settings.description.label",
-      "info": "t:sections.video.settings.description.info"
+      "label": "Description"
     },
     {
-      "type": "checkbox",
-      "id": "full_width",
-      "label": "t:sections.video.settings.full_width.label",
-      "default": false
+      "type": "text",
+      "id": "button-label",
+      "label": "Button Label"
     },
     {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label"
+      "type": "url",
+      "id": "button_url",
+      "label": "Button Url"
     },
     {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
+      "type": "text",
+      "id": "white-label_text",
+      "label": "White Label Text"
     },
     {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "type": "color",
+      "id": "white-label_text_color",
+      "label": "White Label Text Color"
     }
   ],
   "presets": [

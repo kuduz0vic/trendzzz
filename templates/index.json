@@ -171,14 +171,14 @@
     "b35675e4-076f-4565-8e42-46b85a4b1c91": {
       "type": "video",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "emoji": "😎",
+        "heading": "What others are doing ...",
+        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9fb8e5bca04f47f496622d800bfc0e22.mp4",
+        "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.",
+        "button-label": "Take me to the Snuggie",
+        "button_url": "shopify:\/\/products\/the-airstyler-™",
+        "white-label_text": "💖 WHAT THEY SAY ABOUT IT",
+        "white-label_text_color": "#f92766"
       }
     },
     "f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7": {

@@ -16273,3 +16273,6 @@ figcaption {
   }
 }
 
+video {
+  pointer-events: none;
+}
