@@ -158,7 +158,7 @@
     "e09a54f3-314d-4d45-ba1e-d107fa4826a4": {
       "type": "about-us",
       "settings": {
-        "desktop-left": true,
+        "desktop-left": false,
         "desktop-right": false,
         "inverted": false,
         "image": "shopify:\/\/shop_images\/tiktoks.png",
