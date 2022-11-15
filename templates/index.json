@@ -158,8 +158,8 @@
     "442ec0b6-6c6f-42b9-89a2-5f03ac714dcc": {
       "type": "about-us",
       "settings": {
-        "desktop-left": true,
-        "desktop-right": false,
+        "desktop-left": false,
+        "desktop-right": true,
         "inverted": false,
         "image": "shopify:\/\/shop_images\/tiktoks.png",
         "title": "Over ons",
