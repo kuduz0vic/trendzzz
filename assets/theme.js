@@ -25790,7 +25790,6 @@ var swiperNodes = "";
    spaceBetween: 16,
    slidesPerView: 1,
    freeMode: false,
-   loop: true,
    centeredSlides: false,
    // Enable lazy loading
    lazy: true,
@@ -25880,7 +25879,7 @@ var swiper = new Swiper(".myswiper4", {
  // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 // Get the header
-var header = document.getElementById("shopify-section-header");
+var header = document.getElementById("shopify-section-header_main");
 var wrapper = document.getElementById("shopify-page-wrapper");
 // Get the offset position of the navbar
 var sticky = header.offsetTop;

@@ -3933,6 +3933,10 @@ figcaption {
   color: #270e24;
   font-weight: 400;
 }
+.footer-story p {
+  color: #270e24;
+  font-weight: 400;
+}
 
 .text-block-3 {
   color: #270e24;
@@ -4061,7 +4065,7 @@ figcaption {
   text-align: center;
 }
 
-.footer {
+.footer-main {
   position: relative;
   margin-top: 0px;
   padding-top: 32px;
@@ -8420,7 +8424,7 @@ figcaption {
     padding-bottom: 24px;
   }
 
-  .footer {
+  .footer-main {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -12903,7 +12907,9 @@ figcaption {
   .paragraph-6 {
     color: #341c31;
   }
-
+  .footer-story p  {
+    color: #341c31;
+  }
   .text-block-3 {
     position: relative;
     margin-top: 36px;
@@ -13020,7 +13026,7 @@ figcaption {
     grid-row-gap: 6px;
   }
 
-  .footer {
+  .footer-main {
     overflow: hidden;
     margin-top: 0px;
     -webkit-box-orient: vertical;

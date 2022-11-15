@@ -2,23 +2,26 @@
     <div class="page-padding-9">
       <div class="container-v4-2">
         <div class="review-headline">
-          <h1 class="review-h1">What our customers are saying</h1>
-          <div class="review-tagline">Proudly rated 4.8/5 among 10.000+ customers</div>
+          <h1 class="review-h1">{{section.settings.title}}</h1>
+          <div class="review-tagline">{{section.settings.tag}}</div>
         </div>
         <div class="review-slider">
           <div id="reviewSlider" class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
             <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                {% case block.type %}
+                  {% when 'proof' %}
               <div class="swiper-slide">
                 <div class="review-slide">
                   <div class="review-main-block">
-                    <div class="review-image"><img src="images/62d132e8fc73b70da08b636e_Rectangle-40.jpg_162d132e8fc73b70da08b636e_Rectangle-40.jpg.png" loading="lazy" alt=""></div>
+                    <div class="review-image"><img src="{{block.settings.proof-image | img_url}}" loading="lazy" alt=""></div>
                     <div class="review-content-block">
-                      <h1 class="review-title">The softest hoodie EVER!</h1>
-                      <p class="review-p">The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!</p>
+                      <h1 class="review-title">{{block.settings.proof-title}}</h1>
+                      <p class="review-p">{{block.settings.proof-description}}</p>
                     </div>
                   </div>
                   <div class="div-block">
-                    <div class="text-m-2 text-bold dim-grey">Jessica P.</div>
+                    <div class="text-m-2 text-bold dim-grey">{{block.settings.proof-name}}</div>
                     <div class="review-stars">
                       <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf631-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <rect width="22" height="22" rx="4" fill="#02C485"></rect>
@@ -44,78 +47,8 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="review-slide">
-                  <div class="review-main-block">
-                    <div class="review-image"><img src="images/62d132e8fc73b70da08b636e_Rectangle-40.jpg_162d132e8fc73b70da08b636e_Rectangle-40.jpg.png" loading="lazy" alt=""></div>
-                    <div class="review-content-block">
-                      <h1 class="review-title">The softest hoodie EVER!</h1>
-                      <p class="review-p">The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!</p>
-                    </div>
-                  </div>
-                  <div class="div-block">
-                    <div class="text-m-2 text-bold dim-grey">Jessica P.</div>
-                    <div class="review-stars">
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf644-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf645-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf646-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf647-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf648-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="review-slide">
-                  <div class="review-main-block">
-                    <div class="review-image"><img src="images/62d132e8fc73b70da08b636e_Rectangle-40.jpg_162d132e8fc73b70da08b636e_Rectangle-40.jpg.png" loading="lazy" alt=""></div>
-                    <div class="review-content-block">
-                      <h1 class="review-title">The softest hoodie EVER!</h1>
-                      <p class="review-p">The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!</p>
-                    </div>
-                  </div>
-                  <div class="div-block">
-                    <div class="text-m-2 text-bold dim-grey">Jessica P.</div>
-                    <div class="review-stars">
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf657-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf658-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf659-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf65a-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                      <div id="w-node-a938d79b-0148-0e6a-af5e-57d243ecf65b-43ecf618" class="w-embed"><svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="22" height="22" rx="4" fill="#02C485"></rect>
-                          <path d="M10.1259 4.32739C10.5067 3.64059 11.4943 3.64059 11.8751 4.32739L13.3688 7.02149C13.5121 7.27994 13.7624 7.46178 14.0524 7.5182L17.0763 8.10628C17.8471 8.25621 18.1523 9.19543 17.6168 9.76982L15.5161 12.0229C15.3146 12.2391 15.219 12.5333 15.255 12.8266L15.6301 15.8842C15.7257 16.6637 14.9268 17.2441 14.215 16.9123L11.423 15.6107C11.1552 15.4859 10.8458 15.4859 10.578 15.6107L7.78597 16.9123C7.07421 17.2441 6.27526 16.6637 6.37089 15.8842L6.746 12.8266C6.78198 12.5333 6.68638 12.2391 6.48486 12.0229L4.38421 9.76982C3.84869 9.19543 4.15386 8.25621 4.92472 8.10628L7.94854 7.5182C8.23863 7.46178 8.48891 7.27994 8.6322 7.02149L10.1259 4.32739Z" fill="white"></path>
-                        </svg></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            {% endcase %}
+          {% endfor %}
             </div>
           </div>
         </div>
@@ -151,333 +84,42 @@
 
   {% schema %}
   {
-    "name": "t:sections.image-with-text.name",
-    "class": "section",
+    "name": "Social Proof",
+    "tag": "section",
+    "class": "finds",
     "settings": [
       {
-        "type": "image_picker",
-        "id": "image",
-        "label": "t:sections.image-with-text.settings.image.label"
-      },
-      {
-        "type": "select",
-        "id": "height",
-        "options": [
-          {
-            "value": "adapt",
-            "label": "t:sections.image-with-text.settings.height.options__1.label"
-          },
-          {
-            "value": "small",
-            "label": "t:sections.image-with-text.settings.height.options__2.label"
-          },
-          {
-            "value": "large",
-            "label": "t:sections.image-with-text.settings.height.options__3.label"
-          }
-        ],
-        "default": "adapt",
-        "label": "t:sections.image-with-text.settings.height.label"
-      },
-      {
-        "type": "select",
-        "id": "desktop_image_width",
-        "options": [
-          {
-            "value": "small",
-            "label": "t:sections.image-with-text.settings.desktop_image_width.options__1.label"
-          },
-          {
-            "value": "medium",
-            "label": "t:sections.image-with-text.settings.desktop_image_width.options__2.label"
-          },
-          {
-            "value": "large",
-            "label": "t:sections.image-with-text.settings.desktop_image_width.options__3.label"
-          }
-        ],
-        "default": "medium",
-        "label": "t:sections.image-with-text.settings.desktop_image_width.label",
-        "info": "t:sections.image-with-text.settings.desktop_image_width.info"
-      },
-      {
-        "type": "select",
-        "id": "layout",
-        "options": [
-          {
-            "value": "image_first",
-            "label": "t:sections.image-with-text.settings.layout.options__1.label"
-          },
-          {
-            "value": "text_first",
-            "label": "t:sections.image-with-text.settings.layout.options__2.label"
-          }
-        ],
-        "default": "image_first",
-        "label": "t:sections.image-with-text.settings.layout.label",
-        "info": "t:sections.image-with-text.settings.layout.info"
-      },
-      {
-        "type": "select",
-        "id": "desktop_content_position",
-        "options": [
-          {
-            "value": "top",
-            "label": "t:sections.image-with-text.settings.desktop_content_position.options__1.label"
-          },
-          {
-            "value": "middle",
-            "label": "t:sections.image-with-text.settings.desktop_content_position.options__2.label"
-          },
-          {
-            "value": "bottom",
-            "label": "t:sections.image-with-text.settings.desktop_content_position.options__3.label"
-          }
-        ],
-        "default": "top",
-        "label": "t:sections.image-with-text.settings.desktop_content_position.label"
-      },
-      {
-        "type": "select",
-        "id": "desktop_content_alignment",
-        "options": [
-          {
-            "value": "left",
-            "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__1.label"
-          },
-          {
-            "value": "center",
-            "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__2.label"
-          },
-          {
-            "value": "right",
-            "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__3.label"
-          }
-        ],
-        "default": "left",
-        "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
-      },
-      {
-        "type": "select",
-        "id": "content_layout",
-        "options": [
-          {
-            "value": "no-overlap",
-            "label": "t:sections.image-with-text.settings.content_layout.options__1.label"
-          },
-          {
-            "value": "overlap",
-            "label": "t:sections.image-with-text.settings.content_layout.options__2.label"
-          }
-        ],
-        "default": "no-overlap",
-        "label": "t:sections.image-with-text.settings.content_layout.label"
-      },
-      {
-        "type": "select",
-        "id": "color_scheme",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:sections.all.colors.accent_1.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.all.colors.accent_2.label"
-          },
-          {
-            "value": "background-1",
-            "label": "t:sections.all.colors.background_1.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:sections.all.colors.background_2.label"
-          },
-          {
-            "value": "inverse",
-            "label": "t:sections.all.colors.inverse.label"
-          }
-        ],
-        "default": "background-1",
-        "label": "t:sections.all.colors.label"
-      },
-      {
-        "type": "header",
-        "content": "Mobile layout"
-      },
-      {
-        "type": "select",
-        "id": "mobile_content_alignment",
-        "options": [
-          {
-            "value": "left",
-            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
-          },
-          {
-            "value": "center",
-            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
-          },
-          {
-            "value": "right",
-            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
-          }
-        ],
-        "default": "left",
-        "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
-      },
-      {
-        "type": "header",
-        "content": "t:sections.all.padding.section_padding_heading"
-      },
-      {
-        "type": "range",
-        "id": "padding_top",
-        "min": 0,
-        "max": 100,
-        "step": 4,
-        "unit": "px",
-        "label": "t:sections.all.padding.padding_top",
-        "default": 36
-      },
-      {
-        "type": "range",
-        "id": "padding_bottom",
-        "min": 0,
-        "max": 100,
-        "step": 4,
-        "unit": "px",
-        "label": "t:sections.all.padding.padding_bottom",
-        "default": 36
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }, {
+        "type": "text",
+        "id": "tag",
+        "label": "Tag"
       }
     ],
+    "max_blocks": 50,
     "blocks": [
       {
-        "type": "heading",
-        "name": "t:sections.image-with-text.blocks.heading.name",
-        "limit": 1,
+        "name": "Social Proof",
+        "type": "proof",
         "settings": [
           {
+            "type": "image_picker",
+            "id": "proof-image",
+            "label": "Proof Image"
+          }, {
             "type": "text",
-            "id": "heading",
-            "default": "Image with text",
-            "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
-          },
-          {
-            "type": "select",
-            "id": "heading_size",
-            "options": [
-              {
-                "value": "h2",
-                "label": "t:sections.all.heading_size.options__1.label"
-              },
-              {
-                "value": "h1",
-                "label": "t:sections.all.heading_size.options__2.label"
-              },
-              {
-                "value": "h0",
-                "label": "t:sections.all.heading_size.options__3.label"
-              }
-            ],
-            "default": "h1",
-            "label": "t:sections.all.heading_size.label"
-          }
-        ]
-      },
-      {
-        "type": "caption",
-        "name": "t:sections.image-with-text.blocks.caption.name",
-        "limit": 1,
-        "settings": [
-          {
+            "id": "proof-title",
+            "label": "Proof Title"
+          }, {
+            "type": "textarea",
+            "id": "proof-description",
+            "label": "Proof Description"
+          }, {
             "type": "text",
-            "id": "caption",
-            "default": "Add a tagline",
-            "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
-          },
-          {
-            "type": "select",
-            "id": "text_style",
-            "options": [
-              {
-                "value": "subtitle",
-                "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__1.label"
-              },
-              {
-                "value": "caption-with-letter-spacing",
-                "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__2.label"
-              }
-            ],
-            "default": "caption-with-letter-spacing",
-            "label": "t:sections.image-with-text.blocks.caption.settings.text_style.label"
-          },
-          {
-            "type": "select",
-            "id": "text_size",
-            "options": [
-              {
-                "value": "small",
-                "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__1.label"
-              },
-              {
-                "value": "medium",
-                "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__2.label"
-              },
-              {
-                "value": "large",
-                "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__3.label"
-              }
-            ],
-            "default": "medium",
-            "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "name": "t:sections.image-with-text.blocks.text.name",
-        "limit": 1,
-        "settings": [
-          {
-            "type": "richtext",
-            "id": "text",
-            "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "label": "t:sections.image-with-text.blocks.text.settings.text.label"
-          },
-          {
-            "type": "select",
-            "id": "text_style",
-            "options": [
-              {
-                "value": "body",
-                "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__1.label"
-              },
-              {
-                "value": "subtitle",
-                "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__2.label"
-              }
-            ],
-            "default": "body",
-            "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
-          }
-        ]
-      },
-      {
-        "type": "button",
-        "name": "t:sections.image-with-text.blocks.button.name",
-        "limit": 1,
-        "settings": [
-          {
-            "type": "text",
-            "id": "button_label",
-            "default": "Button label",
-            "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
-            "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
-          },
-          {
-            "type": "url",
-            "id": "button_link",
-            "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+            "id": "proof-name",
+            "label": "Proof Name"
           }
         ]
       }
@@ -487,16 +129,10 @@
         "name": "Social Proof",
         "blocks": [
           {
-            "type": "heading"
-          },
-          {
-            "type": "text"
-          },
-          {
-            "type": "button"
+            "type": "proof"
           }
         ]
       }
     ]
   }
-  {% endschema %}
+{% endschema %}
