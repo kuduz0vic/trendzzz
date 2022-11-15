@@ -1,28 +1,25 @@
-<section id="shopify-product-section" class="product-section wf-section">
-  <section class="product-section-wrapper">
-    <div class="container-large-2">
-      <div class="product-grid">
-        <div id="w-node-adb81a6d-176b-ded8-2561-72220daf9784-6ddb3075" class="product-sp-and-swiper">
-          <div id="ProductImgSwiper" class="main-product-photo">
-            <div class="swiper myswiper3">
-              <div class="swiper-wrapper product-main_swiper">
-                <div class="swiper-slide"><img src="images/slippers.png" loading="lazy" srcset="images/slippers-p-500.png 500w, images/slippers.png 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">
-                  <div class="product-photo-label">
-                    <p class="product-photo-text">💖 MOST POPULAR</p>
-                  </div>
-                </div>
-                <div class="swiper-slide"><img src="images/green-slippers.png" loading="lazy" srcset="images/green-slippers-p-500.png 500w, images/green-slippers.png 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo"></div>
-                <div class="swiper-slide"><img src="images/red-slippers.png" loading="lazy" srcset="images/red-slippers-p-500.png 500w, images/red-slippers.png 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo"></div>
-                <div class="swiper-slide"><img src="images/blue-slippers.png" loading="lazy" srcset="images/blue-slippers-p-500.png 500w, images/blue-slippers.png 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo"></div>
+{% assign selected_variant = product.selected_or_first_available_variant %}
+{% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
+  <input type="hidden" name="id" value="{{ selected_variant.id }}">
+  <section id="shopify-product-section" class="product-section wf-section">
+    <section class="product-section-wrapper">
+      <div class="container-large-2">
+        <div class="product-grid">
+          <div id="w-node-adb81a6d-176b-ded8-2561-72220daf9784-6ddb3075" class="product-sp-and-swiper">
+            <div id="ProductImgSwiper" class="main-product-photo">
+              <div class="swiper myswiper3">
+                <div class="swiper-wrapper product-main_swiper">   
+                  {% for media in product.media %}
+                  <div class="swiper-slide"><img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo"></div>
+                {% endfor %}
               </div>
               <div class="swiper-pagination-22"></div>
             </div>
             <div thumbsslider="" class="swiper myswiper4">
               <div class="swiper-wrapper product-thumb_swiper">
-                <div class="swiper-slide product-thumb_slide"><img src="images/slippers.png" loading="lazy" srcset="images/slippers-p-500.png 500w, images/slippers.png 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
-                <div class="swiper-slide product-thumb_slide"><img src="images/green-slippers.png" loading="lazy" srcset="images/green-slippers-p-500.png 500w, images/green-slippers.png 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
-                <div class="swiper-slide product-thumb_slide"><img src="images/red-slippers.png" loading="lazy" srcset="images/red-slippers-p-500.png 500w, images/red-slippers.png 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
-                <div class="swiper-slide product-thumb_slide"><img src="images/blue-slippers.png" loading="lazy" srcset="images/blue-slippers-p-500.png 500w, images/blue-slippers.png 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
+                {% for media in product.media %}
+                <div class="swiper-slide product-thumb_slide"><img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
+              {% endfor %}
               </div>
             </div>
           </div>
@@ -30,171 +27,175 @@
         <div id="w-node-_34481b18-401a-5d31-7d47-0cbaa5b1c89e-6ddb3075" class="product-content">
           <div id="w-node-adb81a6d-176b-ded8-2561-72220daf976c-6ddb3075" class="product-block">
             <div class="product-ab-fold">
-              <h1 class="product-title title-color">The Airstyler ™</h1>
-              <h5 id="w-node-adb81a6d-176b-ded8-2561-72220daf9771-6ddb3075" class="tagline grey-color">All-in-One Styler: Curly. world. Smooth blow-dried hair.</h5>
-              <div id="w-node-adb81a6d-176b-ded8-2561-72220daf9773-6ddb3075" class="product-review-container">
-                <div class="product-review-star-container">
-                  <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="#F9A000"></path>
-                    </svg></div>
-                  <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
-                    </svg></div>
-                  <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
-                    </svg></div>
-                  <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
-                    </svg></div>
-                  <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
-                    </svg></div>
-                </div>
-                <div class="product-review-p">4.9/5 stars • 364 reviews</div>
-              </div>
-              <div id="w-node-f83d88ae-cb25-900d-1998-9026481e7ec9-6ddb3075" class="product-price-box">
-                <div class="before-price-p">$89.95</div>
-                <div class="product-price--p">$49.95</div>
-                <div class="product-discount">SAVE 40€</div>
-              </div>
+                  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'title' %}
+        <h1 class="product-title title-color">{{product.title}}</h1>
+      {% when 'description' %}
+        <h5 id="w-node-adb81a6d-176b-ded8-2561-72220daf9771-6ddb3075" class="tagline grey-color">All-in-One Styler: Curly. world. Smooth blow-dried hair.</h5>
+        {% when 'review' %}
+          <div id="w-node-adb81a6d-176b-ded8-2561-72220daf9773-6ddb3075" class="product-review-container">
+            <div class="product-review-star-container">
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="#F9A000"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
             </div>
+            <div class="product-review-p">4.9/5 stars • 364 reviews</div>
           </div>
-          <div id="w-node-b8e20345-8f10-334f-d74f-55d85d411971-6ddb3075" class="klarna-element"><img src="images/klarna.svg" loading="lazy" alt="" class="image-15">
-            <p class="paragraph">Betaal pas over 30 dagen. <span class="text-span">Meer weten</span></p>
-          </div>
-          <div id="w-node-ac8b3e74-08be-b8ea-026a-bc0837c60ffb-6ddb3075" class="product-options-form">
-            <div id="w-node-f1f4fbe8-300e-75de-abb2-487558ab1d7a-6ddb3075" class="amount-form">
-              <div>Aantal</div>
-              <div class="amount-form-div">
-                <a href="#" class="minus-amount w-inline-block">-</a>
-                <div class="amount">1</div>
-                <a href="#" class="minus-amount w-inline-block">+</a>
-              </div>
+          {% when 'price' %}
+            <div id="w-node-f83d88ae-cb25-900d-1998-9026481e7ec9-6ddb3075" class="product-price-box">
+              <div class="before-price-p">$89.95</div>
+              <div class="product-price--p">$49.95</div>
+              <div class="product-discount">SAVE 40€</div>
             </div>
-          </div>
-          <div id="w-node-adb81a6d-176b-ded8-2561-72220daf97bc-6ddb3075" class="product-atc-area">
-            <div class="product-form w-form">
-              <form id="wf-form-Product-Form" name="wf-form-Product-Form" data-name="Product Form" method="get" class="form-wrapper">
-                <div class="cart-block">
-                  <a href="#" class="atc w-inline-block">
-                    <div>Add to cart</div>
-                    <div class="icon-embed-xsmall-3 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" fill="none" viewbox="0 0 21 18">
-                        <path fill="#fff" d="m18.837 10.57 1.642-7.207a.832.832 0 0 0-.813-1.016H6.028L5.71.795A.833.833 0 0 0 4.893.13h-3.56A.832.832 0 0 0 .5.96v.555c0 .459.373.831.833.831H3.76l2.439 11.9a1.938 1.938 0 0 0 .968 3.623 1.942 1.942 0 0 0 1.944-1.94c0-.543-.224-1.034-.584-1.386h7.28c-.36.352-.585.843-.585 1.386 0 1.072.87 1.94 1.945 1.94a1.94 1.94 0 0 0 .848-3.687l.191-.84a.832.832 0 0 0-.812-1.017h-9.32l-.228-1.108h10.179c.389 0 .726-.27.813-.648Z"></path>
-                      </svg></div>
-                  </a>
-                  <div class="payment-methods-2"><img src="images/Group-300.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-319.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-318.svg" loading="lazy" alt="" class="payment-icon"><img src="images/mastercard.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-315.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-314.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-313.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-310.svg" loading="lazy" alt="" class="payment-icon"></div>
-                </div>
-              </form>
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-_82feab31-0fa3-8feb-4644-3b45c3090948-6ddb3075" class="store-benefits">
-            <div class="store-benefit-wrapper">
-              <div class="store-benefit">
-                <div class="store-benefit-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="auto" fill="none" viewbox="0 0 51 40">
-                    <path stroke="#1B0101" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M28.2 30V5a2.5 2.5 0 0 0-2.5-2.5h-20A2.5 2.5 0 0 0 3.2 5v25a2.5 2.5 0 0 0 2.5 2.5h2.5m20-2.5a2.5 2.5 0 0 1-2.5 2.5h-7.5m10-2.5V10a2.5 2.5 0 0 1 2.5-2.5h6.465a2.5 2.5 0 0 1 1.767.732l8.536 8.536a2.5 2.5 0 0 1 .732 1.767V30a2.5 2.5 0 0 1-2.5 2.5h-2.5m-15-2.5a2.5 2.5 0 0 0 2.5 2.5h2.5m-25 0a5 5 0 1 0 10 0m-10 0a5 5 0 1 1 10 0m15 0a5 5 0 1 0 10 0m-10 0a5 5 0 1 1 10 0"></path>
-                  </svg></div>
-                <div>Gratis verzending vanaf €50</div>
-              </div>
-            </div>
-            <div class="store-benefit-wrapper">
-              <div class="store-benefit">
-                <div class="store-benefit-icon w-embed"><svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.30309 13L11.7677 15.4646L16.6969 10.5354M7.86714 4.00056C8.75135 3.93 9.59078 3.5823 10.2659 3.00696C11.8414 1.66435 14.1586 1.66435 15.7341 3.00696C16.4092 3.5823 17.2486 3.93 18.1329 4.00056C20.1962 4.16522 21.8348 5.80374 21.9995 7.86713C22.0699 8.75135 22.4177 9.59078 22.9931 10.2659C24.3356 11.8414 24.3356 14.1586 22.9931 15.7341C22.4177 16.4091 22.0699 17.2486 21.9995 18.1329C21.8348 20.1962 20.1962 21.8347 18.1329 21.9995C17.2487 22.0699 16.4092 22.4177 15.7341 22.9931C14.1586 24.3356 11.8414 24.3356 10.2659 22.9931C9.59078 22.4177 8.75135 22.0699 7.86714 21.9995C5.80374 21.8347 4.16522 20.1962 4.00057 18.1329C3.93 17.2486 3.5823 16.4091 3.00696 15.7341C1.66435 14.1586 1.66435 11.8414 3.00696 10.2659C3.5823 9.59078 3.93 8.75135 4.00057 7.86713C4.16522 5.80374 5.80374 4.16522 7.86714 4.00056Z" stroke="#1B0101" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
-                  </svg></div>
-                <div>10.000+ Tevreden klanten</div>
-              </div>
-            </div>
-            <div class="store-benefit-wrapper">
-              <div class="store-benefit">
-                <div class="store-benefit-icon w-embed"><svg width="20" height="22" viewbox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.70588 18C9.89785 18 10.0855 17.9414 10.2451 17.8315C10.4047 17.7216 10.5291 17.5654 10.6026 17.3827C10.6761 17.2 10.6953 16.9989 10.6578 16.8049C10.6204 16.6109 10.5279 16.4327 10.3922 16.2929C10.2565 16.153 10.0835 16.0578 9.89523 16.0192C9.70696 15.9806 9.51181 16.0004 9.33445 16.0761C9.1571 16.1518 9.00552 16.28 8.89887 16.4444C8.79222 16.6089 8.73529 16.8022 8.73529 17C8.73529 17.2652 8.83755 17.5196 9.01957 17.7071C9.20159 17.8946 9.44847 18 9.70588 18ZM14.5588 18C14.7508 18 14.9384 17.9414 15.0981 17.8315C15.2577 17.7216 15.3821 17.5654 15.4555 17.3827C15.529 17.2 15.5482 16.9989 15.5108 16.8049C15.4733 16.6109 15.3809 16.4327 15.2451 16.2929C15.1094 16.153 14.9365 16.0578 14.7482 16.0192C14.5599 15.9806 14.3647 16.0004 14.1874 16.0761C14.01 16.1518 13.8585 16.28 13.7518 16.4444C13.6452 16.6089 13.5882 16.8022 13.5882 17C13.5882 17.2652 13.6905 17.5196 13.8725 17.7071C14.0545 17.8946 14.3014 18 14.5588 18ZM14.5588 14C14.7508 14 14.9384 13.9414 15.0981 13.8315C15.2577 13.7216 15.3821 13.5654 15.4555 13.3827C15.529 13.2 15.5482 12.9989 15.5108 12.8049C15.4733 12.6109 15.3809 12.4327 15.2451 12.2929C15.1094 12.153 14.9365 12.0578 14.7482 12.0192C14.5599 11.9806 14.3647 12.0004 14.1874 12.0761C14.01 12.1518 13.8585 12.28 13.7518 12.4444C13.6452 12.6089 13.5882 12.8022 13.5882 13C13.5882 13.2652 13.6905 13.5196 13.8725 13.7071C14.0545 13.8946 14.3014 14 14.5588 14ZM9.70588 14C9.89785 14 10.0855 13.9414 10.2451 13.8315C10.4047 13.7216 10.5291 13.5654 10.6026 13.3827C10.6761 13.2 10.6953 12.9989 10.6578 12.8049C10.6204 12.6109 10.5279 12.4327 10.3922 12.2929C10.2565 12.153 10.0835 12.0578 9.89523 12.0192C9.70696 11.9806 9.51181 12.0004 9.33445 12.0761C9.1571 12.1518 9.00552 12.28 8.89887 12.4444C8.79222 12.6089 8.73529 12.8022 8.73529 13C8.73529 13.2652 8.83755 13.5196 9.01957 13.7071C9.20159 13.8946 9.44847 14 9.70588 14ZM16.5 2H15.5294V1C15.5294 0.734784 15.4272 0.48043 15.2451 0.292893C15.0631 0.105357 14.8162 0 14.5588 0C14.3014 0 14.0545 0.105357 13.8725 0.292893C13.6905 0.48043 13.5882 0.734784 13.5882 1V2H5.82353V1C5.82353 0.734784 5.72127 0.48043 5.53925 0.292893C5.35723 0.105357 5.11036 0 4.85294 0C4.59552 0 4.34865 0.105357 4.16663 0.292893C3.98461 0.48043 3.88235 0.734784 3.88235 1V2H2.91176C2.13952 2 1.3989 2.31607 0.852836 2.87868C0.306774 3.44129 0 4.20435 0 5V19C0 19.7956 0.306774 20.5587 0.852836 21.1213C1.3989 21.6839 2.13952 22 2.91176 22H16.5C17.2722 22 18.0129 21.6839 18.5589 21.1213C19.105 20.5587 19.4118 19.7956 19.4118 19V5C19.4118 4.20435 19.105 3.44129 18.5589 2.87868C18.0129 2.31607 17.2722 2 16.5 2ZM17.4706 19C17.4706 19.2652 17.3683 19.5196 17.1863 19.7071C17.0043 19.8946 16.7574 20 16.5 20H2.91176C2.65435 20 2.40748 19.8946 2.22546 19.7071C2.04343 19.5196 1.94118 19.2652 1.94118 19V10H17.4706V19ZM17.4706 8H1.94118V5C1.94118 4.73478 2.04343 4.48043 2.22546 4.29289C2.40748 4.10536 2.65435 4 2.91176 4H3.88235V5C3.88235 5.26522 3.98461 5.51957 4.16663 5.70711C4.34865 5.89464 4.59552 6 4.85294 6C5.11036 6 5.35723 5.89464 5.53925 5.70711C5.72127 5.51957 5.82353 5.26522 5.82353 5V4H13.5882V5C13.5882 5.26522 13.6905 5.51957 13.8725 5.70711C14.0545 5.89464 14.3014 6 14.5588 6C14.8162 6 15.0631 5.89464 15.2451 5.70711C15.4272 5.51957 15.5294 5.26522 15.5294 5V4H16.5C16.7574 4 17.0043 4.10536 17.1863 4.29289C17.3683 4.48043 17.4706 4.73478 17.4706 5V8ZM4.85294 14C5.04491 14 5.23256 13.9414 5.39217 13.8315C5.55178 13.7216 5.67619 13.5654 5.74965 13.3827C5.82311 13.2 5.84233 12.9989 5.80488 12.8049C5.76743 12.6109 5.67499 12.4327 5.53925 12.2929C5.40351 12.153 5.23057 12.0578 5.04229 12.0192C4.85402 11.9806 4.65886 12.0004 4.48151 12.0761C4.30416 12.1518 4.15258 12.28 4.04593 12.4444C3.93928 12.6089 3.88235 12.8022 3.88235 13C3.88235 13.2652 3.98461 13.5196 4.16663 13.7071C4.34865 13.8946 4.59552 14 4.85294 14ZM4.85294 18C5.04491 18 5.23256 17.9414 5.39217 17.8315C5.55178 17.7216 5.67619 17.5654 5.74965 17.3827C5.82311 17.2 5.84233 16.9989 5.80488 16.8049C5.76743 16.6109 5.67499 16.4327 5.53925 16.2929C5.40351 16.153 5.23057 16.0578 5.04229 16.0192C4.85402 15.9806 4.65886 16.0004 4.48151 16.0761C4.30416 16.1518 4.15258 16.28 4.04593 16.4444C3.93928 16.6089 3.88235 16.8022 3.88235 17C3.88235 17.2652 3.98461 17.5196 4.16663 17.7071C4.34865 17.8946 4.59552 18 4.85294 18Z" fill="black"></path>
-                  </svg></div>
-                <div>30 dagen bedenktijd</div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-adb81a6d-176b-ded8-2561-72220daf981a-6ddb3075" class="product-accordion-list">
-            <div data-click="accordion" data-w-id="adb81a6d-176b-ded8-2561-72220daf981b" class="product-accordion-item">
-              <div class="product-accordion">
-                <div class="accordion-title">Fast shipping</div><img src="images/close-icon.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="" class="product-accordion-icon">
-              </div>
-              <div style="opacity:0;height:0px" class="product-accordion-info-container">
-                <div class="product-accordion-content">
-                  <div class="accordion-richtext w-richtext">
-                    <p>Niemand wacht graag op zijn pakket, daarom verzenden wij al onze producten met GLS-Express verzending inclusief tracking.</p>
-                    <p>‍</p>
-                    <p>🇳🇱 Geleverd binnen 4-6 werkdagen<br>🇧🇪 Geleverd binnen 4-6 werkdagen<br><br><strong>Verwerkingstijd:</strong> 1-2 werkdagen<br><strong>Totale levertijd:</strong> verwerkingstijd + verzendtijd</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-click="accordion" data-w-id="b207a21a-3764-5875-5741-f8defe926222" class="product-accordion-item">
-              <div class="product-accordion">
-                <div class="accordion-title">Retourneren</div><img src="images/close-icon.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="" class="product-accordion-icon">
-              </div>
-              <div style="opacity:0;height:0px" class="product-accordion-info-container">
-                <div class="product-accordion-content">
-                  <div class="accordion-richtext w-richtext">
-                    <p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-click="accordion" data-w-id="0ac6c3cc-2cda-f515-4ef0-34cea9eeb50e" class="product-accordion-item">
-              <div class="product-accordion">
-                <div class="accordion-title">De nummer #1 trend onder de meiden 🥰</div><img src="images/close-icon.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="" class="product-accordion-icon">
-              </div>
-              <div style="opacity:0;height:0px" class="product-accordion-info-container">
-                <div class="product-accordion-content">
-                  <div class="accordion-richtext w-richtext">
-                    <p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-c0e555da-3a5e-41e0-7341-046b33134990-6ddb3075" class="customers-tab_wrapper"><img src="images/Untitled.png" loading="lazy" srcset="images/Untitled-p-500.png 500w, images/Untitled-p-800.png 800w, images/Untitled.png 885w" sizes="(max-width: 1279px) 54px, (max-width: 1439px) 4vw, 54px" alt="" class="social-proof-img">
-            <p class="social-bar-p"><strong class="bold-text-2">Julia Clinton</strong> and <strong class="bold-text-3">312 other people</strong> love the <strong class="bold-text-4">Snuggie (Pink)</strong></p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-</section>
+            {% when 'klarna' %}
+            <div id="w-node-b8e20345-8f10-334f-d74f-55d85d411971-6ddb3075" class="klarna-element"><img src="images/klarna.svg" loading="lazy" alt="" class="image-15">
+            <p class="paragraph">Betaal pas over 30 dagen. <span class="text-span">Meer weten</span></p>
+          </div>
+          {% when 'quantity' %}
+            <label for="quantity-{{ section.id }}">Quantity</label>
+            <input type="number" name="quantity" id="quantity-{{ section.id }}" value="1" min="1">
+            {% when 'checkout_buttons' %}
+              <button type="submit" name="add" {% if selected_variant.available == false %} disabled {% endif %}>
+                {% if selected_variant.available == false %}
+                    Sold out
+                {% else %}
+                    Add to cart
+                {% endif %}
+              </button>
+              {% when 'payment-icon' %}
+              <div class="payment-methods-2"><img src="images/Group-300.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-319.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-318.svg" loading="lazy" alt="" class="payment-icon"><img src="images/mastercard.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-315.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-314.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-313.svg" loading="lazy" alt="" class="payment-icon"><img src="images/Group-310.svg" loading="lazy" alt="" class="payment-icon"></div>
+              {% when 'additional-icons' %}
+                <div id="w-node-_82feab31-0fa3-8feb-4644-3b45c3090948-6ddb3075" class="store-benefits">
+                  <div class="store-benefit-wrapper">
+                    <div class="store-benefit">
+                      <div class="store-benefit-icon w-embed"><img src="{{block.settings.icon-link}}"></div>
+                      <div>{{block.settings.icon-description}}</div>
+                    </div>
+                  </div>
+                </div>
+                {% when 'accordion' %}
+                  <div id="w-node-adb81a6d-176b-ded8-2561-72220daf981a-6ddb3075" class="product-accordion-list">
+                    <div data-click="accordion" data-w-id="adb81a6d-176b-ded8-2561-72220daf981b" class="product-accordion-item">
+                      <div class="product-accordion">
+                        <div class="accordion-title">{{block.settings.accordion-title}}</div><img src="images/close-icon.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="" class="product-accordion-icon">
+                      </div>
+                      <div style="opacity:0;height:0px" class="product-accordion-info-container">
+                        <div class="product-accordion-content">
+                          <div class="accordion-richtext w-richtext">
+                            <p>{{block.settings.accordion-description}}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {% when 'testimonial' %}
+                    <div id="w-node-c0e555da-3a5e-41e0-7341-046b33134990-6ddb3075" class="customers-tab_wrapper"><img src="images/Untitled.png" loading="lazy" srcset="images/Untitled-p-500.png 500w, images/Untitled-p-800.png 800w, images/Untitled.png 885w" sizes="(max-width: 1279px) 54px, (max-width: 1439px) 4vw, 54px" alt="" class="social-proof-img">
+                    <p class="social-bar-p"><strong class="bold-text-2">Julia Clinton</strong> and <strong class="bold-text-3">312 other people</strong> love the <strong class="bold-text-4">Snuggie (Pink)</strong></p>
+                  </div>
+                {% endcase %}
+              {% endfor %}        
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+{% endform %}
+            
+
+
+
+
+
+<script>
+  class VariantSelector extends HTMLElement {
+    constructor() {
+      super();
+      this.addEventListener("change", this.onVariantChange);
+    }
+
+    onVariantChange() {
+      this.getSelectedOptions();
+      this.getSelectedVariant();
+      if (this.currentVariant) {
+        this.updateURL();
+        this.updateFormID();
+        this.updatePrice();
+      }
+    }
+
+    getSelectedOptions() {
+      this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
+      console.log(this.options);
+    }
+
+    getVariantJSON() {
+      this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
+      return this.variantData;
+    }
+
+    getSelectedVariant() {
+      this.currentVariant = this.getVariantJSON().find(variant => {
+        const findings = !variant.options.map((option, index) => {
+          return this.options[index] === option;
+        }).includes(false);
+        if (findings) return variant;
+      });
+      console.log(this.currentVariant);
+    }
+
+    updateURL() {
+      if (!this.currentVariant) return;
+      window.history.replaceState({}, '', `${this.dataset.url}?variant=${this.currentVariant.id}`);
+    }
+
+    updateFormID() {
+      const form_input = document.querySelector("#product-form").querySelector('input[name="id"]');
+      form_input.value = this.currentVariant.id;
+    }
+
+    updatePrice() {
+      fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
+        .then((response) => response.text())
+        .then((responseText) => {
+          const id = `price-${this.dataset.section}`;
+          const html = new DOMParser().parseFromString(responseText, 'text/html');
+          const oldPrice = document.getElementById(id);
+          const newPrice = html.getElementById(id);
+          if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
+        });
+    }
+  }
+  customElements.define("variant-selector", VariantSelector);
+</script>
+
 
 {% schema %}
 {
-  "name": "Product",
+    "name": "Product Section",
+    "tag": "section",
+    "class": "products",
+    "settings": [
+
+    ],
   "blocks": [
-    {
-      "type": "vendor",
-      "name": "Vendor",
-      "limit": 1
-    },
     {
       "type": "title",
       "name": "Title",
-      "limit": 1
-    },
-    {
-      "type": "price",
-      "name": "Price",
-      "limit": 1
-    },
-    {
-      "type": "variant_selector",
-      "name": "Variant Selector",
-      "limit": 1
-    },
-    {
-      "type": "quantity",
-      "name": "Quantity",
       "limit": 1
     },
     {
@@ -203,8 +204,71 @@
       "limit": 1
     },
     {
+      "type": "review",
+      "name": "Review",
+      "limit": 1
+    },
+    {
+      "type": "price",
+      "name": "Price",
+      "limit": 1
+    },
+    {
+      "type": "klarna",
+      "name": "Klarna Proof",
+      "limit": 1
+    },
+    {
+      "type": "quantity",
+      "name": "Quantity",
+      "limit": 1
+    },
+    {
       "type": "checkout_buttons",
       "name": "Checkout Buttons",
+      "limit": 1
+    },
+    {
+      "type": "payment-icons",
+      "name": "Payment Icons",
+      "limit": 1
+    },
+    {
+      "type": "additional-icons",
+      "name": "Additional Icons",
+      "settings": [
+        {
+          "type": "url",
+          "id": "icon-link",
+          "label": "Icon Link"
+        },
+        {
+          "type": "text",
+          "id": "icon-description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "name": "Accordion",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "accordion-title",
+          "label": "Accordion Title"
+        },
+        {
+          "type": "richtext",
+          "id": "accordion-description",
+          "label": "Accordion Description"
+        }
+      ]
+    },
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
       "limit": 1
     }
   ]

@@ -3,24 +3,116 @@
     "template": {
       "type": "template-product",
       "blocks": {
-        "vendor": { "type": "vendor" },
-        "title": { "type": "title" },
-        "price": { "type": "price" },
-        "variant_selector": { "type": "variant_selector" },
-        "quantity": { "type": "quantity" },
-        "description": { "type": "description" },
-        "checkout_buttons": { "type": "checkout_buttons" }
+        "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42": {
+          "type": "review",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "95786b33-50fd-4db8-8027-1a612ff9b81f": {
+          "type": "klarna",
+          "settings": {
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "checkout_buttons": {
+          "type": "checkout_buttons",
+          "settings": {
+          }
+        },
+        "4e9d29dd-8564-4dd8-9bc7-ae2f90c557b4": {
+          "type": "payment-icons",
+          "settings": {
+          }
+        },
+        "52350218-63e8-4f37-a440-35b5b511d0f6": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
+            "icon-description": "Gratis verzending vanaf €50"
+          }
+        },
+        "33653fbf-dfe2-481f-9290-551aabd89ff7": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "icon-description": "10.000+ Tevreden klanten"
+          }
+        },
+        "8eacafdf-48fd-43c4-9729-676c3844d9e6": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/calender.svg?v=1668551310",
+            "icon-description": "30 dagen bedenktijd"
+          }
+        },
+        "3a517eca-19eb-407d-9035-5e236e466db5": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Fast shipping",
+            "accordion-description": ""
+          }
+        },
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Retourneren",
+            "accordion-description": ""
+          }
+        },
+        "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "De nummer #1 trend onder de meiden 🥰",
+            "accordion-description": ""
+          }
+        },
+        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362": {
+          "type": "testimonial",
+          "settings": {
+          }
+        }
       },
       "block_order": [
-        "vendor",
+        "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42",
         "title",
-        "price",
-        "variant_selector",
-        "quantity",
         "description",
-        "checkout_buttons"
-      ]
+        "price",
+        "95786b33-50fd-4db8-8027-1a612ff9b81f",
+        "quantity",
+        "checkout_buttons",
+        "4e9d29dd-8564-4dd8-9bc7-ae2f90c557b4",
+        "52350218-63e8-4f37-a440-35b5b511d0f6",
+        "33653fbf-dfe2-481f-9290-551aabd89ff7",
+        "8eacafdf-48fd-43c4-9729-676c3844d9e6",
+        "3a517eca-19eb-407d-9035-5e236e466db5",
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9",
+        "072e6e43-df11-49b5-8b25-3f26c0a634f6",
+        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362"
+      ],
+      "settings": {
+      }
     }
   },
-  "order": ["template"]
+  "order": [
+    "template"
+  ]
 }
