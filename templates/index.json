@@ -158,7 +158,7 @@
     "442ec0b6-6c6f-42b9-89a2-5f03ac714dcc": {
       "type": "about-us",
       "settings": {
-        "desktop-left": false,
+        "desktop-left": true,
         "desktop-right": false,
         "inverted": false,
         "image": "shopify:\/\/shop_images\/tiktoks.png",
@@ -184,87 +184,134 @@
     "f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7": {
       "type": "social-proof",
       "blocks": {
-        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-0": {
-          "type": "heading",
+        "aca282f7-364e-4ba3-b7bd-ba65430e6f85": {
+          "type": "proof",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
           }
         },
-        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-1": {
-          "type": "text",
+        "84aa4e54-f00a-43ad-aaeb-66d3f40c81bb": {
+          "type": "proof",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "proof-image": "shopify:\/\/shop_images\/slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
           }
         },
-        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-2": {
-          "type": "button",
+        "ae514959-d4c7-4aa8-bb93-5fdef0b1bed0": {
+          "type": "proof",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "proof-image": "shopify:\/\/shop_images\/Untitled.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "6267c422-3c90-41e9-af19-8c3b2fb6e651": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "4ef78b4e-eed5-41fa-9fa9-1493291e8e54": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
           }
         }
       },
       "block_order": [
-        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-0",
-        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-1",
-        "template--16945319182643__f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7-1668401432f8da8562-2"
+        "aca282f7-364e-4ba3-b7bd-ba65430e6f85",
+        "84aa4e54-f00a-43ad-aaeb-66d3f40c81bb",
+        "ae514959-d4c7-4aa8-bb93-5fdef0b1bed0",
+        "6267c422-3c90-41e9-af19-8c3b2fb6e651",
+        "4ef78b4e-eed5-41fa-9fa9-1493291e8e54"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "What our customers are saying",
+        "tag": "Proudly rated 4.8\/5 among 10.000+ customers"
       }
     },
     "8b7f9e14-07ea-4db4-8143-c8e4e439b59c": {
       "type": "trust-badges",
       "blocks": {
-        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-0": {
-          "type": "heading",
+        "14fb8217-51a8-4e4c-88b8-d1e22508a70d": {
+          "type": "badges",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
+            "badge-title": "Kostenlose Lieferung",
+            "badge-description": "Kostenlose Lieferung ab €20!"
           }
         },
-        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-1": {
-          "type": "text",
+        "e1fb5cc2-9fc1-4938-a3ff-1bf3933ae260": {
+          "type": "badges",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title": "100% Kaufgarantie",
+            "badge-description": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
           }
         },
-        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-2": {
-          "type": "button",
+        "4883e775-6b08-491e-9ea3-10eb02164944": {
+          "type": "badges",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
+            "badge-title": "24\/7 Kundendienst",
+            "badge-description": "Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!"
+          }
+        },
+        "8312bfda-47d8-4263-adf0-8527814afd2a": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
+            "badge-title": "Verschlüsselte Zahlungen",
+            "badge-description": "Ihre Anmeldeinformationen werden sicher verarbeitet."
+          }
+        },
+        "aecdbcb0-4531-4f20-aec2-694735ca17dc": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "We staan altijd voor jou klaar!",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "f6cd23dd-77fa-40d8-bd8e-65ecb18bd6a2": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "100% Kaufgarantie",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "4ab5ec77-6407-4273-b773-2b1d8e385c0a": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "100% Kaufgarantie",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
           }
         }
       },
       "block_order": [
-        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-0",
-        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-1",
-        "template--16945319182643__8b7f9e14-07ea-4db4-8143-c8e4e439b59c-166840153668946bd2-2"
+        "14fb8217-51a8-4e4c-88b8-d1e22508a70d",
+        "e1fb5cc2-9fc1-4938-a3ff-1bf3933ae260",
+        "4883e775-6b08-491e-9ea3-10eb02164944",
+        "8312bfda-47d8-4263-adf0-8527814afd2a",
+        "aecdbcb0-4531-4f20-aec2-694735ca17dc",
+        "f6cd23dd-77fa-40d8-bd8e-65ecb18bd6a2",
+        "4ab5ec77-6407-4273-b773-2b1d8e385c0a"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },

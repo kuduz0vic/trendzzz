@@ -96,6 +96,11 @@
       "footer": {
         "type": "footer",
         "settings": {
+          "menu": "footer",
+          "menu-title": "Menu",
+          "secondary-menu": "footer-legal-menu",
+          "secondary-menu-title": "Legal",
+          "address": "<p>Lange Leidsedwarsstraat 74<br\/>Amsterdam 1017 NM Nederland<br\/><strong>hey@thetrenzz.co<\/strong><\/p>"
         }
       }
     },
