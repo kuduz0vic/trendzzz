@@ -11,7 +11,7 @@
     <div class="customcontainer">
       <div class="columns-2 w-row {% if section.settings.desktop-left %}desktop-left{% endif %} {% if section.settings.desktop-right %}desktop-right{% endif %} {% if section.settings.inverted %}inverted{% endif %}">
         <div class="image-column w-col w-col-6 w-col-stack">
-          <h1 class="brand-h1 hide4desktop">{{section.settings.title}}</h1><img src="{{section.settings.image | img_url: 'master'}}" loading="lazy" srcset="{{section.settings.image | img_url: 'master'}}500w, {{section.settings.image | img_url: 'master'}}800w, {{section.settings.image | img_url: 'master'}}1080w, images/tiktoks.png 1122w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 991px) 93vw, (max-width: 1279px) 46vw, 508px" alt="" class="image-column-img">
+          <h1 class="brand-h1 hide4desktop">{{section.settings.title}}</h1><img src="{{section.settings.image | img_url: 'master'}}" loading="lazy" srcset="{{section.settings.image | img_url: 'master'}} 500w, {{section.settings.image | img_url: 'master'}} 800w, {{section.settings.image | img_url: 'master'}} 1080w, images/tiktoks.png 1122w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 991px) 93vw, (max-width: 1279px) 46vw, 508px" alt="" class="image-column-img">
         </div>
         <div class="text-column w-col w-col-6 w-col-stack {% if section.settings.desktop-left %}iwt-padding{% endif %} {% if section.settings.inverted %}iwt-padding{% endif %}">
           <h1 class="brand-h1 hide4mobile">{{section.settings.title}}</h1>
