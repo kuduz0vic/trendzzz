@@ -13,7 +13,10 @@
               <div class="swiper myswiper3">
                 <div class="swiper-wrapper product-main_swiper">   
                   {% for media in product.media %}
-                  <div class="swiper-slide"><img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo"></div>
+                  <div class="swiper-slide">
+                    <img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">
+                    <div class="product-photo-label"><p class="product-photo-text">💖 MOST POPULAR</p></div>
+                  </div>
                 {% endfor %}
               </div>
               <div class="swiper-pagination-22"></div>
@@ -75,9 +78,9 @@
                 <div class="qtydiv"> 
                   <label for="Quantity" class="quantity-selector">Quantity</label>
                     <div class="amount-form-div qtybox">
-                      <span class="btnqty qtyminus icon icon-minus minus-amount w-inline-block">-</span>
+                      <span class="btnqty qtyminus icon-minus minus-amount w-inline-block">-</span>
                       <input type="text" id="quantity" name="quantity" value="1" min="1" class="quantity-selector quantity-input amount" readonly="">
-                      <span class="btnqty qtyplus icon icon-plus minus-amount w-inline-block">+</span>
+                      <span class="btnqty qtyplus icon-plus minus-amount w-inline-block">+</span>
                     </div>
                     </div>
                   </div>

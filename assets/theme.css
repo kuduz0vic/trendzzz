@@ -73,13 +73,7 @@ h6 {
   font-weight: 700;
 }
 
-p {
-  margin-bottom: 0rem;
-  color: #77717b;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 500;
-}
+
 
 a {
   border-color: #000;
@@ -16293,3 +16287,53 @@ video {
 .atc {
   font-family: Gilroy, sans-serif;
 }
+
+.store-benefit-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.klarna-element p {
+  margin-bottom: 0px;
+}
+
+.qtydiv {
+  text-align: left;
+}
+
+.swiper-slide.product-photo-label:not(:first-child) {
+  display: none;
+}
+
+.product-photo-text {
+  margin-bottom: 0px;
+}
+
+.white-backround {
+  background-color: white;
+  color: white !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .desktop-left_grid.content-block {
+    order: 2;
+  }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .desktop-right_grid.content-block {
+   order: 2 !important;
+    }
+  }
+
+  .inverted_grid.content-block {
+    order: 2 !important;
+  }
+
+  .faq-section-content p {
+    color: #77717b;
+    font-size: 18px;
+line-height: 30px;
+font-weight: 500;
+font-family: Gilroy, sans-serif;
+  }
