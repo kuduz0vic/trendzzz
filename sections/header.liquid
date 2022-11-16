@@ -83,6 +83,7 @@
         {% for link in linklists[section.settings.menu].links -%}
         <a href="{{link.url}}" class="navbar1_link-2 w-nav-link">{{link.title}}</a>
         {% endfor %}
+        <a href="/cart" class="site-header__cart">
         <div class="cart-icon_desktop">
           <div class="nav-button">
             <div class="icon-24 w-embed"><svg width="auto" height="auto" viewbox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,6 +91,9 @@
               </svg></div>
           </div>
         </div>
+        {% if cart.item_count > -1 %}
+        {% endif %}
+      </a>
       </nav>
     </div>
   </div>

@@ -38,11 +38,6 @@
           "settings": {
           }
         },
-        "4e9d29dd-8564-4dd8-9bc7-ae2f90c557b4": {
-          "type": "payment-icons",
-          "settings": {
-          }
-        },
         "52350218-63e8-4f37-a440-35b5b511d0f6": {
           "type": "additional-icons",
           "settings": {
@@ -68,26 +63,28 @@
           "type": "accordion",
           "settings": {
             "accordion-title": "Fast shipping",
-            "accordion-description": ""
+            "accordion-description": "<p>Niemand wacht graag op zijn pakket, daarom verzenden wij al onze producten met GLS-Express verzending inclusief tracking.<\/p><p>‍<\/p><p>🇳🇱 Geleverd binnen 4-6 werkdagen<br\/>🇧🇪 Geleverd binnen 4-6 werkdagen<br\/><br\/><strong>Verwerkingstijd:<\/strong> 1-2 werkdagen<br\/><strong>Totale levertijd:<\/strong> verwerkingstijd + verzendtijd<\/p>"
           }
         },
         "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9": {
           "type": "accordion",
           "settings": {
             "accordion-title": "Retourneren",
-            "accordion-description": ""
+            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
           }
         },
         "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
           "type": "accordion",
           "settings": {
             "accordion-title": "De nummer #1 trend onder de meiden 🥰",
-            "accordion-description": ""
+            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
           }
         },
         "fb18fd9e-4144-4a4b-8d43-f90b5ef65362": {
           "type": "testimonial",
           "settings": {
+            "testimonial-image": "shopify:\/\/shop_images\/Untitled.png",
+            "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong><\/p>"
           }
         }
       },
@@ -99,7 +96,6 @@
         "95786b33-50fd-4db8-8027-1a612ff9b81f",
         "quantity",
         "checkout_buttons",
-        "4e9d29dd-8564-4dd8-9bc7-ae2f90c557b4",
         "52350218-63e8-4f37-a440-35b5b511d0f6",
         "33653fbf-dfe2-481f-9290-551aabd89ff7",
         "8eacafdf-48fd-43c4-9729-676c3844d9e6",

@@ -25779,6 +25779,20 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
+
+$('.qtybox .btnqty').on('click', function(){
+  var qty = parseInt($(this).parent('.qtybox').find('.quantity-input').val());
+  if($(this).hasClass('qtyplus')) {
+    qty++;
+  }else {
+    if(qty > 1) {
+      qty--;
+    }
+  }
+  qty = (isNaN(qty))?1:qty;
+  $(this).parent('.qtybox').find('.quantity-input').val(qty);
+}); 
+
 var swiperNodes = "";
 /* loop throw all swipers on the page */
  $('#reviewSlider').each(function( index ) {
@@ -25937,11 +25951,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   
 
-   swiper.slides[i].classList.add('remove-item');                                    
-   swiper.slides[i].addEventListener('animationend', function () {
-       swiper.removeSlide(i);
-   });
-
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.menu-icon3').forEach(trigger => {
@@ -26079,11 +26088,6 @@ function myFunction() {
 }
 
 
-    swiper.slides[i].classList.add('remove-item');                                    
-    swiper.slides[i].addEventListener('animationend', function () {
-        swiper.removeSlide(i);
-    });
-
 
 document.addEventListener('DOMContentLoaded', () => {
  document.querySelectorAll('.menu-icon3').forEach(trigger => {
@@ -26101,9 +26105,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
    swiper.slides[i].classList.add('remove-item');                                    
    swiper.slides[i].addEventListener('animationend', function () {
        swiper.removeSlide(i);
    });
 
 
+
+   swiper.slides[i].classList.add('remove-item');                                    
+   swiper.slides[i].addEventListener('animationend', function () {
+       swiper.removeSlide(i);
+   });
+
+   
+   swiper.slides[i].classList.add('remove-item');                                    
+   swiper.slides[i].addEventListener('animationend', function () {
+       swiper.removeSlide(i);
+   });

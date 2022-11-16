@@ -16282,3 +16282,14 @@ figcaption {
 video {
   pointer-events: none;
 }
+
+.quantity-selector.quantity-input.amount {
+  border: 0;
+  max-width: 28px;
+  text-align: center;
+  font-family: Gilroy, sans-serif;
+}
+
+.atc {
+  font-family: Gilroy, sans-serif;
+}
