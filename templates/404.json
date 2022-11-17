@@ -1,8 +1,17 @@
 {
   "sections": {
     "template": {
-      "type": "template-404"
+      "type": "template-404",
+      "settings": {
+        "title": "404",
+        "block-title": "Niet gevonden",
+        "block-description": "<p>We didn't find the page you were looking for, but  did compile a NEW list with TikTok finds in the meantime...<br\/><br\/>Check it out by clicking bellow! Happy hunting!<\/p>",
+        "button-label": "Bekijk de bestsellers",
+        "button-url": ""
+      }
     }
   },
-  "order": ["template"]
+  "order": [
+    "template"
+  ]
 }
