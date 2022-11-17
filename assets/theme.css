@@ -16358,12 +16358,8 @@ font-family: Gilroy, sans-serif;
     width: 100%;
   }
 
- p {
-  margin-bottom: 0rem;
-  color: #77717b;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 500;
- } 
-
  p:empty {display: none;}
+
+ .template-404 #shopify-section-footer {
+  display: none;
+ }
