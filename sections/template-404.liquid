@@ -1,44 +1,52 @@
-<div class="template-404" id="template-404">
-  {{ section.settings.title }}
-  {{ section.settings.subtext_title }}
-  
-  {% if section.settings.button_url == blank %}
-    {% assign shop_url = shop.secure_url %}
-  {% else %}
-    {% assign shop_url = section.settings.button_url %}
-  {% endif %}
-  <a href="{{ shop_url }}">{{ section.settings.button_label }}</a>
+<div class="_404-section">
+  <div class="page-padding-2">
+    <div class="not-found-block" style="background-image:url({{'stargazing.png' | asset_url}})">
+      <h1 class="_404-heading">{{section.settings.title}}</h1>
+    </div>
+  </div>
+</div>
+<div class="not-found-cta-block">
+  <div class="vertical-div _10-row-gap">
+    <div class="text-s text-bold">{{section.settings.block-title}}</div>
+    <div class="text-s text-bold grey">{{section.settings.block-description}}</div>
+  </div>
+  <a href="{{section.settings.button-url}}" class="cta-primairy-2 even w-inline-block">
+    <div>{{section.settings.button-label}}</div>
+  </a>
 </div>
 
-
 {% schema %}
-{
-  "name": "Template 404",
-  "tag": "section",
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "default": "Error 404",
-      "label": "404 Heading Title"
-    },
-    {
-      "type": "text",
-      "id": "subtext_title",
-      "default": "The page that you're looking for is not found",
-      "label": "404 Subtext Title"
-    },
-    {
-      "type": "text",
-      "id": "button_label",
-      "default": "Back to homepage",
-      "label": "Button Label"
-    },
-    {
-      "type": "url",
-      "id": "button_url",
-      "label": "Button URL"
-    }
-  ]
-}
+  {
+    "name": "Template 404",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "404",
+        "label": "404 Heading Title"
+      },
+      {
+        "type": "text",
+        "id": "block-title",
+        "default": "Niet gevonden",
+        "label": "Block title"
+      },
+      {
+        "type": "richtext",
+        "id": "block-description",
+        "label": "Block Description"
+      },
+      {
+        "type": "text",
+        "id": "button-label",
+        "default": "Bekijk de bestsellers",
+        "label": "Button Label"
+      }, {
+        "type": "url",
+        "id": "button-url",
+        "label": "Button URL"
+      }
+    ]
+  }
 {% endschema %}
