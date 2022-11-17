@@ -110,10 +110,6 @@
     "b5c88592-a982-44a2-bb81-7f899276acd7": {
       "type": "product-iwt",
       "settings": {
-        "desktop-left_grid": false,
-        "desktop-right_grid": false,
-        "inverted_grid": false,
-        "background": false,
         "image": "shopify:\/\/shop_images\/product-iwt.png",
         "emoji": "🍿",
         "title": "Perfect for a night at home",
@@ -123,10 +119,6 @@
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
       "type": "product-first-iwt",
       "settings": {
-        "desktop-left_grid": false,
-        "desktop-right_grid": false,
-        "inverted_grid": false,
-        "background": false,
         "image": "shopify:\/\/shop_images\/product-iwt.png",
         "emoji": "🥰",
         "title": "Super soft and warm",
@@ -136,10 +128,6 @@
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
       "type": "last-iwt",
       "settings": {
-        "desktop-left_grid": false,
-        "desktop-right_grid": false,
-        "inverted_grid": false,
-        "background": false,
         "image": "shopify:\/\/shop_images\/product-iwt.png",
         "emoji": "📏",
         "title": "One size that fits all",

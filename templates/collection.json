@@ -1,8 +1,40 @@
 {
   "sections": {
-    "template": {
-      "type": "template-collection"
+    "a5f369ef-57dd-4420-968b-d4386f3bfc90": {
+      "type": "collection-announcment",
+      "blocks": {
+        "template--16945159209267__a5f369ef-57dd-4420-968b-d4386f3bfc90-16687032297bb43575-0": {
+          "type": "usp",
+          "settings": {
+            "column-text": "Zoals gezien op TikTok",
+            "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/hashtag.svg?v=1668436703"
+          }
+        },
+        "dc3495fc-acfe-4930-95da-ba14fed91bfb": {
+          "type": "usp",
+          "settings": {
+            "column-text": "10.000+ tevreden trend spotters",
+            "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/heart.svg?v=1668436704"
+          }
+        },
+        "aa2c19ad-eefd-428d-bf9e-95fe19e22728": {
+          "type": "usp",
+          "settings": {
+            "column-text": "Niet goed = geld terug",
+            "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/pink-shield.svg?v=1668436703"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945159209267__a5f369ef-57dd-4420-968b-d4386f3bfc90-16687032297bb43575-0",
+        "dc3495fc-acfe-4930-95da-ba14fed91bfb",
+        "aa2c19ad-eefd-428d-bf9e-95fe19e22728"
+      ],
+      "settings": {
+      }
     }
   },
-  "order": ["template"]
+  "order": [
+    "a5f369ef-57dd-4420-968b-d4386f3bfc90"
+  ]
 }
