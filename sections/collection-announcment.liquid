@@ -2,7 +2,7 @@
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'usp' %}
-        <div id="w-node-_8312cad2-f43b-cf9a-039d-877cc75e618d-ea427bf1" class="announcement-usp category-benefit-colors">
+        <div id="w-node-_8312cad2-f43b-cf9a-039d-877cc75e618d-ea427bf1" class="announcement-usp category-benefit-colors collection-announcment-{{forloop.index}}">
           <div class="icon-18 collection-announcement-p w-embed"><img src="{{block.settings.column-icon}}"></div>
           <div class="collection-announcement-p">{{block.settings.column-text}}</div>
         </div>

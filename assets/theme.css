@@ -16341,3 +16341,11 @@ font-family: Gilroy, sans-serif;
   .contact-form textarea {
     font-family: Gilroy, sans-serif;
   }
+
+  .collection-announcment-1 {
+    justify-content: flex-start;
+  }
+
+  .collection-announcment-3 {
+    justify-content: flex-end;
+  }
