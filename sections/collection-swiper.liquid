@@ -3,13 +3,13 @@
     <div class="container-v5">
       <div class="collection-slider-title-ms">{{section.settings.finds-title}}</div>
       <div data-delay="4000" data-animation="slide" class="categories-slider-collection-page-2 w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="6" data-duration="500" data-infinite="false">
-        {% for block in section.blocks %}
-          {% case block.type %}
-            {% when 'finds' %}
-              <div class="categorie-item-2 w-slider-mask">
+        <div class="categorie-item-2 w-slider-mask">
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'finds' %}
                 <div class="categorie-item-slide-3 w-slide">
                   <a href="{{block.settings.finds-link}}" class="categorie-card w-inline-block">
-                    <div class="categorie-symbol-3">
+                    <div class="categorie-symbol-3" style="background-image: url({{'Ellipse-20.svg' | asset_url}})">
                       <div class="image-framed"><img src="{{block.settings.finds-image | img_url: 'master'}}" loading="lazy" alt="" class="img-collection"></div>
                     </div>
                     <div class="categorie-info-wrapper-2">
@@ -20,59 +20,59 @@
                   </a>
                 </div>
               </div>
-          {% endcase %}
-        {% endfor %}
-        <div class="product12_arrow left w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/624380709031620b764aee7b_icon_slider-arrow-left.svg" loading="lazy" alt="" class="image-5"></div>
-        <div class="product12_arrow w-slider-arrow-right"><img src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/6243807090316275724aee79_icon_slider-arrow-right.svg" loading="lazy" alt="" class="image-5"></div>
-        <div class="categories-dots-2 w-slider-nav w-slider-nav-invert w-round"></div>
+            {% endcase %}
+          {% endfor %}
+          <div class="product12_arrow left w-slider-arrow-left"><img src="{{'ic20-chevron-left.svg' | asset_url}}" loading="lazy" alt="" class="image-5"></div>
+          <div class="product12_arrow w-slider-arrow-right"><img src="{{'ic20-chevron-right.svg' | asset_url}}" loading="lazy" alt="" class="image-5"></div>
+          <div class="categories-dots-2 w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-{% schema %}
-  {
-    "name": "Collection Swiper",
-    "tag": "section",
-    "class": "finds",
-    "settings": [
-      {
-        "type": "text",
-        "id": "finds-title",
-        "label": "Finds Title"
-      }
-    ],
-    "max_blocks": 50,
-    "blocks": [
-      {
-        "name": "Products",
-        "type": "finds",
-        "settings": [
-          {
-            "type": "text",
-            "id": "finds-text",
-            "label": "Product Title"
-          }, {
-            "type": "url",
-            "id": "finds-link",
-            "label": "Product Link"
-          }, {
-            "type": "image_picker",
-            "id": "finds-image",
-            "label": "Product Image"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Collection Swiper",
-        "blocks": [
-          {
-            "type": "finds"
-          }
-        ]
-      }
-    ]
-  }
-{% endschema %}
+  {% schema %}
+    {
+      "name": "Collection Swiper",
+      "tag": "section",
+      "class": "finds",
+      "settings": [
+        {
+          "type": "text",
+          "id": "finds-title",
+          "label": "Finds Title"
+        }
+      ],
+      "max_blocks": 50,
+      "blocks": [
+        {
+          "name": "Products",
+          "type": "finds",
+          "settings": [
+            {
+              "type": "text",
+              "id": "finds-text",
+              "label": "Product Title"
+            }, {
+              "type": "url",
+              "id": "finds-link",
+              "label": "Product Link"
+            }, {
+              "type": "image_picker",
+              "id": "finds-image",
+              "label": "Product Image"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Collection Swiper",
+          "blocks": [
+            {
+              "type": "finds"
+            }
+          ]
+        }
+      ]
+    }
+  {% endschema %}
