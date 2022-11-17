@@ -16366,3 +16366,5 @@ font-family: Gilroy, sans-serif;
   line-height: 28px;
   font-weight: 500;
  } 
+
+ p:empty {display: none;}
