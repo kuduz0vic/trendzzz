@@ -16343,9 +16343,14 @@ font-family: Gilroy, sans-serif;
   }
 
   .collection-announcment-1 {
-    justify-self: flex-start !important;
+    justify-self: end !important;
+  }
+
+  .collection-announcment-2 {
+   align-items: center !important;
+   justify-self: center !important;
   }
 
   .collection-announcment-3 {
-    justify-self: flex-end !important;
+    justify-self: start !important;
   }
