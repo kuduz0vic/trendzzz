@@ -1,0 +1,72 @@
+<div class="legal-section">
+  <div class="container-large-2">
+    <div class="legal-blocks-wrapper">
+      <div class="legal-title-wrapper">
+        <div class="text-block-15">{{section.settings.title}}</div>
+      </div>
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'block' %}
+            <div class="legal-content-block">
+              <div class="legal-content w-richtext">
+                <h3>{{block.settings.block-title}}</h3>
+                <p>Bloomon Nederland BV, Helmholtzstraat 61E, 1098 LE Amsterdam, waarmee je contracten aangaat, is samen met Bloomon SSC BV, Helmholtzstraat 61E, 1098 LE Amsterdam, verantwoordelijk voor het verzamelen, gebruiken, openbaar maken, opslaan en beschermen van jouw persoonsgegevens in overeenstemming met de toepasselijke nationale wetgeving. Wanneer in dit privacybeleid wordt verwezen naar &quot;wij&quot; of &quot;ons/onze&quot; wordt altijd Bloomon als verwerkingsverantwoordelijke bedoeld.</p>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+      <div class="legal-button-container">
+        <a href="{{section.settings.button-url}}" class="legal-page-button w-inline-block">
+          <div>{{section.settings.button-label}}</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Text Block",
+    "tag": "section",
+    "class": "finds",
+    "max_blocks": 50,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }, {
+        "type": "text",
+        "id": "button-label",
+        "label": "Button Label"
+      }, {
+        "type": "url",
+        "id": "button-url",
+        "label": "Button Url"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "block-title",
+            "label": "Block Title"
+          }, {
+            "type": "richtext",
+            "id": "block-description",
+            "label": "Block Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Text Block"
+      }
+    ]
+  }
+{% endschema %}
