@@ -1,0 +1,67 @@
+<section class="product-storytelling-section">
+  <div class="design-section-secondairy">
+    <div class="content-container">
+      <div class="w-layout-grid content-grid">
+        <div id="w-node-_38d2189d-cc1f-7a4c-bbe1-8320a7228576-6ddb3075" class="content-block">
+          <h2 class="product-info-h1">
+            <span class="icon">{{section.settings.emoji}}</span>
+            {{section.settings.title}}</h2>
+          <p class="product-paragraph">{{section.settings.description}}</p>
+        </div>
+        <div id="w-node-_38d2189d-cc1f-7a4c-bbe1-8320a722857d-6ddb3075" class="product-img-wrapper"><img src="{{section.settings.image | img_url: 'master'}}" sizes="(max-width: 479px) 93vw, (max-width: 767px) 87vw, (max-width: 991px) 450px, 443px" srcset="{{section.settings.image | img_url: 'master'}} 500w, {{section.settings.image | img_url: 'master'}} 800w, {{section.settings.image | img_url: 'master'}} 900w" alt="" class="product-info-img"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Middle Product IwT",
+    "class": "section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "desktop-left_grid",
+        "label": "Desktop - Left / Mobile Bottom"
+      },
+      {
+        "type": "checkbox",
+        "id": "desktop-right_grid",
+        "label": "Desktop - Right / Mobile Top"
+      },
+      {
+        "type": "checkbox",
+        "id": "inverted_grid",
+        "label": "Desktop - Left / Mobile Top",
+        "info": "Only one, from the 3 possibilites above, can be checked at the time!"
+      },
+      {
+        "type": "checkbox",
+        "id": "background",
+        "label": "White Background"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }, {
+        "type": "text",
+        "id": "emoji",
+        "label": "Emoji"
+      }, {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }, {
+        "type": "textarea",
+        "id": "description",
+        "label": "Description"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Middle Product IwT"
+      }
+    ]
+  }
+{% endschema %}

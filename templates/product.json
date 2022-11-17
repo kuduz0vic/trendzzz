@@ -107,7 +107,7 @@
       "settings": {
       }
     },
-    "02e058a2-3827-408f-9445-12d04f15d133": {
+    "b5c88592-a982-44a2-bb81-7f899276acd7": {
       "type": "product-iwt",
       "settings": {
         "desktop-left_grid": false,
@@ -120,13 +120,13 @@
         "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day. With a deep hood and a large pocket on the front, you can easily store snacks or your phone, you will instantly fall in love with our Snuggies."
       }
     },
-    "42248015-1774-4746-b212-d91506029f03": {
-      "type": "product-iwt",
+    "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
+      "type": "product-first-iwt",
       "settings": {
-        "desktop-left_grid": true,
+        "desktop-left_grid": false,
         "desktop-right_grid": false,
         "inverted_grid": false,
-        "background": true,
+        "background": false,
         "image": "shopify:\/\/shop_images\/product-iwt.png",
         "emoji": "🥰",
         "title": "Super soft and warm",
@@ -355,8 +355,8 @@
   },
   "order": [
     "template",
-    "02e058a2-3827-408f-9445-12d04f15d133",
-    "42248015-1774-4746-b212-d91506029f03",
+    "b5c88592-a982-44a2-bb81-7f899276acd7",
+    "91310fff-7575-48ed-84f3-b5e39a1f61bc",
     "8bfb2ecf-baf8-445e-8246-1ea2d290935f",
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4",
     "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e",
