@@ -16338,6 +16338,7 @@ font-weight: 500;
 font-family: Gilroy, sans-serif;
   }
 
-  .contact_form input {
+  .contact-form input,
+  .contact-form textarea {
     font-family: Gilroy, sans-serif;
   }
