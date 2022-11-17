@@ -1,0 +1,65 @@
+<div class="page-padding-3">
+  <div class="title-and-blocks-2">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'faq-tag' %}
+          <h2 class="faq-page-tag">{{block.settings.tag}}</h2>
+      {% endcase %}
+    {% endfor %}
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'faq-title' %}
+          <h1 class="faq-page-h1">{{block.settings.title}}</h1>
+      {% endcase %}
+    {% endfor %}
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'faq-description' %}
+          <p class="faq-page-p text-align-center">{{block.settings.description}}</p>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "FAQ Title",
+    "tag": "section",
+    "class": "page-faq",
+    "max_blocks": 3,
+    "blocks": [
+      {
+        "name": "FAQ Tag",
+        "type": "faq-tag",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tag",
+            "label": "Tag"
+          }
+        ]
+      }, {
+        "name": "FAQ Title",
+        "type": "faq-title",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }, {
+        "name": "FAQ Description",
+        "type": "faq-description",
+        "settings": [
+          {
+            "type": "text",
+            "id": "description",
+            "label": "Description"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

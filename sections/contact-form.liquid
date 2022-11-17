@@ -1,47 +1,47 @@
-{% if section.settings.title != blank %}
-  <h1>{{ section.settings.title }}</h1>
-{% endif %}
-  
-{% form 'contact' %}
+<div class="contact-wrapper">
+  <div class="contact-title-and-blocks">
+    <div class="form-title-wrapper">
+      <h2 class="contact-tag">CONTACT US</h2>
+      <h1 class="contact-h1">Do you need help?</h1>
+    </div>
+    <p class="contact-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium fermentum semper at blandit.</p>
+  </div>
 
-  {% if form.errors %}
-    <p>Your message was not sent</p> 
-    {% for error in form.errors %}
-      <p>{{ form.errors.messages[error] }}</p>
-    {% endfor %}
-  {% elsif form.posted_successfully? %}
-    <p>Your message was sent successfully</p>
-  {% endif %}
-
-  <label for="contact_name">Name</label>
-  <input type="text" name="contact[name]" id="contact_name">
-
-  <label for="contact_email">Email address</label>
-  <input type="email" name="contact[email]" id="contact_email">
-
-  <label for="contact_message">Message</label>
-  <textarea name="contact[body]" id="contact_message"></textarea>
-
-  <input type="submit" value="Submit message">
-
-{% endform %}
-
-
+  <div class="contact-inputs">
+    <div class="w-form">
+      {% form 'contact' %}
+        {% if form.errors %}
+          <p>Your message was not sent</p>
+          {% for error in form.errors %}
+            <p>{{ form.errors.messages[error] }}</p>
+          {% endfor %}
+        {% elsif form.posted_successfully? %}
+          <p>Your message was sent successfully</p>
+        {% endif %}
+        <input type="text" class="contact-input w-input" name="contact[name]" maxlength="256" name="name-4" data-name="Name 4" placeholder="🤠 First Name" id="name-4">
+        <input type="email" class="contact-input w-input" name="contact[email]" maxlength="256" name="email-4" data-name="Email 4" placeholder="📧  E-mail address" id="email-4" required="">
+        <input type="number" class="contact-input w-input" maxlength="256" name="number-4" data-name="Number 4" placeholder="☎️ Phone number" id="number-4" required="">
+        <textarea placeholder="💬 Message" maxlength="5000" id="Message" name="Message" name="contact[body]" data-name="Message" required="" class="form-input-2 is-text-area w-input"></textarea>
+        <input type="submit" value="Send" data-wait="Please wait..." class="button-pink w-button">
+      {% endform %}
+    </div>
+  </div>
+</div>
 
 {% schema %}
-{
-  "name": "Contact Form",
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Title"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Contact Form"
-    }
-  ]
-}
+  {
+    "name": "Contact Form",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Contact Form"
+      }
+    ]
+  }
 {% endschema %}

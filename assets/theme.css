@@ -1741,7 +1741,7 @@ figcaption {
   line-height: 44px;
 }
 
-.form-2 {
+.contact-form {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -16336,4 +16336,8 @@ video {
 line-height: 30px;
 font-weight: 500;
 font-family: Gilroy, sans-serif;
+  }
+
+  .contact_form input {
+    font-family: Gilroy, sans-serif;
   }
