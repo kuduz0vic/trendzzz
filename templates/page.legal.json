@@ -1,8 +1,43 @@
 {
-    "sections": {
-      "template": {
-        "type": "text-block"
+  "sections": {
+    "template": {
+      "type": "text-block",
+      "blocks": {
+        "210f6884-0e4d-4ab5-8aa0-bbf3418c0ca4": {
+          "type": "block",
+          "settings": {
+            "block-title": "Bereik",
+            "block-description": "<p>Bloomon Nederland BV, Helmholtzstraat 61E, 1098 LE Amsterdam, waarmee je contracten aangaat, is samen met Bloomon SSC BV, Helmholtzstraat 61E, 1098 LE Amsterdam, verantwoordelijk voor het verzamelen, gebruiken, openbaar maken, opslaan en beschermen van jouw persoonsgegevens in overeenstemming met de toepasselijke nationale wetgeving. Wanneer in dit privacybeleid wordt verwezen naar \"wij\" of \"ons\/onze\" wordt altijd Bloomon als verwerkingsverantwoordelijke bedoeld.<\/p>"
+          }
+        },
+        "594f568d-1d31-4556-93de-d62d2d1e8698": {
+          "type": "block",
+          "settings": {
+            "block-title": "Persoonsgegevens die wij verzamelen",
+            "block-description": "<p>Wij verzamelen persoonsgegevens van jou en de apparaten (inclusief mobiele apparaten) die je gebruikt wanneer je: onze Diensten gebruikt, een account bij ons aanmaakt, gegevens op een webformulier invult, gegevens op je account bijwerkt of toevoegt of op een andere manier met ons communiceert. Wij kunnen persoonsgegevens ook vanaf andere bronnen verzamelen, zoals hieronder wordt aangegeven.<\/p>"
+          }
+        },
+        "8d6aac44-7871-44b8-8a2e-d8c2d23704a3": {
+          "type": "block",
+          "settings": {
+            "block-title": "Persoonsgegevens die je verstrekt wanneer je onze Diensten gebruikt of wanneer je je registreert voor een account bij ons",
+            "block-description": "<p><strong>•<\/strong> Identificerende gegevens zoals je naam, adressen, telefoonnummers of e-mailadressen wanneer je je registreert voor een account bij ons.   <\/p><p><strong>•<\/strong> Andere gegevens die je genereert of die verbonden zijn aan je account (zoals aankoopgeschiedenis, account status (actief, gepauzeerd, gestopt), of eventuele referrals.<\/p><p><strong>•<\/strong> Financiële gegevens (zoals nummers van creditcards of bankrekeningen) die verband houden met een transactie.<\/p><p><strong>•<\/strong> Verzend gegevens, zoals naam en adres, en verzendgegevens. In sommige gevallen kun je je leeftijd, geslacht, interesses, persoonlijk bericht voor op gift card en favorieten opgeven wanneer je onze Diensten gebruikt.<\/p><p><strong>•<\/strong> Je kunt ons ook andere gegevens verstrekken via een webformulier, door gegevens bij te werken of aan je account toe te voegen, chats, oplossing van geschillen of wanneer je op een andere manier met ons communiceert in verband met onze Diensten.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "210f6884-0e4d-4ab5-8aa0-bbf3418c0ca4",
+        "594f568d-1d31-4556-93de-d62d2d1e8698",
+        "8d6aac44-7871-44b8-8a2e-d8c2d23704a3"
+      ],
+      "settings": {
+        "title": "Privacybeleid",
+        "button-label": "Get to shop",
+        "button-url": ""
       }
-    },
-    "order": ["template"]
-  }
+    }
+  },
+  "order": [
+    "template"
+  ]
+}
