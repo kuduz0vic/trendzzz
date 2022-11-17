@@ -32,9 +32,83 @@
       ],
       "settings": {
       }
+    },
+    "d7d2c5fb-157d-4836-b4a3-106c91b32b3f": {
+      "type": "collection-swiper",
+      "blocks": {
+        "template--16945081876787__d7d2c5fb-157d-4836-b4a3-106c91b32b3f-16687052059cfc36c6-0": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "shopify:\/\/products\/the-airstyler-™",
+            "finds-image": "shopify:\/\/shop_images\/slippers.png"
+          }
+        },
+        "c1c25de7-b1e6-45a5-9be2-57d362322cfb": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/product-iwt.png"
+          }
+        },
+        "f1a04669-7253-4722-8b2a-65bba0889a6d": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+          }
+        },
+        "6461fd88-6609-47ed-8906-acb17b867294": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/slippers.png"
+          }
+        },
+        "1a7d3bff-f9e6-4a18-b761-5ece95476eab": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/red-slippers.png"
+          }
+        },
+        "d1820a33-e5ff-487d-8d94-3c5348330c40": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Print Editions",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+          }
+        },
+        "1b1d63d0-a040-49f2-bf11-c52ea5e1cce6": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "",
+            "finds-link": "",
+            "finds-image": "shopify:\/\/shop_images\/red-slippers.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945081876787__d7d2c5fb-157d-4836-b4a3-106c91b32b3f-16687052059cfc36c6-0",
+        "c1c25de7-b1e6-45a5-9be2-57d362322cfb",
+        "f1a04669-7253-4722-8b2a-65bba0889a6d",
+        "6461fd88-6609-47ed-8906-acb17b867294",
+        "1a7d3bff-f9e6-4a18-b761-5ece95476eab",
+        "d1820a33-e5ff-487d-8d94-3c5348330c40",
+        "1b1d63d0-a040-49f2-bf11-c52ea5e1cce6"
+      ],
+      "settings": {
+        "finds-title": ""
+      }
     }
   },
   "order": [
-    "a5f369ef-57dd-4420-968b-d4386f3bfc90"
+    "a5f369ef-57dd-4420-968b-d4386f3bfc90",
+    "d7d2c5fb-157d-4836-b4a3-106c91b32b3f"
   ]
 }
