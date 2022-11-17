@@ -105,10 +105,182 @@
       "settings": {
         "finds-title": ""
       }
+    },
+    "7cbecdb5-6e8d-409e-930e-54535cd75203": {
+      "type": "collection-showcase",
+      "settings": {
+        "label-text": "💖 MOST POPULAR",
+        "label-text-color": "#f92766",
+        "review-text": "128 Reviews",
+        "button-label": "Add to cart"
+      }
+    },
+    "4306328f-effd-4ea1-929e-d69c708cd55d": {
+      "type": "collection-iwt",
+      "blocks": {
+        "51a05899-262c-450b-9bc5-5ffb689fa2b5": {
+          "type": "slide",
+          "settings": {
+            "emoji": "🥸",
+            "title": "De nieuwste trends",
+            "description": "Bij The Trendzz blijf je altijd up to date van de nieuweste TikTok trends. Ons team TikTok experts werkt dagelijks deze lijst bij zodat je nooit een trend mist!"
+          }
+        },
+        "00c174c9-13cf-4ab5-9390-8bda81673e4b": {
+          "type": "slide",
+          "settings": {
+            "emoji": "🏷",
+            "title": "Scherpe prijzen",
+            "description": "De nieuwste trends tegen de scherpste prijs! Dat is waar wij voor staan. Dankzij de steun van de duizenden tevreden trend spotters bieden wij ons assortiment aan met de scherpste prijzen!"
+          }
+        },
+        "70de1448-1dcc-498c-b8af-d593e37b79f0": {
+          "type": "slide",
+          "settings": {
+            "emoji": "🥰",
+            "title": "10.000+ Trendspotters™",
+            "description": "Wij hebben al meer dan 10.000+ klanten blij mogen maken met de nieuwste trendy items. Sluit jij jezelf aan bij ons clubje Trendspotters™?"
+          }
+        }
+      },
+      "block_order": [
+        "51a05899-262c-450b-9bc5-5ffb689fa2b5",
+        "00c174c9-13cf-4ab5-9390-8bda81673e4b",
+        "70de1448-1dcc-498c-b8af-d593e37b79f0"
+      ],
+      "settings": {
+      }
+    },
+    "2aba1e1c-6f1b-4e2e-9df4-8f3ddf823a7d": {
+      "type": "social-proof",
+      "blocks": {
+        "template--16945159209267__2aba1e1c-6f1b-4e2e-9df4-8f3ddf823a7d-166870947447414a2a-0": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "8846163e-94dc-4bc3-9e5f-0ceea86ac3e6": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "f8a3b377-b7d4-423e-a1b1-daa5886d665b": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "202ef4d7-d4e6-4caa-a818-e33f237bd6ba": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        }
+      },
+      "block_order": [
+        "template--16945159209267__2aba1e1c-6f1b-4e2e-9df4-8f3ddf823a7d-166870947447414a2a-0",
+        "8846163e-94dc-4bc3-9e5f-0ceea86ac3e6",
+        "f8a3b377-b7d4-423e-a1b1-daa5886d665b",
+        "202ef4d7-d4e6-4caa-a818-e33f237bd6ba"
+      ],
+      "settings": {
+        "title": "",
+        "tag": ""
+      }
+    },
+    "0b56c432-1d92-4cef-94fe-86d919ff33a0": {
+      "type": "trust-badges",
+      "blocks": {
+        "template--16945159209267__0b56c432-1d92-4cef-94fe-86d919ff33a0-1668709474274a5479-0": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
+            "badge-title": "Kostenlose Lieferung",
+            "badge-description": "Kostenlose Lieferung ab €20!"
+          }
+        },
+        "a26a8a3d-6458-4450-851d-aede73e66979": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title": "100% Kaufgarantie",
+            "badge-description": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "6ae18d1e-9ef8-416d-a18c-c8e5998fd757": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
+            "badge-title": "24\/7 Kundendienst",
+            "badge-description": "Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!"
+          }
+        },
+        "99651e8a-3dd9-4213-b741-af265e6092da": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
+            "badge-title": "Verschlüsselte Zahlungen",
+            "badge-description": "Ihre Anmeldeinformationen werden sicher verarbeitet."
+          }
+        },
+        "4eadebeb-a9db-465f-8c71-80b4ae8e127c": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "We staan altijd voor jou klaar!",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "6679a1d5-945c-470d-9312-46dd8812d044": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "100% Kaufgarantie",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "522cfec7-7575-40fc-b860-f14fe6b401c9": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "100% Kaufgarantie",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        }
+      },
+      "block_order": [
+        "template--16945159209267__0b56c432-1d92-4cef-94fe-86d919ff33a0-1668709474274a5479-0",
+        "a26a8a3d-6458-4450-851d-aede73e66979",
+        "6ae18d1e-9ef8-416d-a18c-c8e5998fd757",
+        "99651e8a-3dd9-4213-b741-af265e6092da",
+        "4eadebeb-a9db-465f-8c71-80b4ae8e127c",
+        "6679a1d5-945c-470d-9312-46dd8812d044",
+        "522cfec7-7575-40fc-b860-f14fe6b401c9"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "a5f369ef-57dd-4420-968b-d4386f3bfc90",
-    "d7d2c5fb-157d-4836-b4a3-106c91b32b3f"
+    "d7d2c5fb-157d-4836-b4a3-106c91b32b3f",
+    "7cbecdb5-6e8d-409e-930e-54535cd75203",
+    "4306328f-effd-4ea1-929e-d69c708cd55d",
+    "2aba1e1c-6f1b-4e2e-9df4-8f3ddf823a7d",
+    "0b56c432-1d92-4cef-94fe-86d919ff33a0"
   ]
 }

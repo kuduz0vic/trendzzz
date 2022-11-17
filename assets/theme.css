@@ -16354,3 +16354,7 @@ font-family: Gilroy, sans-serif;
   .collection-announcment-3 {
     justify-self: start !important;
   }
+
+  .collection-atc_form{
+    width: 100%;
+  }
