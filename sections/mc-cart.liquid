@@ -1,0 +1,170 @@
+{% schema %}
+  {
+    "name": "Cart",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "placeholder": "Your Cart",
+        "default": "Your Cart",
+        "label": "Your Cart Title"
+      },
+      {
+        "type": "text",
+        "id": "total_text",
+        "placeholder": "Total:",
+        "default": "Total:",
+        "label": "Total Text"
+      },
+      {
+        "type": "text",
+        "id": "subtotal_text",
+        "placeholder": "Subtotal",
+        "default": "Subtotal",
+        "label": "Subtotal Text"
+      },
+      {
+        "type": "text",
+        "placeholder": "Shipping",
+        "id": "shipping_label",
+        "default": "Shipping",
+        "label": "Shipping Label"
+      }, {
+        "type": "text",
+        "id": "shipping_text",
+        "placeholder": "Calculated in next step",
+        "default": "Calculated in next step",
+        "label": "Calculated at checkout text"
+      }, {
+        "type": "text",
+        "id": "checkout_btn",
+        "placeholder": "Checkout |",
+        "default": "Checkout |",
+        "label": "Checkout Text"
+      }, {
+        "type": "text",
+        "id": "terms_text",
+        "placeholder": "Or Pay Later using",
+        "default": "Or Pay Later using",
+        "label": "Or pay in 14 days with text"
+      }, {
+        "type": "image_picker",
+        "id": "logo_klarna",
+        "label": "Logo Klarna"
+      }, {
+        "type": "text",
+        "id": "usp1",
+        "placeholder": "Free 30 Day Returns",
+        "default": "Free 30 Day Returns",
+        "label": "USP 1 Text"
+      }, {
+        "type": "text",
+        "id": "usp2",
+        "placeholder": "100% Authentic",
+        "default": "100% Authentic",
+        "label": "USP 2 Text"
+      }
+    ]
+  }
+{% endschema %}
+
+<form action="{{ routes.cart_url }}" method="post" class="my-cart">
+  <div class="mc-cart-section wf-section" data-ajax-cart-section>
+    <div class="mc-cart-page-padding">
+      <div class="mc-cart-container-m">
+        <div class="mc-cart-vertical-div mc-cart-align-left">
+          <div class="mc-cart-header">
+            <h2 class="mc-cart-h2">{{ section.settings.title }}</h2>
+            <div class="mc-cart-text-s mc-cart-text-bold cart-total-mobile">
+              {{ section.settings.total_text }}
+              {{ cart.total_price | money_with_currency }}
+            </div>
+          </div>
+          <div class="mc-cart-shopping-grid">
+            <div class="mc-cart-shopping-items-grid">
+              {% if cart.item_count > 0 %}
+                {% for item in cart.items %}
+                  {% assign item_index = forloop.index %}
+                  <div class="mc-cart-shopping-item">
+                    <div class="mc-cart-shopping-image" style="background-image:url({{ item.image | image_url: width: 400, height: 400 }})"></div>
+                    <div class="mc-cart-shopping-info-div">
+                      <div class="mc-cart-shopping-info-top">
+                        <div class="mc-cart-text-m text-bold">{{ item.product.title }}</div>
+                      </div>
+                      <div class="mc-cart-text-s text-caps">
+                        <strong>Size</strong>
+                        {{ item.variant.title }}</div>
+                      <div class="mc-cart-shopping-info-bottom">
+                        <div class="mc-cart-add-shopping-grid">
+                          <a class="mc-cart-remove-shopping-button" data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ item_index }}&quantity={{ item.quantity | minus: 1 }}"></a>
+                          <span class="mc-cart-quantity" data-ajax-cart-quantity-input="{{ item_index }}">
+                            {{- item.quantity -}}
+                          </span>
+                          <a class="mc-cart-add-shopping-button" data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ item_index }}&quantity={{ item.quantity | plus: 1 }}"></a>
+                        </div>
+                        <div class="mc-cart-shopping-total-item-price">
+                          <div class="mc-cart-text-s mc-cart-text-bold">
+                            {{ item.final_line_price | money }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div data-ajax-cart-messages="{{ item.key }}"></div>
+                {% endfor %}
+              {% else %}
+                Your cart is empty. Go to our homepage and discover our bestsellers
+              {% endif %}
+            </div>
+            <div class="mc-cart-checkout-block">
+              <div class="mc-cart-shopping-info">
+                <div class="mc-cart-text-s mc-cart-text-bold">
+                  {{ section.settings.subtotal_text }} - {{ cart.item_count }} items
+                </div>
+                <div class="mc-cart-shopping-total-item-price">
+                  <div class="mc-cart-text-s mc-cart-text-bold black-font-color">
+                    {{ cart.total_price | money_with_currency }}
+                  </div>
+                </div>
+              </div>
+              <div class="mc-cart-shopping-info">
+                <div class="mc-cart-text-s mc-cart-text-bold">
+                  {{ section.settings.shipping_label }}
+                </div>
+                <div class="mc-cart-shopping-total-item-price">
+                  <div class="mc-cart-text-s mc-cart-text-bold black-font-color">
+                    {{ section.settings.shipping_text }}
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart__actions">
+                <button type="submit" name="checkout" class="mc-cart-checkout-btn mc-cart-desktop w-button" id="mc-cart-in-box">
+                  {{ section.settings.checkout_btn }}
+                  {{ cart.total_price | money_with_currency }}
+                </button>
+              </div>
+
+              <div class="mc-cart-shopping-links">
+                <span id="w-node-af7d721e-cdb6-9750-7615-f54f94a36198-f044f833" class="mc-cart-text-s black-font-color">
+                  {{- section.settings.usp1 -}}
+                </span>
+                <span id="w-node-af7d721e-cdb6-9750-7615-f54f94a3619a-f044f833" class="mc-cart-text-s black-font-color">
+                  {{- section.settings.usp2 -}}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<script>
+  document.getElementById('mc-cart-in-box').addEventListener('click', function() {
+    this.classList.add('loading');
+    this.innerHTML = '<svg class="icon" xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" style="margin: auto; background-color: transparent; display: block; shape-rendering: auto;" width="24px" height="24px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="#ffffff" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138"><\/circle>';
+  });
+</script>

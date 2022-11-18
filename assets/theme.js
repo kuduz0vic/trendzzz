@@ -26009,6 +26009,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+
 $('[data-click="faq"]').click(function(){
   if(!$(this).is('.open')){
     $('[data-click="faq"].open').each((i, item)=>{
@@ -26101,6 +26102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
  });
 });
+
 
 
 

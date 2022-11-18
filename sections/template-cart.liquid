@@ -1,48 +1,130 @@
 {% if cart.item_count > 0 %}
-  <h1>Your cart</h1>        
-  <div>
-    <form action="{{ routes.cart_url }}" method="POST" novalidate>
-      <table>
-        <thead>
-          <th>Product</th>
-          <th>Quantity</th>
-          <th>Total Price</th>
-        </thead>
-        <tbody>
-          {% for item in cart.items %}
-            <tr>
-              <td>
-                <a href="{{ item.url }}">
-                  {% if item.image %}
-                    <img src="{{ item.image | img_url: 'small' }}" alt="{{ item.title | escape }}">
-                  {% else %}
-                    {{ 'product-1' | placeholder_svg_tag: '' }}
-                  {% endif %}
-                </a>
-              </td>
-              <td>
-                <a href="{{ item.url }}">{{ item.product.title | truncatewords: 5 }}</a>
-                <span>{{ item.variant.title }}</span>
-                <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity=0">Remove</a>
-              </td>
-              <td>
-                <input type="number" name="updates[]" value="{{ item.quantity }}" min="1" id="updates_{{ forloop.index }}">
-              </td>
-              <td>
-                {{ item.line_price | money }}
-              </td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-      <div>
-        <label for="cart_notes">Cart notes</label>
-        <textarea name="note" id="cart_notes"></textarea>
+  <div class="page-container">
+    <div class="cart-announcement-bar">
+      <div class="container-v1">
+        <div class="cart-announcement-wrapper">
+          <div class="flashing-dot">
+            <div data-w-id="a72f6fb2-82e2-3982-1c2c-4921974ad06f" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/6343ca3373efc7eb47047e96/6343ca3373efc729ce047ef9_lf30_editor_vak9ewfl.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1" data-duration="0"></div>
+          </div>
+          <div class="cart-announcement-p">291 andere mensen zijn aan het afrekenen</div>
+        </div>
       </div>
-      <div>
-        <h3>Subtotal: {{ cart.total_price | money }}</h3>
-        <button type="submit" name="update">Update Cart</button>
-        <button type="submit" name="checkout">Go to Checkout</button>
+    </div>
+    <form action="{{ routes.cart_url }}" method="POST" novalidate>
+      <div class="cart-hero-section">
+        <div class="page-padding-2">
+          <div class="container-v1">
+            <div class="cart-grid">
+              <div id="w-node-a72f6fb2-82e2-3982-1c2c-4921974ad076-0343c52e" class="cart-block-2">
+                <div class="cart-list">
+                  {% for item in cart.items %}
+                    {% capture discount %}
+                      {{ item.variant.compare_at_price | minus: item.price | money_without_trailing_zeros }}
+                    {% endcapture %}
+                    <div class="cart-div">
+                      <div class="cart-div-headline">
+                        <div class="text-m text-bold cart-desktop">{{ item.variant.title }}</div>
+                        <div class="cart-icon-wrapper"><img src="{{'Trash.svg' | asset_url}}" loading="lazy" alt="" class="cart-delete"></div>
+                      </div>
+                      <div class="cart-info"><img src="{{ item.image | img_url: 'master' }}" loading="lazy" srcset="{{ item.image | img_url: 'master' }} 500w, {{ item.image | img_url: 'master' }} 800w, {{ item.image | img_url: 'master' }} 800w" sizes="(max-width: 479px) 10vw, 112px" alt="" class="cart-image">
+                        <div class="cart-item-information">
+                          <div class="cart-information">
+                            <div class="cart-mobile-price">{{ item.variant.title }}</div>
+                            <div class="cart-price-wrapper">
+                              <p class="cart-discount-p">{{ item.variant.compare_at_price | money}}</p>
+                              <p class="cart-price-p">{{ item.price | money }}</p>
+                              <div class="cart-price-save">SAVE {{ discount }}</div>
+                            </div>
+                          </div>
+                          <div id="w-node-ac8b3e74-08be-b8ea-026a-bc0837c60ffb-6ddb3075" class="product-options-form">
+                            <div id="w-node-f1f4fbe8-300e-75de-abb2-487558ab1d7a-6ddb3075" class="amount-form">
+                              <div class="qtydiv">
+                                <div class="amount-form-div qtybox">
+                                  <span class="btnqty qtyminus icon-minus minus-amount w-inline-block">-</span>
+                                  <input type="number" name="updates[]" value="{{ item.quantity }}" min="1" id="updates_{{ forloop.index }}" class="quantity-selector quantity-input amount" readonly="">
+                                  <span class="btnqty qtyplus icon-plus minus-amount w-inline-block">+</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+                {%- assign product = all_products[section.settings.upsell-product] -%}
+                {% capture upsell-discount %}
+                  {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
+                {% endcapture %}
+                <div class="cart-upsell">
+                  <div class="text-l text-bold">{{section.settings.upsell-title}}</div>
+                  <div class="cart-upsell-block">
+                    <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
+                      <div class="upsell-info-wrapper">
+                        <div class="text-m text-bold">{{product.title}}</div>
+                        <div class="cart-price-wrapper">
+                          <p class="card-discount-p-2">{{product.compare_at_price | money}}</p>
+                          <p class="cart-price-p">{{product.price | money}}</p>
+                          <div class="cart-price-save upsell">SAVE {{ upsell-discount }}</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="upsell-atc w-inline-block">
+                      <form method="post" action="/cart/add" class="collection-atc_form">
+                        <input type="hidden" name="id" value="{{ product.variants.first.id }}"/>
+                        <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
+                        <button type="submit" class="text-block-16" name="add">
+                          {% if selected_variant.available == false %}
+                            Sold out
+                          {% else %}
+                            {{section.settings.upsell-button_label}}
+                          {% endif %}
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-a72f6fb2-82e2-3982-1c2c-4921974ad0c5-0343c52e" class="cart-form-box">
+                <div class="cart-form-headline">
+                  <div class="text-xxl cart-heading text-bold">Your Cart
+                    <span class="light-grey">({{ cart.item_count }} items)</span>
+                  </div>
+                </div>
+                <div class="cart-form-div">
+                  <div class="slidebar-info">
+                    <div class="slidebar-rewards-info">
+                      <div class="text-m text-bold black">Rewards</div>
+                      <div class="reward-tags">
+                        <div class="reward-tag reward-achieved">📦 FREE SHIPPING</div>
+                        <div class="reward-tag">🎁 FREE GIFT</div>
+                      </div>
+                    </div>
+                    <div class="amount-bar-container">
+                      <div class="amount-bar"></div>
+                    </div>
+                    <div class="text-m text-bold black">You are 16$ away from free gift</div>
+                  </div>
+                  <div class="cart-form-block">
+                    <div class="cart-details">
+                      <div class="text-s text-bold _24-line-height">Shipping</div>
+                      <div class="text-s text-bold _24-line-height">Free for orders above $50!</div>
+                    </div>
+                    <div class="cart-details">
+                      <div class="text-s text-bold _24-line-height">Total</div>
+                      <div class="cart-total-price-wrapper">
+                        <div class="text-s text-bold _24-line-height">{{ cart.total_price | money }}</div>
+                        <div class="cart-total-saved">YOU SAVED $60</div>
+                      </div>
+                    </div>
+                    <button type="submit" class="cta-primairy w-inline-block" name="checkout">Proceed To Safe Checkout</button>
+                    <div class="cart-payment-methods"><img src="{{'Group-300.svg' | asset_url}}" loading="lazy" alt="" class="cart-payment-icon"><img src="{{'Group-319.svg' | asset_url}}" loading="lazy" alt="" class="cart-payment-icon"><img src="{{'Group-318.svg' | asset_url}}" loading="lazy" alt="" class="cart-payment-icon"><img src="{{'mastercard.svg' | asset_url}}" loading="lazy" alt="" class="cart-payment-icon"><img src="{{'Group-315.svg' | asset_url}}" loading="lazy" alt="" class="cart-payment-icon"><img src="{{'Group-314.svg' | asset_url}}" loading="lazy" alt="" class="cart-payment-icon"><img src="{{'Group-313.svg' | asset_url}}" loading="lazy" alt="" class="cart-payment-icon"><img src="{{'Group-310.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </form>
   </div>
@@ -51,26 +133,52 @@
   <a href="{{ routes.all_products_collection_url }}">Continue shopping</a>
 {% endif %}
 
+<style>
+  .quantity-selector::-webkit-outer-spin-button,
+  .quantity-selector::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  .quantity-selector {
+    -moz-appearance: textfield;
+  }
+</style>
+
 
 {% schema %}
-{
-  "name": "Template Cart",
-  "blocks": [
-    {
-      "type": "subtotal",
-      "name": "Subtotal",
-      "limit": 1
-    },
-    {
-      "type": "update_button",
-      "name": "Update Button",
-      "limit": 1
-    },
-    {
-      "type": "checkout_button",
-      "name": "Checkout Button",
-      "limit": 1
-    }
-  ]
-}
+  {
+    "name": "Template Cart",
+    "settings": [
+      {
+        "type": "product",
+        "id": "upsell-product",
+        "label": "Upsell Product"
+      }, {
+        "type": "text",
+        "id": "upsell-title",
+        "label": "Upsell Title"
+      }, {
+        "type": "text",
+        "id": "upsell-button_label",
+        "label": "Upsell Button Label"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "subtotal",
+        "name": "Subtotal",
+        "limit": 1
+      }, {
+        "type": "update_button",
+        "name": "Update Button",
+        "limit": 1
+      }, {
+        "type": "checkout_button",
+        "name": "Checkout Button",
+        "limit": 1
+      }
+    ]
+  }
 {% endschema %}
