@@ -25784,7 +25784,7 @@ Webflow.require('ix2').init(
 function delay() {
   window.onload = function() {
     setTimeout(function() {
-      document.getElementsByClassName(".sidebar-container.empty").style.display = "inline-block";
+      document.getElementsByClassName(".sidebar-container .empty").style.display = "inline-block";
     }, 2000);
   }
 }
