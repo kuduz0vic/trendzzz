@@ -17100,3 +17100,8 @@ align-items: center;
 span.text-bold-side {
   font-weight: 700;
 }
+
+.sidebar_wrapper {
+  position: relative;
+  overflow: hidden;
+}

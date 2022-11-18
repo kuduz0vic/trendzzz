@@ -113,7 +113,7 @@
   }, 500);
 </script>
 
-<div jd-cloak>
+<div class="sidebar_wrapper" jd-cloak>
   <div class="sidebar-container" data-ajax-cart-section>
     {% assign freeShippingPrice = section.settings.freeshipping_threshold | plus: 0 %}
     {% assign freeGiftPrice = section.settings.freegift_threshold | plus: 0 %}
@@ -476,11 +476,12 @@
   }
 
   .cart-payment-info {
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 9;
+   height: 60%;
   }
 
   .cart-product-block {
