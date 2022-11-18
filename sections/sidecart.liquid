@@ -1,104 +1,95 @@
 {% schema %}
-{
-  "name": "Sidecart",
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "placeholder": "Je Winkelwagen",
-      "default": "Je Winkelwagen",
-      "label": "Winkelwagen titel"
-    },
-    {
-      "type": "text",
-      "id": "rewards_title",
-      "placeholder": "Rewards",
-      "default": "Rewards",
-      "label": "Rewards titel"
-    },
-    {
-      "type": "text",
-      "id": "upsell-title",
-      "default": "Get free express shipping by adding:",
-      "label": "Express Shipping title"
-    },
-    {
-      "type": "text",
-      "id": "subtotal-text",
-      "default": "Subtotal",
-      "label": "Top Tex"
-    },
-    {
-      "type": "textarea",
-      "id": "shipping_text",
-      "placeholder": "Verzending",
-      "default": "Verzending",
-      "label": "Verzending titel"
-    },
-    {
-      "type": "number",
-      "id": "freeshipping_threshold",
-      "default": 4000,
-      "label": "Free shipping threshold"
-    },
-    {
-      "type": "number",
-      "id": "freegift_threshold",
-      "default": 6000,
-      "label": "Free gift threshold"
-    },
-    {
-      "type": "number",
-      "id": "shipping",
-      "default": 499,
-      "label": "Shipping price"
-    },
-    {
-      "type": "textarea",
-      "id": "maak_af",
-      "default": "Eenmalige Deal!",
-      "label": "Upsell Titel"
-    },
-    {
-      "type": "textarea",
-      "id": "total",
-      "placeholder": "Totaal",
-      "default": "Totaal",
-      "label": "Totaal Text"
-    },
-    {
-      "type": "textarea",
-      "id": "checkout_btn",
-      "placeholder": "Veilig Afrekenen",
-      "default": "Veilig Afrekenen",
-      "label": "ATC Button text"
-    },
-    {
-      "id": "payments",
-      "label": "Payment Icons",
-      "type": "textarea",
-      "default": "klarna,visa,master,american_express,maestro,shopify_pay,apple_pay,google_pay"
-    }
-  ],
-  "blocks": [
-   {
-    "name": "Upsell",
-    "type": "product",
+  {
+    "name": "Sidecart",
     "settings": [
-        {
+      {
+        "type": "text",
+        "id": "title",
+        "placeholder": "Je Winkelwagen",
+        "default": "Je Winkelwagen",
+        "label": "Winkelwagen titel"
+      },
+      {
+        "type": "text",
+        "id": "rewards_title",
+        "placeholder": "Rewards",
+        "default": "Rewards",
+        "label": "Rewards titel"
+      },
+      {
+        "type": "text",
+        "id": "upsell-title",
+        "default": "Get free express shipping by adding:",
+        "label": "Express Shipping title"
+      },
+      {
+        "type": "text",
+        "id": "subtotal-text",
+        "default": "Subtotal",
+        "label": "Top Tex"
+      }, {
+        "type": "textarea",
+        "id": "shipping_text",
+        "placeholder": "Verzending",
+        "default": "Verzending",
+        "label": "Verzending titel"
+      }, {
+        "type": "number",
+        "id": "freeshipping_threshold",
+        "default": 4000,
+        "label": "Free shipping threshold"
+      }, {
+        "type": "number",
+        "id": "freegift_threshold",
+        "default": 6000,
+        "label": "Free gift threshold"
+      }, {
+        "type": "number",
+        "id": "shipping",
+        "default": 499,
+        "label": "Shipping price"
+      }, {
+        "type": "textarea",
+        "id": "maak_af",
+        "default": "Eenmalige Deal!",
+        "label": "Upsell Titel"
+      }, {
+        "type": "textarea",
+        "id": "total",
+        "placeholder": "Totaal",
+        "default": "Totaal",
+        "label": "Totaal Text"
+      }, {
+        "type": "textarea",
+        "id": "checkout_btn",
+        "placeholder": "Veilig Afrekenen",
+        "default": "Veilig Afrekenen",
+        "label": "ATC Button text"
+      }, {
+        "id": "payments",
+        "label": "Payment Icons",
+        "type": "textarea",
+        "default": "klarna,visa,master,american_express,maestro,shopify_pay,apple_pay,google_pay"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Upsell",
+        "type": "product",
+        "settings": [
+          {
             "type": "product",
             "id": "product",
             "label": "Upsell Product"
-     },
-             {
+          }, {
             "type": "text",
             "id": "button-label",
             "label": "Upsell Button Label"
-     }
+          }
+        ]
+      }
     ]
-   }
-  ]
-}
+  }
 {% endschema %}
 
 <style>
@@ -125,40 +116,28 @@
         <div>
           <div class="text-xl cart_title">
             <span class="cart-title">{{ section.settings.title }}</span>
-            <span class="cart-title gray"
-              >(
-              {{- cart.item_count }} items)</span
-            >
+            <span class="cart-title gray">(
+              {{- cart.item_count }} items)</span>
           </div>
 
 
         </div>
-        <div
-          data-ajax-cart-toggle-class-button="js-my-cart-open | remove"
-          class="sidebar-close-btn"
-        >
-          <img
-            src="{{ 'close-icon.svg' | asset_url }}"
-            loading="lazy"
-            alt
-            class="sidebar-close-icon"
-          >
+        <div data-ajax-cart-toggle-class-button="js-my-cart-open | remove" class="sidebar-close-btn">
+          <img src="{{ 'close-icon.svg' | asset_url }}" loading="lazy" alt class="sidebar-close-icon">
         </div>
       </div>
       <div class="sidebar-div" style="margin-top:16px">
         <div class="sidebar-info">
           <div class="text-s text-caps black-60-color letter-spacing-0-03em margin-bottom-16px side-cart-top-text">
-            <span class="text-bold-side">😍 Great choice!</span> You’ll love this!
+            <span class="text-bold-side">😍 Great choice!</span>
+            You’ll love this!
           </div>
 
           {% assign width = cartPriceCents | times: 100 | divided_by: freeGiftPrice %}
 
           <div class="amount-bar-container">
-            <div
-              class="amount-bar"
-              style="width:{{ width }}%;max-width:100%;{% if width >= 100 %}background-color:#34a853{% endif %}"
-            ></div>
-            
+            <div class="amount-bar" style="width:{{ width }}%;max-width:100%;{% if width >= 100 %}background-color:#34a853{% endif %}"></div>
+
           </div>
 
           <span class="reward-text">
@@ -168,13 +147,13 @@
               {% elsif freeGiftPrice > cartPriceCents and freeShippingPrice <= cartPriceCents %}
                 📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
               {% else %}
-              📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
               {% endif %}
             {% else %}
               {% if freeShippingPrice <= cartPriceCents %}
                 🎉 Congratulations you have unlocked free shipping!
               {% else %}
-              📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
               {% endif %}
             {% endif %}
           </span>
@@ -185,22 +164,8 @@
           <div class="cart-product-block">
             <div class="cart-product-info">
               <div class="cart-product-image-div">
-                <img
-                  src="{{ item.image | img_url: '80x80' }}"
-                  loading="lazy"
-                  alt
-                  class="cart-product-image"
-                >
-                <a
-                  class="remove-product-btn"
-                  data-ajax-cart-request-button
-                  href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity=0"
-                  ><img
-                    src="{{ 'Trash.svg' | asset_url }}"
-                    loading="lazy"
-                    alt
-                    class="remove-product-icon"
-                ></a>
+                <img src="{{ item.image | img_url: '80x80' }}" loading="lazy" alt class="cart-product-image">
+                <a class="remove-product-btn" data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity=0"><img src="{{ 'Trash.svg' | asset_url }}" loading="lazy" alt class="remove-product-icon"></a>
               </div>
               <div>
                 <div class="text-m text-bold">{{ item.title }}</div>
@@ -216,36 +181,22 @@
                   <div class="cart-save-badge">
                     SAVE
                     {{
-                      item.product.compare_at_price
-                      | times: item.quantity
-                      | minus: item.final_line_price
-                      | money_without_trailing_zeros
-                      | replace: '-', ''
+                       item.product.compare_at_price
+                       | times: item.quantity
+                       | minus: item.final_line_price
+                       | money_without_trailing_zeros
+                       | replace: '-', ''
                     }}
                   </div>
                 </div>
               </div>
             </div>
             <div class="product-bar-plus-minus-button">
-              <a
-                class="product-bar-minus-button"
-                data-ajax-cart-request-button
-                href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | minus: 1 }}"
-              >
+              <a class="product-bar-minus-button" data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | minus: 1 }}">
                 <div>-</div>
               </a>
-              <input
-                class="product-quantity-input"
-                name="updates[]"
-                type="text"
-                data-ajax-cart-quantity-input="{{ forloop.index }}"
-                value="{{ item.quantity }}"
-              >
-              <a
-                class="product-bar-plus-button"
-                data-ajax-cart-request-button
-                href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | plus: 1 }}"
-              >
+              <input class="product-quantity-input" name="updates[]" type="text" data-ajax-cart-quantity-input="{{ forloop.index }}" value="{{ item.quantity }}">
+              <a class="product-bar-plus-button" data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | plus: 1 }}">
                 <div>+</div>
               </a>
             </div>
@@ -253,50 +204,50 @@
         {% endfor %}
       </div>
 
-<div class="slide-upsell_wrapper">
-      <div class="cart-upsell-container">
-        <div class="cart-slide-upsell_title">
-        <p>{{section.settings.upsell-title}}</p>
-        </div>
-        <div class="swiper cart-swiper">
-        <div class="swiper-wrapper cart-slide-upsell">
-            {% for block in section.blocks %}
+      <div class="slide-upsell_wrapper">
+        <div class="cart-upsell-container">
+          <div class="cart-slide-upsell_title">
+            <p>{{section.settings.upsell-title}}</p>
+          </div>
+          <div class="swiper cart-swiper">
+            <div class="swiper-wrapper cart-slide-upsell">
+              {% for block in section.blocks %}
                 {% case block.type %}
                   {% when 'product' %}
                     {%- assign product = all_products[block.settings.product] -%}
                     {% capture upsell-discount %}
                       {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
                     {% endcapture %}
-          <div class="swiper-slide cart-upsell-block slide-cart-block">
-            <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
-              <div class="upsell-info-wrapper">
-                <div class="text-m text-bold">{{product.title}}</div>
-                <div class="cart-price-wrapper">
-                  <p class="card-discount-p-2">{{product.compare_at_price | money}}</p>
-                  <p class="cart-price-p">{{product.price | money}}</p>
-                  <div class="cart-price-save upsell">SAVE {{ upsell-discount }}</div>
-                </div>
-              </div>
+                    <div class="swiper-slide cart-upsell-block slide-cart-block">
+                      <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
+                        <div class="upsell-info-wrapper">
+                          <div class="text-m text-bold">{{product.title}}</div>
+                          <div class="cart-price-wrapper">
+                            <p class="card-discount-p-2">{{product.compare_at_price | money}}</p>
+                            <p class="cart-price-p">{{product.price | money}}</p>
+                            <div class="cart-price-save upsell">SAVE {{ upsell-discount }}</div>
+                          </div>
+                        </div>
+                      </div>
+                      <form method="post" action="/cart/add" class="collection-atc_form slide-cart-form">
+                        <input type="hidden" name="id" value="{{ product.variants.first.id }}"/>
+                        <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
+                        <button type="submit" class="upsell-atc w-inline-block text-block-16 slide-cart-button" name="add">
+                          {% if selected_variant.available == false %}
+                            Sold out
+                          {% else %}
+                            <span class="slide-cart-button-label">{{block.settings.button-label}}</span>
+                          {% endif %}
+                        </button>
+                      </form>
+                    </div>
+                {% endcase %}
+              {% endfor %}
             </div>
-              <form method="post" action="/cart/add" class="collection-atc_form slide-cart-form">
-                <input type="hidden" name="id" value="{{ product.variants.first.id }}"/>
-                <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
-                <button type="submit" class="upsell-atc w-inline-block text-block-16 slide-cart-button" name="add">
-                  {% if selected_variant.available == false %}
-                    Sold out
-                  {% else %}
-                    <span class="slide-cart-button-label">{{block.settings.button-label}}</span>
-                  {% endif %}
-                </button>
-              </form>
           </div>
-        {% endcase %}
-    {% endfor %}
+          <div class="cart-pagination"></div>
         </div>
-    </div>
-    <div class="cart-pagination"></div>
       </div>
-    </div>
 
       {% assign totalUpsells = 0 %}
       {% for item in cart.items %}
@@ -349,30 +300,30 @@
 
       <div class="cart-payment-info">
 
-        
+
         <div class="cart-payment-text-block">
-            <div class="text-s text-bold">
-                <div class="text-s text-bold">{{ section.settings.subtotal-text }}</div>
-            </div>
-                    
-            
-        <div class="text-s text-bold">
+          <div class="text-s text-bold">
+            <div class="text-s text-bold">{{ section.settings.subtotal-text }}</div>
+          </div>
+
+
+          <div class="text-s text-bold">
             <div class="text-s text-bold">{{ cartPriceCents | money }}</div>
+          </div>
         </div>
-    </div>
-        
+
         <div class="cart-payment-text-block">
-             
-            {% if cartPriceCents < freeShippingPrice %}
-                <div class="text-s text-bold">
-                    <div class="text-s text-bold">{{ section.settings.shipping_text }}</div>
-                </div>
-              {% else %}
-                <div class="text-s text-bold">
-                   <span class="shipping-cross">{{ section.settings.shipping_text }}</span> 
-                </div>
-              {% endif %}
-          
+
+          {% if cartPriceCents < freeShippingPrice %}
+            <div class="text-s text-bold">
+              <div class="text-s text-bold">{{ section.settings.shipping_text }}</div>
+            </div>
+          {% else %}
+            <div class="text-s text-bold">
+              <span class="shipping-cross">{{ section.settings.shipping_text }}</span>
+            </div>
+          {% endif %}
+
 
           {% if cartPriceCents < freeShippingPrice %}
             <div class="text-s text-bold">
@@ -380,7 +331,7 @@
             </div>
           {% else %}
             <div class="text-s text-bold">
-               <span class="shipping-cross">{{ section.settings.shipping | money }}</span> 
+              <span class="shipping-cross">{{ section.settings.shipping | money }}</span>
             </div>
           {% endif %}
         </div>
@@ -402,24 +353,10 @@
           <div class="text-s text-bold">Toevoegen tijdens checkout</div>
         </div>
 
-        <a
-          href="/checkout"
-          class="cta-primairy even w-inline-block ATC-like-button"
-          onclick="this.classList.toggle('ATC-like-button--loading')"
-        >
+        <a href="/checkout" class="cta-primairy even w-inline-block ATC-like-button" onclick="this.classList.toggle('ATC-like-button--loading')">
           <span class="loader"></span>
           <div>{{ section.settings.checkout_btn }}</div>
-          <div class="icon-embed-xsmall w-embed">
-            <svg
-              width="auto"
-              height="auto"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.8618 6.60177C19.5359 5.97049 18.7492 5.46855 17.6282 5.1766C16.7089 4.93728 15.1645 4.93564 14.2528 5.17316C12.1856 5.71148 11.3025 7.03381 12.282 8.12395C13.003 8.92644 14.0457 9.31488 15.645 9.37679C17.2513 9.43897 18.5047 9.11245 19.3579 8.40954C19.9608 7.91266 20.1633 7.1861 19.8618 6.60177ZM19.7866 12.0924C19.5088 11.6371 18.8357 11.1883 17.9769 10.8854C17.348 10.6636 17.2089 10.6474 15.9337 10.6474C14.6585 10.6474 14.5194 10.6636 13.8905 10.8854C12.6558 11.3208 11.9793 11.9327 11.8943 12.6913C11.7919 13.6043 12.6527 14.3951 14.1968 14.8064C16.2714 15.3592 18.7469 14.8489 19.6825 13.6756C20.0481 13.2172 20.0894 12.5885 19.7866 12.0924ZM14.7702 1.5928C14.293 0.623396 12.784 0.0043262 10.8879 2.64261e-05C9.34405 -0.00349939 8.17488 0.340562 7.42939 1.01776C6.97338 1.432 6.81132 1.75034 6.81132 2.23208C6.81132 3.37176 8.388 4.29155 10.503 4.38563C12.574 4.47781 14.3035 3.8111 14.7907 2.73282C14.9937 2.28333 14.9894 2.03791 14.7702 1.5928ZM14.8255 17.3618C14.6544 16.8828 14.2254 16.4778 13.5391 16.1471C11.1894 15.0149 7.49729 15.6832 6.86203 17.3557C6.6525 17.9074 6.80028 18.3841 7.33719 18.8892C7.84092 19.3629 8.27998 19.5911 9.12024 19.8159C9.96263 20.0412 11.5663 20.0636 12.395 19.8615C14.1901 19.4238 15.1937 18.3916 14.8255 17.3618ZM10.7534 9.41317C10.4894 7.36695 9.42837 5.85105 7.29597 4.47351C5.37378 3.23167 3.00619 2.50933 1.67445 2.75836C0.349198 3.0062 -0.243128 4.06573 0.106143 5.56383C0.1826 5.89155 0.434292 6.59575 0.665543 7.12857C1.29379 8.57636 1.43772 9.11477 1.43772 10.0167C1.43772 10.9821 1.29841 11.5284 0.700949 12.9059C0.441134 13.5048 0.169772 14.2469 0.0977622 14.555C-0.172402 15.7121 0.123932 16.6503 0.905517 17.1122C1.29088 17.34 1.35861 17.3507 2.37846 17.3452C3.66232 17.3381 4.4362 17.1346 5.9472 16.4066C8.54416 15.1556 10.2189 13.3776 10.6185 11.4474C10.8001 10.57 10.835 10.0451 10.7534 9.41317Z" fill="currentcolor"></path>
-            </svg>
-          </div>
+
         </a>
 
         <div class="payment-container">
@@ -431,20 +368,17 @@
         </div>
       </div>
     </div>
-    <div
-      data-ajax-cart-toggle-class-button="js-my-cart-open | remove"
-      class="sidebar-bg"
-    ></div>
+    <div data-ajax-cart-toggle-class-button="js-my-cart-open | remove" class="sidebar-bg"></div>
   </div>
 </div>
 
 <script>
-    var swiper = new Swiper(".cart-swiper", {
-        pagination: {
-          el: ".cart-pagination",
-          clickable: true
-        },
-      });
+  var swiper = new Swiper(".cart-swiper", {
+    pagination: {
+      el: ".cart-pagination",
+      clickable: true
+    }
+  });
 </script>
 
 <style>
@@ -498,7 +432,7 @@
 
   .amount-bar-container {
     background-color: #e8e5df;
-    margin: 0.5rem 0px;
+    margin: 0.5rem 0;
   }
 
   .product-quantity-input {
@@ -525,7 +459,7 @@
   }
 
   #upsellSlider {
-    padding: 0 32px 20px 32px;
+    padding: 0 32px 20px;
     margin-bottom: 0;
   }
 
@@ -628,9 +562,9 @@
   .sidebar-cart {
     position: relative;
     left: auto;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
+    top: 0;
+    right: 0;
+    bottom: 0;
     z-index: 10;
     display: -webkit-box;
     display: -webkit-flex;
@@ -652,7 +586,7 @@
   .sidebar-top-bar {
     position: -webkit-sticky;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 100;
     display: -webkit-box;
     display: -webkit-flex;
@@ -979,10 +913,10 @@
 
   .sidebar-container {
     position: fixed;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     z-index: 1000;
     display: none;
     width: 100vw;
@@ -999,10 +933,10 @@
 
   .sidebar-bg {
     position: absolute;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
   }
 
   @media screen and (max-width: 991px) {
@@ -1100,7 +1034,7 @@
     }
 
     .sidebar-div {
-      padding: 0px 16px;
+      padding: 0 16px;
     }
 
     .cart-button {
@@ -1263,7 +1197,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 0px;
+    margin-top: 0;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1351,7 +1285,7 @@
   .product-card-upsell-img {
     width: 80px;
     height: auto;
-    margin: 0px 8px;
+    margin: 0 8px;
   }
   .product-card-upsell-wrapper {
     align-items: flex-start;
@@ -1514,7 +1448,7 @@
   }
 
   .cart-save-badge {
-    margin-left: 0px;
+    margin-left: 0;
     padding: 2px 6px;
     border-radius: 100px;
     background-color: #f92766;
@@ -1538,17 +1472,24 @@
 <script>
   setInterval(() => {
     const el = document.querySelector('#upsellSlider');
-    if (!el.swiper) {
+    if (! el.swiper) {
       new Swiper(el, {
+
         // Optional parameters
         spaceBetween: 16,
         slidesPerView: 1,
         freeMode: false,
         loop: false,
-        pagination: { el: '.upsell-pagination', type: 'bullets' },
-        // Enable lazy loading
+        pagination: {
+          el: '.upsell-pagination',
+          type: 'bullets'
+        },
+
+// Enable lazy loading
         lazy: true,
-        keyboard: { enabled: true },
+        keyboard: {
+          enabled: true
+        }
       });
     }
   }, 250);
