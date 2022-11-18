@@ -327,16 +327,42 @@
               "product": "the-red-airstyler-™",
               "button-label": "+"
             }
+          },
+          "e0de90e8-a828-4861-8d0e-e69fb3cb557b": {
+            "type": "usp",
+            "settings": {
+              "column-text": "As seen on TikTok",
+              "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/hashtag.svg?v=1668436703"
+            }
+          },
+          "2d2cc7bd-02a2-4697-a3e0-812a26288df4": {
+            "type": "usp",
+            "settings": {
+              "column-text": "Loved by 13.000+ happy customers",
+              "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/heart.svg?v=1668436704"
+            }
+          },
+          "ebe56e2d-e3d8-44f2-b5da-1c8934074b0b": {
+            "type": "usp",
+            "settings": {
+              "column-text": "30-day comfort guarantee",
+              "column-icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/pink-shield.svg?v=1668436703"
+            }
           }
         },
         "block_order": [
           "c49b0cad-b799-485b-aece-f5f81645e0ee",
           "3f3d868a-8aba-4e89-9173-1d888fcc5e16",
-          "ede16a55-05f5-4485-aa8a-56e1c0774275"
+          "ede16a55-05f5-4485-aa8a-56e1c0774275",
+          "e0de90e8-a828-4861-8d0e-e69fb3cb557b",
+          "2d2cc7bd-02a2-4697-a3e0-812a26288df4",
+          "ebe56e2d-e3d8-44f2-b5da-1c8934074b0b"
         ],
         "settings": {
           "title": "Cart",
           "rewards_title": "😍 Great choice! You’ll love this!",
+          "upsell-title": "Get free express shipping by adding:",
+          "subtotal-text": "Subtotal",
           "shipping_text": "Shipping",
           "freeshipping_threshold": 15000,
           "freegift_threshold": 20000,
@@ -344,7 +370,10 @@
           "maak_af": "Eenmalige Deal!",
           "total": "Total",
           "checkout_btn": "Veilig Afrekenen",
-          "payments": "klarna,visa,master,american_express,maestro,shopify_pay,apple_pay,google_pay"
+          "payments": "klarna,visa,master,american_express,maestro,shopify_pay,apple_pay,google_pay",
+          "empty-cart_title": "Your cart is empty! 👀",
+          "empty-cart_label": "Discover our TikTok finds",
+          "empty-cart_url": ""
         }
       }
     },

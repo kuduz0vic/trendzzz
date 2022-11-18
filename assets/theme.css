@@ -17102,3 +17102,32 @@ span.text-bold-side {
   font-weight: 700;
 }
 
+
+.usp-columns.customcontainer.w-row.side-cart{
+  align-self: flex-end;
+  justify-content: flex-end;
+  height: fit-content;
+  padding-bottom: 40px;
+}
+
+.sidebar-empty_title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+align-self: center;
+padding: 0 32px;
+width: 100%;
+text-align: center;
+}
+
+.sidebar-empty_title h1 {
+  padding-bottom: 16px;
+  font-family: Pally, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.cart-not_empty {
+  display: none !important;
+}

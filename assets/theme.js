@@ -25780,6 +25780,10 @@ Webflow.require('ix2').init(
 /* CUSTOM JS */
 
 
+  
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.nav-button').forEach(trigger => {
    trigger.addEventListener('click', function(){ 
@@ -26183,3 +26187,9 @@ document.addEventListener('DOMContentLoaded', () => {
    swiper.slides[i].addEventListener('animationend', function () {
        swiper.removeSlide(i);
    });
+
+
+   
+
+
+
