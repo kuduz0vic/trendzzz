@@ -133,6 +133,73 @@
 </script>
 
 <div jd-cloak>
+  <div class="sidebar-container empty">
+    <div class="sidebar-cart">
+      <div class="sidebar-top-bar">
+        <div>
+          <div class="text-xl cart_title">
+            <span class="cart-title">{{ section.settings.title }}</span>
+            <span class="cart-title gray">( {{- cart.item_count }} items)</span>
+          </div>
+        </div>
+        <div data-ajax-cart-toggle-class-button="js-my-cart-open | remove" class="sidebar-close-btn">
+          <img src="{{ 'close-icon.svg' | asset_url }}" loading="lazy" alt class="sidebar-close-icon">
+        </div>
+      </div>
+
+      <div class="sidebar-div" style="margin-top:16px">
+        <div class="sidebar-info">
+          <div class="text-s text-caps black-60-color letter-spacing-0-03em margin-bottom-16px side-cart-top-text">
+            <span class="text-bold-side">😍 Great choice!</span>
+            You’ll love this!
+          </div>
+
+          {% assign width = cartPriceCents | times: 100 | divided_by: freeGiftPrice %}
+
+          <div class="amount-bar-container">
+            <div class="amount-bar" style="width:{{ width }}%;max-width:100%;{% if width >= 100 %}background-color:#34a853{% endif %}"></div>
+
+          </div>
+
+          <span class="reward-text">
+            {% if giftProduct != blank %}
+              {% if freeGiftPrice <= cartPriceCents and freeShippingPrice <= cartPriceCents %}
+                🎉 Congratulations you have unlocked free shipping!
+              {% elsif freeGiftPrice > cartPriceCents and freeShippingPrice <= cartPriceCents %}
+                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+              {% else %}
+                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+              {% endif %}
+            {% else %}
+              {% if freeShippingPrice <= cartPriceCents %}
+                🎉 Congratulations you have unlocked free shipping!
+              {% else %}
+                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+              {% endif %}
+            {% endif %}
+          </span>
+        </div>
+      </div>
+
+      <div class="sidebar-empty_title">
+        <h1>{{section.settings.empty-cart_title}}</h1>
+        <a href="{{section.settings.empty-cart_url}}" class="button-hero is-secondary w-button">{{section.settings.empty-cart_label}}</a>
+      </div>
+
+      <div class="usp-columns customcontainer w-row side-cart">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'usp' %}
+              <div class="usp-column w-col w-col-4 w-col-stack w-col-tiny-tiny-stack">
+                <div class="single-usp header"><img src="{{block.settings.column-icon}}" loading="lazy" alt="" class="usp-icon">
+                  <h1 class="usp-headertje">{{block.settings.column-text}}</h1>
+                </div>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
   <div class="sidebar-container" data-ajax-cart-section>
     {% assign freeShippingPrice = section.settings.freeshipping_threshold | plus: 0 %}
     {% assign freeGiftPrice = section.settings.freegift_threshold | plus: 0 %}
@@ -403,76 +470,6 @@
 
 
 
-<div class="sidebar-container empty">
-  <div class="sidebar-cart">
-    <div class="sidebar-top-bar">
-      <div>
-        <div class="text-xl cart_title">
-          <span class="cart-title">{{ section.settings.title }}</span>
-          <span class="cart-title gray">( {{- cart.item_count }} items)</span>
-        </div>
-      </div>
-      <div data-ajax-cart-toggle-class-button="js-my-cart-open | remove" class="sidebar-close-btn">
-        <img src="{{ 'close-icon.svg' | asset_url }}" loading="lazy" alt class="sidebar-close-icon">
-      </div>
-    </div>
-
-    <div class="sidebar-div" style="margin-top:16px">
-      <div class="sidebar-info">
-        <div class="text-s text-caps black-60-color letter-spacing-0-03em margin-bottom-16px side-cart-top-text">
-          <span class="text-bold-side">😍 Great choice!</span>
-          You’ll love this!
-        </div>
-
-        {% assign width = cartPriceCents | times: 100 | divided_by: freeGiftPrice %}
-
-        <div class="amount-bar-container">
-          <div class="amount-bar" style="width:{{ width }}%;max-width:100%;{% if width >= 100 %}background-color:#34a853{% endif %}"></div>
-
-        </div>
-
-        <span class="reward-text">
-          {% if giftProduct != blank %}
-            {% if freeGiftPrice <= cartPriceCents and freeShippingPrice <= cartPriceCents %}
-              🎉 Congratulations you have unlocked free shipping!
-            {% elsif freeGiftPrice > cartPriceCents and freeShippingPrice <= cartPriceCents %}
-              📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
-            {% else %}
-              📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
-            {% endif %}
-          {% else %}
-            {% if freeShippingPrice <= cartPriceCents %}
-              🎉 Congratulations you have unlocked free shipping!
-            {% else %}
-              📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
-            {% endif %}
-          {% endif %}
-        </span>
-      </div>
-    </div>
-
-    <div class="sidebar-empty_title">
-      <h1>{{section.settings.empty-cart_title}}</h1>
-      <a href="{{section.settings.empty-cart_url}}" class="button-hero is-secondary w-button">{{section.settings.empty-cart_label}}</a>
-    </div>
-
-    <div class="usp-columns customcontainer w-row side-cart">
-      {% for block in section.blocks %}
-        {% case block.type %}
-          {% when 'usp' %}
-            <div class="usp-column w-col w-col-4 w-col-stack w-col-tiny-tiny-stack">
-              <div class="single-usp header"><img src="{{block.settings.column-icon}}" loading="lazy" alt="" class="usp-icon">
-                <h1 class="usp-headertje">{{block.settings.column-text}}</h1>
-              </div>
-            </div>
-        {% endcase %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-
-
 <script type="module">
   import {subscribeToCartSectionsUpdate} from '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}'
 
@@ -482,12 +479,14 @@
         $(".sidebar-container.empty").addClass("cart-not_empty");
       
 
+
     });
 
     $(document).ready(function() {
       if ($('body').hasClass("js-ajax-cart-empty")) 
         $(".sidebar-container.empty").removeClass("cart-not_empty");
       
+
 
     });
 
