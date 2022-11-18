@@ -219,16 +219,18 @@
                       {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
                     {% endcapture %}
                     <div class="swiper-slide cart-upsell-block slide-cart-block">
-                      <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
-                        <div class="upsell-info-wrapper">
-                          <div class="text-m text-bold">{{product.title}}</div>
-                          <div class="cart-price-wrapper">
-                            <p class="card-discount-p-2">{{product.compare_at_price | money}}</p>
-                            <p class="cart-price-p">{{product.price | money}}</p>
-                            <div class="cart-price-save upsell">SAVE {{ upsell-discount }}</div>
+                      <a href="{{product.url}}">
+                        <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
+                          <div class="upsell-info-wrapper">
+                            <div class="text-m text-bold">{{product.title}}</div>
+                            <div class="cart-price-wrapper">
+                              <p class="card-discount-p-2">{{product.compare_at_price | money}}</p>
+                              <p class="cart-price-p">{{product.price | money}}</p>
+                              <div class="cart-price-save upsell">SAVE {{ upsell-discount }}</div>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </a>
                       <form method="post" action="/cart/add" class="collection-atc_form slide-cart-form">
                         <input type="hidden" name="id" value="{{ product.variants.first.id }}"/>
                         <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
