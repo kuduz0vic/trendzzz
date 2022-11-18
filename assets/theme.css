@@ -17066,7 +17066,7 @@ padding-top: 7px;
   display: flex;
   justify-content: center;
   position: absolute;
-  z-index: 99999;
+  z-index: 8;
   bottom: -18px !important;
 }
 
@@ -17101,3 +17101,4 @@ align-items: center;
 span.text-bold-side {
   font-weight: 700;
 }
+
