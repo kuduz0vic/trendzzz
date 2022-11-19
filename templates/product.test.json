@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "template": {
+      "type": "template-product",
+      "blocks": {
+        "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42": {
+          "type": "review",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "95786b33-50fd-4db8-8027-1a612ff9b81f": {
+          "type": "klarna",
+          "settings": {
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "checkout_buttons": {
+          "type": "checkout_buttons",
+          "settings": {
+          }
+        },
+        "52350218-63e8-4f37-a440-35b5b511d0f6": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
+            "icon-description": "Gratis verzending vanaf €50"
+          }
+        },
+        "33653fbf-dfe2-481f-9290-551aabd89ff7": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "icon-description": "10.000+ Tevreden klanten"
+          }
+        },
+        "8eacafdf-48fd-43c4-9729-676c3844d9e6": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/calender.svg?v=1668551310",
+            "icon-description": "30 dagen bedenktijd"
+          }
+        },
+        "3a517eca-19eb-407d-9035-5e236e466db5": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Fast shipping",
+            "accordion-description": "<p>Niemand wacht graag op zijn pakket, daarom verzenden wij al onze producten met GLS-Express verzending inclusief tracking.<\/p><p><\/p><p>🇳🇱 Geleverd binnen 4-6 werkdagen<br\/>🇧🇪 Geleverd binnen 4-6 werkdagen<br\/><br\/><strong>Verwerkingstijd:<\/strong> 1-2 werkdagen<br\/><strong>Totale levertijd:<\/strong> verwerkingstijd + verzendtijd<\/p>"
+          }
+        },
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Retourneren",
+            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
+          }
+        },
+        "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "De nummer #1 trend onder de meiden 🥰",
+            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
+          }
+        },
+        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial-image": "shopify:\/\/shop_images\/Untitled.png",
+            "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42",
+        "title",
+        "description",
+        "price",
+        "95786b33-50fd-4db8-8027-1a612ff9b81f",
+        "quantity",
+        "checkout_buttons",
+        "52350218-63e8-4f37-a440-35b5b511d0f6",
+        "33653fbf-dfe2-481f-9290-551aabd89ff7",
+        "8eacafdf-48fd-43c4-9729-676c3844d9e6",
+        "3a517eca-19eb-407d-9035-5e236e466db5",
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9",
+        "072e6e43-df11-49b5-8b25-3f26c0a634f6",
+        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362"
+      ],
+      "settings": {
+      }
+    },
+    "b5c88592-a982-44a2-bb81-7f899276acd7": {
+      "type": "product-iwt",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product-iwt.png",
+        "emoji": "🍿",
+        "title": "Perfect for a night at home",
+        "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day. With a deep hood and a large pocket on the front, you can easily store snacks or your phone, you will instantly fall in love with our Snuggies."
+      }
+    },
+    "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
+      "type": "product-first-iwt",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product-iwt.png",
+        "emoji": "🥰",
+        "title": "Super soft and warm",
+        "description": "The Snuggie is without a doubt the warmest and softest garment EVER. Each Snuggie is made from a unique blend of soft Sherpa fleece on the inside and flannel fleece on the outside. It will feel like being hugged by a cloud."
+      }
+    },
+    "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
+      "type": "last-iwt",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product-iwt.png",
+        "emoji": "📏",
+        "title": "One size that fits all",
+        "description": "Perfect for men, women and children of all ages and heights, we have a special children's collection for children."
+      }
+    },
+    "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
+      "type": "video",
+      "settings": {
+        "emoji": "😎",
+        "heading": "What others are doing ...",
+        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9fb8e5bca04f47f496622d800bfc0e22.mp4",
+        "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.",
+        "button-label": "Take me to the Snuggie",
+        "button_url": "shopify:\/\/products\/the-airstyler-™",
+        "white-label_text": "💖 WHAT THEY SAY ABOUT IT",
+        "white-label_text_color": "#ffffff"
+      }
+    },
+    "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e": {
+      "type": "social-proof",
+      "blocks": {
+        "template--16945160257843__6a3f3c5f-bf69-4ab3-b518-6c434c152e5e-16686162928db61fad-0": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "b04d0145-b02f-4905-bc6c-fac60053c6ef": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "fa08a606-d3df-45a0-afce-b708049ab11d": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "2c32d07c-2c85-41ef-9584-bc2714a72e69": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        },
+        "b5c79a70-99f0-45ff-a02e-4d784143b849": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
+            "proof-title": "The softest hoodie EVER!",
+            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-name": "Jessica P."
+          }
+        }
+      },
+      "block_order": [
+        "template--16945160257843__6a3f3c5f-bf69-4ab3-b518-6c434c152e5e-16686162928db61fad-0",
+        "b04d0145-b02f-4905-bc6c-fac60053c6ef",
+        "fa08a606-d3df-45a0-afce-b708049ab11d",
+        "2c32d07c-2c85-41ef-9584-bc2714a72e69",
+        "b5c79a70-99f0-45ff-a02e-4d784143b849"
+      ],
+      "settings": {
+        "title": "",
+        "tag": ""
+      }
+    },
+    "f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc": {
+      "type": "trust-badges",
+      "blocks": {
+        "template--16945160257843__f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc-16686162920b494089-0": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
+            "badge-title": "Kostenlose Lieferung",
+            "badge-description": "Kostenlose Lieferung ab €20!"
+          }
+        },
+        "06ac345c-dabe-45d4-8cb3-084f3bf66008": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title": "100% Kaufgarantie",
+            "badge-description": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "4d63f945-6eeb-4413-b054-e37f95174252": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
+            "badge-title": "24\/7 Kundendienst",
+            "badge-description": "Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!"
+          }
+        },
+        "3b462862-07ce-4247-a2f1-4edc75b88ca8": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
+            "badge-title": "Verschlüsselte Zahlungen",
+            "badge-description": "Ihre Anmeldeinformationen werden sicher verarbeitet."
+          }
+        },
+        "7d70c57c-f971-4b10-ae10-6d66f5e4b92f": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "We staan altijd voor jou klaar!",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "5789044a-6f4c-46f3-bfed-cb577173c20f": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "100% Kaufgarantie",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        },
+        "de94249a-1ae5-4d6e-beff-9ce2bf902660": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "100% Kaufgarantie",
+            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+          }
+        }
+      },
+      "block_order": [
+        "template--16945160257843__f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc-16686162920b494089-0",
+        "06ac345c-dabe-45d4-8cb3-084f3bf66008",
+        "4d63f945-6eeb-4413-b054-e37f95174252",
+        "3b462862-07ce-4247-a2f1-4edc75b88ca8",
+        "7d70c57c-f971-4b10-ae10-6d66f5e4b92f",
+        "5789044a-6f4c-46f3-bfed-cb577173c20f",
+        "de94249a-1ae5-4d6e-beff-9ce2bf902660"
+      ],
+      "settings": {
+      }
+    },
+    "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
+      "type": "faq",
+      "blocks": {
+        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
+          "type": "faq",
+          "settings": {
+            "question": "Will the Snuggie hoodie fit me?",
+            "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop <br\/>antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+          }
+        },
+        "85828f55-392d-4902-8e95-c9b07a24f323": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I wash my Snuggie easily?",
+            "answer": "<p>De kussenslopen van Silk Dreams zijn gemaakt van 22 mm zijde.<\/p>"
+          }
+        },
+        "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
+          "type": "faq",
+          "settings": {
+            "question": "Is the Snuggie suitable for kids?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        },
+        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d": {
+          "type": "faq",
+          "settings": {
+            "question": "What if I am not satisfied with my Snuggie?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        },
+        "5356bbbf-fe3a-470e-86d4-523d02eada9c": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does the shipping take?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        },
+        "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I wear my Snuggie all year round?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0",
+        "85828f55-392d-4902-8e95-c9b07a24f323",
+        "a44756d6-0c05-484a-b2f3-241c5c8f52fb",
+        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d",
+        "5356bbbf-fe3a-470e-86d4-523d02eada9c",
+        "49052ed5-e517-4e74-8cbc-fa20e572e12e"
+      ],
+      "settings": {
+        "emoji": "🧐",
+        "title": "Everything about it",
+        "description": "<p>The Snuggie is:<\/p><p>• <strong>From the inside a super warm sherpa fleece<\/strong><\/p><p>• <strong>Vegan material & animal cruelty free<\/strong><\/p><p>• <strong>Made from the highest quality fabric so it lasts long<\/strong><\/p>"
+      }
+    }
+  },
+  "order": [
+    "template",
+    "b5c88592-a982-44a2-bb81-7f899276acd7",
+    "91310fff-7575-48ed-84f3-b5e39a1f61bc",
+    "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e",
+    "481f51de-cd5e-48f2-ae43-9cb6d563e3a4",
+    "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e",
+    "f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc",
+    "98119358-c98f-4c88-9b54-d75bdfb2a3bf"
+  ]
+}
