@@ -117,7 +117,7 @@
       "type": "product-iwt",
       "settings": {
         "image": "shopify:\/\/shop_images\/product-iwt.png",
-        "emoji": "🍿",
+        "emoji": "{{ product.metafields.custom.first_info_emoji_image_w_text_section_1.value }}",
         "title": "Perfect for a night at home",
         "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day. With a deep hood and a large pocket on the front, you can easily store snacks or your phone, you will instantly fall in love with our Snuggies."
       }
