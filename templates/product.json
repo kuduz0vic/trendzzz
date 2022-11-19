@@ -328,8 +328,8 @@
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
-            "badge-title": "Kostenlose Lieferung",
-            "badge-description": "Kostenlose Lieferung ab €20!"
+            "badge-title": "Snelle levering",
+            "badge-description": "Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!"
           }
         },
         "06ac345c-dabe-45d4-8cb3-084f3bf66008": {
@@ -360,16 +360,16 @@
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "We staan altijd voor jou klaar!",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-title_mobile": "Gratis levering Benelux",
+            "badge-description_mobile": "Alle bestellingen boven de €50,- in de Benelux worden gratis verzonden!"
           }
         },
         "5789044a-6f4c-46f3-bfed-cb577173c20f": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-title_mobile": "100% Tevredenheidsgarantie",
+            "badge-description_mobile": "Ben je niet 100% tevreden over je bestelling? Stuur je aankoop gemakkelijk binnen 14 dagen terug."
           }
         },
         "de94249a-1ae5-4d6e-beff-9ce2bf902660": {
