@@ -219,7 +219,7 @@
         "9d626a4e-9e75-41ab-af21-68b4f7f3f62a": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "{{ product.metafields.custom[\"1st_featured_product\"].value }}",
             "review": "",
             "label": ""
           }
@@ -227,7 +227,7 @@
         "8dcd22d8-a7d0-4440-bb9c-a01504c4e441": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "{{ product.metafields.custom[\"2nd_featured_product\"].value }}",
             "review": "",
             "label": ""
           }
