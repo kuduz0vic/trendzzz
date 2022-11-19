@@ -1,0 +1,58 @@
+<section class="highlights-section">
+  <div class="page-padding">
+    <div class="container-1080">
+      <div class="highlight-section-wrapper">
+        <h1 class="highlight-h1">Why the Snuggie?</h1>
+        <div class="highlights-grid">
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'highlight' %}
+                <div id="w-node-c85a3f04-7c4c-0e80-9374-171cd78223a2-e7fc02c3" class="highlight-block">
+                  <div class="highlight-icon">
+                    <div class="highlight-emoji">{{block.settings.emoji}}</div>
+                  </div>
+                  <div class="highlight-description">{{block.settings.title}}</div>
+                </div>
+            {% endcase %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Highlights",
+    "tag": "section",
+    "class": "highlights",
+    "max_blocks": 50,
+    "blocks": [
+      {
+        "name": "Highlight",
+        "type": "highlight",
+        "settings": [
+          {
+            "type": "text",
+            "id": "emoji",
+            "label": "Emoji"
+          }, {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Highlights",
+        "blocks": [
+          {
+            "type": "highlight"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

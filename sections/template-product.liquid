@@ -70,10 +70,10 @@
         </div>
         {% when 'variant_selector' %}
           {% unless product.has_only_default_variant %}
-            <variant-selector data-url="{{ product.url }}" data-section="{{ section.id }}">
+            <variant-selector class="variant-selector" data-url="{{ product.url }}" data-section="{{ section.id }}">
               {% for option in product.options_with_values %}
-                <label for="option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }}</label>
-                <select name="options[{{ option.name | escape }}]" id="option-{{ section.id }}-{{ forloop.index0 }}">
+                <label for="option-{{ section.id }}-{{ forloop.index0 }}" class="variant-label">{{ option.name }}</label>
+                <select name="options[{{ option.name | escape }}]" id="option-{{ section.id }}-{{ forloop.index0 }}" class="variant-select">
                   {% for value in option.values %}
                     <option value="{{ value | escape }}" {% if option.selected_value == value %} selected="selected" {% endif %}>{{ value }}</option>
                   {% endfor %}
@@ -170,13 +170,6 @@
 {% endform %}
             
 
-<script>
-
-
-
-  </script>
-
-{% assign media_alt = media.alt %}
 
 <script>
   class VariantSelector extends HTMLElement {
@@ -188,8 +181,8 @@
     onVariantChange() {
       this.getSelectedOptions();
       this.getSelectedVariant();
-      this.updateMedia(this.currentVariant);
       if (this.currentVariant) {
+        this.updateMedia(this.currentVariant)
         this.updateURL();
         this.updateFormID();
         this.updatePrice();
@@ -241,17 +234,20 @@
 
     updateMedia() {
       if(this.currentVariant.featured_image !=null && this.currentVariant.featured_image.alt != null) {
-        $('[thumbnail-color]').hide();
+        $('[thumbnail-color]').show();
       var selected_color = this.currentVariant.featured_image.alt;
       var thumbnail_selector = '[thumbnail-color="' + selected_color + '"]';
       $(thumbnail_selector).show();
       } else {
-       $('[thumbnail-color]').hide();
+       $('[thumbnail-color]').show();
       }
     }
   }
   customElements.define("variant-selector", VariantSelector);
+
 </script>
+
+
 
 {% schema %}
 {

@@ -69,21 +69,36 @@
           </div>
         </div>
         {% when 'variant_selector' %}
-          {% unless product.has_only_default_variant %}
-            <variant-selector data-url="{{ product.url }}" data-section="{{ section.id }}">
-              {% for option in product.options_with_values %}
-                <label for="option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }}</label>
-                <select name="options[{{ option.name | escape }}]" id="option-{{ section.id }}-{{ forloop.index0 }}">
-                  {% for value in option.values %}
-                    <option value="{{ value | escape }}" {% if option.selected_value == value %} selected="selected" {% endif %}>{{ value }}</option>
-                  {% endfor %}
-                </select>
-                <script type="application/json">
-                  {{ product.variants | json }}
-                </script>
-              {% endfor %}
-            </variant-selector>
-          {% endunless %}
+          <variant-radios
+            class="no-js-hidden"
+            data-section="{{ section.id }}"
+            data-url="{{ product.url }}"
+            {{ block.shopify_attributes }}
+          >
+            {%- for option in product.options_with_values -%}
+              <fieldset class="js product-form__input">
+                <legend class="form__label">{{ option.name }}</legend>
+                {%- for value in option.values -%}
+                  <input
+                    type="radio"
+                    id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                    name="{{ option.name }}"
+                    value="{{ value | escape }}"
+                    form="{{ product_form_id }}"
+                    {% if option.selected_value == value %}
+                      checked
+                    {% endif %}
+                  >
+                  <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                    {{ value }}
+                  </label>
+                {%- endfor -%}
+              </fieldset>
+            {%- endfor -%}
+            <script type="application/json">
+              {{ product.variants | json }}
+            </script>
+          </variant-radios>
             {% when 'klarna' %}
             <div id="w-node-b8e20345-8f10-334f-d74f-55d85d411971-6ddb3075" class="klarna-element"><img src="{{'klarna.svg' | asset_url}}" loading="lazy" alt="" class="image-15">
             <p class="paragraph">Betaal pas over 30 dagen. <span class="text-span">Meer weten</span></p>
@@ -255,7 +270,7 @@
 
 {% schema %}
 {
-    "name": "Product Section",
+    "name": "Test Product",
     "tag": "section",
     "class": "products",
     "settings": [
@@ -350,13 +365,13 @@
           "id": "testimonial-description",
           "label": "Testimonial Description"
         }
-      ]  
+      ]
     }
   ],
   "presets": [
     {
-        "name": "Product Section"
-    }
-  ] 
+     "name": "Product Test"
+     }
+  ]
 }
 {% endschema %}
