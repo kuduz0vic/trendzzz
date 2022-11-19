@@ -1,0 +1,362 @@
+{% assign selected_variant = product.selected_or_first_available_variant %}
+{% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
+  <input type="hidden" name="id" value="{{ selected_variant.id }}">
+  {% capture discount %}
+  {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
+  {% endcapture %}
+  <section id="shopify-product-section" class="product-section wf-section">
+    <section class="product-section-wrapper">
+      <div class="container-large-2">
+        <div class="product-grid">
+          <div id="w-node-adb81a6d-176b-ded8-2561-72220daf9784-6ddb3075" class="product-sp-and-swiper">
+            <div id="ProductImgSwiper" class="main-product-photo">
+              <div class="swiper myswiper3">
+                <div class="swiper-wrapper product-main_swiper">   
+                  {% for media in product.media %}
+                  <div class="swiper-slide" thumbnail-color="{{ media.alt }}">
+                    <img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">
+                    <div class="product-photo-label"><p class="product-photo-text">💖 MOST POPULAR</p></div>
+                  </div>
+                {% endfor %}
+              </div>
+              <div class="swiper-pagination-22"></div>
+            </div>
+            <div thumbsslider="" class="swiper myswiper4">
+              <div class="swiper-wrapper product-thumb_swiper">
+                {% for media in product.media %}
+                <div thumbnail-color="{{ media.alt }}" class="swiper-slide product-thumb_slide"><img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
+              {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-_34481b18-401a-5d31-7d47-0cbaa5b1c89e-6ddb3075" class="product-content">
+          <div id="w-node-adb81a6d-176b-ded8-2561-72220daf976c-6ddb3075" class="product-block">
+            <div class="product-ab-fold">
+                  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'title' %}
+        <h1 class="product-title title-color">{{product.title}}</h1>
+      {% when 'description' %}
+        <h5 id="w-node-adb81a6d-176b-ded8-2561-72220daf9771-6ddb3075" class="tagline grey-color">{{product.description}}</h5>
+        {% when 'review' %}
+          <div id="w-node-adb81a6d-176b-ded8-2561-72220daf9773-6ddb3075" class="product-review-container">
+            <div class="product-review-star-container">
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="#F9A000"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
+              <div class="review-star w-embed"><svg width="auto" height="auto" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.55472 13.9827L4.09222 15.885C3.62452 16.1419 3.04604 15.954 2.80016 15.4652C2.70225 15.2706 2.66846 15.0477 2.70403 14.831L3.36531 10.8019C3.41854 10.4775 3.31564 10.1466 3.09015 9.91691L0.288927 7.06349C-0.0894508 6.67806 -0.0971931 6.04507 0.271634 5.64966C0.418503 5.49221 0.610945 5.38974 0.819169 5.35812L4.69037 4.77028C5.00199 4.72296 5.27138 4.51843 5.41074 4.22335L7.14199 0.557552C7.37584 0.0623918 7.94953 -0.140909 8.42336 0.103467C8.61204 0.200779 8.76477 0.360377 8.85789 0.557552L10.5891 4.22335C10.7285 4.51843 10.9979 4.72296 11.3095 4.77028L15.1807 5.35812C15.7036 5.43752 16.0659 5.94487 15.9899 6.49131C15.9597 6.70891 15.8616 6.91001 15.7109 7.06349L12.9097 9.91691C12.6842 10.1466 12.5813 10.4775 12.6346 10.8019L13.2958 14.831C13.3852 15.3752 13.0354 15.8921 12.5146 15.9854C12.3072 16.0226 12.0939 15.9873 11.9077 15.885L8.44515 13.9827C8.16643 13.8295 7.83345 13.8295 7.55472 13.9827Z" fill="currentcolor"></path>
+                </svg></div>
+            </div>
+            <div class="product-review-p">4.9/5 stars • 364 reviews</div>
+          </div>
+          {% when 'price' %}
+            <div id="w-node-f83d88ae-cb25-900d-1998-9026481e7ec9-6ddb3075" class="product-price-box">
+              <div class="before-price-p">{{product.compare_at_price | money}}</div>
+              <div class="product-price--p">{{product.price | money}}</div>
+              <div class="product-discount">SAVE {{ discount }}</div>
+            </div>
+          </div>
+        </div>
+        {% when 'variant_selector' %}
+          {% unless product.has_only_default_variant %}
+            <variant-selector data-url="{{ product.url }}" data-section="{{ section.id }}">
+              {% for option in product.options_with_values %}
+                <label for="option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }}</label>
+                <select name="options[{{ option.name | escape }}]" id="option-{{ section.id }}-{{ forloop.index0 }}">
+                  {% for value in option.values %}
+                    <option value="{{ value | escape }}" {% if option.selected_value == value %} selected="selected" {% endif %}>{{ value }}</option>
+                  {% endfor %}
+                </select>
+                <script type="application/json">
+                  {{ product.variants | json }}
+                </script>
+              {% endfor %}
+            </variant-selector>
+          {% endunless %}
+            {% when 'klarna' %}
+            <div id="w-node-b8e20345-8f10-334f-d74f-55d85d411971-6ddb3075" class="klarna-element"><img src="{{'klarna.svg' | asset_url}}" loading="lazy" alt="" class="image-15">
+            <p class="paragraph">Betaal pas over 30 dagen. <span class="text-span">Meer weten</span></p>
+          </div>
+          {% when 'quantity' %}
+            <div id="w-node-ac8b3e74-08be-b8ea-026a-bc0837c60ffb-6ddb3075" class="product-options-form">
+              <div id="w-node-f1f4fbe8-300e-75de-abb2-487558ab1d7a-6ddb3075" class="amount-form">
+                <div class="qtydiv"> 
+                  <label for="Quantity" class="quantity-selector">Quantity</label>
+                    <div class="amount-form-div qtybox">
+                      <span class="btnqty qtyminus icon-minus minus-amount w-inline-block">-</span>
+                      <input type="text" id="quantity" name="quantity" value="1" min="1" class="quantity-selector quantity-input amount" readonly="">
+                      <span class="btnqty qtyplus icon-plus minus-amount w-inline-block">+</span>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            {% when 'checkout_buttons' %}
+              <div id="w-node-adb81a6d-176b-ded8-2561-72220daf97bc-6ddb3075" class="product-atc-area">
+                <div class="product-form w-form">
+                  <form id="wf-form-Product-Form" name="wf-form-Product-Form" data-name="Product Form" method="get" class="form-wrapper">
+                    <div class="cart-block">
+                       <button type="submit" class="atc w-inline-block" name="add" {% if selected_variant.available == false %} disabled {% endif %}>
+                       {% if selected_variant.available == false %}
+                         Sold out
+                          {% else %}
+                           <div>Add to cart</div>
+                           <div class="icon-embed-xsmall-3 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" fill="none" viewbox="0 0 21 18">
+                          <path fill="#fff" d="m18.837 10.57 1.642-7.207a.832.832 0 0 0-.813-1.016H6.028L5.71.795A.833.833 0 0 0 4.893.13h-3.56A.832.832 0 0 0 .5.96v.555c0 .459.373.831.833.831H3.76l2.439 11.9a1.938 1.938 0 0 0 .968 3.623 1.942 1.942 0 0 0 1.944-1.94c0-.543-.224-1.034-.584-1.386h7.28c-.36.352-.585.843-.585 1.386 0 1.072.87 1.94 1.945 1.94a1.94 1.94 0 0 0 .848-3.687l.191-.84a.832.832 0 0 0-.812-1.017h-9.32l-.228-1.108h10.179c.389 0 .726-.27.813-.648Z"></path>
+                           </svg></div>
+                         {% endif %}
+                     </button>
+                     <div class="payment-methods-2"><img src="{{'Group-300.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-319.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-318.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'mastercard.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-315.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-314.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-313.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-310.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            {% endcase %}
+          {% endfor %}    
+                <div id="w-node-_82feab31-0fa3-8feb-4644-3b45c3090948-6ddb3075" class="store-benefits">
+                  {% for block in section.blocks %}
+                    {% case block.type %} 
+                  {% when 'additional-icons' %}
+                  <div class="store-benefit-wrapper">
+                    <div class="store-benefit">
+                      <div class="store-benefit-icon w-embed"><img src="{{block.settings.icon-link}}"></div>
+                      <div>{{block.settings.icon-description}}</div>
+                    </div>
+                  </div>
+                {% endcase %}
+              {% endfor %} 
+                </div>
+                  <div id="w-node-adb81a6d-176b-ded8-2561-72220daf981a-6ddb3075" class="product-accordion-list">
+                    {% for block in section.blocks %}
+                      {% case block.type %} 
+                    {% when 'accordion' %}
+                    <div data-click="accordion" data-w-id="adb81a6d-176b-ded8-2561-72220daf981b" class="product-accordion-item">
+                      <div class="product-accordion">
+                        <div class="accordion-title">{{block.settings.accordion-title}}</div><img src="{{'close-icon.svg' | asset_url}}" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="" class="product-accordion-icon">
+                      </div>
+                      <div style="opacity:0;height:0px" class="product-accordion-info-container">
+                        <div class="product-accordion-content">
+                          <div class="accordion-richtext w-richtext">
+                            <p>{{block.settings.accordion-description}}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {% endcase %}
+                {% endfor %}  
+                  </div>
+                  {% for block in section.blocks %}
+                    {% case block.type %} 
+                  {% when 'testimonial' %}
+                    <div id="w-node-c0e555da-3a5e-41e0-7341-046b33134990-6ddb3075" class="customers-tab_wrapper"><img src="{{block.settings.testimonial-image | img_url}}" loading="lazy" srcset="{{block.settings.testimonial-image | img_url}} 500w, {{block.settings.testimonial-image | img_url}} 800w, {{block.settings.testimonial-image | img_url}} 885w" sizes="(max-width: 1279px) 54px, (max-width: 1439px) 4vw, 54px" alt="" class="social-proof-img">
+                    <p class="social-bar-p">{{block.settings.testimonial-description}}</p>
+                  </div>
+                {% endcase %}
+              {% endfor %}        
+                </div>
+              </div>
+            </div>
+          </section>
+{% endform %}
+            
+
+<script>
+
+
+
+  </script>
+
+{% assign media_alt = media.alt %}
+
+<script>
+  class VariantSelector extends HTMLElement {
+    constructor() {
+      super();
+      this.addEventListener("change", this.onVariantChange);
+    }
+
+    onVariantChange() {
+      this.getSelectedOptions();
+      this.getSelectedVariant();
+      this.updateMedia(this.currentVariant);
+      if (this.currentVariant) {
+        this.updateURL();
+        this.updateFormID();
+        this.updatePrice();
+        this.updateMedia();
+      }
+    }
+
+    getSelectedOptions() {
+      this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
+      console.log(this.options);
+    }
+
+    getVariantJSON() {
+      this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
+      return this.variantData;
+    }
+
+    getSelectedVariant() {
+      this.currentVariant = this.getVariantJSON().find(variant => {
+        const findings = !variant.options.map((option, index) => {
+          return this.options[index] === option;
+        }).includes(false);
+        if (findings) return variant;
+      });
+      console.log(this.currentVariant);
+    }
+
+    updateURL() {
+      if (!this.currentVariant) return;
+      window.history.replaceState({}, '', `${this.dataset.url}?variant=${this.currentVariant.id}`);
+    }
+
+    updateFormID() {
+      const form_input = document.querySelector("#product-form").querySelector('input[name="id"]');
+      form_input.value = this.currentVariant.id;
+    }
+
+    updatePrice() {
+      fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
+        .then((response) => response.text())
+        .then((responseText) => {
+          const id = `price-${this.dataset.section}`;
+          const html = new DOMParser().parseFromString(responseText, 'text/html');
+          const oldPrice = document.getElementById(id);
+          const newPrice = html.getElementById(id);
+          if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
+        });
+    }
+
+    updateMedia() {
+      if(this.currentVariant.featured_image !=null && this.currentVariant.featured_image.alt != null) {
+        $('[thumbnail-color]').hide();
+      var selected_color = this.currentVariant.featured_image.alt;
+      var thumbnail_selector = '[thumbnail-color="' + selected_color + '"]';
+      $(thumbnail_selector).show();
+      } else {
+       $('[thumbnail-color]').hide();
+      }
+    }
+  }
+  customElements.define("variant-selector", VariantSelector);
+</script>
+
+{% schema %}
+{
+    "name": "Product Section",
+    "tag": "section",
+    "class": "products",
+    "settings": [
+
+    ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Title",
+      "limit": 1
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "limit": 1
+    },
+    {
+      "type": "review",
+      "name": "Review",
+      "limit": 1
+    },
+    {
+      "type": "price",
+      "name": "Price",
+      "limit": 1
+    },
+    {
+      "type": "variant_selector",
+      "name": "Variant Selector",
+      "limit": 1
+    },
+    {
+      "type": "klarna",
+      "name": "Klarna Proof",
+      "limit": 1
+    },
+    {
+      "type": "quantity",
+      "name": "Quantity",
+      "limit": 1
+    },
+    {
+      "type": "checkout_buttons",
+      "name": "Checkout Buttons",
+      "limit": 1
+    },
+    {
+      "type": "additional-icons",
+      "name": "Additional Icons",
+      "settings": [
+        {
+          "type": "url",
+          "id": "icon-link",
+          "label": "Icon Link"
+        },
+        {
+          "type": "text",
+          "id": "icon-description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "name": "Accordion",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "accordion-title",
+          "label": "Accordion Title"
+        },
+        {
+          "type": "richtext",
+          "id": "accordion-description",
+          "label": "Accordion Description"
+        }
+      ]
+    },
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "testimonial-image",
+          "label": "Testimonial Image"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial-description",
+          "label": "Testimonial Description"
+        }
+      ]  
+    }
+  ],
+  "presets": [
+    {
+        "name": "Product Section"
+    }
+  ] 
+}
+{% endschema %}

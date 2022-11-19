@@ -2,6 +2,7 @@
   "sections": {
     "template": {
       "type": "template-product",
+      "disabled": true,
       "blocks": {
         "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42": {
           "type": "review",
@@ -103,6 +104,118 @@
         "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9",
         "072e6e43-df11-49b5-8b25-3f26c0a634f6",
         "fb18fd9e-4144-4a4b-8d43-f90b5ef65362"
+      ],
+      "settings": {
+      }
+    },
+    "82276d6f-f0b9-4aec-b9a2-db46e40733e5": {
+      "type": "product-test",
+      "blocks": {
+        "3d4e870f-c828-44b1-b490-c08dfd8a9d3a": {
+          "type": "review",
+          "settings": {
+          }
+        },
+        "4da08c81-9a09-4403-83d0-769c8ae9fe0b": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b7c9a5fc-9b31-48e7-b72b-dcaedfa6c3bd": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "894badc3-328e-46af-9b2b-c725bec5d090": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "bb5e6b62-7a58-4a5c-8be5-33ebaa1f9ad1": {
+          "type": "variant_selector",
+          "settings": {
+          }
+        },
+        "af784661-0c75-41ed-8b09-43f347422f52": {
+          "type": "klarna",
+          "settings": {
+          }
+        },
+        "a2557897-4f1f-4ee5-bb57-bb09f7193c29": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "bdefd3f5-c34b-4849-bdc8-ad89d6f90daf": {
+          "type": "checkout_buttons",
+          "settings": {
+          }
+        },
+        "5571524f-bc82-4ad3-bcb6-531521103cd7": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "",
+            "icon-description": ""
+          }
+        },
+        "307a05dc-b38c-4971-9a95-59985c3cff06": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "",
+            "icon-description": ""
+          }
+        },
+        "31db72e2-8358-4e53-86bb-4cbf685c51e4": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "",
+            "icon-description": ""
+          }
+        },
+        "f9443322-1024-4ec0-b20a-4a5a2c6fa6c4": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "",
+            "accordion-description": ""
+          }
+        },
+        "ead6b445-31bf-4b12-9c29-32024f9f306e": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "",
+            "accordion-description": ""
+          }
+        },
+        "ee749dc2-92c8-4604-a2c3-6c333391dc37": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "",
+            "accordion-description": ""
+          }
+        },
+        "d38ee225-9d16-4d7e-8810-ee1294ff4e11": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial-description": ""
+          }
+        }
+      },
+      "block_order": [
+        "3d4e870f-c828-44b1-b490-c08dfd8a9d3a",
+        "4da08c81-9a09-4403-83d0-769c8ae9fe0b",
+        "b7c9a5fc-9b31-48e7-b72b-dcaedfa6c3bd",
+        "894badc3-328e-46af-9b2b-c725bec5d090",
+        "bb5e6b62-7a58-4a5c-8be5-33ebaa1f9ad1",
+        "af784661-0c75-41ed-8b09-43f347422f52",
+        "a2557897-4f1f-4ee5-bb57-bb09f7193c29",
+        "bdefd3f5-c34b-4849-bdc8-ad89d6f90daf",
+        "5571524f-bc82-4ad3-bcb6-531521103cd7",
+        "307a05dc-b38c-4971-9a95-59985c3cff06",
+        "31db72e2-8358-4e53-86bb-4cbf685c51e4",
+        "f9443322-1024-4ec0-b20a-4a5a2c6fa6c4",
+        "ead6b445-31bf-4b12-9c29-32024f9f306e",
+        "ee749dc2-92c8-4604-a2c3-6c333391dc37",
+        "d38ee225-9d16-4d7e-8810-ee1294ff4e11"
       ],
       "settings": {
       }
@@ -343,6 +456,7 @@
   },
   "order": [
     "template",
+    "82276d6f-f0b9-4aec-b9a2-db46e40733e5",
     "b5c88592-a982-44a2-bb81-7f899276acd7",
     "91310fff-7575-48ed-84f3-b5e39a1f61bc",
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e",

@@ -23,6 +23,11 @@
           "settings": {
           }
         },
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f": {
+          "type": "variant_selector",
+          "settings": {
+          }
+        },
         "95786b33-50fd-4db8-8027-1a612ff9b81f": {
           "type": "klarna",
           "settings": {
@@ -93,6 +98,7 @@
         "title",
         "description",
         "price",
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f",
         "95786b33-50fd-4db8-8027-1a612ff9b81f",
         "quantity",
         "checkout_buttons",
