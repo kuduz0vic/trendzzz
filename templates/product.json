@@ -88,7 +88,7 @@
         "fb18fd9e-4144-4a4b-8d43-f90b5ef65362": {
           "type": "testimonial",
           "settings": {
-            "testimonial-image": "shopify:\/\/shop_images\/Untitled.png",
+            "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
             "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong><\/p>"
           }
         }
