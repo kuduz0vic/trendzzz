@@ -302,10 +302,10 @@
         "b5c79a70-99f0-45ff-a02e-4d784143b849": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
-            "proof-title": "The softest hoodie EVER!",
+            "proof-image": "{{ product.metafields.custom[\"5th_review_image\"].value }}",
+            "proof-title": "{{ product.metafields.custom[\"5th_review_title\"].value }}",
             "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
-            "proof-name": "Jessica P."
+            "proof-name": "{{ product.metafields.custom[\"5th_review_profile_name\"].value }}"
           }
         }
       },
