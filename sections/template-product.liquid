@@ -13,7 +13,7 @@
               <div class="swiper myswiper3">
                 <div class="swiper-wrapper product-main_swiper">   
                   {% for media in product.media %}
-                  <div class="swiper-slide">
+                  <div class="swiper-slide" thumbnail-color="{{ media.alt }}">
                     <img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">
                     <div class="product-photo-label"><p class="product-photo-text">💖 MOST POPULAR</p></div>
                   </div>
@@ -24,7 +24,7 @@
             <div thumbsslider="" class="swiper myswiper4">
               <div class="swiper-wrapper product-thumb_swiper">
                 {% for media in product.media %}
-                <div class="swiper-slide product-thumb_slide"><img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
+                <div thumbnail-color="{{ media.alt }}" class="swiper-slide product-thumb_slide"><img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 100px, 450px" alt="" class="product-media_photo"></div>
               {% endfor %}
               </div>
             </div>
@@ -68,6 +68,22 @@
             </div>
           </div>
         </div>
+        {% when 'variant_selector' %}
+          {% unless product.has_only_default_variant %}
+            <variant-selector data-url="{{ product.url }}" data-section="{{ section.id }}">
+              {% for option in product.options_with_values %}
+                <label for="option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }}</label>
+                <select name="options[{{ option.name | escape }}]" id="option-{{ section.id }}-{{ forloop.index0 }}">
+                  {% for value in option.values %}
+                    <option value="{{ value | escape }}" {% if option.selected_value == value %} selected="selected" {% endif %}>{{ value }}</option>
+                  {% endfor %}
+                </select>
+                <script type="application/json">
+                  {{ product.variants | json }}
+                </script>
+              {% endfor %}
+            </variant-selector>
+          {% endunless %}
             {% when 'klarna' %}
             <div id="w-node-b8e20345-8f10-334f-d74f-55d85d411971-6ddb3075" class="klarna-element"><img src="{{'klarna.svg' | asset_url}}" loading="lazy" alt="" class="image-15">
             <p class="paragraph">Betaal pas over 30 dagen. <span class="text-span">Meer weten</span></p>
@@ -154,9 +170,13 @@
 {% endform %}
             
 
+<script>
 
 
 
+  </script>
+
+{% assign media_alt = media.alt %}
 
 <script>
   class VariantSelector extends HTMLElement {
@@ -168,10 +188,12 @@
     onVariantChange() {
       this.getSelectedOptions();
       this.getSelectedVariant();
+      this.updateMedia(this.currentVariant);
       if (this.currentVariant) {
         this.updateURL();
         this.updateFormID();
         this.updatePrice();
+        this.updateMedia();
       }
     }
 
@@ -216,10 +238,20 @@
           if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
         });
     }
+
+    updateMedia() {
+      if(this.currentVariant.featured_image !=null && this.currentVariant.featured_image.alt != null) {
+        $('[thumbnail-color]').hide();
+      var selected_color = this.currentVariant.featured_image.alt;
+      var thumbnail_selector = '[thumbnail-color="' + selected_color + '"]';
+      $(thumbnail_selector).show();
+      } else {
+       $('[thumbnail-color]').hide();
+      }
+    }
   }
   customElements.define("variant-selector", VariantSelector);
 </script>
-
 
 {% schema %}
 {
@@ -248,6 +280,11 @@
     {
       "type": "price",
       "name": "Price",
+      "limit": 1
+    },
+    {
+      "type": "variant_selector",
+      "name": "Variant Selector",
       "limit": 1
     },
     {

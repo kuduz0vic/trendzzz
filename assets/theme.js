@@ -25779,19 +25779,6 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-
-  
-function delay() {
-  window.onload = function() {
-    setTimeout(function() {
-      document.getElementsByClassName(".sidebar-container .empty").style.display = "inline-block";
-    }, 2000);
-  }
-}
-
-delay();
-
-
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.nav-button').forEach(trigger => {
    trigger.addEventListener('click', function(){ 
@@ -26197,7 +26184,6 @@ document.addEventListener('DOMContentLoaded', () => {
    });
 
 
-   
 
 
 
