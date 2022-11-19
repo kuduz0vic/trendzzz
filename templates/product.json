@@ -61,13 +61,13 @@
           "type": "additional-icons",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/calender.svg?v=1668551310",
-            "icon-description": "30 dagen bedenktijd"
+            "icon-description": "14-dagen bedenktijd"
           }
         },
         "3a517eca-19eb-407d-9035-5e236e466db5": {
           "type": "accordion",
           "settings": {
-            "accordion-title": "Fast shipping",
+            "accordion-title": "Snelle verzending",
             "accordion-description": "<p>Niemand wacht graag op zijn pakket, daarom verzenden wij al onze producten met GLS-Express verzending inclusief tracking.<\/p><p><\/p><p>🇳🇱 Geleverd binnen 4-6 werkdagen<br\/>🇧🇪 Geleverd binnen 4-6 werkdagen<br\/><br\/><strong>Verwerkingstijd:<\/strong> 1-2 werkdagen<br\/><strong>Totale levertijd:<\/strong> verwerkingstijd + verzendtijd<\/p>"
           }
         },
@@ -75,7 +75,7 @@
           "type": "accordion",
           "settings": {
             "accordion-title": "Retourneren",
-            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
+            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. Je betaal enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
           }
         },
         "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
@@ -89,7 +89,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial-image": "shopify:\/\/shop_images\/Untitled.png",
-            "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong><\/p>"
+            "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong>{{ product.metafields.custom.social_proof_bar | metafield_tag }}<\/p>"
           }
         }
       },
@@ -151,6 +151,113 @@
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "white-label_text": "💖 WHAT THEY SAY ABOUT IT",
         "white-label_text_color": "#ffffff"
+      }
+    },
+    "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
+      "type": "faq",
+      "blocks": {
+        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
+          "type": "faq",
+          "settings": {
+            "question": "Will the Snuggie hoodie fit me?",
+            "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop <br\/>antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+          }
+        },
+        "85828f55-392d-4902-8e95-c9b07a24f323": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I wash my Snuggie easily?",
+            "answer": "<p>De kussenslopen van Silk Dreams zijn gemaakt van 22 mm zijde.<\/p>"
+          }
+        },
+        "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
+          "type": "faq",
+          "settings": {
+            "question": "Is the Snuggie suitable for kids?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        },
+        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d": {
+          "type": "faq",
+          "settings": {
+            "question": "What if I am not satisfied with my Snuggie?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        },
+        "5356bbbf-fe3a-470e-86d4-523d02eada9c": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does the shipping take?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        },
+        "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I wear my Snuggie all year round?",
+            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0",
+        "85828f55-392d-4902-8e95-c9b07a24f323",
+        "a44756d6-0c05-484a-b2f3-241c5c8f52fb",
+        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d",
+        "5356bbbf-fe3a-470e-86d4-523d02eada9c",
+        "49052ed5-e517-4e74-8cbc-fa20e572e12e"
+      ],
+      "settings": {
+        "emoji": "🧐",
+        "title": "Veelgestelde vragen",
+        "description": "<p>The Snuggie is:<\/p><p>• <strong>From the inside a super warm sherpa fleece<\/strong><\/p><p>• <strong>Vegan material & animal cruelty free<\/strong><\/p><p>• <strong>Made from the highest quality fabric so it lasts long<\/strong><\/p>"
+      }
+    },
+    "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a": {
+      "type": "product-featured-collection",
+      "blocks": {
+        "9d626a4e-9e75-41ab-af21-68b4f7f3f62a": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "review": "",
+            "label": ""
+          }
+        },
+        "8dcd22d8-a7d0-4440-bb9c-a01504c4e441": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "review": "",
+            "label": ""
+          }
+        },
+        "23624740-deea-4670-ada5-d3c68ac306a1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "review": "",
+            "label": ""
+          }
+        },
+        "2238b47a-4f3e-4ceb-9ba1-6f6da4d0b0b0": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "review": "",
+            "label": ""
+          }
+        }
+      },
+      "block_order": [
+        "9d626a4e-9e75-41ab-af21-68b4f7f3f62a",
+        "8dcd22d8-a7d0-4440-bb9c-a01504c4e441",
+        "23624740-deea-4670-ada5-d3c68ac306a1",
+        "2238b47a-4f3e-4ceb-9ba1-6f6da4d0b0b0"
+      ],
+      "settings": {
+        "title": "Nu ook trending...",
+        "label-text_color": "#000000"
       }
     },
     "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e": {
@@ -285,66 +392,6 @@
       ],
       "settings": {
       }
-    },
-    "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
-      "type": "faq",
-      "blocks": {
-        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
-          "type": "faq",
-          "settings": {
-            "question": "Will the Snuggie hoodie fit me?",
-            "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop <br\/>antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
-          }
-        },
-        "85828f55-392d-4902-8e95-c9b07a24f323": {
-          "type": "faq",
-          "settings": {
-            "question": "Can I wash my Snuggie easily?",
-            "answer": "<p>De kussenslopen van Silk Dreams zijn gemaakt van 22 mm zijde.<\/p>"
-          }
-        },
-        "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
-          "type": "faq",
-          "settings": {
-            "question": "Is the Snuggie suitable for kids?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
-          }
-        },
-        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d": {
-          "type": "faq",
-          "settings": {
-            "question": "What if I am not satisfied with my Snuggie?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
-          }
-        },
-        "5356bbbf-fe3a-470e-86d4-523d02eada9c": {
-          "type": "faq",
-          "settings": {
-            "question": "How long does the shipping take?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
-          }
-        },
-        "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
-          "type": "faq",
-          "settings": {
-            "question": "Can I wear my Snuggie all year round?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0",
-        "85828f55-392d-4902-8e95-c9b07a24f323",
-        "a44756d6-0c05-484a-b2f3-241c5c8f52fb",
-        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d",
-        "5356bbbf-fe3a-470e-86d4-523d02eada9c",
-        "49052ed5-e517-4e74-8cbc-fa20e572e12e"
-      ],
-      "settings": {
-        "emoji": "🧐",
-        "title": "Everything about it",
-        "description": "<p>The Snuggie is:<\/p><p>• <strong>From the inside a super warm sherpa fleece<\/strong><\/p><p>• <strong>Vegan material & animal cruelty free<\/strong><\/p><p>• <strong>Made from the highest quality fabric so it lasts long<\/strong><\/p>"
-      }
     }
   },
   "order": [
@@ -353,8 +400,9 @@
     "91310fff-7575-48ed-84f3-b5e39a1f61bc",
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e",
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4",
+    "98119358-c98f-4c88-9b54-d75bdfb2a3bf",
+    "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a",
     "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e",
-    "f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc",
-    "98119358-c98f-4c88-9b54-d75bdfb2a3bf"
+    "f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc"
   ]
 }
