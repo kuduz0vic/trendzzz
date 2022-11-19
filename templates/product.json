@@ -116,27 +116,27 @@
     "b5c88592-a982-44a2-bb81-7f899276acd7": {
       "type": "product-iwt",
       "settings": {
-        "image": "shopify:\/\/shop_images\/product-iwt.png",
+        "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
         "emoji": "{{ product.metafields.custom.first_info_emoji_image_w_text_section_1.value }}",
-        "title": "Perfect for a night at home",
+        "title": "{{ product.metafields.custom.first_info_title_image_w_text_section_1.value }}",
         "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day. With a deep hood and a large pocket on the front, you can easily store snacks or your phone, you will instantly fall in love with our Snuggies."
       }
     },
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
       "type": "product-first-iwt",
       "settings": {
-        "image": "shopify:\/\/shop_images\/product-iwt.png",
-        "emoji": "🥰",
-        "title": "Super soft and warm",
+        "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
+        "emoji": "{{ product.metafields.custom.second_info_emoji_image_w_text_section_2.value }}",
+        "title": "{{ product.metafields.custom.second_info_title_image_w_text_section_2.value }}",
         "description": "The Snuggie is without a doubt the warmest and softest garment EVER. Each Snuggie is made from a unique blend of soft Sherpa fleece on the inside and flannel fleece on the outside. It will feel like being hugged by a cloud."
       }
     },
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
       "type": "last-iwt",
       "settings": {
-        "image": "shopify:\/\/shop_images\/product-iwt.png",
-        "emoji": "📏",
-        "title": "One size that fits all",
+        "image": "{{ product.metafields.custom.third_info_image_image_w_text_section_3.value }}",
+        "emoji": "{{ product.metafields.custom.third_info_emoji_image_w_text_section_3.value }}",
+        "title": "{{ product.metafields.custom.third_info_title_image_w_text_section_3.value }}",
         "description": "Perfect for men, women and children of all ages and heights, we have a special children's collection for children."
       }
     },
