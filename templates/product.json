@@ -293,10 +293,10 @@
         "2c32d07c-2c85-41ef-9584-bc2714a72e69": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
-            "proof-title": "The softest hoodie EVER!",
+            "proof-image": "{{ product.metafields.custom[\"4th_review_image\"].value }}",
+            "proof-title": "{{ product.metafields.custom[\"4th_review_title\"].value }}",
             "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
-            "proof-name": "Jessica P."
+            "proof-name": "{{ product.metafields.custom[\"4th_review_profile_name\"].value }}"
           }
         },
         "b5c79a70-99f0-45ff-a02e-4d784143b849": {
