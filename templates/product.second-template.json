@@ -345,6 +345,47 @@
         "title": "Everything about it",
         "description": "<p>The Snuggie is:<\/p><p>• <strong>From the inside a super warm sherpa fleece<\/strong><\/p><p>• <strong>Vegan material & animal cruelty free<\/strong><\/p><p>• <strong>Made from the highest quality fabric so it lasts long<\/strong><\/p>"
       }
+    },
+    "7878bd2c-67e2-4597-a897-6c545dd74074": {
+      "type": "highlights",
+      "blocks": {
+        "template--17015415996723__7878bd2c-67e2-4597-a897-6c545dd74074-16688913429d88d557-0": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        },
+        "09f2ae6b-dfac-4697-9f74-18b123bff153": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        },
+        "eb0bc113-18f5-4e98-b451-b41a554943ac": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        },
+        "4936c810-8b1b-46f6-88cc-97c2bac59eab": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17015415996723__7878bd2c-67e2-4597-a897-6c545dd74074-16688913429d88d557-0",
+        "09f2ae6b-dfac-4697-9f74-18b123bff153",
+        "eb0bc113-18f5-4e98-b451-b41a554943ac",
+        "4936c810-8b1b-46f6-88cc-97c2bac59eab"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -355,6 +396,7 @@
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4",
     "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e",
     "f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc",
-    "98119358-c98f-4c88-9b54-d75bdfb2a3bf"
+    "98119358-c98f-4c88-9b54-d75bdfb2a3bf",
+    "7878bd2c-67e2-4597-a897-6c545dd74074"
   ]
 }
