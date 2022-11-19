@@ -89,7 +89,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial-image": "shopify:\/\/shop_images\/Untitled.png",
-            "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong>{{ product.metafields.custom.social_proof_bar | metafield_tag }}<\/p>"
+            "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong><\/p>"
           }
         }
       },
