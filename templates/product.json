@@ -148,7 +148,7 @@
       "type": "video",
       "settings": {
         "emoji": "{{ product.metafields.custom.video_emoji.value }}",
-        "heading": "{{ product.metafields.custom.video_text.value }}",
+        "heading": "Test",
         "video-url": "{{ product.metafields.custom.video_source.value }}",
         "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
