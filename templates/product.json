@@ -155,7 +155,7 @@
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "white-label_text": "{{ product.metafields.custom.label.value }}",
-        "white-label_text_color": "#ffffff"
+        "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
     },
     "fe290a40-4da1-4e2e-87be-c957c28ea8f4": {
@@ -304,7 +304,7 @@
       ],
       "settings": {
         "title": "Nu ook trending...",
-        "label-text_color": "#000000"
+        "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
     },
     "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e": {
