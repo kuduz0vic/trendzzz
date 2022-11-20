@@ -177,14 +177,14 @@
         "70e67ab9-7a00-4213-b0af-077b5b15102a": {
           "type": "highlight",
           "settings": {
-            "emoji": "",
-            "title": ""
+            "emoji": "{{ product.metafields.custom.second_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.third_highlight.value }}"
           }
         },
         "d7a994df-74fa-40e8-ade9-04f7fbc53350": {
           "type": "highlight",
           "settings": {
-            "emoji": "",
+            "emoji": "{{ product.metafields.custom.fourth_emoji_highlights.value }}",
             "title": ""
           }
         }
