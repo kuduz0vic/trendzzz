@@ -267,7 +267,7 @@
           "type": "product",
           "settings": {
             "product": "{{ product.metafields.custom.featured_product.value }}",
-            "review": "{{ product.metafields.custom.review.value }}",
+            "review": "{{ product.metafields.custom.product_recomendation_first_review.value }}",
             "label": "{{ product.metafields.custom.label.value }}"
           }
         },
@@ -275,7 +275,7 @@
           "type": "product",
           "settings": {
             "product": "{{ product.metafields.custom[\"2nd_featured_product\"].value }}",
-            "review": "{{ product.metafields.custom.review.value }}",
+            "review": "{{ product.metafields.custom.product_recomendation_second_review.value }}",
             "label": "{{ product.metafields.custom.label.value }}"
           }
         },
@@ -283,7 +283,7 @@
           "type": "product",
           "settings": {
             "product": "{{ product.metafields.custom[\"3rd_featured_product\"].value }}",
-            "review": "{{ product.metafields.custom.review.value }}",
+            "review": "{{ product.metafields.custom.product_recomendation_third_review.value }}",
             "label": "{{ product.metafields.custom.label.value }}"
           }
         },
