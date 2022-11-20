@@ -206,43 +206,43 @@
         "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
           "type": "faq",
           "settings": {
-            "question": "Will the Snuggie hoodie fit me?",
-            "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop <br\/>antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+            "question": "{{ product.metafields.custom.first_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.first_faq_answer.value }}"
           }
         },
         "85828f55-392d-4902-8e95-c9b07a24f323": {
           "type": "faq",
           "settings": {
-            "question": "Can I wash my Snuggie easily?",
-            "answer": "<p>De kussenslopen van Silk Dreams zijn gemaakt van 22 mm zijde.<\/p>"
+            "question": "{{ product.metafields.custom.second_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.second_faq_answer.value }}"
           }
         },
         "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
           "type": "faq",
           "settings": {
-            "question": "Is the Snuggie suitable for kids?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+            "question": "{{ product.metafields.custom.third_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.third_faq_answer.value }}"
           }
         },
         "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d": {
           "type": "faq",
           "settings": {
-            "question": "What if I am not satisfied with my Snuggie?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+            "question": "{{ product.metafields.custom.fourth_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.fourth_faq_answer.value }}"
           }
         },
         "5356bbbf-fe3a-470e-86d4-523d02eada9c": {
           "type": "faq",
           "settings": {
-            "question": "How long does the shipping take?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+            "question": "{{ product.metafields.custom.fifth_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.fifth_faq_answer.value }}"
           }
         },
         "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
           "type": "faq",
           "settings": {
-            "question": "Can I wear my Snuggie all year round?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+            "question": "{{ product.metafields.custom.sixth_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.sixth_faq_answer.value }}"
           }
         }
       },
@@ -257,7 +257,7 @@
       "settings": {
         "emoji": "🧐",
         "title": "Veelgestelde vragen",
-        "description": "<p>The Snuggie is:<\/p><p>• <strong>From the inside a super warm sherpa fleece<\/strong><\/p><p>• <strong>Vegan material & animal cruelty free<\/strong><\/p><p>• <strong>Made from the highest quality fabric so it lasts long<\/strong><\/p>"
+        "description": "{{ product.metafields.custom.faq_section_description.value }}"
       }
     },
     "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a": {
@@ -268,7 +268,7 @@
           "settings": {
             "product": "{{ product.metafields.custom.featured_product.value }}",
             "review": "{{ product.metafields.custom.product_recomendation_first_review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         },
         "8dcd22d8-a7d0-4440-bb9c-a01504c4e441": {
@@ -276,7 +276,7 @@
           "settings": {
             "product": "{{ product.metafields.custom[\"2nd_featured_product\"].value }}",
             "review": "{{ product.metafields.custom.product_recomendation_second_review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         },
         "23624740-deea-4670-ada5-d3c68ac306a1": {
@@ -284,7 +284,7 @@
           "settings": {
             "product": "{{ product.metafields.custom[\"3rd_featured_product\"].value }}",
             "review": "{{ product.metafields.custom.product_recomendation_third_review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         },
         "2238b47a-4f3e-4ceb-9ba1-6f6da4d0b0b0": {
@@ -292,7 +292,7 @@
           "settings": {
             "product": "{{ product.metafields.custom[\"4th_featured_product\"].value }}",
             "review": "{{ product.metafields.custom.review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         }
       },
