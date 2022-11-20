@@ -24,13 +24,14 @@
           "settings": {
           }
         },
-        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f": {
-          "type": "variant_selector",
+        "95786b33-50fd-4db8-8027-1a612ff9b81f": {
+          "type": "klarna",
+          "disabled": true,
           "settings": {
           }
         },
-        "95786b33-50fd-4db8-8027-1a612ff9b81f": {
-          "type": "klarna",
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f": {
+          "type": "variant_selector",
           "settings": {
           }
         },
@@ -103,8 +104,8 @@
         "title",
         "description",
         "price",
-        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f",
         "95786b33-50fd-4db8-8027-1a612ff9b81f",
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f",
         "quantity",
         "checkout_buttons",
         "52350218-63e8-4f37-a440-35b5b511d0f6",
