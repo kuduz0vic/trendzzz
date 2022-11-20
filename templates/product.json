@@ -163,7 +163,7 @@
         "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0": {
           "type": "highlight",
           "settings": {
-            "emoji": "",
+            "emoji": "{{ product.metafields.custom.first_emoji_highlights.value }}",
             "title": ""
           }
         },
@@ -196,6 +196,7 @@
         "d7a994df-74fa-40e8-ade9-04f7fbc53350"
       ],
       "settings": {
+        "section-title": ""
       }
     },
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
