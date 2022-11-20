@@ -151,7 +151,7 @@
       "settings": {
         "tag": "DE NIEUWESTE TIKTIK FINDS",
         "title": "Featured Collection",
-        "description": "Ontdek onze ruime collectie TikTok finds!",
+        "description": "<p>Ontdek onze ruime collectie TikTok finds!<\/p>",
         "label-text_color": "#f92766"
       }
     },
@@ -163,7 +163,7 @@
         "inverted": false,
         "image": "shopify:\/\/shop_images\/tiktoks.png",
         "title": "Over ons",
-        "description": "Zie jij ook al die vette producten voorbij komen op TikTok? Wil jij die producten ook maar heb je geen idee waar ze te krijgen zijn? Wij zijn Trentz, bij Trentz vind je de producten die jij op jouw For You Page tegenkomt! Ons assortiment wordt continu geupdate door het Trentz team, een team van TikTok experts die de beste trends kunnen spotten en die dan voor de beste prijs op Trentz kunnen aanbieden.",
+        "description": "<p>Zie jij ook al die vette producten voorbij komen op TikTok? Wil jij die producten ook maar heb je geen idee waar ze te krijgen zijn? Wij zijn Trentz, bij Trentz vind je de producten die jij op jouw For You Page tegenkomt! Ons assortiment wordt continu geupdate door het Trentz team, een team van TikTok experts die de beste trends kunnen spotten en die dan voor de beste prijs op Trentz kunnen aanbieden.<\/p>",
         "button-label": "Discover our TikTok Finds",
         "button-url": "shopify:\/\/products\/the-airstyler-™"
       }
@@ -174,11 +174,11 @@
         "emoji": "😎",
         "heading": "What others are doing ...",
         "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9fb8e5bca04f47f496622d800bfc0e22.mp4",
-        "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.",
+        "description": "<p>The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.<\/p>",
         "button-label": "Take me to the Snuggie",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "white-label_text": "💖 WHAT THEY SAY ABOUT IT",
-        "white-label_text_color": "#f92766"
+        "label-text_color": "#77777"
       }
     },
     "f0fc251b-067a-4aa4-a4c8-b6b0d1b6a1d7": {
@@ -189,7 +189,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         },
@@ -198,7 +198,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/slippers.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         },
@@ -207,7 +207,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/Untitled.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         },
@@ -216,7 +216,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         },
@@ -225,7 +225,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/slippers.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         }
@@ -250,7 +250,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
             "badge-title": "Kostenlose Lieferung",
-            "badge-description": "Kostenlose Lieferung ab €20!"
+            "badge-description": "<p>Kostenlose Lieferung ab €20!<\/p>"
           }
         },
         "e1fb5cc2-9fc1-4938-a3ff-1bf3933ae260": {
@@ -258,7 +258,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title": "100% Kaufgarantie",
-            "badge-description": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         },
         "4883e775-6b08-491e-9ea3-10eb02164944": {
@@ -266,7 +266,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
             "badge-title": "24\/7 Kundendienst",
-            "badge-description": "Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!"
+            "badge-description": "<p>Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!<\/p>"
           }
         },
         "8312bfda-47d8-4263-adf0-8527814afd2a": {
@@ -274,7 +274,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
             "badge-title": "Verschlüsselte Zahlungen",
-            "badge-description": "Ihre Anmeldeinformationen werden sicher verarbeitet."
+            "badge-description": "<p>Ihre Anmeldeinformationen werden sicher verarbeitet.<\/p>"
           }
         },
         "aecdbcb0-4531-4f20-aec2-694735ca17dc": {
@@ -282,7 +282,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "We staan altijd voor jou klaar!",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         },
         "f6cd23dd-77fa-40d8-bd8e-65ecb18bd6a2": {
@@ -290,7 +290,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         },
         "4ab5ec77-6407-4273-b773-2b1d8e385c0a": {
@@ -298,7 +298,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         }
       },

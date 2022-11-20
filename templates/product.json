@@ -206,15 +206,15 @@
         "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
           "type": "faq",
           "settings": {
-            "question": "Will the Snuggie hoodie fit me?",
-            "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop <br\/>antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+            "question": "{{ product.metafields.custom.first_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.first_faq_answer.value }}"
           }
         },
         "85828f55-392d-4902-8e95-c9b07a24f323": {
           "type": "faq",
           "settings": {
-            "question": "Can I wash my Snuggie easily?",
-            "answer": "<p>De kussenslopen van Silk Dreams zijn gemaakt van 22 mm zijde.<\/p>"
+            "question": "{{ product.metafields.custom.second_faq_question.value }}",
+            "answer": "{{ product.metafields.custom.second_faq_answer.value }}"
           }
         },
         "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
