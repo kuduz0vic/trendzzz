@@ -234,14 +234,14 @@
         "5356bbbf-fe3a-470e-86d4-523d02eada9c": {
           "type": "faq",
           "settings": {
-            "question": "How long does the shipping take?",
+            "question": "{{ product.metafields.custom.fifth_faq_question.value }}",
             "answer": "{{ product.metafields.custom.fifth_faq_answer.value }}"
           }
         },
         "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
           "type": "faq",
           "settings": {
-            "question": "Can I wear my Snuggie all year round?",
+            "question": "{{ product.metafields.custom.sixth_faq_question.value }}",
             "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
           }
         }
