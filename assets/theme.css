@@ -17133,11 +17133,13 @@ text-align: center;
   height: 40px;
   background: #F6F6F6;
   font-family: Gilroy, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 150%;
   border: 0;
   border-radius: 6px;
+  appearance: none;
+  padding-left: 12px;
 }
 
 .variant-label {
@@ -17150,6 +17152,17 @@ text-align: center;
 
 .variant-selector {
   width: 100%;
+}
+
+.select_wrapper {
+  position: relative;
+}
+
+.select-vector {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 13px;
 }
 
 @media only screen and (min-width: 480px) {
