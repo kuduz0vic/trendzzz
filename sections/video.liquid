@@ -8,7 +8,7 @@
           </div>
           <div class="video_wrapper"><img src="{{'Group-2125.png' | asset_url}}" loading="lazy" alt="" class="stars-bottom"><img src="{{'Star-5.png' | asset_url}}" loading="lazy" alt="" class="stars-top">
             <div class="div-block-6"><video class="covered-fitted-image" muted loop><source src="{{section.settings.video-url}}" type="video/mp4"></video>
-              <div class="text-block-13">{{section.settings.white-label_text}}</div>
+              <div class="text-block-13" style="color: {{section.settings.label-text_color}}">{{section.settings.white-label_text}}</div>
             </div>
           </div>
           <div class="trending-vid-content">
@@ -70,10 +70,11 @@
       "label": "White Label Text"
     }, 
     {
-      "type": "color",
-      "id": "white-label_text_color",
-      "label": "White Label Text Color"
-    }
+           "type": "liquid",
+          "id": "label-text_color",
+          "label": "Label Text Color",
+          "default": "#000000"
+          }
   ],
   "presets": [
     {
