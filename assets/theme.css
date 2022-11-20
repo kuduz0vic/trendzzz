@@ -17155,3 +17155,12 @@ text-align: center;
 .variant-selector {
   width: 100%;
 }
+
+@media only screen and (min-width: 480px) {
+  .product-img-wrapper {
+    min-width: 450px;
+  }
+  .product-img-wrapper img {
+    min-width: 450px;
+  }
+}
