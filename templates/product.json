@@ -220,8 +220,8 @@
         "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
           "type": "faq",
           "settings": {
-            "question": "Is the Snuggie suitable for kids?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+            "question": "{{ product.metafields.custom.third_faq_answer.value }}",
+            "answer": "{{ product.metafields.custom.third_faq_answer.value }}"
           }
         },
         "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d": {
