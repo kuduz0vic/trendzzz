@@ -235,7 +235,7 @@
           "type": "faq",
           "settings": {
             "question": "How long does the shipping take?",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+            "answer": "{{ product.metafields.custom.fifth_faq_answer.value }}"
           }
         },
         "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
