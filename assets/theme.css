@@ -17145,10 +17145,12 @@ text-align: center;
 .variant-label {
   font-family: Gilroy, sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 150%;
   text-align: left;
 }
+
+
 
 .variant-selector {
   width: 100%;
