@@ -89,7 +89,11 @@
           "type": "testimonial",
           "settings": {
             "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
-            "testimonial-description": "<p><strong>Julia Clinton<\/strong> and <strong>312 other people<\/strong> love the <strong>Snuggie (Pink)<\/strong><\/p>"
+            "testimonial-bold-1": "",
+            "testimonial-normal-1": "",
+            "testimonial-bold-2": "",
+            "testimonial-normal-2": "",
+            "testimonial-bold-3": ""
           }
         }
       },
@@ -119,7 +123,7 @@
         "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
         "emoji": "{{ product.metafields.custom.first_info_emoji_image_w_text_section_1.value }}",
         "title": "{{ product.metafields.custom.first_info_title_image_w_text_section_1.value }}",
-        "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day. With a deep hood and a large pocket on the front, you can easily store snacks or your phone, you will instantly fall in love with our Snuggies."
+        "description": "<p>{{ product.metafields.custom.first_info_description_image_w_text_section_1 | metafield_tag }}<\/p>"
       }
     },
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
@@ -128,7 +132,7 @@
         "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
         "emoji": "{{ product.metafields.custom.second_info_emoji_image_w_text_section_2.value }}",
         "title": "{{ product.metafields.custom.second_info_title_image_w_text_section_2.value }}",
-        "description": "The Snuggie is without a doubt the warmest and softest garment EVER. Each Snuggie is made from a unique blend of soft Sherpa fleece on the inside and flannel fleece on the outside. It will feel like being hugged by a cloud."
+        "description": "<p>{{ product.metafields.custom.second_info_description_image_w_text_section_2 | metafield_tag }}<\/p>"
       }
     },
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
@@ -137,7 +141,7 @@
         "image": "{{ product.metafields.custom.third_info_image_image_w_text_section_3.value }}",
         "emoji": "{{ product.metafields.custom.third_info_emoji_image_w_text_section_3.value }}",
         "title": "{{ product.metafields.custom.third_info_title_image_w_text_section_3.value }}",
-        "description": "Perfect for men, women and children of all ages and heights, we have a special children's collection for children."
+        "description": "<p>{{ product.metafields.custom.third_info_description_image_w_text_section_3 | metafield_tag }}<\/p>"
       }
     },
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
@@ -146,7 +150,7 @@
         "emoji": "{{ product.metafields.custom.video_emoji.value }}",
         "heading": "{{ product.metafields.custom.video_text.value }}",
         "video-url": "{{ product.metafields.custom.video_source.value }}",
-        "description": "The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.",
+        "description": "<p>The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "white-label_text": "{{ product.metafields.custom.video_label.value }}",
@@ -268,7 +272,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"1st_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"1st_review_title\"].value }}",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "{{ product.metafields.custom[\"1st_review_profile_name\"].value }}"
           }
         },
@@ -277,7 +281,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"2nd_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"2nd_review_title\"].value }}",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "{{ product.metafields.custom[\"2nd_review_profile_name\"].value }}"
           }
         },
@@ -286,7 +290,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"3rd_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"3rd_review_title\"].value }}",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "{{ product.metafields.custom[\"3rd_review_profile_name\"].value }}"
           }
         },
@@ -295,7 +299,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"4th_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"4th_review_title\"].value }}",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "{{ product.metafields.custom[\"4th_review_profile_name\"].value }}"
           }
         },
@@ -304,7 +308,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"5th_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"5th_review_title\"].value }}",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "{{ product.metafields.custom[\"5th_review_profile_name\"].value }}"
           }
         }
@@ -329,7 +333,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
             "badge-title": "Snelle levering",
-            "badge-description": "Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!"
+            "badge-description": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "06ac345c-dabe-45d4-8cb3-084f3bf66008": {
@@ -337,7 +341,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title": "100% Kaufgarantie",
-            "badge-description": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         },
         "4d63f945-6eeb-4413-b054-e37f95174252": {
@@ -345,7 +349,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
             "badge-title": "24\/7 Kundendienst",
-            "badge-description": "Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!"
+            "badge-description": "<p>Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!<\/p>"
           }
         },
         "3b462862-07ce-4247-a2f1-4edc75b88ca8": {
@@ -353,7 +357,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
             "badge-title": "Verschlüsselte Zahlungen",
-            "badge-description": "Ihre Anmeldeinformationen werden sicher verarbeitet."
+            "badge-description": "<p>Ihre Anmeldeinformationen werden sicher verarbeitet.<\/p>"
           }
         },
         "7d70c57c-f971-4b10-ae10-6d66f5e4b92f": {
@@ -361,7 +365,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "Gratis levering Benelux",
-            "badge-description_mobile": "Alle bestellingen boven de €50,- in de Benelux worden gratis verzonden!"
+            "badge-description_mobile": "<p>Alle bestellingen boven de €50,- in de Benelux worden gratis verzonden!<\/p>"
           }
         },
         "5789044a-6f4c-46f3-bfed-cb577173c20f": {
@@ -369,7 +373,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "100% Tevredenheidsgarantie",
-            "badge-description_mobile": "Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug."
+            "badge-description_mobile": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "de94249a-1ae5-4d6e-beff-9ce2bf902660": {
@@ -377,7 +381,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "Wij helpen je altijd graag",
-            "badge-description_mobile": "Nog vragen? Ons team is slechts 1 klik verwijderd!"
+            "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         }
       },
