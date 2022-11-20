@@ -164,14 +164,14 @@
           "type": "highlight",
           "settings": {
             "emoji": "{{ product.metafields.custom.first_emoji_highlights.value }}",
-            "title": ""
+            "title": "{{ product.metafields.custom.first_highlight.value }}"
           }
         },
         "4df2f75d-07ef-4a07-8fbb-4916230758ce": {
           "type": "highlight",
           "settings": {
-            "emoji": "",
-            "title": ""
+            "emoji": "{{ product.metafields.custom.third_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.second_highlight.value }}"
           }
         },
         "70e67ab9-7a00-4213-b0af-077b5b15102a": {
