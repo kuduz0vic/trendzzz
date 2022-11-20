@@ -242,7 +242,7 @@
           "type": "faq",
           "settings": {
             "question": "{{ product.metafields.custom.sixth_faq_question.value }}",
-            "answer": "<p>Basically, you can design anything that you can ever imagine. The main  thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+            "answer": "{{ product.metafields.custom.sixth_faq_answer.value }}"
           }
         }
       },
@@ -268,7 +268,7 @@
           "settings": {
             "product": "{{ product.metafields.custom.featured_product.value }}",
             "review": "{{ product.metafields.custom.product_recomendation_first_review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         },
         "8dcd22d8-a7d0-4440-bb9c-a01504c4e441": {
@@ -276,7 +276,7 @@
           "settings": {
             "product": "{{ product.metafields.custom[\"2nd_featured_product\"].value }}",
             "review": "{{ product.metafields.custom.product_recomendation_second_review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         },
         "23624740-deea-4670-ada5-d3c68ac306a1": {
@@ -284,7 +284,7 @@
           "settings": {
             "product": "{{ product.metafields.custom[\"3rd_featured_product\"].value }}",
             "review": "{{ product.metafields.custom.product_recomendation_third_review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         },
         "2238b47a-4f3e-4ceb-9ba1-6f6da4d0b0b0": {
@@ -292,7 +292,7 @@
           "settings": {
             "product": "{{ product.metafields.custom[\"4th_featured_product\"].value }}",
             "review": "{{ product.metafields.custom.review.value }}",
-            "label": "{{ product.metafields.custom.label.value }}"
+            "label": ""
           }
         }
       },
