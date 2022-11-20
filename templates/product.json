@@ -89,11 +89,11 @@
           "type": "testimonial",
           "settings": {
             "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
-            "testimonial-bold-1": "",
-            "testimonial-normal-1": "",
-            "testimonial-bold-2": "",
-            "testimonial-normal-2": "",
-            "testimonial-bold-3": ""
+            "testimonial-bold-1": "<p><strong>{{ product.metafields.custom.name_of_social_proof_persona.value }}<\/strong><\/p>",
+            "testimonial-normal-1": "<p>en<\/p>",
+            "testimonial-bold-2": "<p><strong>{{ product.metafields.custom.amount_people_that_love_it.value }}<\/strong><strong> anderen<\/strong><\/p>",
+            "testimonial-normal-2": "<p>houden van<\/p>",
+            "testimonial-bold-3": "<p><strong>{{ product.metafields.custom.product_name_social_proof_bar.value }}<\/strong><\/p>"
           }
         }
       },
