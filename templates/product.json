@@ -163,29 +163,29 @@
         "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.first_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.first_highlight.value }}"
+            "emoji": "",
+            "title": ""
           }
         },
         "4df2f75d-07ef-4a07-8fbb-4916230758ce": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.third_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.second_highlight.value }}"
+            "emoji": "",
+            "title": ""
           }
         },
         "70e67ab9-7a00-4213-b0af-077b5b15102a": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.second_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.third_highlight.value }}"
+            "emoji": "",
+            "title": ""
           }
         },
         "d7a994df-74fa-40e8-ade9-04f7fbc53350": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.fourth_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.fourth_highlight.value }}"
+            "emoji": "",
+            "title": ""
           }
         }
       },
@@ -196,7 +196,7 @@
         "d7a994df-74fa-40e8-ade9-04f7fbc53350"
       ],
       "settings": {
-        "section-title": "Why the Snuggie?"
+        "section-title": ""
       }
     },
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
@@ -205,7 +205,7 @@
         "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
           "type": "faq",
           "settings": {
-            "question": "Will the Snuggie hoodie fit me?",
+            "question": "{{ product.metafields.custom.first_faq_question.value }}",
             "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop <br\/>antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
           }
         },
