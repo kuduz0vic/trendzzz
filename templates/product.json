@@ -206,7 +206,7 @@
           "type": "faq",
           "settings": {
             "question": "{{ product.metafields.custom.first_faq_question.value }}",
-            "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop <br\/>antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+            "answer": "{{ product.metafields.custom.first_faq_answer.value }}"
           }
         },
         "85828f55-392d-4902-8e95-c9b07a24f323": {
