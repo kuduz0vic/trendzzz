@@ -152,7 +152,7 @@
         "heading": "{{ product.metafields.custom.video_text.value }}",
         "video-url": "{{ product.metafields.custom.video_source.value }}",
         "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
-        "button-label": "{{ product.metafields.custom.video_cta.value }}",
+        "button-label": "Kies nu een kleur UltraPods",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
