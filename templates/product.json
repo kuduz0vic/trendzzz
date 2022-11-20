@@ -163,15 +163,15 @@
         "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0": {
           "type": "highlight",
           "settings": {
-            "emoji": "",
-            "title": ""
+            "emoji": "{{ product.metafields.custom.first_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.first_highlight.value }}"
           }
         },
         "4df2f75d-07ef-4a07-8fbb-4916230758ce": {
           "type": "highlight",
           "settings": {
-            "emoji": "",
-            "title": ""
+            "emoji": "{{ product.metafields.custom.third_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.second_highlight.value }}"
           }
         },
         "70e67ab9-7a00-4213-b0af-077b5b15102a": {
@@ -196,6 +196,7 @@
         "d7a994df-74fa-40e8-ade9-04f7fbc53350"
       ],
       "settings": {
+        "section-title": ""
       }
     },
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
