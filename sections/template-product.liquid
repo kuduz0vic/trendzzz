@@ -15,7 +15,7 @@
                   {% for media in product.media %}
                   <div class="swiper-slide" thumbnail-color="{{ media.alt }}">
                     <img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">
-                    <div class="product-photo-label"><p class="product-photo-text">💖 MOST POPULAR</p></div>
+                    <div class="product-photo-label"><p class="product-photo-text">{{ product.metafields.custom.label.value }}</p></div>
                   </div>
                 {% endfor %}
               </div>
@@ -159,7 +159,7 @@
                     {% case block.type %} 
                   {% when 'testimonial' %}
                     <div id="w-node-c0e555da-3a5e-41e0-7341-046b33134990-6ddb3075" class="customers-tab_wrapper"><img src="{{block.settings.testimonial-image | img_url}}" loading="lazy" srcset="{{block.settings.testimonial-image | img_url}} 500w, {{block.settings.testimonial-image | img_url}} 800w, {{block.settings.testimonial-image | img_url}} 885w" sizes="(max-width: 1279px) 54px, (max-width: 1439px) 4vw, 54px" alt="" class="social-proof-img">
-                    <span class="social-bar-p"><span class="testimonial-bold">{{block.settings.testimonial-bold-1}}</span> {{block.settings.testimonial-normal-1}} <span class="testimonial-bold">{{block.settings.testimonial-bold-2}}</span> {{block.settings.testimonial-normal-2}} <span class="testimonial-bold">{{block.settings.testimonial-bold-3}}</span></span>
+                    <span class="social-bar-p">{{block.settings.testimonial-text}}</span>
                   </div>
                 {% endcase %}
               {% endfor %}        
@@ -350,28 +350,8 @@
         },
         {
           "type": "richtext",
-          "id": "testimonial-bold-1",
+          "id": "testimonial-text",
           "label": "Testimonial Bold 1"
-        },
-        {
-          "type": "richtext",
-          "id": "testimonial-normal-1",
-          "label": "Testimonial Normal 1"
-        },
-        {
-          "type": "richtext",
-          "id": "testimonial-bold-2",
-          "label": "Testimonial Bold 2"
-        },
-        {
-          "type": "richtext",
-          "id": "testimonial-normal-2",
-          "label": "Testimonial Normal 2"
-        },
-        {
-          "type": "richtext",
-          "id": "testimonial-bold-3",
-          "label": "Testimonial Bold 3"
         }
       ]
     }

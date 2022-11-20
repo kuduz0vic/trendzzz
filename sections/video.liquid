@@ -8,7 +8,7 @@
           </div>
           <div class="video_wrapper"><img src="{{'Group-2125.png' | asset_url}}" loading="lazy" alt="" class="stars-bottom"><img src="{{'Star-5.png' | asset_url}}" loading="lazy" alt="" class="stars-top">
             <div class="div-block-6"><video class="covered-fitted-image" muted loop playsinline><source src="{{section.settings.video-url}}" type="video/mp4"></video>
-              <div class="text-block-13" style="color: {{section.settings.label-text_color}}">{{ product.metafields.custom.label.value }}</div>
+              <div class="text-block-13" style="color: {{section.settings.label-text_color}}">{{section.settings.label-text}}</div>
             </div>
           </div>
           <div class="trending-vid-content">
@@ -64,6 +64,11 @@
       "id": "button_url",
       "label": "Button Url"
     },
+    {
+           "type": "text",
+          "id": "label-text",
+          "label": "Label Text"
+          },
     {
            "type": "liquid",
           "id": "label-text_color",
