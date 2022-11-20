@@ -213,7 +213,7 @@
           "type": "faq",
           "settings": {
             "question": "{{ product.metafields.custom.second_faq_question.value }}",
-            "answer": "<p>De kussenslopen van Silk Dreams zijn gemaakt van 22 mm zijde.<\/p>"
+            "answer": "{{ product.metafields.custom.second_faq_answer.value }}"
           }
         },
         "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
