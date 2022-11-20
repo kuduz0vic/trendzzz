@@ -266,7 +266,7 @@
         "9d626a4e-9e75-41ab-af21-68b4f7f3f62a": {
           "type": "product",
           "settings": {
-            "product": "{{ product }}",
+            "product": "{{ product.metafields.custom.featured_product.value }}",
             "review": "{{ product.metafields.custom.review.value }}",
             "label": "{{ product.metafields.custom.label.value }}"
           }
