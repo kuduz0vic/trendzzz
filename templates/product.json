@@ -81,8 +81,8 @@
         "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
           "type": "accordion",
           "settings": {
-            "accordion-title": "De nummer #1 trend onder de meiden 🥰",
-            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. U betaalt enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
+            "accordion-title": "{{ product.metafields.custom.accordion_title.value }}",
+            "accordion-description": "<p>{{ product.metafields.custom.accordion_description | metafield_tag }}<\/p>"
           }
         },
         "fb18fd9e-4144-4a4b-8d43-f90b5ef65362": {
@@ -150,7 +150,7 @@
         "emoji": "{{ product.metafields.custom.video_emoji.value }}",
         "heading": "{{ product.metafields.custom.video_text.value }}",
         "video-url": "{{ product.metafields.custom.video_source.value }}",
-        "description": "<p>The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.<\/p>",
+        "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "white-label_text": "{{ product.metafields.custom.video_label.value }}",
