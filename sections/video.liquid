@@ -12,7 +12,7 @@
             </div>
           </div>
           <div class="trending-vid-content">
-            <p class="video-paragraph">{{section.settings.description}}</p>
+            <div class="video-paragraph">{{section.settings.description}}</div>
             <div class="cta-button-container">
               <a href="{{section.settings.button_url}}" class="cta-1 w-inline-block">
                 <div>{{section.settings.button-label}}</div>
@@ -50,7 +50,7 @@
       "label": "Video Url"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "description",
       "label": "Description"
     },

@@ -147,7 +147,7 @@
                       <div style="opacity:0;height:0px" class="product-accordion-info-container">
                         <div class="product-accordion-content">
                           <div class="accordion-richtext w-richtext">
-                            <p>{{block.settings.accordion-description}}</p>
+                            <div>{{block.settings.accordion-description}}</div>
                           </div>
                         </div>
                       </div>
@@ -159,7 +159,7 @@
                     {% case block.type %} 
                   {% when 'testimonial' %}
                     <div id="w-node-c0e555da-3a5e-41e0-7341-046b33134990-6ddb3075" class="customers-tab_wrapper"><img src="{{block.settings.testimonial-image | img_url}}" loading="lazy" srcset="{{block.settings.testimonial-image | img_url}} 500w, {{block.settings.testimonial-image | img_url}} 800w, {{block.settings.testimonial-image | img_url}} 885w" sizes="(max-width: 1279px) 54px, (max-width: 1439px) 4vw, 54px" alt="" class="social-proof-img">
-                    <p class="social-bar-p">{{block.settings.testimonial-description}}</p>
+                    <div class="social-bar-p"><span class="testimonial-bold">{{block.settings.testimonial-bold-1}}</span> {{block.settings.testimonial-normal-1}} <span class="testimonial-bold">{{block.settings.testimonial-bold-2}}</span> {{block.settings.testimonial-normal-2}} <span class="testimonial-bold">{{block.settings.testimonial-bold-3}}</span></div>
                   </div>
                 {% endcase %}
               {% endfor %}        
@@ -343,8 +343,28 @@
         },
         {
           "type": "richtext",
-          "id": "testimonial-description",
-          "label": "Testimonial Description"
+          "id": "testimonial-bold-1",
+          "label": "Testimonial Bold 1"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial-normal-1",
+          "label": "Testimonial Normal 1"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial-bold-2",
+          "label": "Testimonial Bold 2"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial-normal-2",
+          "label": "Testimonial Normal 2"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial-bold-3",
+          "label": "Testimonial Bold 3"
         }
       ]
     }

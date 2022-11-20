@@ -15,7 +15,7 @@
         </div>
         <div class="text-column w-col w-col-6 w-col-stack {% if section.settings.desktop-left %}iwt-padding{% endif %} {% if section.settings.inverted %}iwt-padding{% endif %}">
           <h1 class="brand-h1 hide4mobile">{{section.settings.title}}</h1>
-          <p class="brand-p">{{section.settings.description}}</p>
+          <div class="brand-p">{{section.settings.description}}</div>
           <div class="uberuns-button_wrapper">
             <a href="{{section.settings.button-url}}" class="button-hero is-secondary w-button">{{section.settings.button-label}}</a>
           </div>
@@ -67,7 +67,7 @@
       "label": "Title"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "description",
       "label": "Description"
     },

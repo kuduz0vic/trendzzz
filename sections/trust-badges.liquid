@@ -7,7 +7,7 @@
             <div class="single-usp">
               <div class="usp-icon w-embed"><img src="{{block.settings.icon-link}}"></div>
               <h1 class="trust-badges-title">{{block.settings.badge-title}}</h1>
-              <p class="trust-badges-paragraph">{{block.settings.badge-description}}</p>
+              <div class="trust-badges-paragraph">{{block.settings.badge-description}}</div>
             </div>
           </div>
       {% endcase %}
@@ -22,7 +22,7 @@
               <div class="single-usp">
                 <div class="trust-icon w-embed"><img src="{{block.settings.icon-link_mobile}}"></div>
                 <h1 class="trust-badges-title">{{block.settings.badge-title_mobile}}</h1>
-                <p class="trust-badges-paragraph">{{block.settings.badge-description_mobile}}</p>
+                <div class="trust-badges-paragraph">{{block.settings.badge-description_mobile}}</div>
               </div>
             </div>
         {% endcase %}
@@ -45,7 +45,7 @@
     "tag": "section",
     "class": "badges",
     "settings": [],
-    "max_blocks": 7,
+    "max_blocks": 8,
     "blocks": [
       {
         "name": "Social Proof",
@@ -60,7 +60,7 @@
             "id": "badge-title",
             "label": "Badge Title"
           }, {
-            "type": "textarea",
+            "type": "richtext",
             "id": "badge-description",
             "label": "Badge Description"
           }
@@ -78,7 +78,7 @@
             "id": "badge-title_mobile",
             "label": "Badge Title"
           }, {
-            "type": "textarea",
+            "type": "richtext",
             "id": "badge-description_mobile",
             "label": "Badge Description"
           }

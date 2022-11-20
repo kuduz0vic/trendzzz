@@ -4,7 +4,7 @@
         <div class="w-layout-grid content-grid">
           <div id="w-node-d3b74179-af90-544d-3a7e-5df2e588bbfa-6ddb3075" class="content-block">
             <h2 class="product-info-h1"><span class="icon">{{section.settings.emoji}}</span>{{section.settings.title}}</h2>
-            <p class="product-paragraph">{{section.settings.description}}</p>
+            <div class="product-paragraph">{{section.settings.description}}</div>
           </div>
           <div id="w-node-d3b74179-af90-544d-3a7e-5df2e588bc01-6ddb3075" class="product-img-wrapper"><img src="{{section.settings.image | img_url: 'master'}}" sizes="(max-width: 479px) 93vw, (max-width: 767px) 87vw, (max-width: 991px) 450px, 443px" srcset="{{section.settings.image | img_url: 'master'}} 500w, {{section.settings.image | img_url: 'master'}} 800w, {{section.settings.image | img_url: 'master'}} 900w" alt="" class="product-info-img"></div>
         </div>
@@ -43,7 +43,7 @@
       "label": "Title"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "description",
       "label": "Description"
     }

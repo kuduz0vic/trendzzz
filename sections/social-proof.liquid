@@ -17,7 +17,7 @@
                     <div class="review-image"><img src="{{block.settings.proof-image | img_url}}" loading="lazy" alt=""></div>
                     <div class="review-content-block">
                       <h1 class="review-title">{{block.settings.proof-title}}</h1>
-                      <p class="review-p">{{block.settings.proof-description}}</p>
+                      <div class="review-p">{{block.settings.proof-description}}</div>
                     </div>
                   </div>
                   <div class="div-block">
@@ -113,7 +113,7 @@
             "id": "proof-title",
             "label": "Proof Title"
           }, {
-            "type": "textarea",
+            "type": "richtext",
             "id": "proof-description",
             "label": "Proof Description"
           }, {

@@ -13,7 +13,7 @@
         <div class="w-layout-grid content-grid">
           <div id="w-node-cde5bcbe-7062-eabb-5627-af657ddbe67a-6ddb3075" class="content-block {% if section.settings.desktop-left_grid %}desktop-left_grid{% endif %} {% if section.settings.desktop-right_grid %}desktop-right_grid{% endif %} {% if section.settings.inverted_grid %}inverted_grid{% endif %}">
             <h2 class="product-info-h1"><span class="icon">{{section.settings.emoji}}</span>{{section.settings.title}}</h2>
-            <p class="product-paragraph">{{section.settings.description}}</p>
+            <div class="product-paragraph">{{section.settings.description}}</div>
           </div>
           <div class="product-img-wrapper {% if section.settings.desktop-left %}desktop-left_grid{% endif %} {% if section.settings.desktop-right %}desktop-right_grid{% endif %} {% if section.settings.inverted %}inverted_grid{% endif %}"><img src="{{section.settings.image | img_url: 'master'}}" loading="lazy" srcset="{{section.settings.image | img_url: 'master'}} 500w, {{section.settings.image | img_url: 'master'}} 800w, {{section.settings.image | img_url: 'master'}} 900w" sizes="(max-width: 479px) 93vw, (max-width: 767px) 87vw, (max-width: 991px) 450px, 443px" alt="" class="product-info-img"></div>
         </div>
@@ -52,7 +52,7 @@
       "label": "Title"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "description",
       "label": "Description"
     }
