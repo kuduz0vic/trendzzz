@@ -148,13 +148,54 @@
       "type": "video",
       "settings": {
         "emoji": "{{ product.metafields.custom.video_emoji.value }}",
-        "heading": "{{ product.metafields.custom.video_text.value }}",
+        "heading": "",
         "video-url": "{{ product.metafields.custom.video_source.value }}",
         "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "white-label_text": "{{ product.metafields.custom.video_label.value }}",
         "white-label_text_color": "#ffffff"
+      }
+    },
+    "fe290a40-4da1-4e2e-87be-c957c28ea8f4": {
+      "type": "highlights",
+      "blocks": {
+        "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        },
+        "4df2f75d-07ef-4a07-8fbb-4916230758ce": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        },
+        "70e67ab9-7a00-4213-b0af-077b5b15102a": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        },
+        "d7a994df-74fa-40e8-ade9-04f7fbc53350": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0",
+        "4df2f75d-07ef-4a07-8fbb-4916230758ce",
+        "70e67ab9-7a00-4213-b0af-077b5b15102a",
+        "d7a994df-74fa-40e8-ade9-04f7fbc53350"
+      ],
+      "settings": {
       }
     },
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
@@ -404,6 +445,7 @@
     "91310fff-7575-48ed-84f3-b5e39a1f61bc",
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e",
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4",
+    "fe290a40-4da1-4e2e-87be-c957c28ea8f4",
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf",
     "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a",
     "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e",
