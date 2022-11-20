@@ -1,11 +1,11 @@
 <div class="why-section">
   <div class="why-swiper-section">
-    <div id="why-swiper" class="product-featured-images">
-      <div class="swiper-wrapper-2 why-grid">
+    <div id="why-swiper" class="product-featured-images swiper">
+      <div class="swiper-wrapper collection-wrapper why-grid">
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'slide' %}
-              <div id="w-node-_8312cad2-f43b-cf9a-039d-877cc75e6314-ea427bf1" class="swiper-slide-3">
+              <div id="w-node-_8312cad2-f43b-cf9a-039d-877cc75e6314-ea427bf1" class="swiper-slide collection-slide">
                 <div class="swiper-why-block">
                   <div class="swiper-why-icon">
                     <div>{{block.settings.emoji}}</div>
@@ -19,12 +19,9 @@
           {% endcase %}
         {% endfor %}
       </div>
+      <div class="swiper-pagination-why"></div>
     </div>
-    <div class="swiper-pagination-container why-slider">
-      <div id="why-pagination" class="swiper-pagination-2 swiper-pagination-clickable swiper-pagination-bullets">
-        <div class="swiper-pagination-bullet-3"></div>
-      </div>
-    </div>
+
   </div>
 </div>
 

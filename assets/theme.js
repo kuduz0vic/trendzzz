@@ -25861,6 +25861,30 @@ var swiperNodes = "";
    }
  })
 
+ var mySwiper = new Swiper ('#why-swiper', {
+  // Optional parameters
+  slidesPerView: 1,
+  loop: true,
+  lazy: true,
+  pagination: {
+    el: '.swiper-pagination-why',
+    clickable: true
+  },
+  keyboard: {
+    enabled: true,
+  },
+  breakpoints: {
+    481: {
+      slidesPerView: 2,
+      loop: true,
+    },
+    992: {
+      slidesPerView: 3,
+      loop: false,
+    }
+  }
+})
+
 $('[data-click="faq"]').click(function(){
  if(!$(this).is('.open')){
    $('[data-click="faq"].open').each((i, item)=>{
