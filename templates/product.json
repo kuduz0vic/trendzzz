@@ -257,7 +257,7 @@
       "settings": {
         "emoji": "🧐",
         "title": "Veelgestelde vragen",
-        "description": "<p>The Snuggie is:<\/p><p>• <strong>From the inside a super warm sherpa fleece<\/strong><\/p><p>• <strong>Vegan material & animal cruelty free<\/strong><\/p><p>• <strong>Made from the highest quality fabric so it lasts long<\/strong><\/p>"
+        "description": "{{ product.metafields.custom.faq_section_description.value }}"
       }
     },
     "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a": {
