@@ -185,7 +185,7 @@
           "type": "highlight",
           "settings": {
             "emoji": "{{ product.metafields.custom.fourth_emoji_highlights.value }}",
-            "title": ""
+            "title": "{{ product.metafields.custom.fourth_highlight.value }}"
           }
         }
       },
