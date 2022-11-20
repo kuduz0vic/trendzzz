@@ -24,13 +24,14 @@
           "settings": {
           }
         },
-        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f": {
-          "type": "variant_selector",
+        "95786b33-50fd-4db8-8027-1a612ff9b81f": {
+          "type": "klarna",
+          "disabled": true,
           "settings": {
           }
         },
-        "95786b33-50fd-4db8-8027-1a612ff9b81f": {
-          "type": "klarna",
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f": {
+          "type": "variant_selector",
           "settings": {
           }
         },
@@ -103,8 +104,8 @@
         "title",
         "description",
         "price",
-        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f",
         "95786b33-50fd-4db8-8027-1a612ff9b81f",
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f",
         "quantity",
         "checkout_buttons",
         "52350218-63e8-4f37-a440-35b5b511d0f6",
@@ -152,9 +153,8 @@
         "heading": "{{ product.metafields.custom.video_text.value }}",
         "video-url": "{{ product.metafields.custom.video_source.value }}",
         "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
-        "button-label": "{{ product.metafields.custom.video_cta.value }}",
+        "button-label": "Kies nu een kleur UltraPods",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
-        "white-label_text": "{{ product.metafields.custom.label.value }}",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
     },
@@ -197,7 +197,7 @@
         "d7a994df-74fa-40e8-ade9-04f7fbc53350"
       ],
       "settings": {
-        "section-title": "Why the Snuggie?"
+        "section-title": "Waarom UltraPods Max?"
       }
     },
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
@@ -262,49 +262,12 @@
     },
     "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a": {
       "type": "product-featured-collection",
-      "blocks": {
-        "9d626a4e-9e75-41ab-af21-68b4f7f3f62a": {
-          "type": "product",
-          "settings": {
-            "product": "{{ product.metafields.custom.featured_product.value }}",
-            "review": "{{ product.metafields.custom.product_recomendation_first_review.value }}",
-            "label": ""
-          }
-        },
-        "8dcd22d8-a7d0-4440-bb9c-a01504c4e441": {
-          "type": "product",
-          "settings": {
-            "product": "{{ product.metafields.custom[\"2nd_featured_product\"].value }}",
-            "review": "{{ product.metafields.custom.product_recomendation_second_review.value }}",
-            "label": ""
-          }
-        },
-        "23624740-deea-4670-ada5-d3c68ac306a1": {
-          "type": "product",
-          "settings": {
-            "product": "{{ product.metafields.custom[\"3rd_featured_product\"].value }}",
-            "review": "{{ product.metafields.custom.product_recomendation_third_review.value }}",
-            "label": ""
-          }
-        },
-        "2238b47a-4f3e-4ceb-9ba1-6f6da4d0b0b0": {
-          "type": "product",
-          "settings": {
-            "product": "{{ product.metafields.custom[\"4th_featured_product\"].value }}",
-            "review": "{{ product.metafields.custom.review.value }}",
-            "label": ""
-          }
-        }
-      },
-      "block_order": [
-        "9d626a4e-9e75-41ab-af21-68b4f7f3f62a",
-        "8dcd22d8-a7d0-4440-bb9c-a01504c4e441",
-        "23624740-deea-4670-ada5-d3c68ac306a1",
-        "2238b47a-4f3e-4ceb-9ba1-6f6da4d0b0b0"
-      ],
       "settings": {
         "title": "Nu ook trending...",
-        "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
+        "label-text_color": "{{ product.metafields.custom.label_text_color.value }}",
+        "rec_product_list": [
+
+        ]
       }
     },
     "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e": {
@@ -315,7 +278,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"1st_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"1st_review_title\"].value }}",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
+            "proof-description": "<p>{{ product.metafields.custom[\"1st_review_description\"] | metafield_tag }}<\/p>",
             "proof-name": "{{ product.metafields.custom[\"1st_review_profile_name\"].value }}"
           }
         },
@@ -324,7 +287,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"2nd_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"2nd_review_title\"].value }}",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
+            "proof-description": "<p>{{ product.metafields.custom[\"2nd_review_description\"] | metafield_tag }}<\/p>",
             "proof-name": "{{ product.metafields.custom[\"2nd_review_profile_name\"].value }}"
           }
         },
@@ -333,7 +296,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"3rd_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"3rd_review_title\"].value }}",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
+            "proof-description": "<p>{{ product.metafields.custom[\"3rd_review_description\"] | metafield_tag }}<\/p>",
             "proof-name": "{{ product.metafields.custom[\"3rd_review_profile_name\"].value }}"
           }
         },
@@ -342,7 +305,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"4th_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"4th_review_title\"].value }}",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
+            "proof-description": "<p>{{ product.metafields.custom[\"4th_review_description\"] | metafield_tag }}<\/p>",
             "proof-name": "{{ product.metafields.custom[\"4th_review_profile_name\"].value }}"
           }
         },
@@ -351,7 +314,7 @@
           "settings": {
             "proof-image": "{{ product.metafields.custom[\"5th_review_image\"].value }}",
             "proof-title": "{{ product.metafields.custom[\"5th_review_title\"].value }}",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
+            "proof-description": "<p>{{ product.metafields.custom[\"5th_review_description\"] | metafield_tag }}<\/p>",
             "proof-name": "{{ product.metafields.custom[\"5th_review_profile_name\"].value }}"
           }
         }
