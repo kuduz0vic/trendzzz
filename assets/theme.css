@@ -16984,11 +16984,7 @@ form.js-ajax-cart-form-in-progress:after {
 .cart__actions {
   width: 100%;
 }
-.icon {
-  margin-right: 5px;
-  display: none;
-  font-size: 22px;
-}
+
 .loading {
   background-color: #014b94;
   color: #eee;
