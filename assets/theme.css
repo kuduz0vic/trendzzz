@@ -17171,6 +17171,9 @@ text-align: center;
     font-size: 12px;
     line-height: 20px;
     font-weight: 800;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
