@@ -210,7 +210,7 @@
         "85828f55-392d-4902-8e95-c9b07a24f323": {
           "type": "faq",
           "settings": {
-            "question": "{{ product.metafields.custom.second_faq_question.value }}",
+            "question": "Welke betaalmethoden accepteren jullie?",
             "answer": "{{ product.metafields.custom.second_faq_answer.value }}"
           }
         },
