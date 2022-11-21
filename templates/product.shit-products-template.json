@@ -272,37 +272,37 @@
         "b04d0145-b02f-4905-bc6c-fac60053c6ef": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"2nd_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"2nd_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"2nd_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"2nd_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.01.29.png",
+            "proof-title": "Ik sta ervan versteld!",
+            "proof-description": "<p>Wowwww had echt niet verwacht dat de kwaliteit zo goed was! Ze zijn net zoals de echte alleen vele malen goedkoper. Ik ben verliefd! 🥰<\/p>",
+            "proof-name": "Lisanne"
           }
         },
         "fa08a606-d3df-45a0-afce-b708049ab11d": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"3rd_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"3rd_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"3rd_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"3rd_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_02.54.49.png",
+            "proof-title": "Super mooie waves en krullen!",
+            "proof-description": "<p>Echt mooie waves en krulletjes weten de krijgen met de Airstyler Deluxe! Ik ben super tevreden. Merk ook dat mijn haar een stuk beter aanvoelt sinds ik niet meer mijn haar föhn met een normale föhn!<\/p>",
+            "proof-name": "Beau"
           }
         },
         "2c32d07c-2c85-41ef-9584-bc2714a72e69": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"4th_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"4th_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"4th_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"4th_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.17.10.png",
+            "proof-title": "Super dealtje, ik doe ze niet af",
+            "proof-description": "<p>Ik zag ze een paar keer voorbij komen op TikTok! Na mijn vriendin de UltraPods al had heb ik hem ook maar gekocht. Wat een super deal!<\/p>",
+            "proof-name": "Jessica"
           }
         },
         "b5c79a70-99f0-45ff-a02e-4d784143b849": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"5th_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"5th_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"5th_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"5th_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.14.34.png",
+            "proof-title": "Goede kwaliteit en snel geleverd",
+            "proof-description": "<p>Super snel binnen en bij eerste gebruik gelijk tevreden. De kwaliteit is beter dan stylers zoals de Dyson, terwijl dees een fractie van de prijs is.<\/p>",
+            "proof-name": "Daisy"
           }
         }
       },
