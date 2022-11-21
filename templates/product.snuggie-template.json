@@ -121,7 +121,7 @@
         "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
         "emoji": "🍿️",
         "title": "Perfect voor Netflix and Chill",
-        "description": "<p>Met de Snuggie lig je altijd lekker op de banks je favoriete films te kijken! De Snuggie is uitgerust met een warme fleece voering waardoor je het altijd lekker warm hebt. De oversized heeft een diepe capuchon en een grote zak aan de voorkant waar je jouw telefoon in kan stoppen!<\/p>"
+        "description": "<p>De The Snuggie™ is het perfecte comfortabele kledingstuk om lekker op de bank films te kijken, voor een koude dag. Met een diepe capuchon en een grote zak aan de voorkant kan je gemakkelijk snacks of je telefoon bewaren, je zult direct verliefd zijn op onze Hoodie dekens.<\/p>"
       }
     },
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
@@ -145,11 +145,11 @@
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
       "type": "video",
       "settings": {
-        "emoji": "{{ product.metafields.custom.video_emoji.value }}",
-        "heading": "{{ product.metafields.custom.video_text.value }}",
+        "emoji": "🧸",
+        "heading": "Wat anderen ermee doen...",
         "video-url": "https:\/\/v16-webapp.tiktok.com\/6420069bb8fb8af79aaf68efc638ad45\/637b4215\/video\/tos\/alisg\/tos-alisg-pve-0037c001\/679eeb168d1d4ecba5e5908a7ed623ca\/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3746&bt=1873&cs=0&ds=3&ft=kLO5qya9Zmo0Pa7oSBkVQUr_EiHKJdmC0&mime_type=video_mp4&qs=0&rc=MzM0Ojo6OTQ8Z2g5aTM5NUBpM2xubWg6Znc1ZjMzODczNEAyYjQ1YWE1Xl4xYDIzXl80YSNoLTVvcjQwMHFgLS1kMS1zcw%3D%3D&l=2022112103165401021713523110425EDB&btag=80000",
-        "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
-        "button-label": "{{ product.metafields.custom.video_cta.value }}",
+        "description": "<p>Met <\/p>",
+        "button-label": "Kies nu mijn kleur Snuggie",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
         "label-text": "",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
