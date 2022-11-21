@@ -25779,7 +25779,7 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-var t = setTimeout(function() {
+var t = setTimeout(function removeLoading() {
   $(".atc_text").removeClass("remove");
   $(".icon-embed-xsmall-3.w-embed").removeClass("remove");
   $(".animation-wrapper").addClass("remove");
