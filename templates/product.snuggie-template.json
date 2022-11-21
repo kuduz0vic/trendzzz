@@ -147,7 +147,7 @@
       "settings": {
         "emoji": "{{ product.metafields.custom.video_emoji.value }}",
         "heading": "{{ product.metafields.custom.video_text.value }}",
-        "video-url": "{{ product.metafields.custom.video_source.value }}",
+        "video-url": "https:\/\/v16-webapp.tiktok.com\/6420069bb8fb8af79aaf68efc638ad45\/637b4215\/video\/tos\/alisg\/tos-alisg-pve-0037c001\/679eeb168d1d4ecba5e5908a7ed623ca\/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3746&bt=1873&cs=0&ds=3&ft=kLO5qya9Zmo0Pa7oSBkVQUr_EiHKJdmC0&mime_type=video_mp4&qs=0&rc=MzM0Ojo6OTQ8Z2g5aTM5NUBpM2xubWg6Znc1ZjMzODczNEAyYjQ1YWE1Xl4xYDIzXl80YSNoLTVvcjQwMHFgLS1kMS1zcw%3D%3D&l=2022112103165401021713523110425EDB&btag=80000",
         "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
