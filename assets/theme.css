@@ -16988,10 +16988,13 @@ body.js-ajax-cart-request-in-progress .my-cart {
 form.js-ajax-cart-form-in-progress [type="submit"] {
   opacity: 0.7;
 }
-form.js-ajax-cart-form-in-progress:after {
-  content: "Adding to cart";
-  display: block;
+form.js-ajax-cart-form-in-progress.icon-embed-xsmall-2 [type="submit"] {
+  display: none;
 }
+form.js-ajax-cart-form-in-progress.atc-button_text [type="submit"] {
+  display: none;
+}
+
 .black-font-color {
   color: #000;
 }
@@ -17272,3 +17275,9 @@ position: absolute;
     position: absolute;
     bottom: 0;
   }
+
+  .collection-atc_form {
+    max-height: 48px;
+  }
+
+  form.js-ajax-cart-form-in-progress

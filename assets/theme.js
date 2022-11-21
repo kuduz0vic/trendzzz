@@ -26179,6 +26179,6 @@ document.addEventListener('DOMContentLoaded', () => {
    });
 
 
-
+   var swiper = new Swiper("#cart-swiper", {});
 
 

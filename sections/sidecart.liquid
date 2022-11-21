@@ -239,8 +239,8 @@
           <div class="cart-slide-upsell_title">
             <p>{{section.settings.upsell-title}}</p>
           </div>
-          <div id="cart-swiper" class="cart-swiper">
-            <div class="cart-slide-upsell">
+          <div id="cart-swiper" class="swiper cart-swiper">
+            <div class="swiper-wrapper cart-slide-upsell">
               {% for block in section.blocks %}
                 {% case block.type %}
                   {% when 'product' %}
@@ -248,7 +248,7 @@
                     {% capture upsell-discount %}
                       {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
                     {% endcapture %}
-                    <div class="cart-upsell-block slide-cart-block">
+                    <div class="swiper-slide cart-upsell-block slide-cart-block">
                       <a href="{{product.url}}">
                         <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
                           <div class="upsell-info-wrapper">
@@ -280,56 +280,6 @@
           <div class="cart-pagination"></div>
         </div>
       </div>
-
-      {% assign totalUpsells = 0 %}
-      {% for item in cart.items %}
-        {% if item.product.metafields.custom.product_cart_upsell != blank %}
-          {% for upsell in item.product.metafields.custom.product_cart_upsell.value %}
-            {% if upsell.available %}
-              {% assign totalUpsells = totalUpsells | plus: 1 %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-
-      {% if totalUpsells != 0 %}
-        <div style="padding-bottom: 16px">
-          <div id="upsellSlider" class="swiper-container upsellSlider">
-            <div class="swiper-wrapper">
-              {% for item in cart.items %}
-                {% if item.product.metafields.custom.product_cart_upsell != blank %}
-                  {% for upsell in item.product.metafields.custom.product_cart_upsell.value %}
-                    {% if upsell.available %}
-                      <div class="swiper-slide">
-                        <div class="wrapper-for-upsells">
-                          <div class="upsell-header">
-                            {{ section.settings.maak_af }}
-                          </div>
-                          <div class="upsell-line"></div>
-                          {% render 'product-card-upsell', product: upsell %}
-                        </div>
-                      </div>
-                    {% endif %}
-                  {% endfor %}
-                {% endif %}
-              {% endfor %}
-            </div>
-
-            <div class="upsell-pagination"></div>
-          </div>
-        </div>
-      {% endif %}
-
-      {% assign chosenDeal = section.settings.chosendeal %}
-
-      {% assign upsell_in_cart = false %}
-
-      {% for item in cart.items %}
-        {% if item.title == chosenDeal.title %}
-          {% assign upsell_in_cart = true %}
-        {% endif %}
-      {% endfor %}
-
 
       <div class="cart-payment-info">
 
@@ -499,15 +449,6 @@
         $('.cart-title .gray').html(cart.item_count);
       });
     };
-  });
-</script>
-
-
-<script>
-  $(document).ready(function() {
-    $('.cart-slide-upsell').slick({
-      setting - name: setting - value
-    });
   });
 </script>
 
