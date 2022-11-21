@@ -25779,12 +25779,16 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-var delayInMilliseconds = 3000; //1 second
-setTimeout(function removeLoading() {
+function removeLoading() {
   $(".atc_text").removeClass("remove");
   $(".icon-embed-xsmall-3.w-embed").removeClass("remove");
-  $(".animation-wrapper").addClass("remove");
-}, delayInMilliseconds);
+  $(".animation-wrapper").addClass("remove"); 
+}
+
+function removeLoading() {
+  setTimeout('removeLoading()', 3000);
+}
+
 
 
 function Loading() {
