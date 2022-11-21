@@ -500,6 +500,12 @@
       });
     };
   });
+
+  $(document).ready(function() {
+    if ($('body').hasClass("js-my-cart-open")) 
+      $("body").addClass("is-non-scrollable");
+    
+  });
 </script>
 
 
