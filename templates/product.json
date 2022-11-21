@@ -263,7 +263,10 @@
         "title": "Nu ook trending...",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}",
         "rec_product_list": [
-
+          "the-trentzz-poly-nails-set",
+          "the-trentzz-5-in-1-airstyler",
+          "the-note-pad",
+          "magic-lip-filler"
         ]
       }
     },
