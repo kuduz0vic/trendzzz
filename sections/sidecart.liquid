@@ -239,8 +239,8 @@
           <div class="cart-slide-upsell_title">
             <p>{{section.settings.upsell-title}}</p>
           </div>
-          <div id="cart-swiper" class="swiper cart-swiper">
-            <div class="swiper-wrapper">
+          <div id="cart-swiper" class="cart-swiper">
+            <div class="cart-slide-upsell">
               {% for block in section.blocks %}
                 {% case block.type %}
                   {% when 'product' %}
@@ -248,7 +248,7 @@
                     {% capture upsell-discount %}
                       {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
                     {% endcapture %}
-                    <div class="swiper-slide">
+                    <div class=" cart-upsell-block slide-cart-block">
                       <a href="{{product.url}}">
                         <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
                           <div class="upsell-info-wrapper">
