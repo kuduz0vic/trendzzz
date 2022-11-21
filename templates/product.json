@@ -203,8 +203,8 @@
         "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
           "type": "faq",
           "settings": {
-            "question": "{{ product.metafields.custom.first_faq_question.value }}",
-            "answer": "{{ product.metafields.custom.first_faq_answer.value }}"
+            "question": "Hoe lang duurt het voordat ik mijn bestelling ontvang?",
+            "answer": "Al onze orders worden na 1-2 werkdagen verzonden, hierna volgt een verzendtermijn van 4-6 werkdagen."
           }
         },
         "85828f55-392d-4902-8e95-c9b07a24f323": {
