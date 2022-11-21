@@ -62,19 +62,15 @@
                 </a>
                 <div class="easy-atc-card-collection">
                     <form method="post" action="/cart/add" class="collection-atc_form">
-                        <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                        <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
-                    <button type="submit" class="atc w-inline-block" name="add">
-                        {% if selected_variant.available == false %}
-                          Sold out
-                           {% else %}
-                           <div class="text-block-6">{{section.settings.button-label}}</div>
-                           <div class="icon-embed-xsmall-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="auto" height="auto" fill="none" viewbox="0 0 20 18">
-                               <path fill="#fff" d="m18.337 10.44 1.642-7.207a.832.832 0 0 0-.813-1.015H5.528L5.21.665A.833.833 0 0 0 4.393 0H.833A.832.832 0 0 0 0 .832v.554c0 .46.373.832.833.832H3.26l2.439 11.9a1.938 1.938 0 0 0 .968 3.623A1.942 1.942 0 0 0 8.61 15.8c0-.544-.224-1.035-.584-1.387h7.28c-.36.352-.585.843-.585 1.386 0 1.072.87 1.94 1.945 1.94a1.94 1.94 0 0 0 .848-3.687l.191-.84a.832.832 0 0 0-.812-1.016h-9.32l-.228-1.11h10.179a.834.834 0 0 0 .813-.646Z"></path>
-                             </svg></div>
-                          {% endif %}
-                      </button>
-                    </form>
+                      <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                      <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
+                    <button type="submit" class="atc-card-collection w-inline-block" name="add">
+                      <div class="atc-button_text">Add to cart</div>
+                      <div class="icon-embed-xsmall-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="auto" height="auto" fill="none" viewbox="0 0 20 18">
+                          <path fill="#fff" d="m18.337 10.44 1.642-7.207a.832.832 0 0 0-.813-1.015H5.528L5.21.665A.833.833 0 0 0 4.393 0H.833A.832.832 0 0 0 0 .832v.554c0 .46.373.832.833.832H3.26l2.439 11.9a1.938 1.938 0 0 0 .968 3.623A1.942 1.942 0 0 0 8.61 15.8c0-.544-.224-1.035-.584-1.387h7.28c-.36.352-.585.843-.585 1.386 0 1.072.87 1.94 1.945 1.94a1.94 1.94 0 0 0 .848-3.687l.191-.84a.832.832 0 0 0-.812-1.016h-9.32l-.228-1.11h10.179a.834.834 0 0 0 .813-.646Z"></path>
+                        </svg></div>
+                    </button>
+                  </form>
                 </div>
                 <div class="lottie-animation_wrapper home-page">
                   <div class="lottie-animation-2" data-w-id="231f659c-b451-6365-bffd-e43ff94ec5e6" data-animation-type="lottie" data-src="{{'lf20_lccjnf8m.json' | asset_url}}" data-loop="0" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="16" data-duration="0"></div>
