@@ -25779,17 +25779,17 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
+const myTimeout = setTimeout(removeLoading, 3000);
+
 function removeLoading() {
   $(".atc_text").removeClass("remove");
   $(".icon-embed-xsmall-3.w-embed").removeClass("remove");
-  $(".animation-wrapper").addClass("remove"); 
-}
+  $(".animation-wrapper").addClass("remove");
+};
 
-function removeLoading() {
-  setTimeout('removeLoading()', 3000);
-}
-
-
+function myStopFunction() {
+    clearTimeout(myTimeout);
+  }
 
 function Loading() {
   $(".atc_text").addClass("remove");
