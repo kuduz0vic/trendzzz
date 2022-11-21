@@ -3744,6 +3744,7 @@ figcaption {
   font-size: 16px;
   line-height: 150%;
   text-align: left;
+  font-weight: 600;
 }
 
 .review-image {
@@ -3797,6 +3798,7 @@ figcaption {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  font-weight: 600;
 }
 
 .trust-badges-section {
