@@ -119,9 +119,9 @@
       "type": "product-iwt",
       "settings": {
         "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
-        "emoji": "{{ product.metafields.custom.first_info_emoji_image_w_text_section_1.value }}",
-        "title": "{{ product.metafields.custom.first_info_title_image_w_text_section_1.value }}",
-        "description": "<p>{{ product.metafields.custom.first_info_description_image_w_text_section_1 | metafield_tag }}<\/p>"
+        "emoji": "🍿️",
+        "title": "Perfect voor Netflix and Chill",
+        "description": "<p>Met de Snuggie lig je altijd lekker op de banks je favoriete films te kijken! De Snuggie is uitgerust met een warme fleece voering waardoor je het altijd lekker warm hebt. De oversized heeft een diepe capuchon en een grote zak aan de voorkant waar je jouw telefoon in kan stoppen!<\/p>"
       }
     },
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
