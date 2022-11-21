@@ -112,7 +112,9 @@
       import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
     </script>
     {% section 'sidecart' %}
-    {% render 'scripts' %}
+    <script type="application/json" data-ajax-cart-configuration>
+      {"addToCartCssClass": "js-my-cart-open"}
+    </script>
 
   </body>
 </html>
