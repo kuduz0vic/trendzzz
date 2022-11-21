@@ -301,7 +301,7 @@
         "settings": {
           "tag": "CONTACT US",
           "title": "Do you need help?",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium fermentum semper at blandit."
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium fermentum semper at blandit.<\/p>"
         }
       },
       "sidecart": {
@@ -310,21 +310,21 @@
           "c49b0cad-b799-485b-aece-f5f81645e0ee": {
             "type": "product",
             "settings": {
-              "product": "the-airstyler-™",
+              "product": "boggy-cargo-pants",
               "button-label": "+"
             }
           },
           "3f3d868a-8aba-4e89-9173-1d888fcc5e16": {
             "type": "product",
             "settings": {
-              "product": "the-green-airstyler-™",
+              "product": "cargo-stretch-pants",
               "button-label": "+"
             }
           },
           "ede16a55-05f5-4485-aa8a-56e1c0774275": {
             "type": "product",
             "settings": {
-              "product": "the-red-airstyler-™",
+              "product": "essentials®-tracksuit",
               "button-label": "+"
             }
           },
