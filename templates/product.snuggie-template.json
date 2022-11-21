@@ -91,7 +91,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
-            "testimonial-text": ""
+            "testimonial-text": "{{ product.metafields.custom.social_proof_bar.value }}"
           }
         }
       },
