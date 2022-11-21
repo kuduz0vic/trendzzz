@@ -211,27 +211,27 @@
           "type": "faq",
           "settings": {
             "question": "Welke betaalmethoden accepteren jullie?",
-            "answer": "{{ product.metafields.custom.second_faq_answer.value }}"
+            "answer": "Wij accepteren iDeal, Banccontact, Visa, MasterCard, American Express, Klarna en AfterPay!"
           }
         },
         "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
           "type": "faq",
           "settings": {
-            "question": "{{ product.metafields.custom.third_faq_question.value }}",
-            "answer": "{{ product.metafields.custom.third_faq_answer.value }}"
+            "question": "Hoe kan ik mijn bestelling volgen?",
+            "answer": "Wij sturen traceerinformatie naar het e-mailadres dat aan jouw bestelling is gekoppeld zodra het artikel is verzonden. Als je geen tracking informatie heeft ontvangen en het is al meer dan 2 werkdagen geleden, neem dan contact met ons op via support@thetrentzz.nl"
           }
         },
         "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d": {
           "type": "faq",
           "settings": {
-            "question": "{{ product.metafields.custom.fourth_faq_question.value }}",
-            "answer": "{{ product.metafields.custom.fourth_faq_answer.value }}"
+            "question": "Kan ik als cadeau voor iemand anders bestellen?",
+            "answer": "Wanneer je als cadeau voor iemand bestelt, zorg er dan voor dat je jouw eigen email adres invult om alle informatie te ontvangen, maar voer wel de naam van de ontvanger en de verzendinformatie in. Wij zullen er voor zorgen dat alle prijzen en bonnetjes uit het pakket blijven."
           }
         },
         "5356bbbf-fe3a-470e-86d4-523d02eada9c": {
           "type": "faq",
           "settings": {
-            "question": "{{ product.metafields.custom.fifth_faq_question.value }}",
+            "question": "Hoe kan ik mijn geld terugkrijgen van mijn bestelling?",
             "answer": "{{ product.metafields.custom.fifth_faq_answer.value }}"
           }
         },
