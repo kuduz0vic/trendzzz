@@ -120,7 +120,7 @@
       "settings": {
         "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
         "emoji": "🍿️",
-        "title": "Perfect voor Netflix and Chill",
+        "title": "Perfect voor een avondje thuis",
         "description": "<p>De Snuggie™ is het perfecte comfortabele kledingstuk om lekker op de bank films te kijken, voor een koude dag. Met een diepe capuchon en een grote zak aan de voorkant kan je gemakkelijk snacks of je telefoon bewaren, je zult direct verliefd zijn op onze Hoodie dekens.<\/p>"
       }
     },
@@ -128,8 +128,8 @@
       "type": "product-first-iwt",
       "settings": {
         "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
-        "emoji": "{{ product.metafields.custom.second_info_emoji_image_w_text_section_2.value }}",
-        "title": "{{ product.metafields.custom.second_info_title_image_w_text_section_2.value }}",
+        "emoji": "😍",
+        "title": "Super zacht en warm",
         "description": "<p>De Snuggie™ is zonder twijfel het warmste en zachtste kledingstuk OOIT. Elke Snuggie™ is gemaakt van een unieke mix van zacht sherpa fleece aan de binnenkant en flanel fleece aan de buitenkant. Hierdoor voelt het bijna alsof je elk moment geknuffeld wordt.<\/p>"
       }
     },
