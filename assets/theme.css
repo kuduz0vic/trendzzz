@@ -16210,7 +16210,7 @@ figcaption {
 }
 #ProductImgSwiper .swiper-pagination-22{
     position: absolute;
-    bottom: -12px !important; // used for positioning the pagination on the Swiper
+    bottom: -23px !important; // used for positioning the pagination on the Swiper
 } 
         #ProductImgSwiper .swiper-pagination-bullet {
           background: #A69FAD !important;
