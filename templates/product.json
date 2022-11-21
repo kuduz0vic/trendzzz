@@ -194,7 +194,7 @@
         "d7a994df-74fa-40e8-ade9-04f7fbc53350"
       ],
       "settings": {
-        "section-title": "Waarom UltraPods Max?"
+        "section-title": "{{ product.metafields.custom.title_highlights.value }}"
       }
     },
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
@@ -263,7 +263,10 @@
         "title": "Nu ook trending...",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}",
         "rec_product_list": [
-
+          "the-trentzz-poly-nails-set",
+          "the-trentzz-5-in-1-airstyler",
+          "the-note-pad",
+          "magic-lip-filler"
         ]
       }
     },
