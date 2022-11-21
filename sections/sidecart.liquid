@@ -239,7 +239,7 @@
           <div class="cart-slide-upsell_title">
             <p>{{section.settings.upsell-title}}</p>
           </div>
-          <div class="swiper cart-swiper">
+          <div id="cart-swiper" class="swiper cart-swiper">
             <div class="swiper-wrapper cart-slide-upsell">
               {% for block in section.blocks %}
                 {% case block.type %}
