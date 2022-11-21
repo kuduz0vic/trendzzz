@@ -276,28 +276,28 @@
         "template--16945160257843__6a3f3c5f-bf69-4ab3-b518-6c434c152e5e-16686162928db61fad-0": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"1st_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"1st_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"1st_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"1st_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Blauwe_content.jpg",
+            "proof-title": "Ik trek hem nooit meer uit! 🥰",
+            "proof-description": "<p>Eergisteren kreeg ik mijn Snuggie binnen en sindsdien niet meer uitgetrokken! Hij's zo warm, zo zacht en zoooooo comfortabel. Ik ben in love! 🧸😍<\/p>",
+            "proof-name": "Daisy"
           }
         },
         "b04d0145-b02f-4905-bc6c-fac60053c6ef": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"2nd_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"2nd_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"2nd_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"2nd_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/roze_content_2.jpg",
+            "proof-title": "Super zacht en lekker warm 🥺",
+            "proof-description": "<p>Wowwww had niet verwacht dat een Snuggie zo zacht is! Ook super warm... mijn vriendje wordt nu wel heel jaloers elk Netflix avondje. 😏<\/p>",
+            "proof-name": "Megan"
           }
         },
         "fa08a606-d3df-45a0-afce-b708049ab11d": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"3rd_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"3rd_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"3rd_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"3rd_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Roze_content.jpg",
+            "proof-title": "Ik ben echt fan van mijn Snuggie!",
+            "proof-description": "<p>Sinds ik hem heb is het nooit meer koud. Als ik thuis kom is mijn nieuwe routine gewoon een Snuggie aantrekken and I'm set. 🥰<\/p>",
+            "proof-name": "Isabelle"
           }
         },
         "2c32d07c-2c85-41ef-9584-bc2714a72e69": {
