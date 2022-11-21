@@ -73,7 +73,9 @@ h6 {
   font-weight: 700;
 }
 
-
+p {
+  font-weight: 500;
+}
 
 a {
   border-color: #000;
