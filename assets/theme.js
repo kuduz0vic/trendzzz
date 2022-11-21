@@ -25779,7 +25779,9 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-var swiper = new Swiper (".cart-swiper", {
+var swiper = new Swiper ("#cart-swiper", {
+  slidesPerView: 1,
+  loop: true,
   pagination: {
     el: ".cart-pagination",
     clickable: true
