@@ -25779,18 +25779,19 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-function Loading() {
-  $(".atc_text").addClass("remove");
-  $(".icon-embed-xsmall-3.w-embed").addClass("remove");
-  $(".animation-wrapper").removeClass("remove");
-}
-
-var delayInMilliseconds = 5000; //1 second
+var delayInMilliseconds = 3000; //1 second
 setTimeout(function Loading() {
   $(".atc_text").removeClass("remove");
   $(".icon-embed-xsmall-3.w-embed").removeClass("remove");
   $(".animation-wrapper").addClass("remove");
 }, delayInMilliseconds);
+
+
+function Loading() {
+  $(".atc_text").addClass("remove");
+  $(".icon-embed-xsmall-3.w-embed").addClass("remove");
+  $(".animation-wrapper").removeClass("remove");
+}
 
 
 $('.qtybox .btnqty').on('click', function(){
