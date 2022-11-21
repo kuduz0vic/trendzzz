@@ -25779,18 +25779,28 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-var t = setTimeout(function removeLoading() {
-  $(".atc_text").removeClass("remove");
-  $(".icon-embed-xsmall-3.w-embed").removeClass("remove");
-  $(".animation-wrapper").addClass("remove");
-}, 3000);
-clearTimeout(t);
-
-function Loading() {
-  $(".atc_text").addClass("remove");
-  $(".icon-embed-xsmall-3.w-embed").addClass("remove");
-  $(".animation-wrapper").removeClass("remove");
-}
+$(function(){
+    
+  var twoToneButton = document.querySelector('.atc.w-inline-block');
+  var animation = document.querySelector('.animation-wrapper.remove');
+  var buttonText = document.querySelector('.atc_text');
+  var buttonIcon = document.querySelector('.icon-embed-xsmall-3.w-embed');
+  
+  twoToneButton.addEventListener("click", function() {
+      animation.classList.remove('remove');
+      buttonText.classList.add('remove');
+      buttonIcon.classList.add('remove');
+      
+    setTimeout( 
+          function  (){  
+            animation.classList.add('remove');
+            buttonText.classList.remove('remove');
+            buttonIcon.classList.remove('remove');
+            
+          }, 3000);
+  }, false);
+  
+});
 
 
 $('.qtybox .btnqty').on('click', function(){
