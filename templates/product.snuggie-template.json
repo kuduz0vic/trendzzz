@@ -83,7 +83,7 @@
         "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
           "type": "accordion",
           "settings": {
-            "accordion-title": "{{ product.metafields.custom.accordion_title.value }}",
+            "accordion-title": "Care instructies",
             "accordion-description": "<p>{{ product.metafields.custom.accordion_description | metafield_tag }}<\/p>"
           }
         },
@@ -91,7 +91,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
-            "testimonial-text": "{{ product.metafields.custom.social_proof_bar.value }}"
+            "testimonial-text": ""
           }
         }
       },
@@ -204,7 +204,7 @@
           "type": "faq",
           "settings": {
             "question": "Zal de Snuggie hoodie mij passen?",
-            "answer": "Ja! De Snuggie is ontworpen om alle vormen en maten te passen. Het is een maat voor alle geslachten. Onze Sheats zijn gemodelleerd als een 6XL Hoodie. Ook geschikt voor zwangere vrouwen en kinderen!"
+            "answer": "Al onze orders worden na 1-2 werkdagen verzonden, hierna volgt een verzendtermijn van 4-6 werkdagen."
           }
         },
         "85828f55-392d-4902-8e95-c9b07a24f323": {
