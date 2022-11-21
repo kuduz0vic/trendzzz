@@ -303,19 +303,19 @@
         "2c32d07c-2c85-41ef-9584-bc2714a72e69": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"4th_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"4th_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"4th_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"4th_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_02.54.49.png",
+            "proof-title": "Net zo goed als de Dyson!!! 😍",
+            "proof-description": "<p>Echt een super mooi resultaat weten te krijgen na het gebruiken! Mijn vriendin heeft de Dyson Airwrap en hij is echt letterlijk hetzelfde. Een besparing van €500,- dus! 😂<\/p>",
+            "proof-name": "Kim"
           }
         },
         "b5c79a70-99f0-45ff-a02e-4d784143b849": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"5th_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"5th_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"5th_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"5th_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.14.34.png",
+            "proof-title": "Goede kwaliteit en snel geleverd",
+            "proof-description": "<p>De kwaliteit achter deze koptelefoon is echt top notch! Goede kwaliteit en snel geleverd tegen een scherpe prijs.<\/p>",
+            "proof-name": "Jessica"
           }
         }
       },
