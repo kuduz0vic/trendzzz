@@ -25787,7 +25787,7 @@ setTimeout(function Loading() {
 }, delayInMilliseconds);
 
 
-function Loading() {
+function removeLoading() {
   $(".atc_text").addClass("remove");
   $(".icon-embed-xsmall-3.w-embed").addClass("remove");
   $(".animation-wrapper").removeClass("remove");
