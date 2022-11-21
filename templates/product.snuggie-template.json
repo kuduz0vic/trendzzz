@@ -137,9 +137,9 @@
       "type": "last-iwt",
       "settings": {
         "image": "{{ product.metafields.custom.third_info_image_image_w_text_section_3.value }}",
-        "emoji": "{{ product.metafields.custom.third_info_emoji_image_w_text_section_3.value }}",
-        "title": "{{ product.metafields.custom.third_info_title_image_w_text_section_3.value }}",
-        "description": "<p>{{ product.metafields.custom.third_info_description_image_w_text_section_3 | metafield_tag }}<\/p>"
+        "emoji": "📏",
+        "title": "One size fits all",
+        "description": "<p>De Snuggie is ontworpen voor iedereen. Of je nou een kind of een volwassenen bent. De Snuggie zal je perfect passen!<\/p>"
       }
     },
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
