@@ -1,3 +1,4 @@
+<form method="post" action="/cart/add" id="atc-form" class="collection-atc_form"></form>
 {% assign selected_variant = product.selected_or_first_available_variant %}
 {% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
   <input type="hidden" name="id" value="{{ selected_variant.id }}">
@@ -72,6 +73,7 @@
           {% unless product.has_only_default_variant %}
             <variant-selector class="variant-selector" data-url="{{ product.url }}" data-section="{{ section.id }}">
               {% for option in product.options_with_values %}
+                <div>
                 <label for="option-{{ section.id }}-{{ forloop.index0 }}" class="variant-label">{{ option.name }}</label>
                 <div class="select_wrapper">
                 <div class="select-vector">
@@ -85,6 +87,7 @@
                   {% endfor %}
                 </select>
               </div>
+            </div>
                 <script type="application/json">
                   {{ product.variants | json }}
                 </script>
@@ -110,22 +113,24 @@
                 </div>
             {% when 'checkout_buttons' %}
               <div id="w-node-adb81a6d-176b-ded8-2561-72220daf97bc-6ddb3075" class="product-atc-area">
-                <div class="product-form w-form">
-                  <form id="wf-form-Product-Form" name="wf-form-Product-Form" data-name="Product Form" method="get" class="form-wrapper">
+                <div class="product-form w-form" form="atc-form">
                     <div class="cart-block">
-                       <button type="submit" class="atc w-inline-block" name="add" {% if selected_variant.available == false %} disabled {% endif %}>
+                       <button type="submit" onclick="Loading()" class="atc w-inline-block" name="add" {% if selected_variant.available == false %} disabled {% endif %}>
                        {% if selected_variant.available == false %}
                          Sold out
                           {% else %}
-                           <div>Add to cart</div>
+                           <div class="atc_text">Add to cart</div>
                            <div class="icon-embed-xsmall-3 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" fill="none" viewbox="0 0 21 18">
                           <path fill="#fff" d="m18.837 10.57 1.642-7.207a.832.832 0 0 0-.813-1.016H6.028L5.71.795A.833.833 0 0 0 4.893.13h-3.56A.832.832 0 0 0 .5.96v.555c0 .459.373.831.833.831H3.76l2.439 11.9a1.938 1.938 0 0 0 .968 3.623 1.942 1.942 0 0 0 1.944-1.94c0-.543-.224-1.034-.584-1.386h7.28c-.36.352-.585.843-.585 1.386 0 1.072.87 1.94 1.945 1.94a1.94 1.94 0 0 0 .848-3.687l.191-.84a.832.832 0 0 0-.812-1.017h-9.32l-.228-1.108h10.179c.389 0 .726-.27.813-.648Z"></path>
                            </svg></div>
                          {% endif %}
+                         <div class="animation-wrapper remove">
+                         <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        </div>
                      </button>
                      <div class="payment-methods-2"><img src="{{'Group-300.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-319.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-318.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'mastercard.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-315.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-314.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-313.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"><img src="{{'Group-310.svg' | asset_url}}" loading="lazy" alt="" class="payment-icon"></div>
                     </div>
-                  </form>
+                  
                 </div>
               </div>
             {% endcase %}
