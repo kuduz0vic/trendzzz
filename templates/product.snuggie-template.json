@@ -83,7 +83,7 @@
         "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
           "type": "accordion",
           "settings": {
-            "accordion-title": "{{ product.metafields.custom.accordion_title.value }}",
+            "accordion-title": "Care instructies",
             "accordion-description": "<p>{{ product.metafields.custom.accordion_description | metafield_tag }}<\/p>"
           }
         },
@@ -91,7 +91,7 @@
           "type": "testimonial",
           "settings": {
             "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
-            "testimonial-text": "{{ product.metafields.custom.social_proof_bar.value }}"
+            "testimonial-text": ""
           }
         }
       },
@@ -120,38 +120,38 @@
       "settings": {
         "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
         "emoji": "🍿️",
-        "title": "Perfect voor Netflix and Chill",
-        "description": "<p>Met de Snuggie lig je altijd lekker op de banks je favoriete films te kijken! De Snuggie is uitgerust met een warme fleece voering waardoor je het altijd lekker warm hebt. De oversized heeft een diepe capuchon en een grote zak aan de voorkant waar je jouw telefoon in kan stoppen!<\/p>"
+        "title": "Perfect voor een avondje thuis",
+        "description": "<p>De Snuggie™ is het perfecte comfortabele kledingstuk om lekker op de bank films te kijken, voor een koude dag. Met een diepe capuchon en een grote zak aan de voorkant kan je gemakkelijk snacks of je telefoon bewaren, je zult direct verliefd zijn op onze Hoodie dekens.<\/p>"
       }
     },
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
       "type": "product-first-iwt",
       "settings": {
         "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
-        "emoji": "{{ product.metafields.custom.second_info_emoji_image_w_text_section_2.value }}",
-        "title": "{{ product.metafields.custom.second_info_title_image_w_text_section_2.value }}",
-        "description": "<p>{{ product.metafields.custom.second_info_description_image_w_text_section_2 | metafield_tag }}<\/p>"
+        "emoji": "😍",
+        "title": "Super zacht en warm",
+        "description": "<p>De Snuggie™ is zonder twijfel het warmste en zachtste kledingstuk OOIT. Elke Snuggie™ is gemaakt van een unieke mix van zacht sherpa fleece aan de binnenkant en flanel fleece aan de buitenkant. Hierdoor voelt het bijna alsof je elk moment geknuffeld wordt.<\/p>"
       }
     },
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
       "type": "last-iwt",
       "settings": {
         "image": "{{ product.metafields.custom.third_info_image_image_w_text_section_3.value }}",
-        "emoji": "{{ product.metafields.custom.third_info_emoji_image_w_text_section_3.value }}",
-        "title": "{{ product.metafields.custom.third_info_title_image_w_text_section_3.value }}",
-        "description": "<p>{{ product.metafields.custom.third_info_description_image_w_text_section_3 | metafield_tag }}<\/p>"
+        "emoji": "📏",
+        "title": "One size fits all",
+        "description": "<p>De Snuggie is ontworpen voor iedereen. Of je nou een kind of een volwassenen bent. De Snuggie zal je perfect passen!<\/p>"
       }
     },
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
       "type": "video",
       "settings": {
-        "emoji": "{{ product.metafields.custom.video_emoji.value }}",
-        "heading": "{{ product.metafields.custom.video_text.value }}",
+        "emoji": "🧸",
+        "heading": "Wat anderen ermee doen...",
         "video-url": "https:\/\/v16-webapp.tiktok.com\/6420069bb8fb8af79aaf68efc638ad45\/637b4215\/video\/tos\/alisg\/tos-alisg-pve-0037c001\/679eeb168d1d4ecba5e5908a7ed623ca\/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3746&bt=1873&cs=0&ds=3&ft=kLO5qya9Zmo0Pa7oSBkVQUr_EiHKJdmC0&mime_type=video_mp4&qs=0&rc=MzM0Ojo6OTQ8Z2g5aTM5NUBpM2xubWg6Znc1ZjMzODczNEAyYjQ1YWE1Xl4xYDIzXl80YSNoLTVvcjQwMHFgLS1kMS1zcw%3D%3D&l=2022112103165401021713523110425EDB&btag=80000",
-        "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
-        "button-label": "{{ product.metafields.custom.video_cta.value }}",
+        "description": "<p>Het perfecte comfortabele kledingstuk om lekker op de bank films te kijken, voor een koude dag. <\/p>",
+        "button-label": "Kies nu mijn kleur Snuggie",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
-        "label-text": "",
+        "label-text": "🔥 GAAT VIRAAL OP DIT MOMENT",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
     },
@@ -161,29 +161,29 @@
         "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.first_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.first_highlight.value }}"
+            "emoji": "😄",
+            "title": "Gemaakt van hoogwaardige  materialen"
           }
         },
         "4df2f75d-07ef-4a07-8fbb-4916230758ce": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.third_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.second_highlight.value }}"
+            "emoji": "⭐",
+            "title": "10.000+ tevreden klanten"
           }
         },
         "70e67ab9-7a00-4213-b0af-077b5b15102a": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.second_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.third_highlight.value }}"
+            "emoji": "❄️",
+            "title": "Die ijskoude ochtenden"
           }
         },
         "d7a994df-74fa-40e8-ade9-04f7fbc53350": {
           "type": "highlight",
           "settings": {
-            "emoji": "{{ product.metafields.custom.fourth_emoji_highlights.value }}",
-            "title": "{{ product.metafields.custom.fourth_highlight.value }}"
+            "emoji": "🍿",
+            "title": "Films kijken met vrienden en familie"
           }
         }
       },
@@ -194,7 +194,7 @@
         "d7a994df-74fa-40e8-ade9-04f7fbc53350"
       ],
       "settings": {
-        "section-title": "{{ product.metafields.custom.title_highlights.value }}"
+        "section-title": "Waarom Snuggie?"
       }
     },
     "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
@@ -203,7 +203,7 @@
         "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
           "type": "faq",
           "settings": {
-            "question": "Hoe lang duurt het voordat ik mijn bestelling ontvang?",
+            "question": "Zal de Snuggie hoodie mij passen?",
             "answer": "Al onze orders worden na 1-2 werkdagen verzonden, hierna volgt een verzendtermijn van 4-6 werkdagen."
           }
         },
@@ -276,46 +276,46 @@
         "template--16945160257843__6a3f3c5f-bf69-4ab3-b518-6c434c152e5e-16686162928db61fad-0": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"1st_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"1st_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"1st_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"1st_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Blauwe_content.jpg",
+            "proof-title": "Ik trek hem nooit meer uit! 🥰",
+            "proof-description": "<p>Eergisteren kreeg ik mijn Snuggie binnen en sindsdien niet meer uitgetrokken! Hij's zo warm, zo zacht en zoooooo comfortabel. Ik ben in love! 🧸😍<\/p>",
+            "proof-name": "Daisy"
           }
         },
         "b04d0145-b02f-4905-bc6c-fac60053c6ef": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"2nd_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"2nd_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"2nd_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"2nd_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/roze_content_2.jpg",
+            "proof-title": "Super zacht en lekker warm 🥺",
+            "proof-description": "<p>Wowwww had niet verwacht dat een Snuggie zo zacht is! Ook super warm... mijn vriendje wordt nu wel heel jaloers elk Netflix avondje. 😏<\/p>",
+            "proof-name": "Megan"
           }
         },
         "fa08a606-d3df-45a0-afce-b708049ab11d": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"3rd_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"3rd_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"3rd_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"3rd_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Roze_content.jpg",
+            "proof-title": "Ik ben echt fan van mijn Snuggie!",
+            "proof-description": "<p>Sinds ik hem heb is het nooit meer koud. Als ik thuis kom is mijn nieuwe routine gewoon een Snuggie aantrekken and I'm set. 🥰<\/p>",
+            "proof-name": "Isabelle"
           }
         },
         "2c32d07c-2c85-41ef-9584-bc2714a72e69": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"4th_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"4th_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"4th_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"4th_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_02.54.49.png",
+            "proof-title": "Net zo goed als de Dyson!!! 😍",
+            "proof-description": "<p>Echt een super mooi resultaat weten te krijgen na het gebruiken! Mijn vriendin heeft de Dyson Airwrap en hij is echt letterlijk hetzelfde.<\/p>",
+            "proof-name": "Kim"
           }
         },
         "b5c79a70-99f0-45ff-a02e-4d784143b849": {
           "type": "proof",
           "settings": {
-            "proof-image": "{{ product.metafields.custom[\"5th_review_image\"].value }}",
-            "proof-title": "{{ product.metafields.custom[\"5th_review_title\"].value }}",
-            "proof-description": "<p>{{ product.metafields.custom[\"5th_review_description\"] | metafield_tag }}<\/p>",
-            "proof-name": "{{ product.metafields.custom[\"5th_review_profile_name\"].value }}"
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.14.34.png",
+            "proof-title": "Goede kwaliteit en snel geleverd",
+            "proof-description": "<p>De kwaliteit achter deze koptelefoon is echt top notch! Goede kwaliteit en snel geleverd tegen een scherpe prijs.<\/p>",
+            "proof-name": "Jessica"
           }
         }
       },
