@@ -566,6 +566,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  margin-top: auto;
 }
 
 .icon-embed-xsmall-2 {
