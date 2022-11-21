@@ -234,53 +234,6 @@
         {% endfor %}
       </div>
 
-      <div class="slide-upsell_wrapper">
-        <div class="cart-upsell-container">
-          <div class="cart-slide-upsell_title">
-            <p>{{section.settings.upsell-title}}</p>
-          </div>
-          <div id="cart-swiper" class="swiper cart-swiper">
-            <div class="swiper-wrapper cart-slide-upsell">
-              {% for block in section.blocks %}
-                {% case block.type %}
-                  {% when 'product' %}
-                    {%- assign product = all_products[block.settings.product] -%}
-                    {% capture upsell-discount %}
-                      {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
-                    {% endcapture %}
-                    <div class="swiper-slide cart-upsell-block slide-cart-block">
-                      <a href="{{product.url}}">
-                        <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
-                          <div class="upsell-info-wrapper">
-                            <div class="text-m text-bold">{{product.title}}</div>
-                            <div class="cart-price-wrapper">
-                              <p class="card-discount-p-2">{{product.compare_at_price | money}}</p>
-                              <p class="cart-price-p">{{product.price | money}}</p>
-                              <div class="cart-price-save upsell">SAVE {{ upsell-discount }}</div>
-                            </div>
-                          </div>
-                        </div>
-                      </a>
-                      <form method="post" action="/cart/add" class="collection-atc_form slide-cart-form">
-                        <input type="hidden" name="id" value="{{ product.variants.first.id }}"/>
-                        <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
-                        <button type="submit" class="upsell-atc w-inline-block text-block-16 slide-cart-button" name="add">
-                          {% if selected_variant.available == false %}
-                            Sold out
-                          {% else %}
-                            <span class="slide-cart-button-label">{{block.settings.button-label}}</span>
-                          {% endif %}
-                        </button>
-                      </form>
-                    </div>
-                {% endcase %}
-              {% endfor %}
-            </div>
-          </div>
-          <div class="cart-pagination"></div>
-        </div>
-      </div>
-
       <div class="cart-payment-info">
 
 
