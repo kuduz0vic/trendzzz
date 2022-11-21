@@ -25779,12 +25779,14 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-var swiper = new Swiper(".cart-swiper", {
+var swiper = new Swiper (".cart-swiper", {
   pagination: {
     el: ".cart-pagination",
     clickable: true
   }
 });
+
+
 
 $('.qtybox .btnqty').on('click', function(){
   var qty = parseInt($(this).parent('.qtybox').find('.quantity-input').val());
