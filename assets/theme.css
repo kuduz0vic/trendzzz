@@ -17339,4 +17339,5 @@ grid-row-gap: 8px;
 
 .variant-select {
   color: black;
+  -webkit-appearance: none;
 }
