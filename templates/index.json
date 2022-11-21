@@ -85,57 +85,43 @@
         "46bac2b1-8ec9-446e-bd24-dedd21862b08": {
           "type": "product",
           "settings": {
-            "product": "the-airstyler-™",
-            "review": "128 Reviews",
-            "label": "💖 MOST POPULAR"
+            "product": "boggy-cargo-pants"
           }
         },
         "2327a636-7cec-44f3-a37d-908f480ea675": {
           "type": "product",
           "settings": {
-            "product": "the-blue-airstyler-™",
-            "review": "128 Reviews",
-            "label": "💖 MOST POPULAR"
+            "product": "the-blue-airstyler-™"
           }
         },
         "8d35d717-3c53-4f14-be9d-09e29c4ec146": {
           "type": "product",
           "settings": {
-            "product": "the-green-airstyler-™",
-            "review": "128 Reviews",
-            "label": "💖 MOST POPULAR"
+            "product": "the-green-airstyler-™"
           }
         },
         "7cec0e89-657b-41ba-977a-3d9993bf0062": {
           "type": "product",
           "settings": {
-            "product": "the-red-airstyler-™",
-            "review": "128 Reviews",
-            "label": "💖 MOST POPULAR"
+            "product": "the-red-airstyler-™"
           }
         },
         "f05454f3-8229-4f24-a3e7-2e845526bc33": {
           "type": "product",
           "settings": {
-            "product": "the-airstyler-™",
-            "review": "128 Reviews",
-            "label": "💖 MOST POPULAR"
+            "product": "the-airstyler-™"
           }
         },
         "f09c53ec-ed1a-4b3d-9b1e-9428fd5cec8c": {
           "type": "product",
           "settings": {
-            "product": "the-red-airstyler-™",
-            "review": "128 Reviews",
-            "label": "💖 MOST POPULAR"
+            "product": "the-red-airstyler-™"
           }
         },
         "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad": {
           "type": "product",
           "settings": {
-            "product": "the-airstyler-™",
-            "review": "h",
-            "label": ""
+            "product": "the-airstyler-™"
           }
         }
       },
@@ -177,7 +163,7 @@
         "description": "<p>The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.<\/p>",
         "button-label": "Take me to the Snuggie",
         "button_url": "shopify:\/\/products\/the-airstyler-™",
-        "white-label_text": "💖 WHAT THEY SAY ABOUT IT",
+        "label-text": "",
         "label-text_color": "#77777"
       }
     },
