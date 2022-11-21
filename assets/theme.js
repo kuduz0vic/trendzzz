@@ -25797,7 +25797,7 @@ $(function(){
             buttonText.classList.remove('remove');
             buttonIcon.classList.remove('remove');
             
-          }, 3000);
+          }, 2000);
   }, false);
   
 });
