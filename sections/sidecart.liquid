@@ -248,7 +248,7 @@
                     {% capture upsell-discount %}
                       {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
                     {% endcapture %}
-                    <div class=" cart-upsell-block slide-cart-block">
+                    <div class="cart-upsell-block slide-cart-block">
                       <a href="{{product.url}}">
                         <div class="cart-upsell-wrapper"><img src="{{product.featured_image | img_url: 'master'}}" loading="lazy" alt="" class="cart-upsell-image">
                           <div class="upsell-info-wrapper">
@@ -504,13 +504,10 @@
 
 
 <script>
-  var swiper = new Swiper("#cart-swiper", {
-    slidesPerView: 1,
-    loop: true,
-    pagination: {
-      el: ".cart-pagination",
-      clickable: true
-    }
+  $(document).ready(function() {
+    $('.cart-slide-upsell').slick({
+      setting - name: setting - value
+    });
   });
 </script>
 
