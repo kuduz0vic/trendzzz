@@ -3801,6 +3801,13 @@ figcaption {
   font-weight: 600;
 }
 
+.trust-badges-paragraph p {
+  font-weight: 600;
+}
+
+.metafield-multi_line_text_field {
+  font-weight: 600;
+}
 .trust-badges-section {
   display: -webkit-box;
   display: -webkit-flex;
