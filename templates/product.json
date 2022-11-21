@@ -150,7 +150,7 @@
         "video-url": "{{ product.metafields.custom.video_source.value }}",
         "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
-        "button_url": "shopify:\/\/products\/the-airstyler-™",
+        "button_url": "#recommended-products",
         "label-text": "",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
