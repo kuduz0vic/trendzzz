@@ -26179,14 +26179,6 @@ document.addEventListener('DOMContentLoaded', () => {
    });
 
 
-   var swiper = new Swiper ("#cart-swiper", {
-    slidesPerView: 1,
-    loop: true,
-    pagination: {
-      el: ".cart-pagination",
-      clickable: true
-    }
-  });
-  
+
 
 
