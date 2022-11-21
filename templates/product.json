@@ -232,14 +232,14 @@
           "type": "faq",
           "settings": {
             "question": "Hoe kan ik mijn geld terugkrijgen van mijn bestelling?",
-            "answer": "{{ product.metafields.custom.fifth_faq_answer.value }}"
+            "answer": "Als je om welke reden dan ook niet volledig tevreden bent met uw aankoop, zullen wij jou binnen 14 dagen na het ontvangen van jouw bestelling, jouw aankoop terugbetalen zonder vragen te stellen."
           }
         },
         "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
           "type": "faq",
           "settings": {
-            "question": "{{ product.metafields.custom.sixth_faq_question.value }}",
-            "answer": "{{ product.metafields.custom.sixth_faq_answer.value }}"
+            "question": "Naar welke landen verzenden jullie?",
+            "answer": "Wij verzenden naar alle landen met uitzondering van een aantal eilanden. Indien uw land beschikbaar is tijdens het afreken process leveren wij."
           }
         }
       },
