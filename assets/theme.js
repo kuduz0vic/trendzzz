@@ -25779,35 +25779,6 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.nav-button').forEach(trigger => {
-   trigger.addEventListener('click', function(){ 
-     document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
-     });
-  });
-  document.querySelectorAll('.sidebar-close-btn').forEach(trigger => {
-   trigger.addEventListener('click', function(){ 
-     document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
-     });
-  });
-  });
-
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.cart-icon_mobile-2').forEach(trigger => {
-     trigger.addEventListener('click', function(){ 
-       document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
-       });
-    });
-    document.querySelectorAll('.sidebar-close-btn').forEach(trigger => {
-     trigger.addEventListener('click', function(){ 
-       document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
-       });
-    });
-    });
-  
-
-
-
 $('.qtybox .btnqty').on('click', function(){
   var qty = parseInt($(this).parent('.qtybox').find('.quantity-input').val());
   if($(this).hasClass('qtyplus')) {

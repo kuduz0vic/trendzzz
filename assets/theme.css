@@ -17267,3 +17267,8 @@ position: absolute;
       padding: 2px 8px
     }
   }
+
+  .usp-columns.customcontainer.side-cart {
+    position: absolute;
+    bottom: 0;
+  }
