@@ -25779,17 +25779,6 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
-var swiper = new Swiper ("#cart-swiper", {
-  slidesPerView: 1,
-  loop: true,
-  pagination: {
-    el: ".cart-pagination",
-    clickable: true
-  }
-});
-
-
-
 $('.qtybox .btnqty').on('click', function(){
   var qty = parseInt($(this).parent('.qtybox').find('.quantity-input').val());
   if($(this).hasClass('qtyplus')) {
@@ -26190,6 +26179,14 @@ document.addEventListener('DOMContentLoaded', () => {
    });
 
 
-
+   var swiper = new Swiper ("#cart-swiper", {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: ".cart-pagination",
+      clickable: true
+    }
+  });
+  
 
 
