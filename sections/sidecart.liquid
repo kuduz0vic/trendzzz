@@ -1589,29 +1589,3 @@
     color: #242222;
   }
 </style>
-
-<script>
-  setInterval(() => {
-    const el = document.querySelector('#upsellSlider');
-    if (! el.swiper) {
-      new Swiper(el, {
-
-        // Optional parameters
-        spaceBetween: 16,
-        slidesPerView: 1,
-        freeMode: false,
-        loop: false,
-        pagination: {
-          el: '.upsell-pagination',
-          type: 'bullets'
-        },
-
-// Enable lazy loading
-        lazy: true,
-        keyboard: {
-          enabled: true
-        }
-      });
-    }
-  }, 250);
-</script>

@@ -25779,6 +25779,416 @@ Webflow.require('ix2').init(
 
 /* CUSTOM JS */
 
+var swiper = new Swiper ("#cart-swiper", {
+  slidesPerView: 1,
+  loop: true,
+  pagination: {
+    el: ".cart-pagination",
+    clickable: true
+  }
+});
+
+
+
+$('.qtybox .btnqty').on('click', function(){
+  var qty = parseInt($(this).parent('.qtybox').find('.quantity-input').val());
+  if($(this).hasClass('qtyplus')) {
+    qty++;
+  }else {
+    if(qty > 1) {
+      qty--;
+    }
+  }
+  qty = (isNaN(qty))?1:qty;
+  $(this).parent('.qtybox').find('.quantity-input').val(qty);
+}); 
+
+var swiperNodes = "";
+/* loop throw all swipers on the page */
+ $('#reviewSlider').each(function( index ) {
+   $(this).append(swiperNodes);
+ });
+
+ var mySwiper = new Swiper ('#reviewSlider', {
+   // Optional parameters
+   spaceBetween: 16,
+   slidesPerView: 1,
+   freeMode: false,
+   centeredSlides: false,
+   // Enable lazy loading
+   lazy: true,
+   pagination: {
+     el: '#reviewPagination',
+     clickable: true
+   },
+   navigation: {
+     nextEl: "#review-right-arrow",
+     prevEl: "#review-left-arrow",
+   },
+   keyboard: {
+     enabled: true,
+   },
+   pagination: {
+     el: '#reviewPagination',
+     clickable: true
+   },
+   breakpoints: {
+     // when window width is >= 320px
+     481: {
+       slidesPerView: 2
+     },
+     992: {
+       slidesPerView: 3
+     }
+   }
+ })
+
+ var mySwiper = new Swiper ('#why-swiper', {
+  // Optional parameters
+  slidesPerView: 1,
+  loop: true,
+  lazy: true,
+  pagination: {
+    el: '.swiper-pagination-why',
+    clickable: true
+  },
+  keyboard: {
+    enabled: true,
+  },
+  breakpoints: {
+    481: {
+      slidesPerView: 2,
+      loop: true,
+    },
+    992: {
+      slidesPerView: 3,
+      loop: false,
+    }
+  }
+})
+
+$('[data-click="faq"]').click(function(){
+ if(!$(this).is('.open')){
+   $('[data-click="faq"].open').each((i, item)=>{
+     item.click();
+   });
+   $(this).addClass('open');    
+ }
+ else{
+   $(this).removeClass('open');
+ }
+});
+
+$('[data-click="accordion"]').click(function(){
+ if(!$(this).is('.open')){
+   $('[data-click="accordion"].open').each((i, item)=>{
+     item.click();
+   });
+   $(this).addClass('open');    
+ }
+ else{
+   $(this).removeClass('open');
+ }
+});
+
+var swiper = new Swiper(".myswiper4", {
+             loop: false,
+             spaceBetween: 10,
+             slidesPerView: 4,
+             freeMode: true,
+             watchSlidesProgress: true,
+           });
+           var swiper2 = new Swiper(".myswiper3", {
+             loop: true,
+             // Enable lazy loading
+         lazy: true,
+             thumbs: {
+               swiper: swiper,
+             },
+             breakpoints: {
+               300: {
+                 slidesPerView: 1.33,
+                 centeredSlides: true,
+                 spaceBetween: 12,
+         freemode: false,
+                 pagination: {
+                   el: ".swiper-pagination-22",
+                   clickable: true,
+                 },
+               },
+               768: {
+                 slidesPerView: 1,
+                 centeredSlides: false,
+                 spaceBetween: 0
+               }
+             },
+           });
+
+ // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+// Get the header
+var header = document.getElementById("shopify-section-header_main");
+var wrapper = document.getElementById("shopify-page-wrapper");
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+ if (window.pageYOffset > sticky) {
+   header.classList.add("sticky");
+   wrapper.classList.add("content");
+ } else {
+   header.classList.remove("sticky");
+   wrapper.classList.remove("content");
+ }
+}
+
+$(document).ready(function() {
+  // Get media - with autoplay disabled (audio or video)
+  var media = $('video').not("[autoplay='autoplay']");
+  var tolerancePixel = 40;
+
+  function checkMedia(){
+      // Get current browser top and bottom
+      var scrollTop = $(window).scrollTop() + tolerancePixel;
+      var scrollBottom = $(window).scrollTop() + $(window).height() - tolerancePixel;
+
+      media.each(function(index, el) {
+          var yTopMedia = $(this).offset().top;
+          var yBottomMedia = $(this).height() + yTopMedia;
+
+          if(scrollTop < yBottomMedia && scrollBottom > yTopMedia){ //view explaination in `In brief` section above
+              $(this).get(0).play();
+          } else {
+              $(this).get(0).pause();
+          }
+      });
+
+      //}
+  }
+  $(document).on('scroll', checkMedia);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.menu-icon3').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
+     });
+  });
+  document.querySelectorAll('.close-menu').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
+     });
+  });
+  });
+
+
+
+  
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.menu-icon3').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
+     });
+  });
+  document.querySelectorAll('.close-menu').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
+     });
+  });
+  });
+
+
+ var swiperNodes = "";
+ var swiperNodes = swiperNodes.concat(pagination, scrollbar);
+ /* loop throw all swipers on the page */
+  $('#reviewSlider').each(function( index ) {
+    $( this ).append(swiperNodes);
+  });
+
+
+  var mySwiper = new Swiper ('#reviewSlider', {
+    // Optional parameters
+    spaceBetween: 16,
+    slidesPerView: 1,
+    freeMode: false,
+    loop: true,
+    centeredSlides: false,
+    // Enable lazy loading
+    lazy: true,
+    pagination: {
+      el: '#reviewPagination',
+      clickable: true
+    },
+    navigation: {
+      nextEl: "#review-right-arrow",
+      prevEl: "#review-left-arrow",
+    },
+    keyboard: {
+      enabled: true,
+    },
+    pagination: {
+      el: '#reviewPagination',
+      clickable: true
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      481: {
+        slidesPerView: 2
+      },
+      992: {
+        slidesPerView: 3
+      }
+    }
+  })
+
+
+$('[data-click="faq"]').click(function(){
+  if(!$(this).is('.open')){
+    $('[data-click="faq"].open').each((i, item)=>{
+      item.click();
+    });
+    $(this).addClass('open');    
+  }
+  else{
+    $(this).removeClass('open');
+  }
+});
+
+
+$('[data-click="accordion"]').click(function(){
+  if(!$(this).is('.open')){
+    $('[data-click="accordion"].open').each((i, item)=>{
+      item.click();
+    });
+    $(this).addClass('open');    
+  }
+  else{
+    $(this).removeClass('open');
+  }
+});
+
+
+var swiper = new Swiper(".myswiper4", {
+              loop: false,
+              spaceBetween: 10,
+              slidesPerView: 4,
+              freeMode: true,
+              watchSlidesProgress: true,
+            });
+            var swiper2 = new Swiper(".myswiper3", {
+              loop: true,
+              // Enable lazy loading
+    		  lazy: true,
+              thumbs: {
+                swiper: swiper,
+              },
+              breakpoints: {
+                300: {
+                  slidesPerView: 1.33,
+                  centeredSlides: true,
+                  spaceBetween: 12,
+				  freemode: false,
+                  pagination: {
+                    el: ".swiper-pagination-22",
+                    clickable: true,
+                  },
+                },
+                768: {
+                  slidesPerView: 1,
+                  centeredSlides: false,
+                  spaceBetween: 0
+                }
+              },
+            });
+
+
+  // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+// Get the header
+var header = document.getElementById("shopify-section-header");
+var wrapper = document.getElementById("shopify-page-wrapper");
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    wrapper.classList.add("content");
+  } else {
+    header.classList.remove("sticky");
+    wrapper.classList.remove("content");
+  }
+}
+   
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+ document.querySelectorAll('.menu-icon3').forEach(trigger => {
+  trigger.addEventListener('click', function(){ 
+    document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
+    });
+ });
+ document.querySelectorAll('.close-menu').forEach(trigger => {
+  trigger.addEventListener('click', function(){ 
+    document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
+    });
+ });
+});
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.nav-button').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
+     });
+  });
+  document.querySelectorAll('.sidebar-close-btn').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
+     });
+  });
+ });
+
+ document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.cart-icon_mobile-2').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.add('is-non-scrollable')); 
+     });
+  });
+  document.querySelectorAll('.sidebar-close-btn').forEach(trigger => {
+   trigger.addEventListener('click', function(){ 
+     document.querySelectorAll('body').forEach(target => target.classList.remove('is-non-scrollable')); 
+     });
+  });
+ });
+
+
+
+ 
+
+
+   swiper.slides[i].classList.add('remove-item');                                    
+   swiper.slides[i].addEventListener('animationend', function () {
+       swiper.removeSlide(i);
+   });
+
+
+
+   swiper.slides[i].classList.add('remove-item');                                    
+   swiper.slides[i].addEventListener('animationend', function () {
+       swiper.removeSlide(i);
+   });
+
+   
+   swiper.slides[i].classList.add('remove-item');                                    
+   swiper.slides[i].addEventListener('animationend', function () {
+       swiper.removeSlide(i);
+   });
+
 
 
 
