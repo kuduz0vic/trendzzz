@@ -26,7 +26,6 @@
         },
         "95786b33-50fd-4db8-8027-1a612ff9b81f": {
           "type": "klarna",
-          "disabled": true,
           "settings": {
           }
         },
