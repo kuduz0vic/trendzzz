@@ -4811,8 +4811,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 128px;
-  height: 128px;
+  min-width: 128px;
+  min-height: 128px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
