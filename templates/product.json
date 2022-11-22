@@ -389,14 +389,6 @@
             "badge-title_mobile": "Wij helpen je altijd graag",
             "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
-        },
-        "1050bec5-147f-4994-ad68-f99a0af9211c": {
-          "type": "badges-mobile",
-          "settings": {
-            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "",
-            "badge-description_mobile": ""
-          }
         }
       },
       "block_order": [
@@ -406,8 +398,7 @@
         "3b462862-07ce-4247-a2f1-4edc75b88ca8",
         "7d70c57c-f971-4b10-ae10-6d66f5e4b92f",
         "5789044a-6f4c-46f3-bfed-cb577173c20f",
-        "de94249a-1ae5-4d6e-beff-9ce2bf902660",
-        "1050bec5-147f-4994-ad68-f99a0af9211c"
+        "de94249a-1ae5-4d6e-beff-9ce2bf902660"
       ],
       "settings": {
       }
