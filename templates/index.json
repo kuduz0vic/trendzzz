@@ -235,16 +235,16 @@
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
-            "badge-title": "Kostenlose Lieferung",
-            "badge-description": "<p>Kostenlose Lieferung ab €20!<\/p>"
+            "badge-title": "Snelle levering",
+            "badge-description": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "e1fb5cc2-9fc1-4938-a3ff-1bf3933ae260": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title": "100% Kaufgarantie",
-            "badge-description": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title": "100% Tevredenheidsgarantie",
+            "badge-description": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "4883e775-6b08-491e-9ea3-10eb02164944": {
@@ -283,8 +283,16 @@
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "Wij helpen je altijd graag",
+            "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
+          }
+        },
+        "e63198cd-a4e4-4f7c-a9c0-5a946c99e110": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "",
+            "badge-title_mobile": "",
+            "badge-description_mobile": ""
           }
         }
       },
@@ -295,7 +303,8 @@
         "8312bfda-47d8-4263-adf0-8527814afd2a",
         "aecdbcb0-4531-4f20-aec2-694735ca17dc",
         "f6cd23dd-77fa-40d8-bd8e-65ecb18bd6a2",
-        "4ab5ec77-6407-4273-b773-2b1d8e385c0a"
+        "4ab5ec77-6407-4273-b773-2b1d8e385c0a",
+        "e63198cd-a4e4-4f7c-a9c0-5a946c99e110"
       ],
       "settings": {
       }
