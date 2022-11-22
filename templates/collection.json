@@ -186,13 +186,23 @@
             "proof-description": "<p>Ik zag ze een paar keer voorbij komen op TikTok! Na mijn vriendin de UltraPods al had heb ik hem ook maar gekocht. Wat een super deal!<\/p>",
             "proof-name": "Jessica"
           }
+        },
+        "080b6a51-bb16-4c3f-94b0-83cb3e65c17f": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.14.34.png",
+            "proof-title": "Goede kwaliteit en snel geleverd",
+            "proof-description": "<p>Super snel binnen en bij eerste gebruik gelijk tevreden. De kwaliteit is beter dan stylers zoals de Dyson, terwijl dees een fractie van de prijs is.<\/p>",
+            "proof-name": "Daisy"
+          }
         }
       },
       "block_order": [
         "template--16945159209267__2aba1e1c-6f1b-4e2e-9df4-8f3ddf823a7d-166870947447414a2a-0",
         "8846163e-94dc-4bc3-9e5f-0ceea86ac3e6",
         "f8a3b377-b7d4-423e-a1b1-daa5886d665b",
-        "202ef4d7-d4e6-4caa-a818-e33f237bd6ba"
+        "202ef4d7-d4e6-4caa-a818-e33f237bd6ba",
+        "080b6a51-bb16-4c3f-94b0-83cb3e65c17f"
       ],
       "settings": {
         "title": "Wat onze klanten van de trends vinden",
