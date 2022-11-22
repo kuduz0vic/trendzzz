@@ -130,54 +130,117 @@
         "46bac2b1-8ec9-446e-bd24-dedd21862b08": {
           "type": "product",
           "settings": {
-            "product": "boggy-cargo-pants"
-          }
-        },
-        "2327a636-7cec-44f3-a37d-908f480ea675": {
-          "type": "product",
-          "settings": {
-            "product": "the-blue-airstyler-™"
+            "product": "the-trentzz-5-in-1-airstyler"
           }
         },
         "8d35d717-3c53-4f14-be9d-09e29c4ec146": {
           "type": "product",
           "settings": {
-            "product": "the-green-airstyler-™"
+            "product": "ultrapods-max"
+          }
+        },
+        "2327a636-7cec-44f3-a37d-908f480ea675": {
+          "type": "product",
+          "settings": {
+            "product": "magic-lip-filler"
           }
         },
         "7cec0e89-657b-41ba-977a-3d9993bf0062": {
           "type": "product",
           "settings": {
-            "product": "the-red-airstyler-™"
+            "product": "the-trentzz-poly-nails-set"
           }
         },
         "f05454f3-8229-4f24-a3e7-2e845526bc33": {
           "type": "product",
           "settings": {
-            "product": "the-airstyler-™"
+            "product": "snuggie-roze"
           }
         },
         "f09c53ec-ed1a-4b3d-9b1e-9428fd5cec8c": {
           "type": "product",
           "settings": {
-            "product": "the-red-airstyler-™"
+            "product": "luna-menstruatieband-™"
           }
         },
         "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad": {
           "type": "product",
           "settings": {
-            "product": "the-airstyler-™"
+            "product": "i-see-ghosts-hoodie-limited-edition™"
+          }
+        },
+        "3be9dbd7-81cf-4f0a-9237-32eed2da3b7f": {
+          "type": "product",
+          "settings": {
+            "product": "the-note-pad"
+          }
+        },
+        "0f0591d0-8ec7-4da7-8a89-936e1d9f81d4": {
+          "type": "product",
+          "settings": {
+            "product": "essentials®-tracksuit"
+          }
+        },
+        "37da4529-e9ba-48d9-93a8-20a0bc09d89b": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-blue"
+          }
+        },
+        "0d47731e-be63-43e6-9559-9ecab7074c5e": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-grijs-1"
+          }
+        },
+        "15b7fb8b-74aa-4e54-803a-bf12593292a3": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-grijs"
+          }
+        },
+        "bb7cdf60-eb42-4e48-b4b3-92cf92eb203f": {
+          "type": "product",
+          "settings": {
+            "product": "hair-curler"
+          }
+        },
+        "83960760-c6cd-476e-be11-46bba981fe36": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-avocado"
+          }
+        },
+        "3dd0a770-c758-4cb7-8ac0-0a22335b1bdc": {
+          "type": "product",
+          "settings": {
+            "product": "drunk-in-love-couples-card-game"
+          }
+        },
+        "27d813df-5f8d-47da-864b-b76b17b0ebd1": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-avocado"
           }
         }
       },
       "block_order": [
         "46bac2b1-8ec9-446e-bd24-dedd21862b08",
-        "2327a636-7cec-44f3-a37d-908f480ea675",
         "8d35d717-3c53-4f14-be9d-09e29c4ec146",
+        "2327a636-7cec-44f3-a37d-908f480ea675",
         "7cec0e89-657b-41ba-977a-3d9993bf0062",
         "f05454f3-8229-4f24-a3e7-2e845526bc33",
         "f09c53ec-ed1a-4b3d-9b1e-9428fd5cec8c",
-        "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad"
+        "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad",
+        "3be9dbd7-81cf-4f0a-9237-32eed2da3b7f",
+        "0f0591d0-8ec7-4da7-8a89-936e1d9f81d4",
+        "37da4529-e9ba-48d9-93a8-20a0bc09d89b",
+        "0d47731e-be63-43e6-9559-9ecab7074c5e",
+        "15b7fb8b-74aa-4e54-803a-bf12593292a3",
+        "bb7cdf60-eb42-4e48-b4b3-92cf92eb203f",
+        "83960760-c6cd-476e-be11-46bba981fe36",
+        "3dd0a770-c758-4cb7-8ac0-0a22335b1bdc",
+        "27d813df-5f8d-47da-864b-b76b17b0ebd1"
       ],
       "settings": {
         "tag": "DE NIEUWESTE TIKTIK FINDS",
