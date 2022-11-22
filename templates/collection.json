@@ -109,9 +109,6 @@
     "7cbecdb5-6e8d-409e-930e-54535cd75203": {
       "type": "collection-showcase",
       "settings": {
-        "label-text": "💖 MOST POPULAR",
-        "label-text-color": "#f92766",
-        "review-text": "128 Reviews",
         "button-label": "Add to cart"
       }
     },
@@ -123,7 +120,7 @@
           "settings": {
             "emoji": "🥸",
             "title": "De nieuwste trends",
-            "description": "Bij The Trendzz blijf je altijd up to date van de nieuweste TikTok trends. Ons team TikTok experts werkt dagelijks deze lijst bij zodat je nooit een trend mist!"
+            "description": "<p>Bij The Trendzz blijf je altijd up to date van de nieuweste TikTok trends. Ons team TikTok experts werkt dagelijks deze lijst bij zodat je nooit een trend mist!<\/p>"
           }
         },
         "00c174c9-13cf-4ab5-9390-8bda81673e4b": {
@@ -131,7 +128,7 @@
           "settings": {
             "emoji": "🏷",
             "title": "Scherpe prijzen",
-            "description": "De nieuwste trends tegen de scherpste prijs! Dat is waar wij voor staan. Dankzij de steun van de duizenden tevreden trend spotters bieden wij ons assortiment aan met de scherpste prijzen!"
+            "description": "<p>De nieuwste trends tegen de scherpste prijs! Dat is waar wij voor staan. Dankzij de steun van de duizenden tevreden trend spotters bieden wij ons assortiment aan met de scherpste prijzen!<\/p>"
           }
         },
         "70de1448-1dcc-498c-b8af-d593e37b79f0": {
@@ -139,7 +136,7 @@
           "settings": {
             "emoji": "🥰",
             "title": "10.000+ Trendspotters™",
-            "description": "Wij hebben al meer dan 10.000+ klanten blij mogen maken met de nieuwste trendy items. Sluit jij jezelf aan bij ons clubje Trendspotters™?"
+            "description": "<p>Wij hebben al meer dan 10.000+ klanten blij mogen maken met de nieuwste trendy items. Sluit jij jezelf aan bij ons clubje Trendspotters™?<\/p>"
           }
         }
       },
@@ -157,37 +154,46 @@
         "template--16945159209267__2aba1e1c-6f1b-4e2e-9df4-8f3ddf823a7d-166870947447414a2a-0": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_02.48.40.png",
+            "proof-title": "Net zo goed als de Dyson!!! 😍",
+            "proof-description": "<p>Echt een super mooi resultaat weten te krijgen na het gebruiken! Mijn vriendin heeft de Dyson Airwrap en hij is echt letterlijk hetzelfde. Een besparing van €500,- dus! 😂<\/p>",
+            "proof-name": "Kim"
           }
         },
         "8846163e-94dc-4bc3-9e5f-0ceea86ac3e6": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/slippers.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.01.29.png",
+            "proof-title": "Ik sta ervan versteld!",
+            "proof-description": "<p>Wowwww had echt niet verwacht dat de kwaliteit zo goed was! Ze zijn net zoals de echte alleen vele malen goedkoper. Ik ben verliefd! 🥰<\/p>",
+            "proof-name": "Lisanne"
           }
         },
         "f8a3b377-b7d4-423e-a1b1-daa5886d665b": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_02.54.49.png",
+            "proof-title": "Super mooie waves en krullen!",
+            "proof-description": "<p>Echt mooie waves en krulletjes weten de krijgen met de Airstyler Deluxe! Ik ben super tevreden. Merk ook dat mijn haar een stuk beter aanvoelt sinds ik niet meer mijn haar föhn met een normale föhn!<\/p>",
+            "proof-name": "Beau"
           }
         },
         "202ef4d7-d4e6-4caa-a818-e33f237bd6ba": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.17.10.png",
+            "proof-title": "Super dealtje, ik doe ze niet af",
+            "proof-description": "<p>Ik zag ze een paar keer voorbij komen op TikTok! Na mijn vriendin de UltraPods al had heb ik hem ook maar gekocht. Wat een super deal!<\/p>",
+            "proof-name": "Jessica"
+          }
+        },
+        "080b6a51-bb16-4c3f-94b0-83cb3e65c17f": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.14.34.png",
+            "proof-title": "Goede kwaliteit en snel geleverd",
+            "proof-description": "<p>Super snel binnen en bij eerste gebruik gelijk tevreden. De kwaliteit is beter dan stylers zoals de Dyson, terwijl dees een fractie van de prijs is.<\/p>",
+            "proof-name": "Daisy"
           }
         }
       },
@@ -195,11 +201,12 @@
         "template--16945159209267__2aba1e1c-6f1b-4e2e-9df4-8f3ddf823a7d-166870947447414a2a-0",
         "8846163e-94dc-4bc3-9e5f-0ceea86ac3e6",
         "f8a3b377-b7d4-423e-a1b1-daa5886d665b",
-        "202ef4d7-d4e6-4caa-a818-e33f237bd6ba"
+        "202ef4d7-d4e6-4caa-a818-e33f237bd6ba",
+        "080b6a51-bb16-4c3f-94b0-83cb3e65c17f"
       ],
       "settings": {
-        "title": "",
-        "tag": ""
+        "title": "Wat onze klanten van de trends vinden",
+        "tag": "Met trots beoordeeld met 4,8\/5 onder meer dan 10.000 klanten"
       }
     },
     "0b56c432-1d92-4cef-94fe-86d919ff33a0": {
@@ -209,56 +216,56 @@
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
-            "badge-title": "Kostenlose Lieferung",
-            "badge-description": "Kostenlose Lieferung ab €20!"
+            "badge-title": "Snelle levering",
+            "badge-description": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "a26a8a3d-6458-4450-851d-aede73e66979": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title": "100% Kaufgarantie",
-            "badge-description": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-title": "100% Tevredenheidsgarantie",
+            "badge-description": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "6ae18d1e-9ef8-416d-a18c-c8e5998fd757": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
-            "badge-title": "24\/7 Kundendienst",
-            "badge-description": "Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!"
+            "badge-title": "24\/7 Klantenservice",
+            "badge-description": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         },
         "99651e8a-3dd9-4213-b741-af265e6092da": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
-            "badge-title": "Verschlüsselte Zahlungen",
-            "badge-description": "Ihre Anmeldeinformationen werden sicher verarbeitet."
+            "badge-title": "Veilig afrekenen",
+            "badge-description": "<p>Bij The Trentzz reken je veilig af met jouw gewenste betaalmethode!<\/p>"
           }
         },
         "4eadebeb-a9db-465f-8c71-80b4ae8e127c": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "We staan altijd voor jou klaar!",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-title_mobile": "100% Tevredenheidsgarantie",
+            "badge-description_mobile": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "6679a1d5-945c-470d-9312-46dd8812d044": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-title_mobile": "Snelle levering",
+            "badge-description_mobile": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "522cfec7-7575-40fc-b860-f14fe6b401c9": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-title_mobile": "24\/7 Klantenservice",
+            "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         }
       },

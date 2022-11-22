@@ -16,7 +16,7 @@
         "template--16945319182643__2eb1cdd1-7ddf-4841-859d-a7986fb0066c-1668400151377db5c1-1": {
           "type": "text",
           "settings": {
-            "parahraph": "<p>Find the products that show up on your <strong>For You Page<\/strong><\/p>"
+            "parahraph": "<p>Ontdek alle producten die je op je<strong> For You Page<\/strong> tegenkomt<\/p>"
           }
         },
         "template--16945319182643__2eb1cdd1-7ddf-4841-859d-a7986fb0066c-1668400151377db5c1-2": {
@@ -66,14 +66,59 @@
         "3a550a14-ad2d-496e-b9d6-354eb424ec0f": {
           "type": "finds",
           "settings": {
-            "finds-text": "Yeahh boyyy",
-            "finds-link": "",
-            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+            "finds-text": "Airstyler Deluxe",
+            "finds-link": "shopify:\/\/products\/the-trentzz-5-in-1-airstyler",
+            "finds-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_01.39.07.png"
+          }
+        },
+        "52bc596f-8f8f-416d-bc2e-69b7161efd0c": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Snuggie (Blue)",
+            "finds-link": "shopify:\/\/products\/snuggie-blue",
+            "finds-image": "shopify:\/\/shop_images\/Blauwe_content.jpg"
+          }
+        },
+        "eeb6aa4e-03e3-42d5-8954-ae2ec7529071": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "UltraPods Max",
+            "finds-link": "shopify:\/\/products\/ultrapods-max",
+            "finds-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.19.33.png"
+          }
+        },
+        "1d5dfddf-6b30-428a-86be-5607b44514bd": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Essentials Kit",
+            "finds-link": "shopify:\/\/products\/essentials®-tracksuit",
+            "finds-image": "shopify:\/\/shop_images\/2022-11-21_10.png"
+          }
+        },
+        "cc71134b-f51e-4719-97c1-dfb500f1f12e": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Nail Polish",
+            "finds-link": "shopify:\/\/products\/the-trentzz-poly-nails-set",
+            "finds-image": "shopify:\/\/shop_images\/2022-11-21_22.png"
+          }
+        },
+        "451bcd0b-a5f3-46d4-a1f2-8f5df2abc4a2": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Mentruatieband",
+            "finds-link": "shopify:\/\/products\/luna-menstruatieband-™",
+            "finds-image": "shopify:\/\/shop_images\/2022-11-21_29.png"
           }
         }
       },
       "block_order": [
-        "3a550a14-ad2d-496e-b9d6-354eb424ec0f"
+        "3a550a14-ad2d-496e-b9d6-354eb424ec0f",
+        "52bc596f-8f8f-416d-bc2e-69b7161efd0c",
+        "eeb6aa4e-03e3-42d5-8954-ae2ec7529071",
+        "1d5dfddf-6b30-428a-86be-5607b44514bd",
+        "cc71134b-f51e-4719-97c1-dfb500f1f12e",
+        "451bcd0b-a5f3-46d4-a1f2-8f5df2abc4a2"
       ],
       "settings": {
         "finds-title": "DEZE ITEMS GAAN OP DIT MOMENT HARD"
@@ -85,54 +130,131 @@
         "46bac2b1-8ec9-446e-bd24-dedd21862b08": {
           "type": "product",
           "settings": {
-            "product": "boggy-cargo-pants"
-          }
-        },
-        "2327a636-7cec-44f3-a37d-908f480ea675": {
-          "type": "product",
-          "settings": {
-            "product": "the-blue-airstyler-™"
+            "product": "the-trentzz-5-in-1-airstyler"
           }
         },
         "8d35d717-3c53-4f14-be9d-09e29c4ec146": {
           "type": "product",
           "settings": {
-            "product": "the-green-airstyler-™"
+            "product": "ultrapods-max"
+          }
+        },
+        "2327a636-7cec-44f3-a37d-908f480ea675": {
+          "type": "product",
+          "settings": {
+            "product": "magic-lip-filler"
           }
         },
         "7cec0e89-657b-41ba-977a-3d9993bf0062": {
           "type": "product",
           "settings": {
-            "product": "the-red-airstyler-™"
+            "product": "the-trentzz-poly-nails-set"
           }
         },
         "f05454f3-8229-4f24-a3e7-2e845526bc33": {
           "type": "product",
           "settings": {
-            "product": "the-airstyler-™"
+            "product": "snuggie-roze"
           }
         },
         "f09c53ec-ed1a-4b3d-9b1e-9428fd5cec8c": {
           "type": "product",
           "settings": {
-            "product": "the-red-airstyler-™"
+            "product": "luna-menstruatieband-™"
           }
         },
         "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad": {
           "type": "product",
           "settings": {
-            "product": "the-airstyler-™"
+            "product": "i-see-ghosts-hoodie-limited-edition™"
+          }
+        },
+        "3be9dbd7-81cf-4f0a-9237-32eed2da3b7f": {
+          "type": "product",
+          "settings": {
+            "product": "the-note-pad"
+          }
+        },
+        "0f0591d0-8ec7-4da7-8a89-936e1d9f81d4": {
+          "type": "product",
+          "settings": {
+            "product": "essentials®-tracksuit"
+          }
+        },
+        "37da4529-e9ba-48d9-93a8-20a0bc09d89b": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-blue"
+          }
+        },
+        "0d47731e-be63-43e6-9559-9ecab7074c5e": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-grijs-1"
+          }
+        },
+        "15b7fb8b-74aa-4e54-803a-bf12593292a3": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-grijs"
+          }
+        },
+        "bb7cdf60-eb42-4e48-b4b3-92cf92eb203f": {
+          "type": "product",
+          "settings": {
+            "product": "hair-curler"
+          }
+        },
+        "3dd0a770-c758-4cb7-8ac0-0a22335b1bdc": {
+          "type": "product",
+          "settings": {
+            "product": "drunk-in-love-couples-card-game"
+          }
+        },
+        "27d813df-5f8d-47da-864b-b76b17b0ebd1": {
+          "type": "product",
+          "settings": {
+            "product": "snuggie-avocado"
+          }
+        },
+        "705719fc-df34-4273-ae4f-60c6b0110a47": {
+          "type": "product",
+          "settings": {
+            "product": "boggy-cargo-pants"
+          }
+        },
+        "004ec7a4-cfa4-4f30-af11-299dba81af7a": {
+          "type": "product",
+          "settings": {
+            "product": "cargo-stretch-legging™️"
+          }
+        },
+        "f42e8fd2-aa2c-4e57-866d-30bece78dbc4": {
+          "type": "product",
+          "settings": {
+            "product": "cargo-stretch-pants"
           }
         }
       },
       "block_order": [
         "46bac2b1-8ec9-446e-bd24-dedd21862b08",
-        "2327a636-7cec-44f3-a37d-908f480ea675",
         "8d35d717-3c53-4f14-be9d-09e29c4ec146",
+        "2327a636-7cec-44f3-a37d-908f480ea675",
         "7cec0e89-657b-41ba-977a-3d9993bf0062",
         "f05454f3-8229-4f24-a3e7-2e845526bc33",
         "f09c53ec-ed1a-4b3d-9b1e-9428fd5cec8c",
-        "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad"
+        "57280ba2-ca39-41d3-ac5f-2ea7fa7059ad",
+        "3be9dbd7-81cf-4f0a-9237-32eed2da3b7f",
+        "0f0591d0-8ec7-4da7-8a89-936e1d9f81d4",
+        "37da4529-e9ba-48d9-93a8-20a0bc09d89b",
+        "0d47731e-be63-43e6-9559-9ecab7074c5e",
+        "15b7fb8b-74aa-4e54-803a-bf12593292a3",
+        "bb7cdf60-eb42-4e48-b4b3-92cf92eb203f",
+        "3dd0a770-c758-4cb7-8ac0-0a22335b1bdc",
+        "27d813df-5f8d-47da-864b-b76b17b0ebd1",
+        "705719fc-df34-4273-ae4f-60c6b0110a47",
+        "004ec7a4-cfa4-4f30-af11-299dba81af7a",
+        "f42e8fd2-aa2c-4e57-866d-30bece78dbc4"
       ],
       "settings": {
         "tag": "DE NIEUWESTE TIKTIK FINDS",
@@ -147,9 +269,9 @@
         "desktop-left": false,
         "desktop-right": true,
         "inverted": false,
-        "image": "shopify:\/\/shop_images\/tiktoks.png",
+        "image": "shopify:\/\/shop_images\/Group_456.png",
         "title": "Over ons",
-        "description": "<p>Zie jij ook al die vette producten voorbij komen op TikTok? Wil jij die producten ook maar heb je geen idee waar ze te krijgen zijn? Wij zijn Trentz, bij Trentz vind je de producten die jij op jouw For You Page tegenkomt! Ons assortiment wordt continu geupdate door het Trentz team, een team van TikTok experts die de beste trends kunnen spotten en die dan voor de beste prijs op Trentz kunnen aanbieden.<\/p>",
+        "description": "<p>The Trentzz is de nummer een plek waar je de meest trendy producten kan vinden die momenteel viraal gaan op de TikTok. Wij met ons team zijn constant bezig met zoeken naar de producten die trendy op TikTok zijn. Zo zijn wij altijd up to date en verkopen de producten die nu viraal gaan op TikTok voor de laagste prijs.<\/p>",
         "button-label": "Discover our TikTok Finds",
         "button-url": "shopify:\/\/products\/the-airstyler-™"
       }
@@ -158,12 +280,12 @@
       "type": "video",
       "settings": {
         "emoji": "😎",
-        "heading": "What others are doing ...",
-        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9fb8e5bca04f47f496622d800bfc0e22.mp4",
-        "description": "<p>The Snuggie is the perfect comfortable piece for watching movies on the couch on a cold day.<\/p>",
-        "button-label": "Take me to the Snuggie",
-        "button_url": "shopify:\/\/products\/the-airstyler-™",
-        "label-text": "",
+        "heading": "Populair onder de meiden",
+        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f3f75b1c300541868bb0843b546564e4.mp4",
+        "description": "<p>Geschikt voor alle haartypes en met behulp van de meegeleverde opzetstukken creëer je de mooiste krullen, golven of steil haar.<\/p>",
+        "button-label": "Breng mij naar de Airstyler Deluxe",
+        "button_url": "shopify:\/\/products\/the-trentzz-5-in-1-airstyler",
+        "label-text": "😍 GAAT MOMENTEEL VIRAAL",
         "label-text_color": "#77777"
       }
     },
@@ -173,46 +295,46 @@
         "aca282f7-364e-4ba3-b7bd-ba65430e6f85": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_02.48.40.png",
+            "proof-title": "Net zo goed als de Dyson!!! 😍",
+            "proof-description": "<p>Echt een super mooi resultaat weten te krijgen na het gebruiken! Mijn vriendin heeft de Dyson Airwrap en hij is echt letterlijk hetzelfde. Een besparing van €500,- dus! 😂<\/p>",
+            "proof-name": "Kim"
           }
         },
         "84aa4e54-f00a-43ad-aaeb-66d3f40c81bb": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/slippers.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.01.29.png",
+            "proof-title": "Ik sta ervan versteld!",
+            "proof-description": "<p>Wowwww had echt niet verwacht dat de kwaliteit zo goed was! Ze zijn net zoals de echte alleen vele malen goedkoper. Ik ben verliefd! 🥰<\/p>",
+            "proof-name": "Lisanne"
           }
         },
         "ae514959-d4c7-4aa8-bb93-5fdef0b1bed0": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/Untitled.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_02.54.49.png",
+            "proof-title": "Super mooie waves en krullen!",
+            "proof-description": "<p>Echt mooie waves en krulletjes weten de krijgen met de Airstyler Deluxe! Ik ben super tevreden. Merk ook dat mijn haar een stuk beter aanvoelt sinds ik niet meer mijn haar föhn met een normale föhn!<\/p>",
+            "proof-name": "Beau"
           }
         },
         "6267c422-3c90-41e9-af19-8c3b2fb6e651": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.17.10.png",
+            "proof-title": "Super dealtje, ik doe ze niet af",
+            "proof-description": "<p>Ik zag ze een paar keer voorbij komen op TikTok! Na mijn vriendin de UltraPods al had heb ik hem ook maar gekocht. Wat een super deal!<\/p>",
+            "proof-name": "Jessica"
           }
         },
         "4ef78b4e-eed5-41fa-9fa9-1493291e8e54": {
           "type": "proof",
           "settings": {
-            "proof-image": "shopify:\/\/shop_images\/slippers.png",
-            "proof-title": "The softest hoodie EVER!",
-            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
-            "proof-name": "Jessica P."
+            "proof-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.14.34.png",
+            "proof-title": "Goede kwaliteit en snel geleverd",
+            "proof-description": "<p>Super snel binnen en bij eerste gebruik gelijk tevreden. De kwaliteit is beter dan stylers zoals de Dyson, terwijl dees een fractie van de prijs is.<\/p>",
+            "proof-name": "Daisy"
           }
         }
       },
@@ -224,8 +346,8 @@
         "4ef78b4e-eed5-41fa-9fa9-1493291e8e54"
       ],
       "settings": {
-        "title": "What our customers are saying",
-        "tag": "Proudly rated 4.8\/5 among 10.000+ customers"
+        "title": "Wat onze klanten van de trends vinden",
+        "tag": "Met trots beoordeeld met 4,8\/5 onder meer dan 10.000 klanten"
       }
     },
     "8b7f9e14-07ea-4db4-8143-c8e4e439b59c": {
@@ -235,56 +357,56 @@
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
-            "badge-title": "Kostenlose Lieferung",
-            "badge-description": "<p>Kostenlose Lieferung ab €20!<\/p>"
+            "badge-title": "Snelle levering",
+            "badge-description": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "e1fb5cc2-9fc1-4938-a3ff-1bf3933ae260": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title": "100% Kaufgarantie",
-            "badge-description": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title": "100% Tevredenheidsgarantie",
+            "badge-description": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "4883e775-6b08-491e-9ea3-10eb02164944": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
-            "badge-title": "24\/7 Kundendienst",
-            "badge-description": "<p>Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!<\/p>"
+            "badge-title": "24\/7 Klantenservice",
+            "badge-description": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         },
         "8312bfda-47d8-4263-adf0-8527814afd2a": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
-            "badge-title": "Verschlüsselte Zahlungen",
-            "badge-description": "<p>Ihre Anmeldeinformationen werden sicher verarbeitet.<\/p>"
+            "badge-title": "Veilig afrekenen",
+            "badge-description": "<p>Bij The Trentzz reken je veilig af met jouw gewenste betaalmethode!<\/p>"
           }
         },
         "aecdbcb0-4531-4f20-aec2-694735ca17dc": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "We staan altijd voor jou klaar!",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "100% Tevredenheidsgarantie",
+            "badge-description_mobile": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "f6cd23dd-77fa-40d8-bd8e-65ecb18bd6a2": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "Snelle levering",
+            "badge-description_mobile": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "4ab5ec77-6407-4273-b773-2b1d8e385c0a": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "24\/7 Klantenservice",
+            "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         }
       },

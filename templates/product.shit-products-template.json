@@ -16,6 +16,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -79,13 +80,6 @@
             "accordion-title": "Retourneren",
             "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. Je betaal enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
           }
-        },
-        "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
-          "type": "accordion",
-          "settings": {
-            "accordion-title": "{{ product.metafields.custom.accordion_title.value }}",
-            "accordion-description": "<p>{{ product.metafields.custom.accordion_description | metafield_tag }}<\/p>"
-          }
         }
       },
       "block_order": [
@@ -101,8 +95,7 @@
         "33653fbf-dfe2-481f-9290-551aabd89ff7",
         "8eacafdf-48fd-43c4-9729-676c3844d9e6",
         "3a517eca-19eb-407d-9035-5e236e466db5",
-        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9",
-        "072e6e43-df11-49b5-8b25-3f26c0a634f6"
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9"
       ],
       "settings": {
       }
@@ -306,7 +299,7 @@
         "b5c79a70-99f0-45ff-a02e-4d784143b849"
       ],
       "settings": {
-        "title": "Wat onze klanten van de trend vinden",
+        "title": "Wat onze klanten van de trends vinden",
         "tag": "Met trots beoordeeld met 4,8\/5 onder meer dan 10.000 klanten"
       }
     },

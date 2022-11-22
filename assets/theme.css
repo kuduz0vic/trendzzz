@@ -17336,3 +17336,8 @@ transform: translateX(-33%);
 flex-direction: column;
 grid-row-gap: 8px;
   }
+
+.variant-select {
+  color: black;
+  -webkit-appearance: none;
+}
