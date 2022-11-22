@@ -49,25 +49,25 @@
           "f01d8bda-1d7a-4c4e-aac4-7128c00ed2f2": {
             "type": "story",
             "settings": {
-              "story-text": "Airstyler Deluxe",
-              "story-link": "shopify:\/\/products\/the-trentzz-5-in-1-airstyler",
-              "story-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_01.07.24.png"
+              "story-text": "Originals",
+              "story-link": "shopify:\/\/collections\/originals",
+              "story-image": "shopify:\/\/shop_images\/Untitled.png"
             }
           },
           "34a0ebc7-071c-4152-9ff6-b9b9e2b05d99": {
             "type": "story",
             "settings": {
-              "story-text": "UltraPods Max",
-              "story-link": "shopify:\/\/products\/ultrapods-max",
-              "story-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.17.10.png"
+              "story-text": "Print Editions",
+              "story-link": "shopify:\/\/products\/the-airstyler-™",
+              "story-image": "shopify:\/\/shop_images\/slippers.png"
             }
           },
           "e5c015e3-daa0-4efa-80db-f934e7521271": {
             "type": "story",
             "settings": {
-              "story-text": "Nail Set",
-              "story-link": "shopify:\/\/products\/the-trentzz-poly-nails-set",
-              "story-image": "shopify:\/\/shop_images\/2022-11-21_22.png"
+              "story-text": "Snuggie XL",
+              "story-link": "shopify:\/\/collections",
+              "story-image": "shopify:\/\/shop_images\/red-slippers.png"
             }
           }
         },
