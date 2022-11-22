@@ -205,12 +205,6 @@
             "product": "hair-curler"
           }
         },
-        "83960760-c6cd-476e-be11-46bba981fe36": {
-          "type": "product",
-          "settings": {
-            "product": "snuggie-avocado"
-          }
-        },
         "3dd0a770-c758-4cb7-8ac0-0a22335b1bdc": {
           "type": "product",
           "settings": {
@@ -221,6 +215,24 @@
           "type": "product",
           "settings": {
             "product": "snuggie-avocado"
+          }
+        },
+        "705719fc-df34-4273-ae4f-60c6b0110a47": {
+          "type": "product",
+          "settings": {
+            "product": "boggy-cargo-pants"
+          }
+        },
+        "004ec7a4-cfa4-4f30-af11-299dba81af7a": {
+          "type": "product",
+          "settings": {
+            "product": "cargo-stretch-legging™️"
+          }
+        },
+        "f42e8fd2-aa2c-4e57-866d-30bece78dbc4": {
+          "type": "product",
+          "settings": {
+            "product": "cargo-stretch-pants"
           }
         }
       },
@@ -238,9 +250,11 @@
         "0d47731e-be63-43e6-9559-9ecab7074c5e",
         "15b7fb8b-74aa-4e54-803a-bf12593292a3",
         "bb7cdf60-eb42-4e48-b4b3-92cf92eb203f",
-        "83960760-c6cd-476e-be11-46bba981fe36",
         "3dd0a770-c758-4cb7-8ac0-0a22335b1bdc",
-        "27d813df-5f8d-47da-864b-b76b17b0ebd1"
+        "27d813df-5f8d-47da-864b-b76b17b0ebd1",
+        "705719fc-df34-4273-ae4f-60c6b0110a47",
+        "004ec7a4-cfa4-4f30-af11-299dba81af7a",
+        "f42e8fd2-aa2c-4e57-866d-30bece78dbc4"
       ],
       "settings": {
         "tag": "DE NIEUWESTE TIKTIK FINDS",
