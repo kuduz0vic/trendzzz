@@ -260,7 +260,7 @@
         "tag": "DE NIEUWESTE TIKTIK FINDS",
         "title": "Featured Collection",
         "description": "<p>Ontdek onze ruime collectie TikTok finds!<\/p>",
-        "label-text_color": "#f92766"
+        "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
     },
     "442ec0b6-6c6f-42b9-89a2-5f03ac714dcc": {
