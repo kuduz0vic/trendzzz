@@ -17260,7 +17260,7 @@ position: absolute;
     }
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 479px) {
     .product-card-label {
       padding: 2px 8px
     }

@@ -1,3 +1,16 @@
+<style>
+  @media only screen and (min-width: 480px) {
+    .categorie-symbol-2 {
+      background-image: url('{{'Ellipse-20.svg' | asset_url}}');
+    }
+  }
+  @media only screen and (max-width: 479px) {
+    .categorie-symbol-2 {
+      background-image: url('{{'INSTA.svg' | asset_url}}');
+    }
+  }
+</style>
+
 <section class="categories-swiper-section">
   <div class="page-padding-7">
     <div class="container-v5">
@@ -9,7 +22,7 @@
               {% when 'finds' %}
                 <div class="categorie-item-slide-2 w-slide">
                   <a href="{{block.settings.finds-link}}" class="categorie-card w-inline-block">
-                    <div class="categorie-symbol-2" style="background-image: url({{'Ellipse-20.svg' | asset_url}});">
+                    <div class="categorie-symbol-2">
                       <div class="image-framed"><img src="{{block.settings.finds-image | img_url}}" loading="lazy" alt="" class="img-collection"></div>
                     </div>
                     <div class="categorie-info-wrapper-2">
