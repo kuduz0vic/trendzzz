@@ -3953,6 +3953,12 @@ figcaption {
   line-height: 20px;
 }
 
+.text-block-3 p {
+  color: #270e24;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .link-footer-block {
   display: -webkit-box;
   display: -webkit-flex;
