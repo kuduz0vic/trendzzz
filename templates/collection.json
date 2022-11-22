@@ -109,9 +109,6 @@
     "7cbecdb5-6e8d-409e-930e-54535cd75203": {
       "type": "collection-showcase",
       "settings": {
-        "label-text": "💖 MOST POPULAR",
-        "label-text-color": "#f92766",
-        "review-text": "128 Reviews",
         "button-label": "Add to cart"
       }
     },
@@ -123,7 +120,7 @@
           "settings": {
             "emoji": "🥸",
             "title": "De nieuwste trends",
-            "description": "Bij The Trendzz blijf je altijd up to date van de nieuweste TikTok trends. Ons team TikTok experts werkt dagelijks deze lijst bij zodat je nooit een trend mist!"
+            "description": "<p>Bij The Trendzz blijf je altijd up to date van de nieuweste TikTok trends. Ons team TikTok experts werkt dagelijks deze lijst bij zodat je nooit een trend mist!<\/p>"
           }
         },
         "00c174c9-13cf-4ab5-9390-8bda81673e4b": {
@@ -131,7 +128,7 @@
           "settings": {
             "emoji": "🏷",
             "title": "Scherpe prijzen",
-            "description": "De nieuwste trends tegen de scherpste prijs! Dat is waar wij voor staan. Dankzij de steun van de duizenden tevreden trend spotters bieden wij ons assortiment aan met de scherpste prijzen!"
+            "description": "<p>De nieuwste trends tegen de scherpste prijs! Dat is waar wij voor staan. Dankzij de steun van de duizenden tevreden trend spotters bieden wij ons assortiment aan met de scherpste prijzen!<\/p>"
           }
         },
         "70de1448-1dcc-498c-b8af-d593e37b79f0": {
@@ -139,7 +136,7 @@
           "settings": {
             "emoji": "🥰",
             "title": "10.000+ Trendspotters™",
-            "description": "Wij hebben al meer dan 10.000+ klanten blij mogen maken met de nieuwste trendy items. Sluit jij jezelf aan bij ons clubje Trendspotters™?"
+            "description": "<p>Wij hebben al meer dan 10.000+ klanten blij mogen maken met de nieuwste trendy items. Sluit jij jezelf aan bij ons clubje Trendspotters™?<\/p>"
           }
         }
       },
@@ -159,7 +156,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         },
@@ -168,7 +165,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/slippers.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         },
@@ -177,7 +174,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/red-slippers.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         },
@@ -186,7 +183,7 @@
           "settings": {
             "proof-image": "shopify:\/\/shop_images\/product-iwt.png",
             "proof-title": "The softest hoodie EVER!",
-            "proof-description": "The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!",
+            "proof-description": "<p>The Snuggie is super cute, soft and quite cheap compared to other stores that offer them. Very happy with it, THANK YOU!!!<\/p>",
             "proof-name": "Jessica P."
           }
         }
@@ -198,8 +195,8 @@
         "202ef4d7-d4e6-4caa-a818-e33f237bd6ba"
       ],
       "settings": {
-        "title": "",
-        "tag": ""
+        "title": "Wat onze klanten van de trends vinden",
+        "tag": "Met trots beoordeeld met 4,8\/5 onder meer dan 10.000 klanten"
       }
     },
     "0b56c432-1d92-4cef-94fe-86d919ff33a0": {
@@ -210,7 +207,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
             "badge-title": "Kostenlose Lieferung",
-            "badge-description": "Kostenlose Lieferung ab €20!"
+            "badge-description": "<p>Kostenlose Lieferung ab €20!<\/p>"
           }
         },
         "a26a8a3d-6458-4450-851d-aede73e66979": {
@@ -218,7 +215,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title": "100% Kaufgarantie",
-            "badge-description": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         },
         "6ae18d1e-9ef8-416d-a18c-c8e5998fd757": {
@@ -226,7 +223,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
             "badge-title": "24\/7 Kundendienst",
-            "badge-description": "Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!"
+            "badge-description": "<p>Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!<\/p>"
           }
         },
         "99651e8a-3dd9-4213-b741-af265e6092da": {
@@ -234,7 +231,7 @@
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
             "badge-title": "Verschlüsselte Zahlungen",
-            "badge-description": "Ihre Anmeldeinformationen werden sicher verarbeitet."
+            "badge-description": "<p>Ihre Anmeldeinformationen werden sicher verarbeitet.<\/p>"
           }
         },
         "4eadebeb-a9db-465f-8c71-80b4ae8e127c": {
@@ -242,7 +239,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "We staan altijd voor jou klaar!",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         },
         "6679a1d5-945c-470d-9312-46dd8812d044": {
@@ -250,7 +247,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         },
         "522cfec7-7575-40fc-b860-f14fe6b401c9": {
@@ -258,7 +255,7 @@
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
             "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück."
+            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
           }
         }
       },
