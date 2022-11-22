@@ -86,12 +86,39 @@
             "finds-link": "shopify:\/\/products\/ultrapods-max",
             "finds-image": "shopify:\/\/shop_images\/Screenshot_2022-11-20_at_21.19.33.png"
           }
+        },
+        "1d5dfddf-6b30-428a-86be-5607b44514bd": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Essentials Kit",
+            "finds-link": "shopify:\/\/products\/essentials®-tracksuit",
+            "finds-image": "shopify:\/\/shop_images\/2022-11-21_10.png"
+          }
+        },
+        "cc71134b-f51e-4719-97c1-dfb500f1f12e": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Nail Polish",
+            "finds-link": "shopify:\/\/products\/the-trentzz-poly-nails-set",
+            "finds-image": "shopify:\/\/shop_images\/2022-11-21_22.png"
+          }
+        },
+        "451bcd0b-a5f3-46d4-a1f2-8f5df2abc4a2": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Mentruatieband",
+            "finds-link": "shopify:\/\/products\/luna-menstruatieband-™",
+            "finds-image": "shopify:\/\/shop_images\/2022-11-21_29.png"
+          }
         }
       },
       "block_order": [
         "3a550a14-ad2d-496e-b9d6-354eb424ec0f",
         "52bc596f-8f8f-416d-bc2e-69b7161efd0c",
-        "eeb6aa4e-03e3-42d5-8954-ae2ec7529071"
+        "eeb6aa4e-03e3-42d5-8954-ae2ec7529071",
+        "1d5dfddf-6b30-428a-86be-5607b44514bd",
+        "cc71134b-f51e-4719-97c1-dfb500f1f12e",
+        "451bcd0b-a5f3-46d4-a1f2-8f5df2abc4a2"
       ],
       "settings": {
         "finds-title": "DEZE ITEMS GAAN OP DIT MOMENT HARD"
