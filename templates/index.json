@@ -66,14 +66,23 @@
         "3a550a14-ad2d-496e-b9d6-354eb424ec0f": {
           "type": "finds",
           "settings": {
-            "finds-text": "Yeahh boyyy",
-            "finds-link": "",
-            "finds-image": "shopify:\/\/shop_images\/Untitled.png"
+            "finds-text": "Airstyler Deluxe",
+            "finds-link": "shopify:\/\/products\/the-trentzz-5-in-1-airstyler",
+            "finds-image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_01.39.07.png"
+          }
+        },
+        "52bc596f-8f8f-416d-bc2e-69b7161efd0c": {
+          "type": "finds",
+          "settings": {
+            "finds-text": "Snuggie (Blue)",
+            "finds-link": "shopify:\/\/products\/snuggie-blue",
+            "finds-image": "shopify:\/\/shop_images\/Blauwe_content.jpg"
           }
         }
       },
       "block_order": [
-        "3a550a14-ad2d-496e-b9d6-354eb424ec0f"
+        "3a550a14-ad2d-496e-b9d6-354eb424ec0f",
+        "52bc596f-8f8f-416d-bc2e-69b7161efd0c"
       ],
       "settings": {
         "finds-title": "DEZE ITEMS GAAN OP DIT MOMENT HARD"
