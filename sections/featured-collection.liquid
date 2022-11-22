@@ -23,7 +23,7 @@
           <div data-w-id="78da47b8-c59a-58a5-ef56-f92f107f4f12" class="item-card-dp">
             <a href="{{product.url}}" class="product-card-image-collection-3 w-inline-block"><img src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" data-w-id="78da47b8-c59a-58a5-ef56-f92f107f4f14" alt="" class="product-image-in-card-dp">
               <div class="product-card-label-dp">
-                <p class="card-label-p-dp" style="color:{{section.settings.label-text_color}}">{{ product.metafields.custom.label.value }}</p>
+                <p class="card-label-p-dp" style="color:{{ product.metafields.custom.label_text_color.value }}">{{ product.metafields.custom.label.value }}</p>
               </div>
             </a>
             <a href="{{product.url}}" class="card-information-dp w-inline-block">
