@@ -216,56 +216,56 @@
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
-            "badge-title": "Kostenlose Lieferung",
-            "badge-description": "<p>Kostenlose Lieferung ab €20!<\/p>"
+            "badge-title": "Snelle levering",
+            "badge-description": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "a26a8a3d-6458-4450-851d-aede73e66979": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title": "100% Kaufgarantie",
-            "badge-description": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title": "100% Tevredenheidsgarantie",
+            "badge-description": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "6ae18d1e-9ef8-416d-a18c-c8e5998fd757": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
-            "badge-title": "24\/7 Kundendienst",
-            "badge-description": "<p>Weitere Fragen? Unser Team ist nur einen Mausklick entfernt!<\/p>"
+            "badge-title": "24\/7 Klantenservice",
+            "badge-description": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         },
         "99651e8a-3dd9-4213-b741-af265e6092da": {
           "type": "badges",
           "settings": {
             "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
-            "badge-title": "Verschlüsselte Zahlungen",
-            "badge-description": "<p>Ihre Anmeldeinformationen werden sicher verarbeitet.<\/p>"
+            "badge-title": "Veilig afrekenen",
+            "badge-description": "<p>Bij The Trentzz reken je veilig af met jouw gewenste betaalmethode!<\/p>"
           }
         },
         "4eadebeb-a9db-465f-8c71-80b4ae8e127c": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "We staan altijd voor jou klaar!",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "100% Tevredenheidsgarantie",
+            "badge-description_mobile": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "6679a1d5-945c-470d-9312-46dd8812d044": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "Snelle levering",
+            "badge-description_mobile": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
           }
         },
         "522cfec7-7575-40fc-b860-f14fe6b401c9": {
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "100% Kaufgarantie",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "24\/7 Klantenservice",
+            "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         }
       },
