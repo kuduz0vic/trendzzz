@@ -267,8 +267,8 @@
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "We staan altijd voor jou klaar!",
-            "badge-description_mobile": "<p>Bist du nicht 100% zufrieden mit deinem Kauf? Sende es ohne Bedenken innerhalb von 14 Tagen zurück.<\/p>"
+            "badge-title_mobile": "100% Tevredenheidsgarantie",
+            "badge-description_mobile": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
           }
         },
         "f6cd23dd-77fa-40d8-bd8e-65ecb18bd6a2": {
@@ -283,7 +283,7 @@
           "type": "badges-mobile",
           "settings": {
             "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
-            "badge-title_mobile": "Wij helpen je altijd graag",
+            "badge-title_mobile": "24\/7 Klantenservice",
             "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
           }
         }
