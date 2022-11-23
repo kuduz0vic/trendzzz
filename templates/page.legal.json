@@ -107,6 +107,13 @@
             "block-title": "Artikel 15 - Geschillen",
             "block-description": "<p>1. Op overeenkomsten tussen de ondernemer en de consument waarop deze algemene voorwaarden betrekking hebben, is uitsluitend Nederlands recht van toepassing. Ook indien de consument woonachtig is in het buitenland.<\/p><p>2. Het Weens Koopverdrag is niet van toepassing.<\/p>"
           }
+        },
+        "dbe48445-de3f-418e-ab4a-889eb1633a73": {
+          "type": "block",
+          "settings": {
+            "block-title": "Artikel 16 – Aanvullende of afwijkende bepalingen",
+            "block-description": "<p>Aanvullende dan wel van deze algemene voorwaarden afwijkende bepalingen mogen niet ten nadele van de consument zijn en dienen schriftelijk te worden vastgelegd dan wel op zodanige wijze dat deze door de consument op een toegankelijke manier kunnen worden opgeslagen op een duurzame gegevensdrager.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -124,7 +131,8 @@
         "d04c4159-98b7-449c-8637-dc93e08fc503",
         "946e64a4-021f-49c1-abf4-befad9de2886",
         "d961cee9-547e-47cc-9452-836ea3c2855d",
-        "5af48f02-64cb-48e0-98cf-aef57988bfb0"
+        "5af48f02-64cb-48e0-98cf-aef57988bfb0",
+        "dbe48445-de3f-418e-ab4a-889eb1633a73"
       ],
       "settings": {
         "title": "Privacybeleid",
