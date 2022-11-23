@@ -1830,3 +1830,7 @@ textarea.w-select {
 .wf-layout-cell {
   display: flex !important;
 }
+
+.give-blacky p {
+  color: #000;
+}
