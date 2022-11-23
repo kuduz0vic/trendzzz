@@ -67,7 +67,7 @@
             <div id="w-node-f83d88ae-cb25-900d-1998-9026481e7ec9-6ddb3075" class="product-price-box">
               <div class="before-price-p">{{product.compare_at_price | money}}</div>
               <div class="product-price--p">{{product.price | money}}</div>
-              <div class="product-discount">SAVE {{ discount }}</div>
+              <div class="product-discount">BESPAAR {{ discount }}</div>
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@
             <div id="w-node-ac8b3e74-08be-b8ea-026a-bc0837c60ffb-6ddb3075" class="product-options-form">
               <div id="w-node-f1f4fbe8-300e-75de-abb2-487558ab1d7a-6ddb3075" class="amount-form">
                 <div class="qtydiv"> 
-                  <label for="Quantity" class="quantity-selector">Quantity</label>
+                  <label for="Quantity" class="quantity-selector">Stuks</label>
                     <div class="amount-form-div qtybox">
                       <span class="btnqty qtyminus icon-minus minus-amount w-inline-block">-</span>
                       <input type="text" id="quantity" name="quantity" value="1" min="1" class="quantity-selector quantity-input amount" readonly="">
@@ -121,7 +121,7 @@
                        {% if selected_variant.available == false %}
                          Sold out
                           {% else %}
-                           <div class="atc_text">Add to cart</div>
+                           <div class="atc_text">In winkelwagen</div>
                            <div class="icon-embed-xsmall-3 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" fill="none" viewbox="0 0 21 18">
                           <path fill="#fff" d="m18.837 10.57 1.642-7.207a.832.832 0 0 0-.813-1.016H6.028L5.71.795A.833.833 0 0 0 4.893.13h-3.56A.832.832 0 0 0 .5.96v.555c0 .459.373.831.833.831H3.76l2.439 11.9a1.938 1.938 0 0 0 .968 3.623 1.942 1.942 0 0 0 1.944-1.94c0-.543-.224-1.034-.584-1.386h7.28c-.36.352-.585.843-.585 1.386 0 1.072.87 1.94 1.945 1.94a1.94 1.94 0 0 0 .848-3.687l.191-.84a.832.832 0 0 0-.812-1.017h-9.32l-.228-1.108h10.179c.389 0 .726-.27.813-.648Z"></path>
                            </svg></div>
