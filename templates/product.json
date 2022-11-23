@@ -14,7 +14,7 @@
           "settings": {
           }
         },
-        "description": {
+        "bc8628bb-a0b3-47e0-ba15-0cc2838c3b77": {
           "type": "description",
           "settings": {
           }
@@ -37,6 +37,7 @@
         },
         "quantity": {
           "type": "quantity",
+          "disabled": true,
           "settings": {
           }
         },
@@ -98,7 +99,7 @@
       "block_order": [
         "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42",
         "title",
-        "description",
+        "bc8628bb-a0b3-47e0-ba15-0cc2838c3b77",
         "price",
         "95786b33-50fd-4db8-8027-1a612ff9b81f",
         "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f",
