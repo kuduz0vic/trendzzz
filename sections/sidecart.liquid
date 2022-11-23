@@ -173,7 +173,7 @@
           <span class="reward-text">
             {% if giftProduct != blank %}
               {% if freeGiftPrice <= cartPriceCents and freeShippingPrice <= cartPriceCents %}
-                🎉 Gefeliciteerd je hebt gratis verzending!
+                🎉 Gefeliciteerd! Je hebt gratis verzending!
               {% elsif freeGiftPrice > cartPriceCents and freeShippingPrice <= cartPriceCents %}
                 👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% else %}
@@ -181,7 +181,7 @@
               {% endif %}
             {% else %}
               {% if freeShippingPrice <= cartPriceCents %}
-                🎉 Gefeliciteerd je hebt gratis verzending!
+                🎉 Gefeliciteerd! Je hebt gratis verzending!
               {% else %}
                 👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% endif %}
@@ -335,7 +335,7 @@
           <span class="reward-text">
             {% if giftProduct != blank %}
               {% if freeGiftPrice <= cartPriceCents and freeShippingPrice <= cartPriceCents %}
-                🎉 Gefeliciteerd je hebt gratis verzending!
+                🎉 Gefeliciteerd! Je hebt gratis verzending!
               {% elsif freeGiftPrice > cartPriceCents and freeShippingPrice <= cartPriceCents %}
                 👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% else %}
@@ -343,7 +343,7 @@
               {% endif %}
             {% else %}
               {% if freeShippingPrice <= cartPriceCents %}
-                🎉 Gefeliciteerd je hebt gratis verzending!
+                🎉 Gefeliciteerd! Je hebt gratis verzending!
               {% else %}
                 👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% endif %}
