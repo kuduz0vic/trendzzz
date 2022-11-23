@@ -116,13 +116,13 @@
           "ea2d4ac9-40df-495c-90db-10537ef763fd": {
             "type": "faq-title",
             "settings": {
-              "title": "Questions we get often"
+              "title": "Veelgestelde vragen"
             }
           },
           "1e67a508-43c0-4f81-ab94-7d2ec8445eb1": {
             "type": "faq-description",
             "settings": {
-              "description": "Can't find an answer to your question? Contact us at the bottom of this page."
+              "description": "Antwoord op je vraag niet kunnen vinden? Neem contact met ons op via het formulier onderaan deze pagina!"
             }
           }
         },
@@ -141,49 +141,49 @@
             "type": "faq-title",
             "settings": {
               "emoji": "📦️",
-              "title": "Shipping"
+              "title": "Verzending"
             }
           },
           "e867a2e4-aa3a-40ae-96dd-c77f684eb765": {
             "type": "faq",
             "settings": {
-              "question": "To which countries do you ship?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Naar welke landen verzenden jullie?",
+              "answer": "<p>Wij verzenden naar alle landen met uitzondering van enkele eilanden.<\/p>"
             }
           },
           "f045b7cd-c527-4be7-a245-5a2c1de87f50": {
             "type": "faq",
             "settings": {
-              "question": "To which countries do you ship?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Waar is mijn bestelling?",
+              "answer": "<p>e kan je pakket volgen via de tracking link die per e-mail is verzonden. Heb je nog geen trackingslink? Dan is de tracking link mogelijk nog niet actief, wacht 1-2 dagen en probeer het dan opnieuw, je pakket zal ondertussen gewoon zijn route vervolgen.<\/p>"
             }
           },
           "871cfa3a-1e15-41de-82ee-e4bbc14e43cd": {
             "type": "faq",
             "settings": {
-              "question": "To which countries do you ship?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Wat is jullie levertijd?",
+              "answer": "<p>Doorgaans verwerken wij bestellingen na 1-3 werkdagen, hierna zal het pakket worden geleverd binnen 4-7 werkdagen, met uitzondering van feestdagen.<\/p>"
             }
           },
           "b384e597-6c93-4ca0-a883-6dcce27732d1": {
             "type": "faq",
             "settings": {
-              "question": "To which countries do you ship?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Hoe verzenden jullie pakketen?",
+              "answer": "<p>Wij verzenden onze pakketten met verschillende leveranciers, de gekozen verzendpartij kan dus verschillen per bestelling en per bestemming.<\/p>"
             }
           },
           "f0285593-8200-47d3-8445-1ce68d149364": {
             "type": "faq",
             "settings": {
-              "question": "To which countries do you ship?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Vanuit waar versturen jullie?",
+              "answer": "<p>Onze pakketten worden verstuurd vanuit ons Europese Warehouse. <br\/>Afhankelijk van de beschikbare voorraad voor het bestelde item kan het soms voorkomen dat een pakket direct vanuit onze fabriek verzonden word, hierbij blijven dezelfde snelle levertijden van toepassing.<\/p>"
             }
           },
           "318f169d-84ed-445f-8144-4186e7a2decb": {
             "type": "faq",
             "settings": {
-              "question": "To which countries do you ship?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Kan ik mijn bestelling ophalen?",
+              "answer": "<p>Helaas bieden wij momenteel geen mogelijkheid tot ophalen, ons bedrijfsadres is enkel een post adres en geen bezoek adres.<\/p>"
             }
           }
         },
@@ -206,35 +206,42 @@
             "type": "faq-title",
             "settings": {
               "emoji": "🧐",
-              "title": "General questions"
+              "title": "Algemene vragen"
             }
           },
           "a01feff6-2dd5-439d-8edb-71c280d4f80f": {
             "type": "faq",
             "settings": {
-              "question": "Wat is het verschil tussen een normaal kussensloop en een zijden kussensloop?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Kan ik mijn bestelling nog annuleren?",
+              "answer": "<p>Neem hiervoor contact met ons op.<\/p>"
             }
           },
           "1b434c96-3651-4edd-a146-d300383ca5e0": {
             "type": "faq",
             "settings": {
-              "question": "Hoeveel momme\/mm zijn de zijden kussenslopen van Silk Dreams?",
-              "answer": "<p>De kussenslopen van Silk Dreams zijn gemaakt van 22 mm zijde.<\/p>"
+              "question": "Kan ik mijn bestelling nog wijzigen?",
+              "answer": "<p>Indien een bestelling nog niet is verwerkt kan deze kosteloos worden gewijzigd. Neem hiervoor contact met ons op.<\/p>"
             }
           },
           "5653116d-fc69-444d-988c-dab557a9cd60": {
             "type": "faq",
             "settings": {
-              "question": "Wat betekent momme\/mm?",
-              "answer": "<p>Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+              "question": "Kan ik achteraf betalen?",
+              "answer": "<p>Wij bieden een 30 dagen achteraf betaling aan via Klarna en Afterpay. <br\/>Hierbij ontvang je eerst je pakket, en betaal je pas achteraf zonder <br\/>verborgen kosten.<\/p>"
             }
           },
           "fffa1ecf-adea-4194-9b10-73f7dc263d97": {
             "type": "faq",
             "settings": {
-              "question": "Wat houd 100 nachten proeslapen in?",
-              "answer": "<p>Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid.<\/p>"
+              "question": "Welke betaalmethodes accepteren jullie?",
+              "answer": "<p>Wij accepteren iDeal, Bancontact, Mastercard, Visa, American Express, Klarna en Afterpay.<\/p>"
+            }
+          },
+          "47937966-6db1-4b49-bf11-83ed57916ecf": {
+            "type": "faq",
+            "settings": {
+              "question": "Kan ik ook met PayPal betalen?",
+              "answer": "<p>Helaas bieden wij momenteel geen mogelijkheid voor betalingen met PayPal.<\/p>"
             }
           }
         },
@@ -243,7 +250,8 @@
           "a01feff6-2dd5-439d-8edb-71c280d4f80f",
           "1b434c96-3651-4edd-a146-d300383ca5e0",
           "5653116d-fc69-444d-988c-dab557a9cd60",
-          "fffa1ecf-adea-4194-9b10-73f7dc263d97"
+          "fffa1ecf-adea-4194-9b10-73f7dc263d97",
+          "47937966-6db1-4b49-bf11-83ed57916ecf"
         ],
         "settings": {
         }
@@ -255,21 +263,21 @@
             "type": "faq-title",
             "settings": {
               "emoji": "🔄",
-              "title": "Returns"
+              "title": "Retours"
             }
           },
           "b2fc0f9f-2ef7-47d5-be14-556ec806dab7": {
             "type": "faq",
             "settings": {
-              "question": "Wat is het verschil tussen een normaal kussensloop en een zijden kussensloop?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Hoe kan ik mijn bestelling retourneren?",
+              "answer": "<p>Binnen 14 dagen niet tevreden met je aankoop? Je kan je product <br\/>kosteloos aan ons retourneren, je betaalt enkel de retour verzendkosten. Neem hiervoor contact met ons op.<\/p>"
             }
           },
           "c8dd5dca-cd7f-4bf2-9a89-4a6736ce7b2d": {
             "type": "faq",
             "settings": {
-              "question": "Wat is het verschil tussen een normaal kussensloop en een zijden kussensloop?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Wat te doen bij een verkeerd ontvangen product?",
+              "answer": "<p>Dat is natuurlijk erg vervelend! We bieden je graag een kosteloze <br\/>nazending van het juiste item aan, het verkeerd ontvangen item mag je <br\/>houden en hoeft niet retour.<\/p>"
             }
           },
           "721ae859-bf61-479e-a8bf-ff94c151340e": {
@@ -282,8 +290,8 @@
           "830f9650-ea80-4dec-9cd5-015d89dee831": {
             "type": "faq",
             "settings": {
-              "question": "Wat is het verschil tussen een normaal kussensloop en een zijden kussensloop?",
-              "answer": "<p>Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben.<\/p>"
+              "question": "Hoe lang duren jullie terugbetalingen? Hoe lang duren jullie terugbetalingen?",
+              "answer": "<p>Nadat wij een product retour hebben ontvangen doen wij ons uiterste best<br\/> je retour binnen 7 dagen te beoordelen. Voldoet je retour aan de <br\/>retourvoorwaarden (in de verpakking, ongedragen, ongewassen), dan zullen<br\/> we je direct na controle een volledige terugbetaling verrichten excl. verzendkosten. Deze terugbetalingen duren doorgaans 1-2 werkdagen.<\/p>"
             }
           }
         },
