@@ -16,11 +16,19 @@
             "block-title": "Retournerings stappenplan",
             "block-description": "<p><strong>Stap 1:<\/strong> Neem contact met ons op via support@thetrentzz.com. Wij sturen je vervolgens een retourformulier.<\/p><p><strong>Stap 2:<\/strong> Stuur je bestelling op naar het retouradres. Zorg ervoor dat je het pakketje voorziet van een Track & Trace code. Zonder Track & Trace code kunnen wij het pakketje niet tracken en daarom niet goed vaststellen of het pakketje daadwerkelijk is aangekomen op het retouradres.<\/p><p><strong>Stap 3:<\/strong> Ontvang het aankoopbedrag terug op je rekening. Zodra wij het pakketje ontvangen hebben, zorgen wij ervoor dat het aankoopbedrag binnen 5 werkdagen weer op je rekening staat.<\/p><p><strong>Let op:<\/strong> De verzendkosten voor het retourneren zijn voor rekening van de klant. Dit in verband met het nastreven van een zo duurzaam mogelijk verzendproces.<\/p>"
           }
+        },
+        "771789ef-b1be-47f9-a74f-260633737daa": {
+          "type": "block",
+          "settings": {
+            "block-title": "Beschadigingen en problemen",
+            "block-description": "<p>Inspecteer uw bestelling bij ontvangst en neem direct contact met ons op als het artikel defect of beschadigd is of als u het verkeerde artikel ontvangt, zodat wij het probleem kunnen beoordelen en u direct een passende oplossing kunnen aanbieden.<\/p>"
+          }
         }
       },
       "block_order": [
         "1b8ff555-4127-4119-93bd-b7c6be311c91",
-        "61dc99d4-b874-4b47-88c8-efbeeca2d307"
+        "61dc99d4-b874-4b47-88c8-efbeeca2d307",
+        "771789ef-b1be-47f9-a74f-260633737daa"
       ],
       "settings": {
         "title": "Terugbetalingsbeleid",
