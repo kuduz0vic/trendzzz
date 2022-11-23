@@ -9,10 +9,18 @@
             "block-title": "",
             "block-description": "<p>Wij hanteren een retourbeleid van 14 dagen, wat betekent dat u 14 dagen de tijd heeft na ontvangst van uw artikel om een retour aan te vragen.<br\/><\/p>"
           }
+        },
+        "1b8ff555-4127-4119-93bd-b7c6be311c91": {
+          "type": "block",
+          "settings": {
+            "block-title": "",
+            "block-description": "<p>Om in aanmerking te komen voor een retourzending, moet het artikel in dezelfde staat verkeren als waarin u het hebt ontvangen, ongedragen of ongebruikt, met de labels en in de oorspronkelijke verpakking. U heeft bovendien een ontvangstbewijs of een bewijs van aankoop nodig.<br\/><\/p>"
+          }
         }
       },
       "block_order": [
-        "210f6884-0e4d-4ab5-8aa0-bbf3418c0ca4"
+        "210f6884-0e4d-4ab5-8aa0-bbf3418c0ca4",
+        "1b8ff555-4127-4119-93bd-b7c6be311c91"
       ],
       "settings": {
         "title": "Terugbetalingsbeleid",
