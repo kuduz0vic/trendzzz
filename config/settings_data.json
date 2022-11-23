@@ -309,8 +309,8 @@
         "type": "contact-form",
         "settings": {
           "tag": "CONTACT US",
-          "title": "Do you need help?",
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium fermentum semper at blandit.<\/p>"
+          "title": "Toch nog hulp nodig?",
+          "description": "<p>Stuur ons een mailtje via dit onderstaand formulier! Als dit niet lukt kun je ons altijd nog direct mailen naar support@thetrentzz.com!<\/p>"
         }
       },
       "sidecart": {
