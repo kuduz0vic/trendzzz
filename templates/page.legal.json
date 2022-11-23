@@ -93,6 +93,13 @@
             "block-title": "Artikel 13 – Betaling",
             "block-description": "<p>1. Voor zover niet anders is overeengekomen, dienen de door de consument verschuldigde bedragen te worden voldaan binnen 7 werkdagen na het ingaan van de bedenktermijn als bedoeld in artikel 6 lid 1. In geval van een overeenkomst tot het verlenen van een dienst, vangt deze termijn <br\/>aan nadat de consument de bevestiging van de overeenkomst heeft ontvangen.<\/p><p><\/p><p>2. De consument heeft de plicht om onjuistheden in verstrekte of vermelde betaalgegevens onverwijld aan de ondernemer te melden.<\/p><p>3. In geval van wanbetaling van de consument heeft de ondernemer behoudens wettelijke beperkingen, het recht om de vooraf aan de consument kenbaar gemaakte redelijke kosten in rekening te brengen.<\/p>"
           }
+        },
+        "d961cee9-547e-47cc-9452-836ea3c2855d": {
+          "type": "block",
+          "settings": {
+            "block-title": "Artikel 14 – Klachtenregeling",
+            "block-description": "<p>1. De ondernemer beschikt over een voldoende bekend gemaakte <br\/>klachtenprocedure en behandelt de klacht overeenkomstig deze <br\/>klachtenprocedure.<\/p><p>2. Klachten over de uitvoering van de overeenkomst moeten binnen 2 maanden <br\/>volledig en duidelijk omschreven worden ingediend bij de ondernemer, <br\/>nadat de consument de gebreken heeft geconstateerd.<\/p><p>3. Bij de ondernemer ingediende klachten worden binnen een termijn van 14 dagen gerekend vanaf de datum van ontvangst beantwoord. Als een klacht een voorzienbaar langere verwerkingstijd vraagt, wordt door de ondernemer binnen de termijn van 14 dagen geantwoord met een bericht van ontvangst en een indicatie wanneer de consument een meer uitvoerig <br\/>antwoord kan verwachten.<\/p><p>4. Indien de klacht niet in onderling overleg kan worden opgelost ontstaat een geschil dat vatbaar is voor de geschillenregeling.<\/p><p>5. Bij klachten dient een consument zich allereerst te wenden tot de <br\/>ondernemer. Indien de webwinkel is aangesloten bij Stichting <br\/>WebwinkelKeur en bij klachten die niet in onderling overleg opgelost <br\/>kunnen worden dient de consument zich te wenden tot Stichting <br\/>WebwinkelKeur (<a href=\"http:\/\/www.webwinkelkeur.nl\/\" target=\"_blank\">www.webwinkelkeur.nl<\/a>), deze zal gratis bemiddelen. Controleer of deze webwinkel een lopend lidmaatschap heeft via <a href=\"https:\/\/www.webwinkelkeur.nl\/ledenlijst\/\" target=\"_blank\">https:\/\/www.webwinkelkeur.nl\/ledenlijst\/<\/a>.<br\/> Mocht er dan nog niet tot een oplossing gekomen worden, heeft de <br\/>consument de mogelijkheid om zijn klacht te laten behandelen door de <br\/>door Stichting WebwinkelKeur aangestelde onafhankelijke <br\/>geschillencommissie, de uitspraak hiervan is bindend en zowel ondernemer<br\/> als consument stemmen in met deze bindende uitspraak. Aan het <br\/>voorleggen van een geschil aan deze geschillencommissie zijn kosten <br\/>verbonden die door de consument betaald dienen te worden aan de <br\/>betreffende commissie. Tevens is het mogelijk om klachten aan te melden <br\/>via het Europees ODR platform (<a href=\"http:\/\/ec.europa.eu\/odr\" target=\"_blank\">http:\/\/ec.europa.eu\/odr<\/a>).<\/p><p>6. Een klacht schort de verplichtingen van de ondernemer niet op, tenzij de ondernemer schriftelijk anders aangeeft.<\/p><p>7. Indien een klacht gegrond wordt bevonden door de ondernemer, zal de ondernemer naar haar keuze of de geleverde producten kosteloos vervangen of repareren.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -108,7 +115,8 @@
         "4f3d5e41-b147-46e2-80c3-c04ce07a0df4",
         "a934213b-2c4e-4fbe-8f09-3b7a4c37f5be",
         "d04c4159-98b7-449c-8637-dc93e08fc503",
-        "946e64a4-021f-49c1-abf4-befad9de2886"
+        "946e64a4-021f-49c1-abf4-befad9de2886",
+        "d961cee9-547e-47cc-9452-836ea3c2855d"
       ],
       "settings": {
         "title": "Privacybeleid",
