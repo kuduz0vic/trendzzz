@@ -173,7 +173,7 @@
                     {% case block.type %} 
                   {% when 'testimonial' %}
                     <div id="w-node-c0e555da-3a5e-41e0-7341-046b33134990-6ddb3075" class="customers-tab_wrapper"><img src="{{block.settings.testimonial-image | img_url}}" loading="lazy" srcset="{{block.settings.testimonial-image | img_url}} 500w, {{block.settings.testimonial-image | img_url}} 800w, {{block.settings.testimonial-image | img_url}} 885w" sizes="(max-width: 1279px) 54px, (max-width: 1439px) 4vw, 54px" alt="" class="social-proof-img">
-                    <span class="social-bar-p"><div style="color: #000; important!">{{block.settings.testimonial-text}}</div></span>
+                    <span class="social-bar-p"><div class="give-blacky">{{block.settings.testimonial-text}}</div></span>
                   </div>
                 {% endcase %}
               {% endfor %}        
