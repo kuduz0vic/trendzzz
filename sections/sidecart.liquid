@@ -158,9 +158,9 @@
       </div>
       <div class="sidebar-div" style="margin-top:16px">
         <div class="sidebar-info">
-          <div class="text-s text-caps black-60-color letter-spacing-0-03em margin-bottom-16px side-cart-top-text">
-            <span class="text-bold-side">😍 Great choice!</span>
-            You’ll love this!
+          <div class="text-s text-caps black-60-color margin-bottom-16px side-cart-top-text slide-cart-text">
+            <span class="text-bold-side slide-cart-text">😍 Goede keuze!</span>
+            Dees zul je leuk vinden!
           </div>
 
           {% assign width = cartPriceCents | times: 100 | divided_by: freeGiftPrice %}
@@ -173,17 +173,17 @@
           <span class="reward-text">
             {% if giftProduct != blank %}
               {% if freeGiftPrice <= cartPriceCents and freeShippingPrice <= cartPriceCents %}
-                🎉 Congratulations you have unlocked free shipping!
+                🎉 Gefeliciteerd je hebt gratis verzending!
               {% elsif freeGiftPrice > cartPriceCents and freeShippingPrice <= cartPriceCents %}
-                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% else %}
-                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% endif %}
             {% else %}
               {% if freeShippingPrice <= cartPriceCents %}
-                🎉 Congratulations you have unlocked free shipping!
+                🎉 Gefeliciteerd je hebt gratis verzending!
               {% else %}
-                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% endif %}
             {% endif %}
           </span>
@@ -320,9 +320,9 @@
 
       <div class="sidebar-div" style="margin-top:16px">
         <div class="sidebar-info">
-          <div class="text-s text-caps black-60-color letter-spacing-0-03em margin-bottom-16px side-cart-top-text">
-            <span class="text-bold-side">😍 Great choice!</span>
-            You’ll love this!
+          <div class="text-s text-caps black-60-color margin-bottom-16px side-cart-top-text">
+            <span class="text-bold-side slide-cart">😍 Goede keuze!</span>
+            Dees zul je leuk vinden!
           </div>
 
           {% assign width = cartPriceCents | times: 100 | divided_by: freeGiftPrice %}
@@ -335,17 +335,17 @@
           <span class="reward-text">
             {% if giftProduct != blank %}
               {% if freeGiftPrice <= cartPriceCents and freeShippingPrice <= cartPriceCents %}
-                🎉 Congratulations you have unlocked free shipping!
+                🎉 Gefeliciteerd je hebt gratis verzending!
               {% elsif freeGiftPrice > cartPriceCents and freeShippingPrice <= cartPriceCents %}
-                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% else %}
-                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% endif %}
             {% else %}
               {% if freeShippingPrice <= cartPriceCents %}
-                🎉 Congratulations you have unlocked free shipping!
+                🎉 Gefeliciteerd je hebt gratis verzending!
               {% else %}
-                📦 You are {{ freeShippingPrice | minus: cartPriceCents | money }} away from free shipping!
+                👀 Bijna! Nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending!
               {% endif %}
             {% endif %}
           </span>
