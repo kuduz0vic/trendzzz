@@ -65,6 +65,13 @@
             "block-title": "Artikel 9 – De prijs",
             "block-description": "<p>1. Gedurende de in het aanbod vermelde geldigheidsduur worden de prijzen van de aangeboden producten en\/of diensten niet verhoogd, behoudens prijswijzigingen als gevolg van veranderingen in btw-tarieven.<\/p><p>2. In afwijking van het vorige lid kan de ondernemer producten of diensten waarvan de prijzen gebonden zijn aan schommelingen op de financiële markt en waar de ondernemer geen invloed op heeft, met variabele prijzen aanbieden. Deze gebondenheid aan schommelingen en het feit dat eventueel vermelde prijzen richtprijzen zijn, worden bij het aanbod vermeld.<\/p><p>3. Prijsverhogingen binnen 3 maanden na de totstandkoming van de overeenkomst zijn alleen toegestaan indien zij het gevolg zijn van wettelijke regelingen of bepalingen.<\/p><p>Prijsverhogingen vanaf 3 maanden na de totstandkoming van de <br\/>overeenkomst zijn alleen toegestaan indien de ondernemer dit bedongen <br\/>heeft en:<br\/>deze het gevolg zijn van wettelijke regelingen of bepalingen; ofde consument de bevoegdheid heeft de overeenkomst op te zeggen met ingang van de dag waarop de prijsverhoging ingaat.<\/p><p>5. De in het aanbod van producten of diensten genoemde prijzen zijn inclusief btw.<\/p><p>6. Alle prijzen zijn onder voorbehoud van druk – en zetfouten. Voor de <br\/>gevolgen van druk – en zetfouten wordt geen aansprakelijkheid aanvaard. <br\/>Bij druk – en zetfouten is de ondernemer niet verplicht het product <br\/>volgens de foutieve prijs te leveren.<\/p>"
           }
+        },
+        "4f3d5e41-b147-46e2-80c3-c04ce07a0df4": {
+          "type": "block",
+          "settings": {
+            "block-title": "Artikel 10 – Conformiteit en garantie",
+            "block-description": "<p>De ondernemer staat er voor in dat de producten en\/of diensten voldoen <br\/>aan de overeenkomst, de in het aanbod vermelde specificaties, aan de redelijke eisen van deugdelijkheid en\/of bruikbaarheid en de op de datum van de totstandkoming van de overeenkomst bestaande wettelijke <br\/>bepalingen en\/of overheidsvoorschriften. Indien overeengekomen staat de  ondernemer er tevens voor in dat het product geschikt is voor ander dan <br\/>normaal gebruik.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -76,7 +83,8 @@
         "4404ba57-37d0-4670-8d22-89b7f7a27f83",
         "844c3c9c-bdb2-48bb-ae5a-57b76945b073",
         "f7ca2c09-9459-45d8-b861-e23f6cd9ff3f",
-        "3cfbba20-c742-49fa-a387-65ec3c1e821b"
+        "3cfbba20-c742-49fa-a387-65ec3c1e821b",
+        "4f3d5e41-b147-46e2-80c3-c04ce07a0df4"
       ],
       "settings": {
         "title": "Privacybeleid",
