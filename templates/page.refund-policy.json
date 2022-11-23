@@ -44,6 +44,13 @@
             "block-title": "Ruilen",
             "block-description": "<p>De snelste manier om er zeker van te zijn dat u krijgt wat u wilt is om <br\/>het artikel dat u heeft te retourneren, en zodra de retournering is <br\/>geaccepteerd, een aparte aankoop te doen voor het nieuwe artikel.<\/p>"
           }
+        },
+        "b41ad5d3-8529-42d4-86ef-06b8b606f792": {
+          "type": "block",
+          "settings": {
+            "block-title": "Terugbetalingen",
+            "block-description": "<p>Zodra wij uw retourzending hebben ontvangen en geïnspecteerd, laten <br\/>wij u weten of de terugbetaling is goedgekeurd of niet. Indien <br\/>goedgekeurd, wordt u automatisch terugbetaald via uw oorspronkelijke <br\/>betalingsmethode. Houd er rekening mee dat het enige tijd kan duren <br\/>voordat uw bank of creditcardmaatschappij de terugbetaling heeft verwerkt en geboekt.<\/p><p>Terugbetalingen van betalingen via Klarna worden direct door ons <br\/>verwerkt, echter kan het ook bij Klarna enkele werkdagen duren tot zij de terugbetaling verwerkt hebben en uw factuur hebben bijgewerkt.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -52,7 +59,8 @@
         "771789ef-b1be-47f9-a74f-260633737daa",
         "48d03323-aca4-4b09-a294-c7289fda3ef9",
         "204d9dc4-0e71-41ce-b4d2-cf19705d9594",
-        "4faa7db3-4923-4ef2-b170-568b8120701d"
+        "4faa7db3-4923-4ef2-b170-568b8120701d",
+        "b41ad5d3-8529-42d4-86ef-06b8b606f792"
       ],
       "settings": {
         "title": "Terugbetalingsbeleid",
