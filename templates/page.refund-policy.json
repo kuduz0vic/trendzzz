@@ -7,28 +7,20 @@
           "type": "block",
           "settings": {
             "block-title": "",
-            "block-description": "<p>Wij hanteren een retourbeleid van 14 dagen, wat betekent dat u 14 dagen de tijd heeft na ontvangst van uw artikel om een retour aan te vragen. Om in aanmerking te komen voor een retourzending, moet het artikel in dezelfde staat verkeren als waarin u het hebt ontvangen, ongedragen of ongebruikt, met de labels en in de oorspronkelijke verpakking. U heeft bovendien een ontvangstbewijs of een bewijs van aankoop nodig.                Om een retourzending te starten, kunt u contact met ons opnemen via support@thetrentzz.com. Let op: in overeenstemming met EU-richtlijnen zijn de verzendkosten  voor het retourneren voor rekening van de klant, The Trentzz zal deze <br\/>retourkosten niet vergoeden.<br\/><\/p>"
+            "block-description": "<p>Wij hanteren een retourbeleid van 14 dagen, wat betekent dat u 14 dagen   de tijd heeft na ontvangst van uw artikel om een retour aan te vragen.<br\/><br\/>Om in aanmerking te komen voor een retourzending, moet het artikel in dezelfde staat verkeren als waarin u het hebt ontvangen, ongedragen of ongebruikt, met de labels en in de oorspronkelijke verpakking. U heeft tevens een ontvangstbewijs of een bewijs van aankoop nodig.Wij hanteren een retourbeleid van 14 dagen, wat betekent dat u 14 dagen de tijd heeft na ontvangst van uw artikel om een retour aan te vragen.<\/p>"
           }
         },
-        "78bf3b5d-e73d-4733-a234-68697e7b17aa": {
+        "61dc99d4-b874-4b47-88c8-efbeeca2d307": {
           "type": "block",
           "settings": {
-            "block-title": "",
-            "block-description": "<p>Zodra het pakket door ons ontvangen is en geaccepteerd zullen wij het volledige aankoop bedrag excl. eventuele express verzendkosten (€ 2,99) aan u terug storten. Let er op dat sommige producten zoals  verzorgingsproducten (gezichtsmaskers, haar verzorgingsproducten etc.) buiten de gebruikelijke retour procedure vallen. Voor deze producten rekenen wij een re-stocking & cleaning fee van € 8,95, deze zal dan bovendien in mindering worden gebracht op het restitutie-bedrag.<\/p><p>Deze fee word in rekening gebracht om het product opnieuw te reinigen, desinfecteren en verkoop klaar te maken.<\/p>"
-          }
-        },
-        "a98fd870-2002-4a0c-b3df-6143a48b3c5a": {
-          "type": "block",
-          "settings": {
-            "block-title": "",
-            "block-description": "<p><strong>LET OP; MELD EEN RETOUR EERST BIJ ONS AAN PER E-MAIL ALVORENS HET PAKKET TE RETOURNEREN OM ER ZEKER VAN TE ZIJN DAT JE PAKKET IN AANMERKING KOMT VOOR EEN RETOURZENDING.<\/strong><\/p>"
+            "block-title": "Retournerings stappenplan",
+            "block-description": "<p><strong>Stap 1:<\/strong> Neem contact met ons op via support@thetrentzz.com. Wij sturen je vervolgens een retourformulier.<\/p><p><strong>Stap 2:<\/strong> Stuur je bestelling op naar het retouradres. Zorg ervoor dat je het pakketje voorziet van een Track & Trace code. Zonder Track & Trace code kunnen wij het pakketje niet tracken en daarom niet goed vaststellen of het pakketje daadwerkelijk is aangekomen op het retouradres.<\/p><p><strong>Stap 3:<\/strong> Ontvang het aankoopbedrag terug op je rekening. Zodra wij het pakketje ontvangen hebben, zorgen wij ervoor dat het aankoopbedrag binnen 5 werkdagen weer op je rekening staat.<\/p><p><strong>Let op:<\/strong> De verzendkosten voor het retourneren zijn voor rekening van de klant. Dit in verband met het nastreven van een zo duurzaam mogelijk verzendproces.<\/p>"
           }
         }
       },
       "block_order": [
         "1b8ff555-4127-4119-93bd-b7c6be311c91",
-        "78bf3b5d-e73d-4733-a234-68697e7b17aa",
-        "a98fd870-2002-4a0c-b3df-6143a48b3c5a"
+        "61dc99d4-b874-4b47-88c8-efbeeca2d307"
       ],
       "settings": {
         "title": "Terugbetalingsbeleid",
