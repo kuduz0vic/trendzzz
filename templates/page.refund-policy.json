@@ -3,13 +3,6 @@
     "template": {
       "type": "text-block",
       "blocks": {
-        "210f6884-0e4d-4ab5-8aa0-bbf3418c0ca4": {
-          "type": "block",
-          "settings": {
-            "block-title": "",
-            "block-description": "<p>Wij hanteren een retourbeleid van 14 dagen, wat betekent dat u 14 dagen de tijd heeft na ontvangst van uw artikel om een retour aan te vragen.<br\/><\/p>"
-          }
-        },
         "1b8ff555-4127-4119-93bd-b7c6be311c91": {
           "type": "block",
           "settings": {
@@ -17,18 +10,17 @@
             "block-description": "<p>Wij hanteren een retourbeleid van 14 dagen, wat betekent dat u 14 dagen de tijd heeft na ontvangst van uw artikel om een retour aan te vragen. Om in aanmerking te komen voor een retourzending, moet het artikel in dezelfde staat verkeren als waarin u het hebt ontvangen, ongedragen of ongebruikt, met de labels en in de oorspronkelijke verpakking. U heeft bovendien een ontvangstbewijs of een bewijs van aankoop nodig.                Om een retourzending te starten, kunt u contact met ons opnemen via support@thetrentzz.com. Let op: in overeenstemming met EU-richtlijnen zijn de verzendkosten  voor het retourneren voor rekening van de klant, The Trentzz zal deze <br\/>retourkosten niet vergoeden.<br\/><\/p>"
           }
         },
-        "9bce67b3-5800-4ea6-8726-efe9925f288a": {
+        "78bf3b5d-e73d-4733-a234-68697e7b17aa": {
           "type": "block",
           "settings": {
             "block-title": "",
-            "block-description": "<p>Om een retourzending te starten, kunt u contact met ons opnemen via support@thetrentzz.com. Let op: in overeenstemming met EU-richtlijnen zijn de verzendkosten  voor het retourneren voor rekening van de klant, The Trentzz zal deze <br\/>retourkosten niet vergoeden.<\/p>"
+            "block-description": "<p>Zodra het pakket door ons ontvangen is en geaccepteerd zullen wij het volledige aankoop bedrag excl. eventuele express verzendkosten (€ 2,99) aan u terug storten. Let er op dat sommige producten zoals  verzorgingsproducten (gezichtsmaskers, haar verzorgingsproducten etc.) buiten de gebruikelijke retour procedure vallen. Voor deze producten rekenen wij een re-stocking & cleaning fee van € 8,95, deze zal dan bovendien in mindering worden gebracht op het restitutie-bedrag.<\/p><p>Deze fee word in rekening gebracht om het product opnieuw te reinigen, desinfecteren en verkoop klaar te maken.<\/p>"
           }
         }
       },
       "block_order": [
-        "210f6884-0e4d-4ab5-8aa0-bbf3418c0ca4",
         "1b8ff555-4127-4119-93bd-b7c6be311c91",
-        "9bce67b3-5800-4ea6-8726-efe9925f288a"
+        "78bf3b5d-e73d-4733-a234-68697e7b17aa"
       ],
       "settings": {
         "title": "Terugbetalingsbeleid",
