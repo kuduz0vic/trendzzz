@@ -51,6 +51,13 @@
             "block-title": "Artikel 7 – Kosten in geval van herroeping",
             "block-description": "<p>1. Indien de consument gebruik maakt van zijn herroepingsrecht, komen ten hoogste de kosten van terugzending voor zijn rekening.<\/p><p>2. Indien de consument een bedrag betaald heeft, zal de ondernemer dit <br\/>bedrag zo spoedig mogelijk, doch uiterlijk binnen 14 dagen na <br\/>herroeping, terugbetalen. Hierbij is wel de voorwaarde dat het product <br\/>reeds terug ontvangen is door de webwinkelier of sluitend bewijs van <br\/>complete terugzending overlegd kan worden. Terugbetaling zal geschieden via de zelfde betaalmethode die door de consument is gebruikt tenzij de consument nadrukkelijk toestemming geeft voor een andere betaalmethode.<\/p><p>3. Bij beschadiging van het product door onzorgvuldige omgang door de <br\/>consument zelf is de consument aansprakelijk voor eventuele <br\/>waardevermindering van het product.<\/p><p>4. De consument kan niet aansprakelijk worden gesteld voor <br\/>waardevermindering van het product wanneer door de ondernemer niet alle wettelijk verplichte informatie over het herroepingsrecht is verstrekt, dit dient te gebeuren voor het sluiten van de koopovereenkomst.<\/p><p><\/p><p><\/p>"
           }
+        },
+        "f7ca2c09-9459-45d8-b861-e23f6cd9ff3f": {
+          "type": "block",
+          "settings": {
+            "block-title": "Artikel 8 – Uitsluiting herroepingsrecht",
+            "block-description": "<p>De ondernemer kan het herroepingsrecht van de consument uitsluiten voor producten zoals omschreven in lid 2 en 3. D uitsluiting van het herroepingsrecht geldt slechts indien de ondernemer dit duidelijk in het aanbod, althans tijdig voor het sluiten van de overeenkomst, heeft vermeld.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -60,7 +67,8 @@
         "ac3602d9-e0cc-4684-ab7e-06cb22688434",
         "ccb930ec-39d0-47b3-a9fe-523ffbc1ef2f",
         "4404ba57-37d0-4670-8d22-89b7f7a27f83",
-        "844c3c9c-bdb2-48bb-ae5a-57b76945b073"
+        "844c3c9c-bdb2-48bb-ae5a-57b76945b073",
+        "f7ca2c09-9459-45d8-b861-e23f6cd9ff3f"
       ],
       "settings": {
         "title": "Privacybeleid",
