@@ -258,7 +258,7 @@
       ],
       "settings": {
         "tag": "DE NIEUWESTE TIKTIK FINDS",
-        "title": "Featured Collection",
+        "title": "Momenteel populair...",
         "description": "<p>Ontdek onze ruime collectie TikTok finds!<\/p>",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
