@@ -1,5 +1,9 @@
 {
   "current": {
+    "checkout_logo_image": "shopify:\/\/shop_images\/Group_1.png",
+    "checkout_accent_color": "#f92766",
+    "checkout_button_color": "#f92766",
+    "checkout_error_color": "#813dff",
     "sections": {
       "header": {
         "type": "header",
