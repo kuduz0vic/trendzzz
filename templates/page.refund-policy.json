@@ -49,7 +49,7 @@
           "type": "block",
           "settings": {
             "block-title": "Terugbetalingen",
-            "block-description": "<p>Zodra wij uw retourzending hebben ontvangen en geïnspecteerd, laten <br\/>wij u weten of de terugbetaling is goedgekeurd of niet. Indien <br\/>goedgekeurd, wordt u automatisch terugbetaald via uw oorspronkelijke <br\/>betalingsmethode. Houd er rekening mee dat het enige tijd kan duren <br\/>voordat uw bank of creditcardmaatschappij de terugbetaling heeft verwerkt en geboekt.<\/p><p>Terugbetalingen van betalingen via Klarna worden direct door ons <br\/>verwerkt, echter kan het ook bij Klarna enkele werkdagen duren tot zij de terugbetaling verwerkt hebben en uw factuur hebben bijgewerkt.<\/p>"
+            "block-description": "<p>Zodra wij uw retourzending hebben ontvangen en geïnspecteerd, laten wij u weten of de terugbetaling is goedgekeurd of niet. Indien <br\/>goedgekeurd, wordt u automatisch terugbetaald via uw oorspronkelijke betalingsmethode. Houd er rekening mee dat het enige tijd kan duren voordat uw bank of creditcardmaatschappij de terugbetaling heeft verwerkt en geboekt.<\/p><p>Terugbetalingen van betalingen via Klarna worden direct door ons <br\/>verwerkt, echter kan het ook bij Klarna enkele werkdagen duren tot zij de terugbetaling verwerkt hebben en uw factuur hebben bijgewerkt.<\/p>"
           }
         }
       },
