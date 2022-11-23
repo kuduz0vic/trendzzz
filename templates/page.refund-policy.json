@@ -23,12 +23,36 @@
             "block-title": "Beschadigingen en problemen",
             "block-description": "<p>Inspecteer uw bestelling bij ontvangst en neem direct contact met ons op als het artikel defect of beschadigd is of als u het verkeerde artikel ontvangt, zodat wij het probleem kunnen beoordelen en u direct een passende oplossing kunnen aanbieden.<\/p>"
           }
+        },
+        "48d03323-aca4-4b09-a294-c7289fda3ef9": {
+          "type": "block",
+          "settings": {
+            "block-title": "Uitzonderingen \/ niet-retourneerbare artikelen",
+            "block-description": "<p>Bepaalde soorten artikelen kunnen niet worden geretourneerd, zoals op <br\/>maat gemaakte producten (zoals speciale bestellingen of gepersonaliseerde artikelen), en persoonlijke verzorgingsartikelen <br\/>(zoals schoonheidsproducten). Wij accepteren ook geen retourzendingen van gevaarlijke stoffen, ontvlambare vloeistoffen of gassen. Neem contact met ons op als u vragen of twijfels hebt over uw specifieke artikel.<br\/><br\/>Helaas kunnen we geen retourzendingen accepteren voor uitverkoop artikelen of cadeaubonnen.<\/p>"
+          }
+        },
+        "204d9dc4-0e71-41ce-b4d2-cf19705d9594": {
+          "type": "block",
+          "settings": {
+            "block-title": "Annuleringen",
+            "block-description": "<p>In het geval dat u uw bestelling wilt annuleren kunt u dit doen zolang <br\/>uw bestelling nog niet is verzonden, neem dan zo snel mogelijk contact  met ons op via support@thetrentzz.com. Indien uw bestelling reeds is verzonden is annuleren niet meer mogelijk, wel <br\/>kunt u direct na ontvangst het pakket naar ons retourneren in ruil voor een volledige terugbetaling.<\/p>"
+          }
+        },
+        "4faa7db3-4923-4ef2-b170-568b8120701d": {
+          "type": "block",
+          "settings": {
+            "block-title": "Ruilen",
+            "block-description": "<p>De snelste manier om er zeker van te zijn dat u krijgt wat u wilt is om <br\/>het artikel dat u heeft te retourneren, en zodra de retournering is <br\/>geaccepteerd, een aparte aankoop te doen voor het nieuwe artikel.<\/p>"
+          }
         }
       },
       "block_order": [
         "1b8ff555-4127-4119-93bd-b7c6be311c91",
         "61dc99d4-b874-4b47-88c8-efbeeca2d307",
-        "771789ef-b1be-47f9-a74f-260633737daa"
+        "771789ef-b1be-47f9-a74f-260633737daa",
+        "48d03323-aca4-4b09-a294-c7289fda3ef9",
+        "204d9dc4-0e71-41ce-b4d2-cf19705d9594",
+        "4faa7db3-4923-4ef2-b170-568b8120701d"
       ],
       "settings": {
         "title": "Terugbetalingsbeleid",
