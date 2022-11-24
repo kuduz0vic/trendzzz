@@ -393,7 +393,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "17960654475080046739": {
+        "type": "shopify:\/\/apps\/z08-heatmap-and-recording\/blocks\/app-embed\/e14d65f0-50c1-4a53-8c09-1c6c6e7830e9",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
