@@ -184,20 +184,17 @@
           </section>
   <script>
 var selectCallback = function(variant, selector) {
-  var productImage = $('.product-image img');
-
-  if (variant && variant.featured_image) {
-    var newImage = variant.featured_image;
-    productImage.attr('src', newImage.src);
-    productImage.attr('alt', newImage.alt);
+  if (variant) {
+    alert('Variant changed');
   }
 };
 
 // Initialize the product selector
-var productSelector = new Shopify.OptionSelectors('productSelect-' + product.id, {
+var productSelector = new Shopify.OptionSelectors('product-select', {
   product: {{ product | json }},
   onVariantSelected: selectCallback
 });
+
 </script>
 {% endform %}
             
