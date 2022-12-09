@@ -182,6 +182,23 @@
               </div>
             </div>
           </section>
+  <script>
+var selectCallback = function(variant, selector) {
+  var productImage = $('.product-image img');
+
+  if (variant && variant.featured_image) {
+    var newImage = variant.featured_image;
+    productImage.attr('src', newImage.src);
+    productImage.attr('alt', newImage.alt);
+  }
+};
+
+// Initialize the product selector
+var productSelector = new Shopify.OptionSelectors('productSelect-' + product.id, {
+  product: {{ product | json }},
+  onVariantSelected: selectCallback
+});
+</script>
 {% endform %}
             
 
@@ -262,23 +279,7 @@
 
 </script>
 
-<script>
-var selectCallback = function(variant, selector) {
-  var productImage = $('.product-image img');
 
-  if (variant && variant.featured_image) {
-    var newImage = variant.featured_image;
-    productImage.attr('src', newImage.src);
-    productImage.attr('alt', newImage.alt);
-  }
-};
-
-// Initialize the product selector
-var productSelector = new Shopify.OptionSelectors('productSelect-' + product.id, {
-  product: {{ product | json }},
-  onVariantSelected: selectCallback
-});
-</script>
 
 {% schema %}
 {
