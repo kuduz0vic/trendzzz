@@ -80,6 +80,7 @@
       this.getSelectedOptions();
       this.getSelectedVariant();
       if (this.currentVariant) {
+        this.updateMedia(selected_variant);
         this.updateURL();
         this.updateFormID();
         this.updatePrice();
@@ -121,6 +122,13 @@
           if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
         });
     }
+    updateMedia(variant) {
+  if (variant.selected_variant.featured_image) {
+    const productImage = document.querySelector('.product-image img');
+    productImage.src = variant.selected_variant.featured_image.src;
+    productImage.alt = variant.selected_variant.featured_image.alt;
+  }
+  }
   }
   customElements.define("variant-selector", VariantSelector);
 </script>
