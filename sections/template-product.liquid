@@ -4,7 +4,6 @@
 {% assign selected_variant = product.selected_or_first_available_variant %}
 {% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
   <input type="hidden" name="id" value="{{ selected_variant.id }}">
-  <input type="hidden" id="product-select" name="id" value="{{ product.selected_or_first_available_variant.id }}" />
   {% capture discount %}
   {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
   {% endcapture %}
@@ -84,7 +83,7 @@
                     <path fill="#4A5568" fill-rule="evenodd" d="M.647 1.487a1.824 1.824 0 0 1 2.62 0l6.114 6.086 6.114-6.105a1.824 1.824 0 0 1 2.62 0 1.837 1.837 0 0 1 0 2.609l-7.433 7.381a1.879 1.879 0 0 1-2.639 0L.61 4.058c-.743-.74-.743-1.905 0-2.627l.037.056Z" clip-rule="evenodd"/>
                   </svg>                  
                 </div>
-                <select name="options[{{ option.name | escape }}]" id="option-{{ section.id }}-{{ forloop.index0 }}" class="variant-select">
+                <select name="options[{{ option.name | escape }}]" id="option-{{ section.id }}-{{ forloop.index0 }}" class="variant-select" id="product-select">
                   {% for value in option.values %}
                     <option value="{{ value | escape }}" {% if option.selected_value == value %} selected="selected" {% endif %}>{{ value }}</option>
                   {% endfor %}
