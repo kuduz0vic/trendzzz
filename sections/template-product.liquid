@@ -4,6 +4,7 @@
 {% assign selected_variant = product.selected_or_first_available_variant %}
 {% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
   <input type="hidden" name="id" value="{{ selected_variant.id }}">
+  <input type="hidden" id="productSelect-{{ product.id }}" name="id" value="{{ product.selected_or_first_available_variant.id }}" />
   {% capture discount %}
   {{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
   {% endcapture %}
