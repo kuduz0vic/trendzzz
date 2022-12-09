@@ -246,17 +246,14 @@
         });
     }
 
-    updateMedia() {
-      if(this.currentVariant.featured_image !=null && this.currentVariant.featured_image.alt != null) {
-        $('[thumbnail-color]').show();
-      var selected_color = this.currentVariant.featured_image.alt;
-      var thumbnail_selector = '[thumbnail-color="' + selected_color + '"]';
-      $(thumbnail_selector).show();
-      } else {
-       $('[thumbnail-color]').show();
-      }
+  updateMedia(variant) { // <-- add the `variant` argument
+    if (variant.featured_image) { // <-- check if the variant has a featured image
+      const productImage = document.querySelector('.product-image img'); // <-- select the product image
+      productImage.src = variant.featured_image.src; // <-- update the image's `src` attribute
+      productImage.alt = variant.featured_image.alt; // <-- update the image's `alt` attribute
     }
   }
+}
   customElements.define("variant-selector", VariantSelector);
 
 </script>
