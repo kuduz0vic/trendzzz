@@ -1,9 +1,6 @@
-{% assign selected_variant = product.selected_or_first_available_variant %}
-
-
 {% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
+  {% assign selected_variant = product.selected_or_first_available_variant %}
   <input type="hidden" name="id" value="{{ selected_variant.id }}">
-  {% include 'product-template' with product %}
             <div class="product d-lg-none">
             <div class="row">
               <div class="col-9 thumbnail-big">
