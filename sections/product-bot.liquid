@@ -1,5 +1,13 @@
 {% assign selected_variant = product.selected_or_first_available_variant %}
-
+{% if selected_variant %}
+  <div id="price-{{ section.id }}">
+    <span>{{ selected_variant.compare_at_price | money }}</span>
+    <span>{{ selected_variant.price | money }}</span>
+    {% if selected_variant.price < selected_variant.compare_at_price %}
+      <span>Sale</span>
+    {% endif %}
+  </div>
+{% endif %}
 
 {% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
   <input type="hidden" name="id" value="{{ selected_variant.id }}">
