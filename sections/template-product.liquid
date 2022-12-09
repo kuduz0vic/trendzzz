@@ -183,17 +183,17 @@
             </div>
           </section>
   <script>
-var selectCallback = function(variant, selector) {
-  if (variant) {
+var selectElement = document.getElementById('product-select');
+
+// Add a change event listener to the select element
+selectElement.addEventListener('change', function() {
+  // Get the selected variant
+  var selectedVariant = this.options[this.selectedIndex].value;
+
+  if (selectedVariant) {
     alert('Variant changed');
   }
-};
-
-// Initialize the product selector
-var productSelector = new Shopify.OptionSelectors('productSelect-' + product.id, {
-    product: product,
-    onVariantSelected: selectCallback
-    });
+});
 
 </script>
 {% endform %}
