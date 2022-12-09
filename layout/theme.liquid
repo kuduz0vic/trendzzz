@@ -137,6 +137,7 @@ var selectCallback = function(variant, selector) {
 
 // Initialize the product selector
 var productSelector = new Shopify.OptionSelectors('productSelect-' + product.id, {
+  product: product,
   product: {{ product | json }},
   onVariantSelected: selectCallback
 });
