@@ -77,14 +77,14 @@
       this.addEventListener("change", this.onVariantChange);
     }
     onVariantChange() {
-      this.getSelectedOptions();
-      this.getSelectedVariant();
-      if (this.currentVariant) {
-        this.updateMedia(selected_variant);
-        this.updateURL();
-        this.updateFormID();
-        this.updatePrice();
-      }
+  this.getSelectedOptions();
+  this.getSelectedVariant();
+  if (this.currentVariant) {
+    this.updateMedia(selected_variant);
+    this.updateURL();
+    this.updateFormID();
+    this.updatePrice();
+  }
     }
     getSelectedOptions() {
       this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
@@ -122,13 +122,13 @@
           if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
         });
     }
-    updateMedia(variant) {
-  if (variant.selected_variant.featured_image) {
+updateMedia(variant) {
+  if (variant.selected_variant && variant.selected_variant.featured_image) {
     const productImage = document.querySelector('.product-image img');
     productImage.src = variant.selected_variant.featured_image.src;
     productImage.alt = variant.selected_variant.featured_image.alt;
   }
-  }
+}
   }
   customElements.define("variant-selector", VariantSelector);
 </script>
