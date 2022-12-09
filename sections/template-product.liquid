@@ -190,10 +190,10 @@ var selectCallback = function(variant, selector) {
 };
 
 // Initialize the product selector
-var productSelector = new Shopify.OptionSelectors('product-select', {
-  product: {{ product | json }},
-  onVariantSelected: selectCallback
-});
+var productSelector = new Shopify.OptionSelectors('productSelect-' + product.id, {
+    product: product,
+    onVariantSelected: selectCallback
+    });
 
 </script>
 {% endform %}
