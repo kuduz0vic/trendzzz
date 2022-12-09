@@ -247,21 +247,17 @@
     }
 
     updateMedia() {
-var selectElement = document.getElementById('product-select');
-
-// Add a change event listener to the select element
-selectElement.addEventListener('change', function() {
-  // Get the selected variant
-  var selectedVariant = this.currentVariant;
-
-  if (selectedVariant) {
-    alert('Variant changed');
-  }
+      if(this.currentVariant.featured_image !=null && this.currentVariant.featured_image.alt != null) {
+        $('[thumbnail-color]').show();
+      var selected_color = this.currentVariant.featured_image.alt;
+      var thumbnail_selector = '[thumbnail-color="' + selected_color + '"]';
+      $(thumbnail_selector).show();
+      } else {
+       $('[thumbnail-color]').show();
+      }
     }
   }
-  
   customElements.define("variant-selector", VariantSelector);
-
 
 </script>
 
