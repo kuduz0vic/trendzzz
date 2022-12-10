@@ -250,17 +250,22 @@ updateImage() {
   // Update the content of the currently active slide in the Swiper.js instance with the new image for the selected variant
   productImage.innerHTML = `<img src="${variantImageUrl}" loading="lazy" srcset="${variantImageUrl}" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">`;
 
-  // Get the thumbnail images for all the photos in the product
-  const thumbnailImages = document.querySelectorAll(".product-media_photo");
+  // Get the Swiper.js instance that is displaying the thumbnail photos
+  const thumbnailSwiper = new Swiper(".myswiper4", {
+    // Options for the Swiper.js instance
+  });
 
-  // Loop through the thumbnail images and hide the ones that are not the variant image
-  thumbnailImages.forEach(image => {
-    if (image.getAttribute("src") !== variantImageUrl) {
-      image.style.display = "none";
+  // Loop through the slides in the Swiper.js instance and hide the ones that are not the variant image
+  thumbnailSwiper.slides.forEach(slide => {
+    if (slide.querySelector("img").getAttribute("src") !== variantImageUrl) {
+      slide.style.display = "none";
     }
   });
 }
+}
 
+
+  
   customElements.define("variant-selector", VariantSelector);
 </script>
 
