@@ -245,7 +245,7 @@ updateImage() {
   const variantImageUrl = selectedVariant.featured_image.src;
 
   // Get the img element that displays the product image
-  const productImage = document.querySelector(".main-product_photo");
+  const productImage = document.querySelector(".main-product_photo img");
 
   // Update the src and srcset attributes of the img element to the URL of the image for the selected variant
   productImage.setAttribute("src", variantImageUrl);
