@@ -256,9 +256,13 @@ updateImage() {
   });
 
   // Loop through the slides in the Swiper.js instance and hide the ones that are not the variant image
-// Loop through the slides in the Swiper.js instance and show only the ones that are the variant image
 thumbnailSwiper.slides.forEach(slide => {
-  if (slide.querySelector("img").getAttribute("src").trim() !== variantImageUrl.trim()) {
+  // Get the src and srcset attributes of the thumbnail image
+  const src = slide.querySelector("img").getAttribute("src").trim();
+  const srcset = slide.querySelector("img").getAttribute("srcset").trim();
+
+  // Check if the src or srcset attributes match the selected variant image
+  if (src !== variantImageUrl.trim() && srcset !== variantImageUrl.trim()) {
     slide.style.display = "none";
   } else {
     slide.style.display = "block";
