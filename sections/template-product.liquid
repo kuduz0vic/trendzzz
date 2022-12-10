@@ -257,7 +257,7 @@ updateImage() {
 
   // Loop through the slides in the Swiper.js instance and hide the ones that are not the variant image
   thumbnailSwiper.slides.forEach(slide => {
-    if (slide.querySelector("img").getAttribute("src") != variantImageUrl) {
+    if (slide.querySelector("img").getAttribute("src, srcset") != variantImageUrl) {
       slide.style.display = "none";
     }
   });
