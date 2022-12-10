@@ -244,13 +244,13 @@ updateImage() {
   // Get the URL of the image for the selected variant
   const variantImageUrl = selectedVariant.featured_image.src;
 
-  // Get the img element that displays the product image
-  const productImage = document.querySelector(".product img");
+  // Get the currently active slide in the Swiper.js instance that is displaying the main product photo
+  const productImage = document.querySelector(".main-product-photo .swiper-slide-active");
 
-  // Update the src and srcset attributes of the img element to the URL of the image for the selected variant
-  productImage.setAttribute("src", variantImageUrl);
-  productImage.setAttribute("srcset", variantImageUrl);
+  // Update the content of the currently active slide in the Swiper.js instance with the new image for the selected variant
+  productImage.innerHTML = `<img src="${variantImageUrl}" loading="lazy" srcset="${variantImageUrl}" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">`;
 }
+
 }
   customElements.define("variant-selector", VariantSelector);
 </script>
