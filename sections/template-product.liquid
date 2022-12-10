@@ -261,8 +261,8 @@ thumbnailSwiper.slides.forEach(slide => {
   const src = slide.querySelector("img").getAttribute("src").trim();
   const srcset = slide.querySelector("img").getAttribute("srcset").trim();
 
-  // Check if the src or srcset attributes match the selected variant image
-  if (src !== variantImageUrl.trim() && srcset !== variantImageUrl.trim()) {
+  // Check if the src and srcset attributes match the selected variant image
+  if (src !== variantImageUrl.trim() || srcset !== variantImageUrl.trim()) {
     slide.style.display = "none";
   } else {
     slide.style.display = "block";
