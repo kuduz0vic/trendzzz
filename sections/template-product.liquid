@@ -249,9 +249,18 @@ updateImage() {
 
   // Update the content of the currently active slide in the Swiper.js instance with the new image for the selected variant
   productImage.innerHTML = `<img src="${variantImageUrl}" loading="lazy" srcset="${variantImageUrl}" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">`;
+
+  // Get the thumbnail images for all the photos in the product
+  const thumbnailImages = document.querySelectorAll(".product-media_photo");
+
+  // Loop through the thumbnail images and hide the ones that are not the variant image
+  thumbnailImages.forEach(image => {
+    if (image.getAttribute("src") !== variantImageUrl) {
+      image.style.display = "none";
+    }
+  });
 }
 
-}
   customElements.define("variant-selector", VariantSelector);
 </script>
 
