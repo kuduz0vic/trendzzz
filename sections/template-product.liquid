@@ -237,20 +237,20 @@
           if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
         });
     }
-      updateImage() {
-      // Get the selected variant
-      const selectedVariant = this.currentVariant;
+updateImage() {
+  // Get the selected variant
+  const selectedVariant = this.currentVariant;
 
-      // Get the URL of the image for the selected variant
-      const variantImageUrl = selectedVariant.featured_image.src;
+  // Get the URL of the image for the selected variant
+  const variantImageUrl = selectedVariant.featured_image.src;
 
-      // Get the img element that displays the product image
-      const productImage = document.querySelector(".product img");
+  // Get the img element that displays the product image
+  const productImage = document.querySelector(".main-product_photo");
 
-      // Update the src attribute of the img element to the URL of the image for the selected variant
-      productImage.src = variantImageUrl;
-    }
-  }
+  // Update the src and srcset attributes of the img element to the URL of the image for the selected variant
+  productImage.setAttribute("src", variantImageUrl);
+  productImage.setAttribute("srcset", variantImageUrl);
+}
   customElements.define("variant-selector", VariantSelector);
 </script>
 
