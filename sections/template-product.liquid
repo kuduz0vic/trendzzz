@@ -192,17 +192,16 @@
       this.addEventListener("change", this.onVariantChange);
     }
 
-  onVariantChange() {
-    this.getSelectedOptions();
-    this.getSelectedVariant();
-    if (this.currentVariant) {
-      this.updateMedia(this.currentVariant) // <-- add this line
-      this.updateURL();
-      this.updateFormID();
-      this.updatePrice();
-      this.updateMedia();
+    onVariantChange() {
+      this.getSelectedOptions();
+      this.getSelectedVariant();
+      if (this.currentVariant) {
+        this.updateURL();
+        this.updateFormID();
+        this.updatePrice();
+        this.updateImage();
+      }
     }
-  }
 
     getSelectedOptions() {
       this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
@@ -245,12 +244,18 @@
           if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
         });
     }
+      updateImage() {
+      // Get the selected variant
+      const selectedVariant = this.currentVariant;
 
-  updateMedia(variant) { // <-- add the `variant` argument
-    if (variant.featured_image) { // <-- check if the variant has a featured image
-      const productImage = document.querySelector('.product-image img'); // <-- select the product image
-      productImage.src = variant.featured_image.src; // <-- update the image's `src` attribute
-      productImage.alt = variant.featured_image.alt; // <-- update the image's `alt` attribute
+      // Get the URL of the image for the selected variant
+      const variantImageUrl = selectedVariant.featured_image.src;
+
+      // Get the img element that displays the product image
+      const productImage = document.querySelector(".product img");
+
+      // Update the src attribute of the img element to the URL of the image for the selected variant
+      productImage.src = variantImageUrl;
     }
   }
 }
