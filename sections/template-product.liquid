@@ -17,7 +17,7 @@
                 <div class="swiper-wrapper product-main_swiper">   
                   {% for media in product.media %}
                   <div class="swiper-slide product" thumbnail-color="{{ media.alt }}">
-                    <img itemprop="image" src="{{ product.featured_image | img_url: 'master' }}" class="headthumb" title="{{ product.title }}" alt="{{ product.title }}" style="width: 288px ;"/>
+                    <img src="{{- media | img_url: 'master' }}" loading="lazy" srcset="{{- media | img_url: 'master' }} 500w, {{- media | img_url: 'master' }} 666w" sizes="(max-width: 666px) 100vw, (max-width: 767px) 666px, (max-width: 991px) 85vw, 450px" alt="" class="main-product_photo">
                     <div class="product-photo-label"><p class="product-photo-text">{{ product.metafields.custom.label.value }}</p></div>
                   </div>
                 {% endfor %}
