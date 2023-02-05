@@ -130,8 +130,8 @@
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
       "type": "video",
       "settings": {
-        "emoji": "{{ product.metafields.custom.video_emoji.value }}",
-        "heading": "{{ product.metafields.custom.video_text.value }}",
+        "emoji": "🌎",
+        "heading": "Wat anderen ermee doen...",
         "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9119db26867f494292f58b5c9cbb7953.mp4",
         "description": "<p>Elke trilling bootst de aanraking van je partner na en houdt de liefde dichtbij. Zo weet je direct dat ze aan je denken en hoef je partner net iets minder te missen. 🥰<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
