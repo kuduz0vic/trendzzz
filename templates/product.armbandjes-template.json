@@ -115,7 +115,7 @@
         "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
         "emoji": "🧸",
         "title": "Digitale Liefdesbrieven, <br>Extra persoonlijk",
-        "description": "<p>{{ product.metafields.custom.second_info_description_image_w_text_section_2 | metafield_tag }}<\/p>"
+        "description": "<p>Maak het nog specialer door lieve foto's, video's, audio en tekst te  delen met je partner. Nadat je de liefdesbrief naar je geliefde hebt <br\/>gestuurd, knippert en trilt het sieraad om hem\/haar op de hoogte te  stellen. Zodra je partner de armband aanraakt, verschijnt de  verrassings liefdesbrief.<\/p>"
       }
     },
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
