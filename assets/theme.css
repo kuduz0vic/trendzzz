@@ -11142,8 +11142,9 @@ figcaption {
     flex-direction: column;
     grid-row-gap: 0px;
     font-size: 26px;
-    line-height: 58px;
+    line-height: 40px;
     text-align: left;
+    margin-bottom: 12px;
   }
 
   .c-faq-q.faq-page {
@@ -11412,6 +11413,7 @@ figcaption {
     background-color: rgba(0, 0, 0, 0.08);
     font-size: 32px;
     line-height: 32px;
+    margin-bottom: 12px;
   }
 
   .product-storytelling-section {
