@@ -103,10 +103,10 @@
     "b5c88592-a982-44a2-bb81-7f899276acd7": {
       "type": "product-iwt",
       "settings": {
-        "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
-        "emoji": "{{ product.metafields.custom.first_info_emoji_image_w_text_section_1.value }}",
-        "title": "{{ product.metafields.custom.first_info_title_image_w_text_section_1.value }}",
-        "description": "<p>{{ product.metafields.custom.first_info_description_image_w_text_section_1 | metafield_tag }}<\/p>"
+        "image": "shopify:\/\/shop_images\/1.gif",
+        "emoji": "🥰",
+        "title": "Voel je partner op afstand",
+        "description": "<p>Instelbare lichtkleuren en vibratie-intensiteit, laat de armband  knipperen en trillen naar jouw wensen. Voel de liefde en aanraking van je partner op je pols, waar ter wereld je ook bent. Met de ingebouwde app kan je bepaalde trillingen \/ kleuren een boodschap geven. Rood kan bijvoorbeeld betekenen dat je je partner mist en Blauw dat je verdrietig bent etc.<\/p>"
       }
     },
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
