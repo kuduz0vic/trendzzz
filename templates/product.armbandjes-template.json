@@ -121,10 +121,10 @@
     "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
       "type": "last-iwt",
       "settings": {
-        "image": "{{ product.metafields.custom.third_info_image_image_w_text_section_3.value }}",
-        "emoji": "{{ product.metafields.custom.third_info_emoji_image_w_text_section_3.value }}",
-        "title": "{{ product.metafields.custom.third_info_title_image_w_text_section_3.value }}",
-        "description": "<p>{{ product.metafields.custom.third_info_description_image_w_text_section_3 | metafield_tag }}<\/p>"
+        "image": "shopify:\/\/shop_images\/3.webp",
+        "emoji": "❤️",
+        "title": "Mis nooit meer oproepen van je dierbaren",
+        "description": "<p>Onze armband herinnert je aan elke inkomende oproep van je geliefde. Voeg tot 3 belangrijke contacten toe in de app en de armband zal je op de hoogte stellen door te trillen en te knipperen wanneer je een oproep <br\/>krijgt. Zo kan je dus tijdens je 'niet storen\" moment alsnog de oproepen van je dierbaren ontvangen.<\/p>"
       }
     },
     "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
