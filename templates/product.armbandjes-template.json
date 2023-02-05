@@ -1,0 +1,420 @@
+{
+  "sections": {
+    "template": {
+      "type": "template-product",
+      "blocks": {
+        "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42": {
+          "type": "review",
+          "settings": {
+            "review": "{{ product.metafields.custom.review_rating.value }} \n{{ product.metafields.custom.product_review.value }}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "bc8628bb-a0b3-47e0-ba15-0cc2838c3b77": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "95786b33-50fd-4db8-8027-1a612ff9b81f": {
+          "type": "klarna",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f": {
+          "type": "variant_selector",
+          "settings": {
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "checkout_buttons": {
+          "type": "checkout_buttons",
+          "settings": {
+          }
+        },
+        "52350218-63e8-4f37-a440-35b5b511d0f6": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
+            "icon-description": "Gratis verzending vanaf €50"
+          }
+        },
+        "33653fbf-dfe2-481f-9290-551aabd89ff7": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "icon-description": "10.000+ Tevreden klanten"
+          }
+        },
+        "8eacafdf-48fd-43c4-9729-676c3844d9e6": {
+          "type": "additional-icons",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/calender.svg?v=1668551310",
+            "icon-description": "14-dagen bedenktijd"
+          }
+        },
+        "3a517eca-19eb-407d-9035-5e236e466db5": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Snelle verzending",
+            "accordion-description": "<p>Niemand wacht graag op zijn pakket, daarom verzenden wij al onze producten met DHL-Express verzending inclusief tracking.<\/p><p><\/p><p>🇳🇱 Geleverd binnen 4-6 werkdagen<br\/>🇧🇪 Geleverd binnen 4-6 werkdagen<br\/><br\/><strong>Verwerkingstijd:<\/strong> 1-2 werkdagen<br\/><strong>Totale levertijd:<\/strong> verwerkingstijd + verzendtijd<\/p>"
+          }
+        },
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "Retourneren",
+            "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. Je betaal enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
+          }
+        },
+        "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
+          "type": "accordion",
+          "settings": {
+            "accordion-title": "{{ product.metafields.custom.accordion_title.value }}",
+            "accordion-description": "<p>{{ product.metafields.custom.accordion_description | metafield_tag }}<\/p>"
+          }
+        },
+        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
+            "testimonial-text": "{{ product.metafields.custom.social_proof_bar.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42",
+        "title",
+        "bc8628bb-a0b3-47e0-ba15-0cc2838c3b77",
+        "price",
+        "95786b33-50fd-4db8-8027-1a612ff9b81f",
+        "e2d03e2d-9bd0-42d2-8ea2-5c3791b2fb5f",
+        "quantity",
+        "checkout_buttons",
+        "52350218-63e8-4f37-a440-35b5b511d0f6",
+        "33653fbf-dfe2-481f-9290-551aabd89ff7",
+        "8eacafdf-48fd-43c4-9729-676c3844d9e6",
+        "3a517eca-19eb-407d-9035-5e236e466db5",
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9",
+        "072e6e43-df11-49b5-8b25-3f26c0a634f6",
+        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362"
+      ],
+      "settings": {
+      }
+    },
+    "b5c88592-a982-44a2-bb81-7f899276acd7": {
+      "type": "product-iwt",
+      "settings": {
+        "image": "{{ product.metafields.custom.first_info_image_image_w_text_section_1.value }}",
+        "emoji": "{{ product.metafields.custom.first_info_emoji_image_w_text_section_1.value }}",
+        "title": "{{ product.metafields.custom.first_info_title_image_w_text_section_1.value }}",
+        "description": "<p>{{ product.metafields.custom.first_info_description_image_w_text_section_1 | metafield_tag }}<\/p>"
+      }
+    },
+    "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
+      "type": "product-first-iwt",
+      "settings": {
+        "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
+        "emoji": "{{ product.metafields.custom.second_info_emoji_image_w_text_section_2.value }}",
+        "title": "{{ product.metafields.custom.second_info_title_image_w_text_section_2.value }}",
+        "description": "<p>{{ product.metafields.custom.second_info_description_image_w_text_section_2 | metafield_tag }}<\/p>"
+      }
+    },
+    "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e": {
+      "type": "last-iwt",
+      "settings": {
+        "image": "{{ product.metafields.custom.third_info_image_image_w_text_section_3.value }}",
+        "emoji": "{{ product.metafields.custom.third_info_emoji_image_w_text_section_3.value }}",
+        "title": "{{ product.metafields.custom.third_info_title_image_w_text_section_3.value }}",
+        "description": "<p>{{ product.metafields.custom.third_info_description_image_w_text_section_3 | metafield_tag }}<\/p>"
+      }
+    },
+    "481f51de-cd5e-48f2-ae43-9cb6d563e3a4": {
+      "type": "video",
+      "settings": {
+        "emoji": "{{ product.metafields.custom.video_emoji.value }}",
+        "heading": "{{ product.metafields.custom.video_text.value }}",
+        "video-url": "{{ product.metafields.custom.video_source.value }}",
+        "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
+        "button-label": "{{ product.metafields.custom.video_cta.value }}",
+        "button_url": "#recommended-products",
+        "label-text": "{{ product.metafields.custom.video_label.value }}",
+        "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
+      }
+    },
+    "fe290a40-4da1-4e2e-87be-c957c28ea8f4": {
+      "type": "highlights",
+      "blocks": {
+        "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "{{ product.metafields.custom.first_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.first_highlight.value }}"
+          }
+        },
+        "4df2f75d-07ef-4a07-8fbb-4916230758ce": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "{{ product.metafields.custom.third_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.second_highlight.value }}"
+          }
+        },
+        "70e67ab9-7a00-4213-b0af-077b5b15102a": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "{{ product.metafields.custom.second_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.third_highlight.value }}"
+          }
+        },
+        "d7a994df-74fa-40e8-ade9-04f7fbc53350": {
+          "type": "highlight",
+          "settings": {
+            "emoji": "{{ product.metafields.custom.fourth_emoji_highlights.value }}",
+            "title": "{{ product.metafields.custom.fourth_highlight.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945082040627__fe290a40-4da1-4e2e-87be-c957c28ea8f4-1668903699c3332e3a-0",
+        "4df2f75d-07ef-4a07-8fbb-4916230758ce",
+        "70e67ab9-7a00-4213-b0af-077b5b15102a",
+        "d7a994df-74fa-40e8-ade9-04f7fbc53350"
+      ],
+      "settings": {
+        "section-title": "{{ product.metafields.custom.title_highlights.value }}"
+      }
+    },
+    "98119358-c98f-4c88-9b54-d75bdfb2a3bf": {
+      "type": "faq",
+      "blocks": {
+        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0": {
+          "type": "faq",
+          "settings": {
+            "question": "Hoe lang duurt het voordat ik mijn bestelling ontvang?",
+            "answer": "Al onze orders worden na 1-2 werkdagen verzonden, hierna volgt een verzendtermijn van 4-6 werkdagen."
+          }
+        },
+        "85828f55-392d-4902-8e95-c9b07a24f323": {
+          "type": "faq",
+          "settings": {
+            "question": "Welke betaalmethoden accepteren jullie?",
+            "answer": "Wij accepteren iDeal, Banccontact, Visa, MasterCard, American Express, Klarna en AfterPay!"
+          }
+        },
+        "a44756d6-0c05-484a-b2f3-241c5c8f52fb": {
+          "type": "faq",
+          "settings": {
+            "question": "Hoe kan ik mijn bestelling volgen?",
+            "answer": "Wij sturen traceerinformatie naar het e-mailadres dat aan jouw bestelling is gekoppeld zodra het artikel is verzonden. Als je geen tracking informatie heeft ontvangen en het is al meer dan 2 werkdagen geleden, neem dan contact met ons op via support@thetrentzz.com"
+          }
+        },
+        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan ik als cadeau voor iemand anders bestellen?",
+            "answer": "Wanneer je als cadeau voor iemand bestelt, zorg er dan voor dat je jouw eigen email adres invult om alle informatie te ontvangen, maar voer wel de naam van de ontvanger en de verzendinformatie in. Wij zullen er voor zorgen dat alle prijzen en bonnetjes uit het pakket blijven."
+          }
+        },
+        "5356bbbf-fe3a-470e-86d4-523d02eada9c": {
+          "type": "faq",
+          "settings": {
+            "question": "Hoe kan ik mijn geld terugkrijgen van mijn bestelling?",
+            "answer": "Als je om welke reden dan ook niet volledig tevreden bent met uw aankoop, zullen wij jou binnen 14 dagen na het ontvangen van jouw bestelling, jouw aankoop terugbetalen zonder vragen te stellen."
+          }
+        },
+        "49052ed5-e517-4e74-8cbc-fa20e572e12e": {
+          "type": "faq",
+          "settings": {
+            "question": "Naar welke landen verzenden jullie?",
+            "answer": "Wij verzenden naar alle landen met uitzondering van een aantal eilanden. Indien uw land beschikbaar is tijdens het afreken process leveren wij."
+          }
+        }
+      },
+      "block_order": [
+        "template--16945160257843__98119358-c98f-4c88-9b54-d75bdfb2a3bf-16686177966b60252e-0",
+        "85828f55-392d-4902-8e95-c9b07a24f323",
+        "a44756d6-0c05-484a-b2f3-241c5c8f52fb",
+        "28d2a3cb-84ce-4e31-b87a-6c07aba8bb8d",
+        "5356bbbf-fe3a-470e-86d4-523d02eada9c",
+        "49052ed5-e517-4e74-8cbc-fa20e572e12e"
+      ],
+      "settings": {
+        "emoji": "🧐",
+        "title": "Veelgestelde vragen",
+        "description": "{{ product.metafields.custom.faq_section_description.value }}"
+      }
+    },
+    "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a": {
+      "type": "product-featured-collection",
+      "settings": {
+        "title": "Nu ook trending...",
+        "label-text_color": "{{ product.metafields.custom.label_text_color.value }}",
+        "rec_product_list": [
+          "the-trentzz-poly-nails-set",
+          "the-trentzz-5-in-1-airstyler",
+          "the-note-pad",
+          "magic-lip-filler"
+        ]
+      }
+    },
+    "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e": {
+      "type": "social-proof",
+      "blocks": {
+        "template--16945160257843__6a3f3c5f-bf69-4ab3-b518-6c434c152e5e-16686162928db61fad-0": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "{{ product.metafields.custom[\"1st_review_image\"].value }}",
+            "proof-title": "{{ product.metafields.custom[\"1st_review_title\"].value }}",
+            "proof-description": "<p>{{ product.metafields.custom[\"1st_review_description\"] | metafield_tag }}<\/p>",
+            "proof-name": "{{ product.metafields.custom[\"1st_review_profile_name\"].value }}"
+          }
+        },
+        "b04d0145-b02f-4905-bc6c-fac60053c6ef": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "{{ product.metafields.custom[\"2nd_review_image\"].value }}",
+            "proof-title": "{{ product.metafields.custom[\"2nd_review_title\"].value }}",
+            "proof-description": "<p>{{ product.metafields.custom[\"2nd_review_description\"] | metafield_tag }}<\/p>",
+            "proof-name": "{{ product.metafields.custom[\"2nd_review_profile_name\"].value }}"
+          }
+        },
+        "fa08a606-d3df-45a0-afce-b708049ab11d": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "{{ product.metafields.custom[\"3rd_review_image\"].value }}",
+            "proof-title": "{{ product.metafields.custom[\"3rd_review_title\"].value }}",
+            "proof-description": "<p>{{ product.metafields.custom[\"3rd_review_description\"] | metafield_tag }}<\/p>",
+            "proof-name": "{{ product.metafields.custom[\"3rd_review_profile_name\"].value }}"
+          }
+        },
+        "2c32d07c-2c85-41ef-9584-bc2714a72e69": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "{{ product.metafields.custom[\"4th_review_image\"].value }}",
+            "proof-title": "{{ product.metafields.custom[\"4th_review_title\"].value }}",
+            "proof-description": "<p>{{ product.metafields.custom[\"4th_review_description\"] | metafield_tag }}<\/p>",
+            "proof-name": "{{ product.metafields.custom[\"4th_review_profile_name\"].value }}"
+          }
+        },
+        "b5c79a70-99f0-45ff-a02e-4d784143b849": {
+          "type": "proof",
+          "settings": {
+            "proof-image": "{{ product.metafields.custom[\"5th_review_image\"].value }}",
+            "proof-title": "{{ product.metafields.custom[\"5th_review_title\"].value }}",
+            "proof-description": "<p>{{ product.metafields.custom[\"5th_review_description\"] | metafield_tag }}<\/p>",
+            "proof-name": "{{ product.metafields.custom[\"5th_review_profile_name\"].value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945160257843__6a3f3c5f-bf69-4ab3-b518-6c434c152e5e-16686162928db61fad-0",
+        "b04d0145-b02f-4905-bc6c-fac60053c6ef",
+        "fa08a606-d3df-45a0-afce-b708049ab11d",
+        "2c32d07c-2c85-41ef-9584-bc2714a72e69",
+        "b5c79a70-99f0-45ff-a02e-4d784143b849"
+      ],
+      "settings": {
+        "title": "Wat onze klanten van de trend vinden",
+        "tag": "Met trots beoordeeld met 4,8\/5 onder meer dan 10.000 klanten"
+      }
+    },
+    "f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc": {
+      "type": "trust-badges",
+      "blocks": {
+        "template--16945160257843__f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc-16686162920b494089-0": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/truck_2.svg?v=1668495171",
+            "badge-title": "Snelle levering",
+            "badge-description": "<p>Wanneer jij je bestelling plaatst verwerken we hem meteen hoe hard het product ook trend!<\/p>"
+          }
+        },
+        "06ac345c-dabe-45d4-8cb3-084f3bf66008": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title": "100% Tevredenheidsgarantie",
+            "badge-description": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
+          }
+        },
+        "4d63f945-6eeb-4413-b054-e37f95174252": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/chat.svg?v=1668495171",
+            "badge-title": "Wij helpen je altijd graag",
+            "badge-description": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
+          }
+        },
+        "3b462862-07ce-4247-a2f1-4edc75b88ca8": {
+          "type": "badges",
+          "settings": {
+            "icon-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/lock.svg?v=1668495171",
+            "badge-title": "Veilig afrekenen",
+            "badge-description": "<p>Bij The Trentzz reken je veilig af met jouw gewenste betaalmethode!<\/p>"
+          }
+        },
+        "7d70c57c-f971-4b10-ae10-6d66f5e4b92f": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "Gratis levering Benelux",
+            "badge-description_mobile": "<p>Alle bestellingen boven de €40,- in de Benelux worden gratis verzonden!<\/p>"
+          }
+        },
+        "5789044a-6f4c-46f3-bfed-cb577173c20f": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "100% Tevredenheidsgarantie",
+            "badge-description_mobile": "<p>Niet 100% tevreden? Stuur je aankoop gemakkelijk binnen 14 dagen terug.<\/p>"
+          }
+        },
+        "de94249a-1ae5-4d6e-beff-9ce2bf902660": {
+          "type": "badges-mobile",
+          "settings": {
+            "icon-link_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/8014\/0595\/files\/checkmark.svg?v=1668495172",
+            "badge-title_mobile": "Wij helpen je altijd graag",
+            "badge-description_mobile": "<p>Nog vragen? Ons team is slechts 1 klik verwijderd!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16945160257843__f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc-16686162920b494089-0",
+        "06ac345c-dabe-45d4-8cb3-084f3bf66008",
+        "4d63f945-6eeb-4413-b054-e37f95174252",
+        "3b462862-07ce-4247-a2f1-4edc75b88ca8",
+        "7d70c57c-f971-4b10-ae10-6d66f5e4b92f",
+        "5789044a-6f4c-46f3-bfed-cb577173c20f",
+        "de94249a-1ae5-4d6e-beff-9ce2bf902660"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template",
+    "b5c88592-a982-44a2-bb81-7f899276acd7",
+    "91310fff-7575-48ed-84f3-b5e39a1f61bc",
+    "15d8d3ef-67e2-4a2f-a3fa-013bcff7482e",
+    "481f51de-cd5e-48f2-ae43-9cb6d563e3a4",
+    "fe290a40-4da1-4e2e-87be-c957c28ea8f4",
+    "98119358-c98f-4c88-9b54-d75bdfb2a3bf",
+    "d565ae3b-d5ac-427a-8e8d-9a9c14bba58a",
+    "6a3f3c5f-bf69-4ab3-b518-6c434c152e5e",
+    "f9236d4b-6ff4-44ce-9fa4-7f6933e8efbc"
+  ]
+}
