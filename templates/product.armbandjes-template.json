@@ -134,7 +134,7 @@
         "heading": "Wat anderen ermee doen...",
         "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9119db26867f494292f58b5c9cbb7953.mp4",
         "description": "<p>Elke trilling bootst de aanraking van je partner na en houdt de liefde dichtbij. Zo weet je direct dat ze aan je denken en hoef je partner net iets minder te missen. 🥰<\/p>",
-        "button-label": "{{ product.metafields.custom.video_cta.value }}",
+        "button-label": "Toevoegen aan winkelmandje",
         "button_url": "#recommended-products",
         "label-text": "❤️ VALENTIJNSDAG SPECIAL",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
