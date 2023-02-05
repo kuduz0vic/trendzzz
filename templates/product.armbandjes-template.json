@@ -80,20 +80,6 @@
             "accordion-title": "Retourneren",
             "accordion-description": "<p>Al onze producten komen in aanmerking voor retourneren binnen 14 dagen na levering. Je betaal enkel de retour kosten voor het retourneren in overeenstemming met ons retourbeleid.<\/p>"
           }
-        },
-        "072e6e43-df11-49b5-8b25-3f26c0a634f6": {
-          "type": "accordion",
-          "settings": {
-            "accordion-title": "{{ product.metafields.custom.accordion_title.value }}",
-            "accordion-description": "<p>{{ product.metafields.custom.accordion_description | metafield_tag }}<\/p>"
-          }
-        },
-        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial-image": "{{ product.metafields.custom.social_proof_bar_image.value }}",
-            "testimonial-text": "{{ product.metafields.custom.social_proof_bar.value }}"
-          }
         }
       },
       "block_order": [
@@ -109,9 +95,7 @@
         "33653fbf-dfe2-481f-9290-551aabd89ff7",
         "8eacafdf-48fd-43c4-9729-676c3844d9e6",
         "3a517eca-19eb-407d-9035-5e236e466db5",
-        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9",
-        "072e6e43-df11-49b5-8b25-3f26c0a634f6",
-        "fb18fd9e-4144-4a4b-8d43-f90b5ef65362"
+        "1bb6ce40-d47d-4b4b-982d-b10b8837eeb9"
       ],
       "settings": {
       }
