@@ -112,7 +112,7 @@
     "91310fff-7575-48ed-84f3-b5e39a1f61bc": {
       "type": "product-first-iwt",
       "settings": {
-        "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
+        "image": "shopify:\/\/shop_images\/2.gif",
         "emoji": "🧸",
         "title": "Digitale Liefdesbrieven, <br>Extra persoonlijk",
         "description": "<p>Maak het nog specialer door lieve foto's, video's, audio en tekst te  delen met je partner. Nadat je de liefdesbrief naar je geliefde hebt <br\/>gestuurd, knippert en trilt het sieraad om hem\/haar op de hoogte te  stellen. Zodra je partner de armband aanraakt, verschijnt de  verrassings liefdesbrief.<\/p>"
