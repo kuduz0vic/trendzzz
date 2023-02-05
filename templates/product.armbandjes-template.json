@@ -6,7 +6,7 @@
         "92cd902b-9127-48ad-8a0b-4c7ac0ce6a42": {
           "type": "review",
           "settings": {
-            "review": "{{ product.metafields.custom.review_rating.value }} \n{{ product.metafields.custom.product_review.value }}"
+            "review": "4.9\/5 • 3.234 reviews"
           }
         },
         "title": {
