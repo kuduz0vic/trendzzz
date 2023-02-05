@@ -136,7 +136,7 @@
         "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
         "button_url": "#recommended-products",
-        "label-text": "",
+        "label-text": "❤️ VALENTIJNSDAG SPECIAL",
         "label-text_color": "{{ product.metafields.custom.label_text_color.value }}"
       }
     },
