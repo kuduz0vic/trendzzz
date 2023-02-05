@@ -133,7 +133,7 @@
         "emoji": "{{ product.metafields.custom.video_emoji.value }}",
         "heading": "{{ product.metafields.custom.video_text.value }}",
         "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9119db26867f494292f58b5c9cbb7953.mp4",
-        "description": "<p>{{ product.metafields.custom.video_description | metafield_tag }}<\/p>",
+        "description": "<p>Elke trilling bootst de aanraking van je partner na en houdt de liefde dichtbij. Zo weet je direct dat ze aan je denken en hoef je partner net iets minder te missen. 🥰<\/p>",
         "button-label": "{{ product.metafields.custom.video_cta.value }}",
         "button_url": "#recommended-products",
         "label-text": "❤️ VALENTIJNSDAG SPECIAL",
