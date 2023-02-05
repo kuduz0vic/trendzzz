@@ -113,8 +113,8 @@
       "type": "product-first-iwt",
       "settings": {
         "image": "{{ product.metafields.custom.second_info_image_image_w_text_section_2.value }}",
-        "emoji": "{{ product.metafields.custom.second_info_emoji_image_w_text_section_2.value }}",
-        "title": "{{ product.metafields.custom.second_info_title_image_w_text_section_2.value }}",
+        "emoji": "🧸",
+        "title": "Digitale Liefdesbrieven, <br>Extra persoonlijk",
         "description": "<p>{{ product.metafields.custom.second_info_description_image_w_text_section_2 | metafield_tag }}<\/p>"
       }
     },
